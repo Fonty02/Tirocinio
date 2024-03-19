@@ -1,0 +1,22 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Introduzione}{2}{section.1}%
+\contentsline {section}{\numberline {2}Dataset del regressore}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Descrizione delle feature di output}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Descrizione delle feature di input}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Pre-Processing}{7}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Modelli di regressione}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Introduzione ai regressori}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Regressori utilizzati}{8}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Support Vector Regression (SVR)}{8}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Decision Tree Regressor}{9}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Random Forest Regressor}{10}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}AdaBoost Regressor}{12}{subsubsection.3.2.4}%
+\contentsline {section}{\numberline {4}Risultati}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Risultati ottenuti}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Analisi dei risultati}{14}{subsection.4.2}%
+\contentsline {paragraph}{\textbf {SVR}.}{14}{section*.12}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{14}{section*.13}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{14}{section*.14}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{14}{section*.15}%
+\contentsline {subsection}{\numberline {4.3}Conclusioni}{14}{subsection.4.3}%
