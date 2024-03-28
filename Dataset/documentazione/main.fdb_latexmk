@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1710789332.78505 "c:/Users/fonta/Desktop/Tirocinio/Dataset/main.tex" "main.pdf" "main" 1710789338.28555 0
+["pdflatex"] 1711620663.1458 "c:/Users/fonta/Desktop/Tirocinio/Dataset/documentazione/main.tex" "main.pdf" "main" 1711620666.13967 0
   "C:/Users/fonta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1710784687 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/fonta/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1710785943 14064 ded5b7aae9723b2732d1fe7f3834db36 ""
   "C:/Users/fonta/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710784362 24233103 3729b742d40f93a448248fd0112072ca ""
@@ -30,6 +30,7 @@
   "C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmib10.tfm" 1136765053 1524 554068197b70979a55370e6c6495f441 ""
   "C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
+  "C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr17.tfm" 1136765053 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr6.tfm" 1136765053 1300 b62933e007d01cfd073f79b963c01526 ""
   "C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm" 1136765053 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsl12.tfm" 1136765053 1504 f280e6069e577ca4a981806c471fe65c ""
@@ -241,11 +242,11 @@
   "C:/Users/fonta/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/fonta/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/fonta/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/fonta/Desktop/Tirocinio/Dataset/main.tex" 1710784891 1346 7aa3a633d9baa7fd22e25a336363cadb ""
-  "main.aux" 1710789337 432 3e393fccf3c62d50d174ced483879549 "pdflatex"
-  "main.out" 1710789336 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "c:/Users/fonta/Desktop/Tirocinio/Dataset/documentazione/main.tex" 1710784891 1346 7aa3a633d9baa7fd22e25a336363cadb ""
+  "main.aux" 1711620665 1479 1aa2728cf0611f3091322190d4626e78 "pdflatex"
+  "main.out" 1711620665 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1710784891 1346 7aa3a633d9baa7fd22e25a336363cadb ""
-  "statistiche.tex" 1710789330 2779 231eefc3cd035d9188b15f2b3a042592 ""
+  "statistiche.tex" 1711620661 3750 f0015e89e1001a6af67a2e9e9aba3ec9 ""
   "uniba-logo.png" 1710195963 593504 d4521a8a57dd6a041ed548de98f8b93a ""
   (generated)
   "main.aux"

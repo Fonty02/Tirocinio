@@ -1,6 +1,6 @@
-PWD c:\Users\fonta\Desktop\Tirocinio\Dataset
+PWD c:\Users\fonta\Desktop\Tirocinio\Dataset\documentazione
 INPUT C:\Users\fonta\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\fonta\Desktop\Tirocinio\Dataset\main.tex
+INPUT c:\Users\fonta\Desktop\Tirocinio\Dataset\documentazione\main.tex
 OUTPUT main.log
 INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -399,8 +399,8 @@ INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cme
 INPUT .\statistiche.tex
 INPUT .\statistiche.tex
 INPUT statistiche.tex
-INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
-INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -428,6 +428,8 @@ INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.t
 INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
 INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
 INPUT C:\Users\fonta\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\fonta\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl12.tfm
 INPUT main.aux
 INPUT .\main.out
