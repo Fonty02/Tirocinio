@@ -1,5 +1,5 @@
 
-\noindent LFM-1b\_artist è un dataset contenente informazioni riguardanti le interazioni tra utenti e artisti musicali.
+\noindent LFM1b\_artist è un dataset contenente informazioni riguardanti le interazioni tra utenti e artisti musicali.
 
 \section*{DETASET ORIGINALE}
 
@@ -9,6 +9,7 @@
 Descrizione del dataset
 \begin{table}[H]
     \centering
+    \footnotesize
     \begin{tabularx}{\textwidth}{|c|X|}
         \hline
         \textbf{Feature} & \textbf{Descrizione} \\
@@ -22,7 +23,7 @@ Descrizione del dataset
         sparsity & 0.9998266933373666 \\
         \hline
     \end{tabularx}
-    \caption{Informazioni sul dataset LFM-1b\_artist}
+    \caption{Informazioni sul dataset LFM1b\_artist}
     \label{tab:dataset_info}
 \end{table}
 
@@ -30,6 +31,7 @@ Descrizione del dataset
 \noindent Descrizione del knowledge graph
 \begin{table}[H]
     \centering
+    \footnotesize
     \begin{tabularx}{\textwidth}{|c|X|}
         \hline
         n\_ent\_head & 823213 \\
@@ -41,7 +43,7 @@ Descrizione del dataset
         n\_triple & 2114049 \\
         \hline
     \end{tabularx}
-    \caption{Informazioni sul knowledge graph del dataset LFM-1b\_artist}
+    \caption{Informazioni sul knowledge graph del dataset LFM1b\_artist}
     \label{tab:dataset_info}
 \end{table}
 
@@ -74,6 +76,7 @@ Descrizione del dataset
 Descrizione del dataset
 \begin{table}[H]
     \centering
+    \footnotesize
     \begin{tabularx}{\textwidth}{|c|X|}
         \hline
         \textbf{Feature} & \textbf{Descrizione} \\
@@ -87,7 +90,7 @@ Descrizione del dataset
         sparsity & 0.0.9989313587429705 \\
         \hline
     \end{tabularx}
-    \caption{Informazioni sul dataset LFM-1b\_artist processato}
+    \caption{Informazioni sul dataset LFM1b\_artist processato}
     \label{tab:dataset_info}
 \end{table}
 
@@ -95,6 +98,7 @@ Descrizione del dataset
 \noindent Descrizione del knowledge graph
 \begin{table}[H]
     \centering
+    \footnotesize
     \begin{tabularx}{\textwidth}{|c|X|}
         \hline
         n\_ent\_head & 15509 \\
@@ -106,7 +110,7 @@ Descrizione del dataset
         n\_triple & 46827 \\
         \hline
     \end{tabularx}
-    \caption{Informazioni sul knowledge graph del dataset LFM-1b\_artist processato}
+    \caption{Informazioni sul knowledge graph del dataset LFM1b\_artist processato}
     \label{tab:dataset_info}
 \end{table}
 
@@ -120,10 +124,106 @@ Descrizione del dataset
 \end{itemize}
 
 
-
+\newpage
 
 \section*{ESECUZIONE DEI MODELLI E RISULTATI}
 
+I modelli di recommendation sono stati eseguiti utilizzando questi parametri:
+\begin{itemize}
+    \item \textbf{Numero di epoche:} 1
+    \item \textbf{Train batch size:} 4096
+    \item \textbf{Eval batch size:} 1024
+    \item \textbf{Numero neighbors per l'ItemKNN:} 20
+\end{itemize}
 
+
+Qui di seguito sono riportati i risultati ottenuti dai modelli di recommendation.
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \begin{tabularx}{\textwidth}{|c|c|X|}
+        \hline
+        \textbf{Nome modello} & \textbf{Esito} & \textbf{Motivo fallimento} \\
+        \hline
+        ItemKNN & Successo &  \\
+        \hline
+        Pop & Successo &  \\
+        \hline
+        Random & Fallito &  Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument tensors in method wrapper\_CUDA\_cat) \\
+        \hline
+        Simplex & Successo &  \\
+        \hline
+        ADMMSLIM & Fallito & Terminato in modo anomalo \\
+        \hline
+        BPR & Successo &  \\
+        \hline
+        DMF & Successo &  \\
+        \hline
+        ENMF & Successo &  \\
+        \hline
+        FISM & Successo &  \\
+        \hline
+        NCEPLRec & Successo &  \\
+        \hline
+        SLIMElasticNet & Fallito &  Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument tensors in method wrapper\_CUDA\_cat) \\
+        \hline
+        CDAE & Successo &  \\
+        \hline
+        COnvNCF & Successo &  \\
+        \hline
+        DiffRec & Successo &  \\
+        \hline
+        EASE & Fallito & Terminato in modo anomalo \\
+        \hline
+        GCMC & Successo &  \\
+        \hline
+        LDiffRec & Successo &  \\
+        \hline
+        MacridVAE & Fallito &  CUDA out of memory. Tried to allocate 664.00 MiB \\
+        \hline
+        MultiDAE & Successo &  \\
+        \hline
+        MultiVAE & Successo &  \\
+        \hline
+        NAIS & Fallito & CUDA out of memory. Tried to allocate 3.97 GiB \\
+        \hline
+        NeuMF & Successo &  \\
+        \hline
+        NGCF & Successo &  \\
+        \hline
+        NNCF & Successo &  \\
+        \hline
+        LightGCN & Successo &  \\
+        \hline
+        RecVAE & Rimandato & Tempo di esecuzione non accettabile \\
+        \hline
+        DGCF & Successo &  \\
+        \hline
+        LINE & Successo &  \\
+        \hline
+        NCL & Fallito & No module faiss \\
+        \hline
+        SGL & Successo & \\
+        \hline
+        SpectralCF & Successo &  \\
+        \hline
+        CKE & Successo &  \\
+        \hline
+        CFKG & Successo &  \\
+        \hline
+        KGIN & Fallito & mismatch di versione tra PyTorch e torch\-scatter \\
+        \hline
+        KGNNLS & Successo &  \\
+        \hline
+        KTUP & Successo &  \\
+        \hline
+        MKR & Successo &  \\
+        \hline
+        RippleNet & Successo &  \\
+        \hline
+    \end{tabularx}
+    \caption{Esiti di esecuzione dei modelli}
+    \label{tab:dataset_info}
+\end{table}
 
 
