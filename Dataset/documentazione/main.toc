@@ -1,0 +1,21 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Statistiche dei dataset}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Dataset originale}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Processing del dataset}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Descrizione procedimento}{2}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Dataset core5}{3}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Dataset 20.000 users, 50.000 items}{4}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Dataset 75\%}{4}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}Dataset 50\%}{5}{subsubsection.1.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.6}Dataset 25\%}{5}{subsubsection.1.2.6}%
+\contentsline {section}{\numberline {2}Configurazione}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Parametri di running}{7}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Emissioni}{9}{section.3}%
+\contentsline {section}{\numberline {4}Trade-off}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Introduzione}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}LFM-1b\_artist\_20U50I}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}LFM-1b\_artist\_20U50I\_75strat}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}LFM-1b\_artist\_20U50I\_50strat}{12}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}LFM-1b\_artist\_20U50I\_25strat}{13}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Conclusioni}{14}{section.5}%
