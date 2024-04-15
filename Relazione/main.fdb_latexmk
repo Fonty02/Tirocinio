@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1713178005.1404 "main.aux" "main.bbl" "main" 1713178013.55045 0
+["bibtex main"] 1713178005.1404 "main.aux" "main.bbl" "main" 1713185640.5997 0
   "./bibliography.bib" 1710195963 60029 3505228279ccf3caae7d666e0a07b0fc ""
   "C:/Users/fonta/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1713178011 14323 96807aee678d8f563e4aca344a466451 "pdflatex"
+  "main.aux" 1713185639 14323 96807aee678d8f563e4aca344a466451 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1713178005.69194 "c:/Users/fonta/Desktop/Tirocinio/Relazione/main.tex" "main.pdf" "main" 1713178013.55136 0
+["pdflatex"] 1713185632.52295 "c:/Users/fonta/Desktop/Tirocinio/Relazione/main.tex" "main.pdf" "main" 1713185640.60071 0
   "C:/Users/fonta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1710784687 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/fonta/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1710785943 14064 ded5b7aae9723b2732d1fe7f3834db36 ""
   "C:/Users/fonta/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710784362 24233103 3729b742d40f93a448248fd0112072ca ""
@@ -305,12 +305,12 @@
   "images/risultati-valutazione.png" 1710195963 55480 fce76e1a43634652998b69419b778213 ""
   "images/situazione-attuale.png" 1710195963 56054 8210ece2f2aed87419d2f44057620709 ""
   "images/uniba-logo.png" 1710195963 593504 d4521a8a57dd6a041ed548de98f8b93a ""
-  "main.aux" 1713178011 14323 96807aee678d8f563e4aca344a466451 "pdflatex"
+  "main.aux" 1713185639 14323 96807aee678d8f563e4aca344a466451 "pdflatex"
   "main.bbl" 1713178005 12206 eba33862177a02ebe762dd3fb88bb1ff "bibtex main"
-  "main.out" 1713178011 6723 b45cdc60fc015967942e65815b3943fc "pdflatex"
+  "main.out" 1713185639 6723 b45cdc60fc015967942e65815b3943fc "pdflatex"
   "main.tex" 1713175149 1894 7a65cf68404f84478d4ce440a646c6f6 ""
-  "main.toc" 1713178011 4110 e13704f3333f2d07a86dd20634cdc3de "pdflatex"
-  "pages/Dataset.tex" 1711650799 10067 e16285e2463408d5bdabcd82625c5135 ""
+  "main.toc" 1713185639 4110 e13704f3333f2d07a86dd20634cdc3de "pdflatex"
+  "pages/Dataset.tex" 1713185630 7221 7788f0a9909ed9d3ab6e97d9040ebe90 ""
   "pages/Introduzione.tex" 1710855758 3828 a62753817a9029dd8348dcd8bc61ee8b ""
   "pages/Modelli.tex" 1710195963 8975 20a46c4427df47125f474d9813103181 ""
   "pages/Risultati.tex" 1710195963 3904 ac791c59d718fdd1a11e3104c22fd5d2 ""
