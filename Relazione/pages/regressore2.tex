@@ -33,7 +33,23 @@ Questo si riflette nei risultati ottenuti dai modelli di regressione
     \label{tab:results}
 \end{table}
 
-//TODO: aggiungere le nuove learning curve se necessario
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \setlength\tabcolsep{0pt}
+    \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/SVR_lc2.png} &
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/DecisionTree_lc2.png} \\
+        \hline
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/RandomForestRegressor_lc2.png} &
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/AdaBoostRegressor_lc2.png} \\
+        \hline
+    \end{tabularx}
+    \caption{Trade-off con il dataset LFM-1b\_artist\_20U50I}
+    \label{tab:emissions_info}
+\end{table}
+
 
 \subsubsection{Dataset Azure}
 
@@ -41,7 +57,7 @@ Questo si riflette nei risultati ottenuti dai modelli di regressione
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=1.25]{images/nuova-situazione2.png}
+    \includegraphics[scale=1]{images/nuova-situazione2.png}
 \end{figure}
 
 
@@ -65,7 +81,22 @@ Questo si riflette nei risultati ottenuti dai modelli di regressione
     \label{tab:results}
 \end{table}
 
-//TODO: aggiungere le nuove learning curve se necessario
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \setlength\tabcolsep{0pt}
+    \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/SVR_Azure_lc2.png} &
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/DecisionTree_Azure_lc2.png} \\
+        \hline
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/RandomForestRegressor_Azure_lc2.png} &
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/AdaBoostRegressor_Azure_lc2.png} \\
+        \hline
+    \end{tabularx}
+    \caption{Trade-off con il dataset LFM-1b\_artist\_20U50I}
+    \label{tab:emissions_info}
+\end{table}
 
 
 
