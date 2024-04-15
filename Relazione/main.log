@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  19 MAR 2024 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  15 APR 2024 12:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -727,7 +727,89 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count350
 \l__pdf_internal_box=\box116
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `tab:dataset_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:dataset_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:dataset_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:dataset_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:dataset_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:dataset_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:dataset_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:dataset_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:dataset_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:dataset_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:dataset_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:emissions_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:emissions_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:emissions_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:emissions_info' multiply defined.
+
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -825,7 +907,7 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<images/uniba-logo.png, id=70, 1204.5pt x 1204.5pt>
+<images/uniba-logo.png, id=178, 1204.5pt x 1204.5pt>
 File: images/uniba-logo.png Graphic file (type png)
 <use images/uniba-logo.png>
 Package pdftex.def Info: images/uniba-logo.png  used on input line 40.
@@ -837,21 +919,29 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
  (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (main.toc)
+) (main.toc [1{C:/Users/fonta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+ <./images/uniba-logo.png>])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [1{C:/Users/fonta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
- <./images/uniba-logo.png>] (pages/Introduzione.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2] (pages/Introduzione.tex
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <12> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 11.
-<images/risultati-valutazione.png, id=104, 572.89032pt x 247.67531pt>
+<images/risultati-valutazione.png, id=244, 572.89032pt x 247.67531pt>
 File: images/risultati-valutazione.png Graphic file (type png)
 <use images/risultati-valutazione.png>
 Package pdftex.def Info: images/risultati-valutazione.png  used on input line 26.
 (pdftex.def)             Requested size: 429.66669pt x 185.75601pt.
-<images/situazione-attuale.png, id=105, 1795.70876pt x 792.9625pt>
+<images/situazione-attuale.png, id=245, 1795.70876pt x 792.9625pt>
 File: images/situazione-attuale.png Graphic file (type png)
 <use images/situazione-attuale.png>
 Package pdftex.def Info: images/situazione-attuale.png  used on input line 34.
@@ -864,7 +954,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2 <./images/risultati-valutazione.png>])
+[3 <./images/risultati-valutazione.png>])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -872,19 +962,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3 <./images/situazione-attuale.png>] (pages/Dataset.tex
+[4 <./images/situazione-attuale.png>] (pages/Dataset.tex
 Overfull \hbox (10.67389pt too wide) in paragraph at lines 7--8
 []\OT1/cmss/bx/n/12 Feature re-la-ti-ve al kno-w-led-ge gra-ph\OT1/cmss/m/n/12 , qua-li \OT1/cmss/m/sl/12 kg[]entities\OT1/cmss/m/n/12 , \OT1/cmss/m/sl/12 kg[]relations\OT1/cmss/m/n/12 , \OT1/cmss/m/sl/12 kg[]triples\OT1/cmss/m/n/12 , \OT1/cmss/m/sl/12 kg[]items 
  []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[4]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -900,7 +982,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6])
+[6]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -908,8 +990,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7] (pages/Modelli.tex
-<images/SVR.png, id=242, 897.3525pt x 548.0475pt>
+[7])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8] (pages/Modelli.tex
+<images/SVR.png, id=381, 897.3525pt x 548.0475pt>
 File: images/SVR.png Graphic file (type png)
 <use images/SVR.png>
 Package pdftex.def Info: images/SVR.png  used on input line 19.
@@ -922,8 +1012,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8 <./images/SVR.png (PNG copy)>]
-<images/DecisionTreeRegressor.png, id=254, 569.12625pt x 388.45125pt>
+[9 <./images/SVR.png (PNG copy)>]
+<images/DecisionTreeRegressor.png, id=393, 569.12625pt x 388.45125pt>
 File: images/DecisionTreeRegressor.png Graphic file (type png)
 <use images/DecisionTreeRegressor.png>
 Package pdftex.def Info: images/DecisionTreeRegressor.png  used on input line 42.
@@ -936,8 +1026,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9 <./images/DecisionTreeRegressor.png>]
-<images/RandomForestRegressor.png, id=262, 569.12625pt x 329.23pt>
+[10 <./images/DecisionTreeRegressor.png>]
+<images/RandomForestRegressor.png, id=401, 569.12625pt x 329.23pt>
 File: images/RandomForestRegressor.png Graphic file (type png)
 <use images/RandomForestRegressor.png>
 Package pdftex.def Info: images/RandomForestRegressor.png  used on input line 69.
@@ -950,7 +1040,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10 <./images/RandomForestRegressor.png>]
+[11 <./images/RandomForestRegressor.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -958,8 +1048,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
-<images/AdaBoost.png, id=274, 1027.84pt x 578.16pt>
+[12]
+<images/AdaBoost.png, id=413, 1027.84pt x 578.16pt>
 File: images/AdaBoost.png Graphic file (type png)
 <use images/AdaBoost.png>
 Package pdftex.def Info: images/AdaBoost.png  used on input line 102.
@@ -972,23 +1062,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12 <./images/AdaBoost.png>] (pages/Risultati.tex
-<images/SVR_lc.png, id=282, 586.19pt x 456.70625pt>
+[13 <./images/AdaBoost.png>] (pages/Risultati.tex
+<images/SVR_lc.png, id=422, 586.19pt x 456.70625pt>
 File: images/SVR_lc.png Graphic file (type png)
 <use images/SVR_lc.png>
 Package pdftex.def Info: images/SVR_lc.png  used on input line 44.
 (pdftex.def)             Requested size: 175.85835pt x 137.01292pt.
-<images/DecisionTree_lc.png, id=283, 586.19pt x 456.70625pt>
+<images/DecisionTree_lc.png, id=423, 586.19pt x 456.70625pt>
 File: images/DecisionTree_lc.png Graphic file (type png)
 <use images/DecisionTree_lc.png>
 Package pdftex.def Info: images/DecisionTree_lc.png  used on input line 44.
 (pdftex.def)             Requested size: 175.85835pt x 137.01292pt.
-<images/RandomForestRegressor_lc.png, id=284, 586.19pt x 456.70625pt>
+<images/RandomForestRegressor_lc.png, id=424, 586.19pt x 456.70625pt>
 File: images/RandomForestRegressor_lc.png Graphic file (type png)
 <use images/RandomForestRegressor_lc.png>
 Package pdftex.def Info: images/RandomForestRegressor_lc.png  used on input line 45.
 (pdftex.def)             Requested size: 175.85835pt x 137.01292pt.
-<images/AdaBoostRegressor_lc.png, id=285, 586.19pt x 456.70625pt>
+<images/AdaBoostRegressor_lc.png, id=425, 586.19pt x 456.70625pt>
 File: images/AdaBoostRegressor_lc.png Graphic file (type png)
 <use images/AdaBoostRegressor_lc.png>
 Package pdftex.def Info: images/AdaBoostRegressor_lc.png  used on input line 45.
@@ -1001,7 +1091,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13])
+[14])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1009,15 +1099,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14 <./images/SVR_lc.png> <./images/DecisionTree_lc.png> <./images/RandomForestRegressor_lc.png> <./images/AdaBoostRegressor_lc.png>] (main.bbl
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[15]
+[15 <./images/SVR_lc.png> <./images/DecisionTree_lc.png> <./images/RandomForestRegressor_lc.png> <./images/AdaBoostRegressor_lc.png>] (pages/statistiche.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1033,7 +1115,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17])
+[17]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1041,26 +1123,327 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18] (main.aux)
+[18]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20] (pages/configurazione.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22] (pages/emissioni.tex
+File: images/emissions_LFM-1b_artist_20U50I.png Graphic file (type png)
+<use images/emissions_LFM-1b_artist_20U50I.png>
+Package pdftex.def Info: images/emissions_LFM-1b_artist_20U50I.png  used on input line 17.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/emissions_LFM-1b_artist_20U50I_75strat.png Graphic file (type png)
+<use images/emissions_LFM-1b_artist_20U50I_75strat.png>
+Package pdftex.def Info: images/emissions_LFM-1b_artist_20U50I_75strat.png  used on input line 17.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/emissions_LFM-1b_artist_20U50I_50strat.png Graphic file (type png)
+<use images/emissions_LFM-1b_artist_20U50I_50strat.png>
+Package pdftex.def Info: images/emissions_LFM-1b_artist_20U50I_50strat.png  used on input line 17.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/emissions_LFM-1b_artist_20U50I_25strat.png Graphic file (type png)
+<use images/emissions_LFM-1b_artist_20U50I_25strat.png>
+Package pdftex.def Info: images/emissions_LFM-1b_artist_20U50I_25strat.png  used on input line 17.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23 <./images/emissions_LFM-1b_artist_20U50I.png> <./images/emissions_LFM-1b_artist_20U50I_75strat.png> <./images/emissions_LFM-1b_artist_20U50I_50strat.png> <./images/emissions_LFM-1b_artist_20U50I_25strat.png>] (pages/tradeoff.tex
+File: images/recall@10_LFM-1b_artist_20U50I.png Graphic file (type png)
+<use images/recall@10_LFM-1b_artist_20U50I.png>
+Package pdftex.def Info: images/recall@10_LFM-1b_artist_20U50I.png  used on input line 30.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/ndcg@10_LFM-1b_artist_20U50I.png Graphic file (type png)
+<use images/ndcg@10_LFM-1b_artist_20U50I.png>
+Package pdftex.def Info: images/ndcg@10_LFM-1b_artist_20U50I.png  used on input line 30.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/giniindex@10_LFM-1b_artist_20U50I.png Graphic file (type png)
+<use images/giniindex@10_LFM-1b_artist_20U50I.png>
+Package pdftex.def Info: images/giniindex@10_LFM-1b_artist_20U50I.png  used on input line 30.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/averagepopularity@10_LFM-1b_artist_20U50I.png Graphic file (type png)
+<use images/averagepopularity@10_LFM-1b_artist_20U50I.png>
+Package pdftex.def Info: images/averagepopularity@10_LFM-1b_artist_20U50I.png  used on input line 30.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24 <./images/recall@10_LFM-1b_artist_20U50I.png> <./images/ndcg@10_LFM-1b_artist_20U50I.png> <./images/giniindex@10_LFM-1b_artist_20U50I.png> <./images/averagepopularity@10_LFM-1b_artist_20U50I.png>]
+File: images/recall@10_LFM-1b_artist_20U50I_75strat.png Graphic file (type png)
+<use images/recall@10_LFM-1b_artist_20U50I_75strat.png>
+Package pdftex.def Info: images/recall@10_LFM-1b_artist_20U50I_75strat.png  used on input line 55.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/ndcg@10_LFM-1b_artist_20U50I_75strat.png Graphic file (type png)
+<use images/ndcg@10_LFM-1b_artist_20U50I_75strat.png>
+Package pdftex.def Info: images/ndcg@10_LFM-1b_artist_20U50I_75strat.png  used on input line 55.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/giniindex@10_LFM-1b_artist_20U50I_75strat.png Graphic file (type png)
+<use images/giniindex@10_LFM-1b_artist_20U50I_75strat.png>
+Package pdftex.def Info: images/giniindex@10_LFM-1b_artist_20U50I_75strat.png  used on input line 55.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/averagepopularity@10_LFM-1b_artist_20U50I_75strat.png Graphic file (type png)
+<use images/averagepopularity@10_LFM-1b_artist_20U50I_75strat.png>
+Package pdftex.def Info: images/averagepopularity@10_LFM-1b_artist_20U50I_75strat.png  used on input line 55.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/recall@10_LFM-1b_artist_20U50I_50strat.png Graphic file (type png)
+<use images/recall@10_LFM-1b_artist_20U50I_50strat.png>
+Package pdftex.def Info: images/recall@10_LFM-1b_artist_20U50I_50strat.png  used on input line 84.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/ndcg@10_LFM-1b_artist_20U50I_50strat.png Graphic file (type png)
+<use images/ndcg@10_LFM-1b_artist_20U50I_50strat.png>
+Package pdftex.def Info: images/ndcg@10_LFM-1b_artist_20U50I_50strat.png  used on input line 84.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/giniindex@10_LFM-1b_artist_20U50I_50strat.png Graphic file (type png)
+<use images/giniindex@10_LFM-1b_artist_20U50I_50strat.png>
+Package pdftex.def Info: images/giniindex@10_LFM-1b_artist_20U50I_50strat.png  used on input line 84.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/averagepopularity@10_LFM-1b_artist_20U50I_50strat.png Graphic file (type png)
+<use images/averagepopularity@10_LFM-1b_artist_20U50I_50strat.png>
+Package pdftex.def Info: images/averagepopularity@10_LFM-1b_artist_20U50I_50strat.png  used on input line 84.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25 <./images/recall@10_LFM-1b_artist_20U50I_75strat.png> <./images/ndcg@10_LFM-1b_artist_20U50I_75strat.png> <./images/giniindex@10_LFM-1b_artist_20U50I_75strat.png> <./images/averagepopularity@10_LFM-1b_artist_20U50I_75strat.png>]
+File: images/recall@10_LFM-1b_artist_20U50I_25strat.png Graphic file (type png)
+<use images/recall@10_LFM-1b_artist_20U50I_25strat.png>
+Package pdftex.def Info: images/recall@10_LFM-1b_artist_20U50I_25strat.png  used on input line 111.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/ndcg@10_LFM-1b_artist_20U50I_25strat.png Graphic file (type png)
+<use images/ndcg@10_LFM-1b_artist_20U50I_25strat.png>
+Package pdftex.def Info: images/ndcg@10_LFM-1b_artist_20U50I_25strat.png  used on input line 111.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/giniindex@10_LFM-1b_artist_20U50I_25strat.png Graphic file (type png)
+<use images/giniindex@10_LFM-1b_artist_20U50I_25strat.png>
+Package pdftex.def Info: images/giniindex@10_LFM-1b_artist_20U50I_25strat.png  used on input line 111.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+File: images/averagepopularity@10_LFM-1b_artist_20U50I_25strat.png Graphic file (type png)
+<use images/averagepopularity@10_LFM-1b_artist_20U50I_25strat.png>
+Package pdftex.def Info: images/averagepopularity@10_LFM-1b_artist_20U50I_25strat.png  used on input line 111.
+(pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26 <./images/recall@10_LFM-1b_artist_20U50I_50strat.png> <./images/ndcg@10_LFM-1b_artist_20U50I_50strat.png> <./images/giniindex@10_LFM-1b_artist_20U50I_50strat.png> <./images/averagepopularity@10_LFM-1b_artist_20U50I_50strat.png>])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27 <./images/recall@10_LFM-1b_artist_20U50I_25strat.png> <./images/ndcg@10_LFM-1b_artist_20U50I_25strat.png> <./images/giniindex@10_LFM-1b_artist_20U50I_25strat.png> <./images/averagepopularity@10_LFM-1b_artist_20U50I_25strat.png>] (pages/conclusioni.tex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28] (pages/regressore2.tex
+<images/nuova-situazione.png, id=559, 355.5684pt x 156.585pt>
+File: images/nuova-situazione.png Graphic file (type png)
+<use images/nuova-situazione.png>
+Package pdftex.def Info: images/nuova-situazione.png  used on input line 10.
+(pdftex.def)             Requested size: 444.4594pt x 195.73076pt.
+<images/nuova-situazione2.png, id=560, 451.4466pt x 199.4652pt>
+File: images/nuova-situazione2.png Graphic file (type png)
+<use images/nuova-situazione2.png>
+Package pdftex.def Info: images/nuova-situazione2.png  used on input line 44.
+(pdftex.def)             Requested size: 564.30684pt x 249.33087pt.
+
+Overfull \hbox (109.06276pt too wide) in paragraph at lines 44--45
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29 <./images/nuova-situazione.png>]
+<images/nuova-situazione-ridotto.png, id=568, 370.986pt x 163.812pt>
+File: images/nuova-situazione-ridotto.png Graphic file (type png)
+<use images/nuova-situazione-ridotto.png>
+Package pdftex.def Info: images/nuova-situazione-ridotto.png  used on input line 80.
+(pdftex.def)             Requested size: 463.73134pt x 204.76448pt.
+
+Overfull \hbox (8.48726pt too wide) in paragraph at lines 80--81
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30 <./images/nuova-situazione2.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31 <./images/nuova-situazione-ridotto.png>]
+<images/nuova-situazione2-ridotto.png, id=585, 387.3672pt x 171.039pt>
+File: images/nuova-situazione2-ridotto.png Graphic file (type png)
+<use images/nuova-situazione2-ridotto.png>
+Package pdftex.def Info: images/nuova-situazione2-ridotto.png  used on input line 220.
+(pdftex.def)             Requested size: 484.20781pt x 213.79822pt.
+
+Overfull \hbox (28.96373pt too wide) in paragraph at lines 220--221
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33 <./images/nuova-situazione2-ridotto.png>]
+File: images/nuova-situazione2-ridotto.png Graphic file (type png)
+<use images/nuova-situazione2-ridotto.png>
+Package pdftex.def Info: images/nuova-situazione2-ridotto.png  used on input line 362.
+(pdftex.def)             Requested size: 484.20781pt x 213.79822pt.
+
+Overfull \hbox (28.96373pt too wide) in paragraph at lines 362--363
+ [][] 
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35] (main.bbl
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E59E075C9E71026F808C3C451CEA418D;2687.
+(rerunfilecheck)             Checksum: B45CDC60FC015967942E65815B3943FC;6723.
  ) 
 Here is how much of TeX's memory you used:
- 36189 strings out of 474436
- 821690 string characters out of 5741954
- 1940190 words of memory out of 5000000
- 57798 multiletter control sequences out of 15000+600000
+ 36511 strings out of 474436
+ 833435 string characters out of 5741954
+ 1942190 words of memory out of 5000000
+ 58015 multiletter control sequences out of 15000+600000
  577264 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,117p,763b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\fonta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (18 pages, 1171292 bytes).
+ 84i,14n,117p,763b,627s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\fonta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (39 pages, 1783415 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
- 196 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 744 PDF objects out of 1000 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
+ 532 words of extra memory for PDF output out of 10000 (max. 10000000)
 
