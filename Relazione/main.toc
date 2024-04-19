@@ -21,29 +21,29 @@
 \contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{15}{section*.15}%
 \contentsline {subsection}{\numberline {4.3}Conclusioni}{15}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Statistiche dei dataset}{16}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Dataset originale}{16}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Processing del dataset}{16}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Descrizione procedimento}{16}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Dataset core5}{17}{subsubsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.3}Dataset 20.000 users, 50.000 items}{18}{subsubsection.5.2.3}%
-\contentsline {subsubsection}{\numberline {5.2.4}Dataset 75\%}{18}{subsubsection.5.2.4}%
-\contentsline {subsubsection}{\numberline {5.2.5}Dataset 50\%}{19}{subsubsection.5.2.5}%
-\contentsline {subsubsection}{\numberline {5.2.6}Dataset 25\%}{19}{subsubsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.1}Dataset LFM-1b\_artist}{16}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Processing del dataset}{16}{subsubsection.5.1.1}%
+\contentsline {paragraph}{Descrizione procedimento}{16}{section*.18}%
+\contentsline {subsection}{\numberline {5.2}Statistiche dei dataset MovieLens10M}{19}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Processing del dataset}{19}{subsubsection.5.2.1}%
+\contentsline {paragraph}{Descrizione procedimento}{19}{section*.31}%
 \contentsline {section}{\numberline {6}Configurazione}{21}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Parametri di running}{21}{subsection.6.1}%
 \contentsline {section}{\numberline {7}Emissioni}{23}{section.7}%
-\contentsline {section}{\numberline {8}Trade-off}{24}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Introduzione}{24}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}LFM-1b\_artist\_20U50I}{24}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}LFM-1b\_artist\_20U50I\_75strat}{25}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}LFM-1b\_artist\_20U50I\_50strat}{26}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}LFM-1b\_artist\_20U50I\_25strat}{27}{subsection.8.5}%
-\contentsline {section}{\numberline {9}Conclusioni}{28}{section.9}%
-\contentsline {section}{\numberline {10}Nuovi risultati}{29}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Dataset originale}{29}{subsection.10.1}%
-\contentsline {subsubsection}{\numberline {10.1.1}Dataset completo}{29}{subsubsection.10.1.1}%
-\contentsline {subsubsection}{\numberline {10.1.2}Dataset Azure}{30}{subsubsection.10.1.2}%
-\contentsline {subsection}{\numberline {10.2}Dataset ridotto}{31}{subsection.10.2}%
-\contentsline {subsubsection}{\numberline {10.2.1}Dataset completo}{32}{subsubsection.10.2.1}%
-\contentsline {subsubsection}{\numberline {10.2.2}Dataset AZURE}{34}{subsubsection.10.2.2}%
-\contentsline {subsubsection}{\numberline {10.2.3}Dataset AZURE}{36}{subsubsection.10.2.3}%
+\contentsline {subsection}{\numberline {7.1}LFM-1b\_artist}{23}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}ml-10m}{24}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Trade-off}{25}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Introduzione}{25}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}LFM-1b\_artist\_20U50I}{25}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}LFM-1b\_artist\_20U50I\_75strat}{26}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}LFM-1b\_artist\_20U50I\_50strat}{27}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}LFM-1b\_artist\_20U50I\_25strat}{28}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}ml-10m\_50U10I}{29}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Conclusioni}{29}{subsection.8.7}%
+\contentsline {section}{\numberline {9}Regressore}{31}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Dataset originale}{31}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Dataset completo}{31}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Dataset Azure}{33}{subsubsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.2}Dataset ridotto}{35}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Dataset completo ridotto}{35}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}Dataset AZURE}{41}{subsubsection.9.2.2}%

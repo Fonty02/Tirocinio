@@ -1,7 +1,10 @@
 \section{Emissioni}
 
 Qui di seguito vengono riportate le emissioni di CO2 per ogni esperimento effettuato.
+Si può notare come il numero dei modelli è stato ridotto. Per questioni di risorse e tempo si sono scelti modelli rappresentantivi di determinate "classi" di modelli (es. Generali, Deep Learning, Knowledge-aware, etc.) 
 
+
+\subsection{LFM-1b\_artist}
 \begin{table}[H]
     \centering
     \footnotesize
@@ -15,7 +18,7 @@ Qui di seguito vengono riportate le emissioni di CO2 per ogni esperimento effett
         \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_LFM-1b_artist_20U50I_25strat.png} \\
         \hline
     \end{tabularx}
-    \caption{Emissioni di CO2 per i vari dataset}
+    \caption{Emissioni di CO2 per i vari dataset LFM-1b}
     \label{tab:emissions_info}
 \end{table}
 
@@ -26,6 +29,20 @@ LightGCN e NCFG sono rispettivamente il secondo e il terzo modello che emettono 
 Questi due modelli sono invece di tipo general, ma nonostante ciò emettono di più rispetto ad altri di tipo knowledge-aware, come per esempio il KGCN.
 In generale possiamo vedere che ItemKNN,LINE e CFKG sono i modelli che emettono meno.
 Per LINE e ItemKNN questo era abbastanza prevedibile in quanto modelli di tipo General. Interessante invece notare come CFKG, di tipo knowledge-aware, emetta meno di altri modelli di tipo General
+
+
+\subsection{ml-10m}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.75]{images/emissions_ml-10m_50U10I.png}
+    \caption{Emissioni di CO2 per il dataset ml-10m}
+\end{figure}
+
+Per quanto riguarda il dataset ml-10m, alcuni modelli non sono riusciti a completare l'addestramento per mancanza di risorse.
+Tuttavia è possibile notare come molti modelli rispetto al dataset LFM-1b\_artist\_20U50I abbiano emissioni di CO2 molto più alte (a volte anche 10 volte tanto) con eccezione di ItemKNN che si mantiene a un valore simile a LFM-1b\_artist\_20U50I.
+Ciò sicuramente è dovuto al fatto che il numero delle interazioni presenti in questo dataset sono circa 10 volte quelle del dataset LFM-1b\_artist\_20U50I.
+E' possibile comunque notare come i modelli che le emissioni dei modelli seguono circa lo stesso ordine dei dataset precedenti, confermando dunque che molti modelli emettono più CO2 rispetto ad altri anche con dataset molto diversi.
 
 
 
