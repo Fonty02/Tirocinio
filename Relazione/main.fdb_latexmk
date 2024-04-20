@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1713552292.78421 "main.aux" "main.bbl" "main" 1713552306.87887 0
+["bibtex main"] 1713631548.36776 "main.aux" "main.bbl" "main" 1713631562.06862 0
   "./bibliography.bib" 1710195963 60029 3505228279ccf3caae7d666e0a07b0fc ""
   "C:/Users/fonta/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1713552304 23500 c134a5f1689a18cbbaa449ffdc45067d "pdflatex"
+  "main.aux" 1713631560 30792 1aa7e54bdd2f18685c92f735c1124142 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1713552293.29616 "c:/Users/fonta/Desktop/Tirocinio/Relazione/main.tex" "main.pdf" "main" 1713552306.88039 0
+["pdflatex"] 1713631548.95531 "c:/Users/fonta/Desktop/Tirocinio/Relazione/main.tex" "main.pdf" "main" 1713631562.06953 0
   "C:/Users/fonta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1710784687 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/fonta/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1710785943 14064 ded5b7aae9723b2732d1fe7f3834db36 ""
   "C:/Users/fonta/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710784362 24233103 3729b742d40f93a448248fd0112072ca ""
@@ -358,15 +358,15 @@
   "images/risultati-valutazione.png" 1710195963 55480 fce76e1a43634652998b69419b778213 ""
   "images/situazione-attuale.png" 1710195963 56054 8210ece2f2aed87419d2f44057620709 ""
   "images/uniba-logo.png" 1710195963 593504 d4521a8a57dd6a041ed548de98f8b93a ""
-  "main.aux" 1713552304 23500 c134a5f1689a18cbbaa449ffdc45067d "pdflatex"
-  "main.bbl" 1713552293 12206 eba33862177a02ebe762dd3fb88bb1ff "bibtex main"
-  "main.out" 1713552304 6441 30fa6dbf4d548c664838d33b0fff167b "pdflatex"
+  "main.aux" 1713631560 30792 1aa7e54bdd2f18685c92f735c1124142 "pdflatex"
+  "main.bbl" 1713631548 12206 eba33862177a02ebe762dd3fb88bb1ff "bibtex main"
+  "main.out" 1713631560 6656 61611d566459f35e82f1ab14de45ebac "pdflatex"
   "main.tex" 1713551227 1849 08ddb069e67a5151233edae5c8c8e235 ""
-  "main.toc" 1713552304 4040 7957ff79e9caa509eab6196047a44b5c "pdflatex"
+  "main.toc" 1713631560 8666 44c6469235f3544f41b9de5fc7754e7f "pdflatex"
   "pages/Dataset.tex" 1713551427 7220 eac047d8b7e46b4e32f912e7512cbcbf ""
   "pages/Introduzione.tex" 1713551427 3842 eac8a701f2cdcb03f8302cad38203c39 ""
   "pages/Modelli.tex" 1713551503 8972 7a1d7a7de74506e2110c24bad3f830ad ""
-  "pages/NuovoRegressore.tex" 1713552264 21264 b57e044cb21def92a04c56bd7b9fb214 ""
+  "pages/NuovoRegressore.tex" 1713631531 40123 9d7eedc0167b1a202e3e761bcce4ec03 ""
   "pages/Risultati.tex" 1713551503 3902 f913ba5ca01fab81320851c8e22a9e7b ""
   "pages/configurazione.tex" 1712911241 2653 cf835a0797ab35ea52f35bb6208f9b38 ""
   "pages/emissioni.tex" 1713551427 2980 72140812ea7c78d81caa74dc7b3adfbc ""

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  19 APR 2024 20:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  20 APR 2024 18:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -964,7 +964,7 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<images/uniba-logo.png, id=170, 1204.5pt x 1204.5pt>
+<images/uniba-logo.png, id=174, 1204.5pt x 1204.5pt>
 File: images/uniba-logo.png Graphic file (type png)
 <use images/uniba-logo.png>
 Package pdftex.def Info: images/uniba-logo.png  used on input line 40.
@@ -993,12 +993,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2] (pages/Introduzione.tex
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <12> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 11.
-<images/risultati-valutazione.png, id=234, 572.89032pt x 247.67531pt>
+<images/risultati-valutazione.png, id=239, 572.89032pt x 247.67531pt>
 File: images/risultati-valutazione.png Graphic file (type png)
 <use images/risultati-valutazione.png>
 Package pdftex.def Info: images/risultati-valutazione.png  used on input line 26.
 (pdftex.def)             Requested size: 429.66669pt x 185.75601pt.
-<images/situazione-attuale.png, id=235, 1795.70876pt x 792.9625pt>
+<images/situazione-attuale.png, id=240, 1795.70876pt x 792.9625pt>
 File: images/situazione-attuale.png Graphic file (type png)
 <use images/situazione-attuale.png>
 Package pdftex.def Info: images/situazione-attuale.png  used on input line 34.
@@ -1056,7 +1056,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8] (pages/Modelli.tex
-<images/SVR.png, id=371, 897.3525pt x 548.0475pt>
+<images/SVR.png, id=376, 897.3525pt x 548.0475pt>
 File: images/SVR.png Graphic file (type png)
 <use images/SVR.png>
 Package pdftex.def Info: images/SVR.png  used on input line 19.
@@ -1070,7 +1070,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9 <./images/SVR.png (PNG copy)>]
-<images/DecisionTreeRegressor.png, id=383, 569.12625pt x 388.45125pt>
+<images/DecisionTreeRegressor.png, id=388, 569.12625pt x 388.45125pt>
 File: images/DecisionTreeRegressor.png Graphic file (type png)
 <use images/DecisionTreeRegressor.png>
 Package pdftex.def Info: images/DecisionTreeRegressor.png  used on input line 42.
@@ -1084,7 +1084,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10 <./images/DecisionTreeRegressor.png>]
-<images/RandomForestRegressor.png, id=391, 569.12625pt x 329.23pt>
+<images/RandomForestRegressor.png, id=396, 569.12625pt x 329.23pt>
 File: images/RandomForestRegressor.png Graphic file (type png)
 <use images/RandomForestRegressor.png>
 Package pdftex.def Info: images/RandomForestRegressor.png  used on input line 69.
@@ -1106,7 +1106,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-<images/AdaBoost.png, id=403, 1027.84pt x 578.16pt>
+<images/AdaBoost.png, id=408, 1027.84pt x 578.16pt>
 File: images/AdaBoost.png Graphic file (type png)
 <use images/AdaBoost.png>
 Package pdftex.def Info: images/AdaBoost.png  used on input line 102.
@@ -1120,22 +1120,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <./images/AdaBoost.png>] (pages/Risultati.tex
-<images/SVR_lc.png, id=412, 586.19pt x 456.70625pt>
+<images/SVR_lc.png, id=417, 586.19pt x 456.70625pt>
 File: images/SVR_lc.png Graphic file (type png)
 <use images/SVR_lc.png>
 Package pdftex.def Info: images/SVR_lc.png  used on input line 44.
 (pdftex.def)             Requested size: 175.85835pt x 137.01292pt.
-<images/DecisionTree_lc.png, id=413, 586.19pt x 456.70625pt>
+<images/DecisionTree_lc.png, id=418, 586.19pt x 456.70625pt>
 File: images/DecisionTree_lc.png Graphic file (type png)
 <use images/DecisionTree_lc.png>
 Package pdftex.def Info: images/DecisionTree_lc.png  used on input line 44.
 (pdftex.def)             Requested size: 175.85835pt x 137.01292pt.
-<images/RandomForestRegressor_lc.png, id=414, 586.19pt x 456.70625pt>
+<images/RandomForestRegressor_lc.png, id=419, 586.19pt x 456.70625pt>
 File: images/RandomForestRegressor_lc.png Graphic file (type png)
 <use images/RandomForestRegressor_lc.png>
 Package pdftex.def Info: images/RandomForestRegressor_lc.png  used on input line 45.
 (pdftex.def)             Requested size: 175.85835pt x 137.01292pt.
-<images/AdaBoostRegressor_lc.png, id=415, 586.19pt x 456.70625pt>
+<images/AdaBoostRegressor_lc.png, id=420, 586.19pt x 456.70625pt>
 File: images/AdaBoostRegressor_lc.png Graphic file (type png)
 <use images/AdaBoostRegressor_lc.png>
 Package pdftex.def Info: images/AdaBoostRegressor_lc.png  used on input line 45.
@@ -1229,7 +1229,7 @@ File: images/emissions_LFM-1b_artist_20U50I_25strat.png Graphic file (type png)
 <use images/emissions_LFM-1b_artist_20U50I_25strat.png>
 Package pdftex.def Info: images/emissions_LFM-1b_artist_20U50I_25strat.png  used on input line 20.
 (pdftex.def)             Requested size: 227.02205pt x 170.26636pt.
-<images/emissions_ml-10m_50U10I.png, id=494, 462.528pt x 346.896pt>
+<images/emissions_ml-10m_50U10I.png, id=499, 462.528pt x 346.896pt>
 File: images/emissions_ml-10m_50U10I.png Graphic file (type png)
 <use images/emissions_ml-10m_50U10I.png>
 Package pdftex.def Info: images/emissions_ml-10m_50U10I.png  used on input line 38.
@@ -1383,7 +1383,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30] (pages/NuovoRegressore.tex
-<images/nuova-situazione.png, id=580, 1796.7125pt x 792.9625pt>
+<images/nuova-situazione.png, id=585, 1796.7125pt x 792.9625pt>
 File: images/nuova-situazione.png Graphic file (type png)
 <use images/nuova-situazione.png>
 Package pdftex.def Info: images/nuova-situazione.png  used on input line 28.
@@ -1422,26 +1422,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32 <./images/SVR_lc2.png> <./images/DecisionTree_lc2.png> <./images/RandomForestRegressor_lc2.png> <./images/AdaBoostRegressor_lc2.png>]
-<images/nuova-situazione2.png, id=597, 1796.7125pt x 792.9625pt>
+<images/nuova-situazione2.png, id=604, 1796.7125pt x 792.9625pt>
 File: images/nuova-situazione2.png Graphic file (type png)
 <use images/nuova-situazione2.png>
-Package pdftex.def Info: images/nuova-situazione2.png  used on input line 81.
+Package pdftex.def Info: images/nuova-situazione2.png  used on input line 94.
 (pdftex.def)             Requested size: 449.17703pt x 198.24013pt.
 File: images/SVR_Azure_lc2.png Graphic file (type png)
 <use images/SVR_Azure_lc2.png>
-Package pdftex.def Info: images/SVR_Azure_lc2.png  used on input line 117.
+Package pdftex.def Info: images/SVR_Azure_lc2.png  used on input line 130.
 (pdftex.def)             Requested size: 227.02205pt x 179.32727pt.
 File: images/DecisionTree_Azure_lc2.png Graphic file (type png)
 <use images/DecisionTree_Azure_lc2.png>
-Package pdftex.def Info: images/DecisionTree_Azure_lc2.png  used on input line 117.
+Package pdftex.def Info: images/DecisionTree_Azure_lc2.png  used on input line 130.
 (pdftex.def)             Requested size: 227.02205pt x 179.32727pt.
 File: images/RandomForestRegressor_Azure_lc2.png Graphic file (type png)
 <use images/RandomForestRegressor_Azure_lc2.png>
-Package pdftex.def Info: images/RandomForestRegressor_Azure_lc2.png  used on input line 117.
+Package pdftex.def Info: images/RandomForestRegressor_Azure_lc2.png  used on input line 130.
 (pdftex.def)             Requested size: 227.02205pt x 179.32727pt.
 File: images/AdaBoostRegressor_Azure_lc2.png Graphic file (type png)
 <use images/AdaBoostRegressor_Azure_lc2.png>
-Package pdftex.def Info: images/AdaBoostRegressor_Azure_lc2.png  used on input line 117.
+Package pdftex.def Info: images/AdaBoostRegressor_Azure_lc2.png  used on input line 130.
 (pdftex.def)             Requested size: 227.02205pt x 179.32727pt.
 
 
@@ -1460,26 +1460,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34 <./images/SVR_Azure_lc2.png> <./images/DecisionTree_Azure_lc2.png> <./images/RandomForestRegressor_Azure_lc2.png> <./images/AdaBoostRegressor_Azure_lc2.png>]
-<images/nuova-situazione-ridotto.png, id=613, 1795.70876pt x 792.9625pt>
+<images/nuova-situazione-ridotto.png, id=628, 1795.70876pt x 792.9625pt>
 File: images/nuova-situazione-ridotto.png Graphic file (type png)
 <use images/nuova-situazione-ridotto.png>
-Package pdftex.def Info: images/nuova-situazione-ridotto.png  used on input line 133.
+Package pdftex.def Info: images/nuova-situazione-ridotto.png  used on input line 159.
 (pdftex.def)             Requested size: 448.92609pt x 198.24013pt.
 File: images/SVR_lc50_ridotto.png Graphic file (type png)
 <use images/SVR_lc50_ridotto.png>
-Package pdftex.def Info: images/SVR_lc50_ridotto.png  used on input line 173.
+Package pdftex.def Info: images/SVR_lc50_ridotto.png  used on input line 199.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/DecisionTree_lc50_ridotto.png Graphic file (type png)
 <use images/DecisionTree_lc50_ridotto.png>
-Package pdftex.def Info: images/DecisionTree_lc50_ridotto.png  used on input line 173.
+Package pdftex.def Info: images/DecisionTree_lc50_ridotto.png  used on input line 199.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/RandomForest_lc50_ridotto.png Graphic file (type png)
 <use images/RandomForest_lc50_ridotto.png>
-Package pdftex.def Info: images/RandomForest_lc50_ridotto.png  used on input line 173.
+Package pdftex.def Info: images/RandomForest_lc50_ridotto.png  used on input line 199.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/AdaBoost_lc50_ridotto.png Graphic file (type png)
 <use images/AdaBoost_lc50_ridotto.png>
-Package pdftex.def Info: images/AdaBoost_lc50_ridotto.png  used on input line 173.
+Package pdftex.def Info: images/AdaBoost_lc50_ridotto.png  used on input line 199.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 
 
@@ -1490,23 +1490,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35 <./images/nuova-situazione-ridotto.png>]
-File: images/SVR_lc60_ridotto.png Graphic file (type png)
-<use images/SVR_lc60_ridotto.png>
-Package pdftex.def Info: images/SVR_lc60_ridotto.png  used on input line 216.
-(pdftex.def)             Requested size: 227.02205pt x 172.73482pt.
-File: images/DecisionTree_lc60_ridotto.png Graphic file (type png)
-<use images/DecisionTree_lc60_ridotto.png>
-Package pdftex.def Info: images/DecisionTree_lc60_ridotto.png  used on input line 216.
-(pdftex.def)             Requested size: 227.02205pt x 175.07632pt.
-File: images/RandomForest_lc60_ridotto.png Graphic file (type png)
-<use images/RandomForest_lc60_ridotto.png>
-Package pdftex.def Info: images/RandomForest_lc60_ridotto.png  used on input line 216.
-(pdftex.def)             Requested size: 227.02205pt x 175.07632pt.
-File: images/AdaBoost_lc60_ridotto.png Graphic file (type png)
-<use images/AdaBoost_lc60_ridotto.png>
-Package pdftex.def Info: images/AdaBoost_lc60_ridotto.png  used on input line 216.
-(pdftex.def)             Requested size: 227.02205pt x 175.07632pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1515,22 +1498,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [36 <./images/SVR_lc50_ridotto.png> <./images/DecisionTree_lc50_ridotto.png> <./images/RandomForest_lc50_ridotto.png> <./images/AdaBoost_lc50_ridotto.png>]
-File: images/SVR_lc70_ridotto.png Graphic file (type png)
-<use images/SVR_lc70_ridotto.png>
-Package pdftex.def Info: images/SVR_lc70_ridotto.png  used on input line 257.
-(pdftex.def)             Requested size: 227.02205pt x 174.1913pt.
-File: images/DecisionTree_lc70_ridotto.png Graphic file (type png)
-<use images/DecisionTree_lc70_ridotto.png>
-Package pdftex.def Info: images/DecisionTree_lc70_ridotto.png  used on input line 257.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-File: images/RandomForest_lc70_ridotto.png Graphic file (type png)
-<use images/RandomForest_lc70_ridotto.png>
-Package pdftex.def Info: images/RandomForest_lc70_ridotto.png  used on input line 257.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-File: images/AdaBoost_lc70_ridotto.png Graphic file (type png)
-<use images/AdaBoost_lc70_ridotto.png>
-Package pdftex.def Info: images/AdaBoost_lc70_ridotto.png  used on input line 257.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+File: images/SVR_lc60_ridotto.png Graphic file (type png)
+<use images/SVR_lc60_ridotto.png>
+Package pdftex.def Info: images/SVR_lc60_ridotto.png  used on input line 255.
+(pdftex.def)             Requested size: 227.02205pt x 172.73482pt.
+File: images/DecisionTree_lc60_ridotto.png Graphic file (type png)
+<use images/DecisionTree_lc60_ridotto.png>
+Package pdftex.def Info: images/DecisionTree_lc60_ridotto.png  used on input line 255.
+(pdftex.def)             Requested size: 227.02205pt x 175.07632pt.
+File: images/RandomForest_lc60_ridotto.png Graphic file (type png)
+<use images/RandomForest_lc60_ridotto.png>
+Package pdftex.def Info: images/RandomForest_lc60_ridotto.png  used on input line 255.
+(pdftex.def)             Requested size: 227.02205pt x 175.07632pt.
+File: images/AdaBoost_lc60_ridotto.png Graphic file (type png)
+<use images/AdaBoost_lc60_ridotto.png>
+Package pdftex.def Info: images/AdaBoost_lc60_ridotto.png  used on input line 255.
+(pdftex.def)             Requested size: 227.02205pt x 175.07632pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1540,21 +1523,54 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [37 <./images/SVR_lc60_ridotto.png> <./images/DecisionTree_lc60_ridotto.png> <./images/RandomForest_lc60_ridotto.png> <./images/AdaBoost_lc60_ridotto.png>]
+File: images/SVR_lc70_ridotto.png Graphic file (type png)
+<use images/SVR_lc70_ridotto.png>
+Package pdftex.def Info: images/SVR_lc70_ridotto.png  used on input line 308.
+(pdftex.def)             Requested size: 227.02205pt x 174.1913pt.
+File: images/DecisionTree_lc70_ridotto.png Graphic file (type png)
+<use images/DecisionTree_lc70_ridotto.png>
+Package pdftex.def Info: images/DecisionTree_lc70_ridotto.png  used on input line 308.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+File: images/RandomForest_lc70_ridotto.png Graphic file (type png)
+<use images/RandomForest_lc70_ridotto.png>
+Package pdftex.def Info: images/RandomForest_lc70_ridotto.png  used on input line 308.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+File: images/AdaBoost_lc70_ridotto.png Graphic file (type png)
+<use images/AdaBoost_lc70_ridotto.png>
+Package pdftex.def Info: images/AdaBoost_lc70_ridotto.png  used on input line 308.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39 <./images/SVR_lc70_ridotto.png> <./images/DecisionTree_lc70_ridotto.png> <./images/RandomForest_lc70_ridotto.png> <./images/AdaBoost_lc70_ridotto.png>]
 File: images/SVR_lc80_ridotto.png Graphic file (type png)
 <use images/SVR_lc80_ridotto.png>
-Package pdftex.def Info: images/SVR_lc80_ridotto.png  used on input line 299.
+Package pdftex.def Info: images/SVR_lc80_ridotto.png  used on input line 363.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/DecisionTree_lc80_ridotto.png Graphic file (type png)
 <use images/DecisionTree_lc80_ridotto.png>
-Package pdftex.def Info: images/DecisionTree_lc80_ridotto.png  used on input line 299.
+Package pdftex.def Info: images/DecisionTree_lc80_ridotto.png  used on input line 363.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/RandomForest_lc80_ridotto.png Graphic file (type png)
 <use images/RandomForest_lc80_ridotto.png>
-Package pdftex.def Info: images/RandomForest_lc80_ridotto.png  used on input line 299.
+Package pdftex.def Info: images/RandomForest_lc80_ridotto.png  used on input line 363.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/AdaBoost_lc80_ridotto.png Graphic file (type png)
 <use images/AdaBoost_lc80_ridotto.png>
-Package pdftex.def Info: images/AdaBoost_lc80_ridotto.png  used on input line 299.
+Package pdftex.def Info: images/AdaBoost_lc80_ridotto.png  used on input line 363.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 
 
@@ -1564,22 +1580,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38 <./images/SVR_lc70_ridotto.png> <./images/DecisionTree_lc70_ridotto.png> <./images/RandomForest_lc70_ridotto.png> <./images/AdaBoost_lc70_ridotto.png>]
+[40 <./images/SVR_lc80_ridotto.png> <./images/DecisionTree_lc80_ridotto.png> <./images/RandomForest_lc80_ridotto.png> <./images/AdaBoost_lc80_ridotto.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41]
 File: images/SVR_lc90_ridotto.png Graphic file (type png)
 <use images/SVR_lc90_ridotto.png>
-Package pdftex.def Info: images/SVR_lc90_ridotto.png  used on input line 343.
+Package pdftex.def Info: images/SVR_lc90_ridotto.png  used on input line 419.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/DecisionTree_lc90_ridotto.png Graphic file (type png)
 <use images/DecisionTree_lc90_ridotto.png>
-Package pdftex.def Info: images/DecisionTree_lc90_ridotto.png  used on input line 343.
+Package pdftex.def Info: images/DecisionTree_lc90_ridotto.png  used on input line 419.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/RandomForest_lc90_ridotto.png Graphic file (type png)
 <use images/RandomForest_lc90_ridotto.png>
-Package pdftex.def Info: images/RandomForest_lc90_ridotto.png  used on input line 343.
+Package pdftex.def Info: images/RandomForest_lc90_ridotto.png  used on input line 419.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/AdaBoost_lc90_ridotto.png Graphic file (type png)
 <use images/AdaBoost_lc90_ridotto.png>
-Package pdftex.def Info: images/AdaBoost_lc90_ridotto.png  used on input line 343.
+Package pdftex.def Info: images/AdaBoost_lc90_ridotto.png  used on input line 419.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 
 
@@ -1589,7 +1613,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39 <./images/SVR_lc80_ridotto.png> <./images/DecisionTree_lc80_ridotto.png> <./images/RandomForest_lc80_ridotto.png> <./images/AdaBoost_lc80_ridotto.png>]
+[42 <./images/SVR_lc90_ridotto.png> <./images/DecisionTree_lc90_ridotto.png> <./images/RandomForest_lc90_ridotto.png> <./images/AdaBoost_lc90_ridotto.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1597,27 +1621,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40 <./images/SVR_lc90_ridotto.png> <./images/DecisionTree_lc90_ridotto.png> <./images/RandomForest_lc90_ridotto.png> <./images/AdaBoost_lc90_ridotto.png>]
-<images/nuova-situazione2-ridotto.png, id=670, 1796.7125pt x 792.9625pt>
+[43]
+<images/nuova-situazione2-ridotto.png, id=724, 1796.7125pt x 792.9625pt>
 File: images/nuova-situazione2-ridotto.png Graphic file (type png)
 <use images/nuova-situazione2-ridotto.png>
-Package pdftex.def Info: images/nuova-situazione2-ridotto.png  used on input line 361.
+Package pdftex.def Info: images/nuova-situazione2-ridotto.png  used on input line 451.
 (pdftex.def)             Requested size: 449.17703pt x 198.24013pt.
 File: images/SVR_lc50_ridottoAzure.png Graphic file (type png)
 <use images/SVR_lc50_ridottoAzure.png>
-Package pdftex.def Info: images/SVR_lc50_ridottoAzure.png  used on input line 404.
+Package pdftex.def Info: images/SVR_lc50_ridottoAzure.png  used on input line 494.
 (pdftex.def)             Requested size: 227.02205pt x 174.1913pt.
 File: images/DecisionTree_lc50_ridottoAzure.png Graphic file (type png)
 <use images/DecisionTree_lc50_ridottoAzure.png>
-Package pdftex.def Info: images/DecisionTree_lc50_ridottoAzure.png  used on input line 404.
+Package pdftex.def Info: images/DecisionTree_lc50_ridottoAzure.png  used on input line 494.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/RandomForest_lc50_ridottoAzure.png Graphic file (type png)
 <use images/RandomForest_lc50_ridottoAzure.png>
-Package pdftex.def Info: images/RandomForest_lc50_ridottoAzure.png  used on input line 404.
+Package pdftex.def Info: images/RandomForest_lc50_ridottoAzure.png  used on input line 494.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/AdaBoost_lc50_ridottoAzure.png Graphic file (type png)
 <use images/AdaBoost_lc50_ridottoAzure.png>
-Package pdftex.def Info: images/AdaBoost_lc50_ridottoAzure.png  used on input line 404.
+Package pdftex.def Info: images/AdaBoost_lc50_ridottoAzure.png  used on input line 494.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 
 
@@ -1627,22 +1651,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41 <./images/nuova-situazione2-ridotto.png>]
+[44 <./images/nuova-situazione2-ridotto.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45 <./images/SVR_lc50_ridottoAzure.png> <./images/DecisionTree_lc50_ridottoAzure.png> <./images/RandomForest_lc50_ridottoAzure.png> <./images/AdaBoost_lc50_ridottoAzure.png>]
 File: images/SVR_lc60_ridottoAzure.png Graphic file (type png)
 <use images/SVR_lc60_ridottoAzure.png>
-Package pdftex.def Info: images/SVR_lc60_ridottoAzure.png  used on input line 445.
+Package pdftex.def Info: images/SVR_lc60_ridottoAzure.png  used on input line 548.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/DecisionTree_lc60_ridottoAzure.png Graphic file (type png)
 <use images/DecisionTree_lc60_ridottoAzure.png>
-Package pdftex.def Info: images/DecisionTree_lc60_ridottoAzure.png  used on input line 445.
+Package pdftex.def Info: images/DecisionTree_lc60_ridottoAzure.png  used on input line 548.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/RandomForest_lc60_ridottoAzure.png Graphic file (type png)
 <use images/RandomForest_lc60_ridottoAzure.png>
-Package pdftex.def Info: images/RandomForest_lc60_ridottoAzure.png  used on input line 445.
+Package pdftex.def Info: images/RandomForest_lc60_ridottoAzure.png  used on input line 548.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 File: images/AdaBoost_lc60_ridottoAzure.png Graphic file (type png)
 <use images/AdaBoost_lc60_ridottoAzure.png>
-Package pdftex.def Info: images/AdaBoost_lc60_ridottoAzure.png  used on input line 445.
+Package pdftex.def Info: images/AdaBoost_lc60_ridottoAzure.png  used on input line 548.
 (pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
 
 
@@ -1652,90 +1684,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42 <./images/SVR_lc50_ridottoAzure.png> <./images/DecisionTree_lc50_ridottoAzure.png> <./images/RandomForest_lc50_ridottoAzure.png> <./images/AdaBoost_lc50_ridottoAzure.png>]
-File: images/SVR_lc70_ridottoAzure.png Graphic file (type png)
-<use images/SVR_lc70_ridottoAzure.png>
-Package pdftex.def Info: images/SVR_lc70_ridottoAzure.png  used on input line 487.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-File: images/DecisionTree_lc70_ridottoAzure.png Graphic file (type png)
-<use images/DecisionTree_lc70_ridottoAzure.png>
-Package pdftex.def Info: images/DecisionTree_lc70_ridottoAzure.png  used on input line 487.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-File: images/RandomForest_lc70_ridottoAzure.png Graphic file (type png)
-<use images/RandomForest_lc70_ridottoAzure.png>
-Package pdftex.def Info: images/RandomForest_lc70_ridottoAzure.png  used on input line 487.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-File: images/AdaBoost_lc70_ridottoAzure.png Graphic file (type png)
-<use images/AdaBoost_lc70_ridottoAzure.png>
-Package pdftex.def Info: images/AdaBoost_lc70_ridottoAzure.png  used on input line 487.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[43 <./images/SVR_lc60_ridottoAzure.png> <./images/DecisionTree_lc60_ridottoAzure.png> <./images/RandomForest_lc60_ridottoAzure.png> <./images/AdaBoost_lc60_ridottoAzure.png>]
-File: images/SVR_lc80_ridottoAzure.png Graphic file (type png)
-<use images/SVR_lc80_ridottoAzure.png>
-Package pdftex.def Info: images/SVR_lc80_ridottoAzure.png  used on input line 529.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-File: images/DecisionTree_lc80_ridottoAzure.png Graphic file (type png)
-<use images/DecisionTree_lc80_ridottoAzure.png>
-Package pdftex.def Info: images/DecisionTree_lc80_ridottoAzure.png  used on input line 529.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-File: images/RandomForest_lc80_ridottoAzure.png Graphic file (type png)
-<use images/RandomForest_lc80_ridottoAzure.png>
-Package pdftex.def Info: images/RandomForest_lc80_ridottoAzure.png  used on input line 529.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-File: images/AdaBoost_lc80_ridottoAzure.png Graphic file (type png)
-<use images/AdaBoost_lc80_ridottoAzure.png>
-Package pdftex.def Info: images/AdaBoost_lc80_ridottoAzure.png  used on input line 529.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[44 <./images/SVR_lc70_ridottoAzure.png> <./images/DecisionTree_lc70_ridottoAzure.png> <./images/RandomForest_lc70_ridottoAzure.png> <./images/AdaBoost_lc70_ridottoAzure.png>]
-File: images/SVR_lc90_ridottoAzure.png Graphic file (type png)
-<use images/SVR_lc90_ridottoAzure.png>
-Package pdftex.def Info: images/SVR_lc90_ridottoAzure.png  used on input line 572.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-File: images/DecisionTree_lc90_ridottoAzure.png Graphic file (type png)
-<use images/DecisionTree_lc90_ridottoAzure.png>
-Package pdftex.def Info: images/DecisionTree_lc90_ridottoAzure.png  used on input line 572.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-File: images/RandomForest_lc90_ridottoAzure.png Graphic file (type png)
-<use images/RandomForest_lc90_ridottoAzure.png>
-Package pdftex.def Info: images/RandomForest_lc90_ridottoAzure.png  used on input line 572.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-File: images/AdaBoost_lc90_ridottoAzure.png Graphic file (type png)
-<use images/AdaBoost_lc90_ridottoAzure.png>
-Package pdftex.def Info: images/AdaBoost_lc90_ridottoAzure.png  used on input line 572.
-(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[45 <./images/SVR_lc80_ridottoAzure.png> <./images/DecisionTree_lc80_ridottoAzure.png> <./images/RandomForest_lc80_ridottoAzure.png> <./images/AdaBoost_lc80_ridottoAzure.png>])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[46 <./images/SVR_lc90_ridottoAzure.png> <./images/DecisionTree_lc90_ridottoAzure.png> <./images/RandomForest_lc90_ridottoAzure.png> <./images/AdaBoost_lc90_ridottoAzure.png>] (main.bbl
+[46 <./images/SVR_lc60_ridottoAzure.png> <./images/DecisionTree_lc60_ridottoAzure.png> <./images/RandomForest_lc60_ridottoAzure.png> <./images/AdaBoost_lc60_ridottoAzure.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1744,6 +1693,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [47]
+File: images/SVR_lc70_ridottoAzure.png Graphic file (type png)
+<use images/SVR_lc70_ridottoAzure.png>
+Package pdftex.def Info: images/SVR_lc70_ridottoAzure.png  used on input line 603.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+File: images/DecisionTree_lc70_ridottoAzure.png Graphic file (type png)
+<use images/DecisionTree_lc70_ridottoAzure.png>
+Package pdftex.def Info: images/DecisionTree_lc70_ridottoAzure.png  used on input line 603.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+File: images/RandomForest_lc70_ridottoAzure.png Graphic file (type png)
+<use images/RandomForest_lc70_ridottoAzure.png>
+Package pdftex.def Info: images/RandomForest_lc70_ridottoAzure.png  used on input line 603.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+File: images/AdaBoost_lc70_ridottoAzure.png Graphic file (type png)
+<use images/AdaBoost_lc70_ridottoAzure.png>
+Package pdftex.def Info: images/AdaBoost_lc70_ridottoAzure.png  used on input line 603.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1751,7 +1717,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48]
+[48 <./images/SVR_lc70_ridottoAzure.png> <./images/DecisionTree_lc70_ridottoAzure.png> <./images/RandomForest_lc70_ridottoAzure.png> <./images/AdaBoost_lc70_ridottoAzure.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1759,7 +1725,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49])
+[49]
+File: images/SVR_lc80_ridottoAzure.png Graphic file (type png)
+<use images/SVR_lc80_ridottoAzure.png>
+Package pdftex.def Info: images/SVR_lc80_ridottoAzure.png  used on input line 658.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+File: images/DecisionTree_lc80_ridottoAzure.png Graphic file (type png)
+<use images/DecisionTree_lc80_ridottoAzure.png>
+Package pdftex.def Info: images/DecisionTree_lc80_ridottoAzure.png  used on input line 658.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+File: images/RandomForest_lc80_ridottoAzure.png Graphic file (type png)
+<use images/RandomForest_lc80_ridottoAzure.png>
+Package pdftex.def Info: images/RandomForest_lc80_ridottoAzure.png  used on input line 658.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+File: images/AdaBoost_lc80_ridottoAzure.png Graphic file (type png)
+<use images/AdaBoost_lc80_ridottoAzure.png>
+Package pdftex.def Info: images/AdaBoost_lc80_ridottoAzure.png  used on input line 658.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1767,7 +1750,80 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50] (main.aux)
+[50 <./images/SVR_lc80_ridottoAzure.png> <./images/DecisionTree_lc80_ridottoAzure.png> <./images/RandomForest_lc80_ridottoAzure.png> <./images/AdaBoost_lc80_ridottoAzure.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[51]
+File: images/SVR_lc90_ridottoAzure.png Graphic file (type png)
+<use images/SVR_lc90_ridottoAzure.png>
+Package pdftex.def Info: images/SVR_lc90_ridottoAzure.png  used on input line 713.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+File: images/DecisionTree_lc90_ridottoAzure.png Graphic file (type png)
+<use images/DecisionTree_lc90_ridottoAzure.png>
+Package pdftex.def Info: images/DecisionTree_lc90_ridottoAzure.png  used on input line 713.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+File: images/RandomForest_lc90_ridottoAzure.png Graphic file (type png)
+<use images/RandomForest_lc90_ridottoAzure.png>
+Package pdftex.def Info: images/RandomForest_lc90_ridottoAzure.png  used on input line 713.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+File: images/AdaBoost_lc90_ridottoAzure.png Graphic file (type png)
+<use images/AdaBoost_lc90_ridottoAzure.png>
+Package pdftex.def Info: images/AdaBoost_lc90_ridottoAzure.png  used on input line 713.
+(pdftex.def)             Requested size: 227.02205pt x 176.87427pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52 <./images/SVR_lc90_ridottoAzure.png> <./images/DecisionTree_lc90_ridottoAzure.png> <./images/RandomForest_lc90_ridottoAzure.png> <./images/AdaBoost_lc90_ridottoAzure.png>])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[53] (main.bbl
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[55]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[56])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[57] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1777,20 +1833,20 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 30FA6DBF4D548C664838D33B0FFF167B;6441.
+(rerunfilecheck)             Checksum: 61611D566459F35E82F1AB14DE45EBAC;6656.
  ) 
 Here is how much of TeX's memory you used:
- 36906 strings out of 474436
- 849021 string characters out of 5741954
+ 36977 strings out of 474436
+ 849830 string characters out of 5741954
  1944190 words of memory out of 5000000
- 58382 multiletter control sequences out of 15000+600000
+ 58383 multiletter control sequences out of 15000+600000
  577264 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,117p,763b,625s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\fonta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (50 pages, 3077284 bytes).
+Output written on main.pdf (57 pages, 3105275 bytes).
 PDF statistics:
- 866 PDF objects out of 1000 (max. 8388607)
- 219 named destinations out of 1000 (max. 500000)
- 781 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 976 PDF objects out of 1000 (max. 8388607)
+ 289 named destinations out of 1000 (max. 500000)
+ 789 words of extra memory for PDF output out of 10000 (max. 10000000)
 

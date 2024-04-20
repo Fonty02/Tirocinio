@@ -68,13 +68,26 @@ Questo si riflette nei risultati ottenuti dai modelli di regressione
     \label{tab:emissions_info}
 \end{table}
 
-\noindent E' possibile notare che il forte sbilanciamento nelle emissioni porta i modelli a non apprendere bene. I migliori si riconfermano DecisionTree e RandomForest.
+\paragraph{\textbf{SVR}.}
+Dal punto di vista delle metriche il regressore SVR ha ottenuto i peggiori risultati in termini di MAE, RMSE e MSLE. La learning curve mostra che il modello non è in grado di generalizare, l'errore aumenta all'aumentare delle istanze.
 
-\newpage
+\paragraph{\textbf{Decision Tree Regressor}.}
+Dal punto di vista delle metriche di RMSE e MSLE, il Decision Tree Regressor ha ottenuto i migliori risultati. 
+La learning curve mostra una curva di training che aumenta all'aumentare del numero di istanze, mentre la curva di validation diminuisce. Le due curve si avvicinano, ma non si sovrappongono. Sembra esserci un leggero miglioramento rispetto al passato.
+\paragraph{\textbf{Random Forest Regressor}.}
+Dal punto di vista delle metriche il Random Forest Regressor risulta essere il secondo miglior modello, tranne per MAE dove è il migliore.
+La learning curves di train e di validation set diminuiscono entrambe all'aumentare del numero di istanze, ma non si sovrappongono. Anche qui rispetto al passato si nota un leggero miglioramento.
+\paragraph{\textbf{AdaBoost Regressor}.}
+Dal punto di vista delle metriche il AdaBoost Regressor ha ottenuto risultati peggiori rispetto al Random Forest Regressor e al Decision Tree Regressor ma migliori rispetto al SVR.
+La learning curve mostrano che il modello non è riuscito a generalizzare bene ma si è comportato meglio rispetto al passato.
+
+
+\paragraph{\textbf{Conclusioni}} E' possibile notare che il forte sbilanciamento nelle emissioni porta i modelli a non apprendere bene. I migliori si riconfermano DecisionTree e RandomForest.
+
 
 \subsubsection{Dataset Azure}
 
-\noindent Una possibile soluzione è stata quella di eliminare tutti i risultati non prodotti sulla macchina Azure. Questo ha portato a un peggioramento dei risultati rispetto al dataset completo
+\noindent Una possibile soluzione è stata quella di eliminare tutti i risultati non prodotti sulla macchina Azure.
 
 \begin{figure}[H]
     \centering
@@ -119,7 +132,20 @@ Questo si riflette nei risultati ottenuti dai modelli di regressione
     \label{tab:emissions_info}
 \end{table}
 
-\noindent Si riscontrano gli stessi problemi del dataset completo
+\paragraph{\textbf{SVR}.}
+Dal punto di vista delle metriche il regressore SVR ha ottenuto i peggiori risultati in termini di MAE, RMSE e MSLE. La learning curve mostra che il modello non è in grado di generalizzare, infatti l'errore di training supera anche quello di validation.
+
+\paragraph{\textbf{Decision Tree Regressor}.}
+Dal punto di vista delle metriche, il Decision Tree Regressor ha ottenuto i risultati secondi al Random Forest Regressor. 
+La learning curve mostra che entrambe le curve di training e di validation aumentano all'aumentare del numero di istanze. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{Random Forest Regressor}.}
+Dal punto di vista delle metriche il Random Forest Regressor risulta essere il miglior modello.
+La learning curves di train e di validation set crescono all'aumentare del numero delle istanze, quella di training infine comincia una lenta discesa. Il modello comunque non ha appreso bene.
+\paragraph{\textbf{AdaBoost Regressor}.}
+Dal punto di vista delle metriche il AdaBoost Regressor ha ottenuto risultati peggiori rispetto al Decision Tree Regressor ma migliori rispetto al SVR.
+La learning curve mostrano che il modello non è riuscito a generalizzare bene
+
+\paragraph{\textbf{Conclusioni}} Si riscontrano gli stessi problemi del dataset completo. E' evidente inoltre che i pochi dati a disposizione e il forte sbilanciamento delle emissioni portano i modelli a non apprendere bene. I migliori si riconfermano DecisionTree e RandomForest.
 \newpage
 
 \subsection{Dataset ridotto}
@@ -175,9 +201,22 @@ E' possibile notare un miglior bilanciamento delle emissioni. Per quanto riguard
     \label{tab:emissions_info}
 \end{table}
 
-\noindent RandomForest sembrerebbe essere il migliore
+\paragraph{\textbf{SVR}.}
+Dal punto di vista delle metriche il regressore SVR ha ottenuto i peggiori risultati in termini di MAE, RMSE e MSLE. La learning curve mostra che il modello non è in grado di generalizzare, infatti gli errori aumentano all'aumentare del numero delle istanze.
 
+\paragraph{\textbf{Decision Tree Regressor}.}
+Dal punto di vista delle metriche, il Decision Tree Regressor ha ottenuto i risultati secondi al Random Forest Regressor. 
+La learning curve mostra che entrambe le curve di training e di validation aumentano all'aumentare del numero di istanze. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{Random Forest Regressor}.}
+Dal punto di vista delle metriche il Random Forest Regressor risulta essere il miglior modello.
+La learning curve mostra che entrambe le curve di training e di validation aumentano all'aumentare del numero di istanze ma la distanza tra gli errori è minore rispetto al Decision Tree Regressor. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{AdaBoost Regressor}.}
+Dal punto di vista delle metriche il AdaBoost Regressor ha ottenuto risultati peggiori rispetto al Decision Tree Regressor in MAE ma risultati molto simili al Random Forest Regressor.
+La learning curve mostrano che il modello non è riuscito a generalizzare bene.
 
+\paragraph{\textbf{Conclusioni}} Con lo split 50/50 il RandomForest sembrerebbe essere il migliore e l'AbaBoost sembra migliorare rispetto al passato, anche se ancora non riesce a generalizzare bene.
+
+\newpage
 \noindent\textbf{Split 60/40}
 
 
@@ -218,7 +257,19 @@ E' possibile notare un miglior bilanciamento delle emissioni. Per quanto riguard
     \label{tab:emissions_info}
 \end{table}
 
-\noindent RandomForest sembrerebbe essere il migliore
+\paragraph{\textbf{SVR}.}
+Dal punto di vista delle metriche il regressore SVR ha ottenuto i peggiori risultati in termini di MAE, RMSE e MSLE. La learning curve mostra che il modello non è in grado di generalizzare, infatti gli errori aumentano all'aumentare del numero delle istanze.
+
+\paragraph{\textbf{Decision Tree Regressor}.}
+Dal punto di vista delle metriche, il Decision Tree Regressor ha ottenuto i risultati secondi al Random Forest Regressor. 
+La learning curve mostra una curva di training che aumenta all'aumentare del numero di istanze, mentre la curva di validation diminuisce. Le due curve si avvicinano, ma non si sovrappongono. Sembra esserci un leggero miglioramento rispetto al passato.
+\paragraph{\textbf{Random Forest Regressor}.}
+Dal punto di vista delle metriche il Random Forest Regressor risulta essere il miglior modello.
+Le curve sono molto simili a quelle del Decision Tree Regressor, ma sembra esserci un leggero miglioramento in quanto più vicine tra loro.
+\paragraph{\textbf{AdaBoost Regressor}.}
+Dal punto di vista delle metriche il AdaBoost Regressor ha ottenuto risultati simili al Decision Tree Regressor nelle metriche. La curva di validation diminuisce all'aumentare delle istanze, quella di training aumenta. Sono molto vicine tra loro tuttativa l'errore è piu alto rispetto agli altri modelli (tranne SVR).
+
+\paragraph{\textbf{Conclusioni}} Con lo split 60/40 il RandomForest sembrerebbe essere il migliore.AdaBoost si comporta peggio rispetto allo split 50/50. DecisionTree anche migliora rispetto al 50/50.
 
 \noindent\textbf{Split 70/30}
 
@@ -259,7 +310,20 @@ E' possibile notare un miglior bilanciamento delle emissioni. Per quanto riguard
     \label{tab:emissions_info}
 \end{table}
 
-\noindent RandomForest sembrerebbe essere il migliore
+\paragraph{\textbf{SVR}.}
+Dal punto di vista delle metriche il regressore SVR ha ottenuto i peggiori risultati in termini di MAE, RMSE e MSLE. La learning curve mostra che il modello non è in grado di generalizzare, infatti gli errori aumentano all'aumentare del numero delle istanze.
+
+\paragraph{\textbf{Decision Tree Regressor}.}
+Dal punto di vista delle metriche, il Decision Tree Regressor ha ottenuto i risultati secondi al Random Forest Regressor, MAE esclusa dove si comporta meglio.
+La learning curve mostra che la curva di training aumenta all'aumentare del numero delle istanze, mentre quella di validation si stabilizza intorno alle 120 istanze. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{Random Forest Regressor}.}
+Dal punto di vista delle metriche il Random Forest Regressor risulta essere il miglior modello.
+La learning curve mostra che la curva di training all'inzio diminuisce all'aumentare del numero delle istanze ma da 85 in poi aumenta. Quella di validation, invece, sulle 80 istanze si stabilizza. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{AdaBoost Regressor}.}
+Dal punto di vista delle metriche il AdaBoost Regressor ha ottenuto risultati peggiori rispetto al Decision Tree Regressor e al Random Forest Regressor.
+La learning curve mostrano che il modello non è riuscito a generalizzare bene, in quanto quella di validation aumenta e diminuisce all'aumentare delle istanze, mentre quella di training aumenta.
+
+\paragraph{\textbf{Conclusioni}} Con lo split 70/30 il RandomForest sembrerebbe essere il migliore, ma si comporta peggio rispetto al 60/40. DecisionTree e AdaBoost si comportano peggio rispetto al 60/40.
 
 
 \noindent\textbf{Split 80/20}
@@ -301,12 +365,24 @@ E' possibile notare un miglior bilanciamento delle emissioni. Per quanto riguard
     \label{tab:emissions_info}
 \end{table}
 
-\noindent RandomForest sembrerebbe essere il migliore
+\paragraph{\textbf{SVR}.}
+Dal punto di vista delle metriche il regressore SVR ha ottenuto i peggiori risultati in termini di MAE, RMSE e MSLE. La learning curve mostra che il modello non è in grado di generalizzare, infatti gli errori aumentano all'aumentare del numero delle istanze.
+
+\paragraph{\textbf{Decision Tree Regressor}.}
+Dal punto di vista delle metriche, il Decision Tree Regressor ha ottenuto i risultati secondi al Random Forest Regressor. 
+La learning curve mostra che la curva di training aumenta all'aumentare del numero delle istanze, mentre quella di validation si stabilizza intorno alle 100 istanze. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{Random Forest Regressor}.}
+Dal punto di vista delle metriche il Random Forest Regressor risulta essere il miglior modello.
+La learning curve mostra una curva di training che aumenta all'aumentare del numero delle istanze, mentre quella di validation si stabilizza intorno alle 100 istanze. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{AdaBoost Regressor}.}
+Dal punto di vista delle metriche il AdaBoost Regressor ha ottenuto risultati peggiori rispetto al Decision Tree Regressor e al Random Forest Regressor.
+La learning curve mostrano che il modello non è riuscito a generalizzare bene in quanto quella di validation diminuisce all'aumentare delle istanze, mentre quella di training aumenta.
+
+\paragraph{\textbf{Conclusioni}} Con lo split 80/20 il RandomForest sembrerebbe essere il migliore. In generale tutti i modelli si comportano peggio rispetto allo split 70/30.
 
 
-
+\newpage
 \noindent\textbf{Split 90/10}
-
 
 \begin{table}[H]
     \centering
@@ -345,11 +421,25 @@ E' possibile notare un miglior bilanciamento delle emissioni. Per quanto riguard
     \label{tab:emissions_info}
 \end{table}
 
-\noindent Il RandomForest sembrerebbe essere il migliore
+\paragraph{\textbf{SVR}.}
+Dal punto di vista delle metriche il regressore SVR ha ottenuto i peggiori risultati in termini di MAE, RMSE e MSLE. La learning curve mostra che il modello non è in grado di generalizzare, infatti gli errori aumentano all'aumentare del numero delle istanze.
+
+\paragraph{\textbf{Decision Tree Regressor}.}
+Dal punto di vista delle metriche, il Decision Tree Regressor ha ottenuto i risultati secondi al Random Forest Regressor. 
+La learning curve mostra che la curva di training aumenta all'aumentare del numero delle istanze, mentre quella di validation diminuisce. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{Random Forest Regressor}.}
+Dal punto di vista delle metriche il Random Forest Regressor risulta essere il miglior modello.
+La learning curve mostra che la curva di tranining aumenta all'aumentare del numero delle istanze, mentre quella di validation si stabilizza sulle 150 istanze. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{AdaBoost Regressor}.}
+Dal punto di vista delle metriche il AdaBoost Regressor ha ottenuto risultati peggiori rispetto al Decision Tree Regressor in MAE ma risultati molto simili al Random Forest Regressor.
+La learning curve mostrano che il modello non è riuscito a generalizzare bene in quanto quella di tranining aumenta all'aumentare delle istanze, mentre quella di validation prima aumenta e poi comincia una lenta discesa.
+
+\paragraph{\textbf{Conclusioni}} Con lo split 90/10 il RandomForest sembrerebbe essere il migliore e l'AbaBoost sembra migliorare rispetto al passato, anche se ancora non riesce a generalizzare bene. In generale i modelli si comportano peggio rispetto agli split precendenti.
+SVR migliora rispetto agli split precedenti, ma rimane comunque il peggior modello.
 
 
 \noindent
-\textbf{Conclusioni}
+\paragraph{\textbf{Conclusioni generali}}
 Come si può notare in generale la riduzione del dataset ha portato a miglioramenti. Per quanto riguarda i diversi split si può notare che alcuni modelli performano meglio con alcuni split, altri modelli con altri. RandomForestRegressor risulta il migliore con lo split 60/40
 
 \newpage
@@ -406,7 +496,20 @@ sono stati eseguti addestramenti con diversi split tra training e test set
     \label{tab:emissions_info}
 \end{table}
 
-\noindent RandomForest sembrerebbe essere il migliore
+\paragraph{\textbf{SVR}.}
+Dal punto di vista delle metriche il regressore SVR ha ottenuto i peggiori risultati in termini di MAE, RMSE e MSLE. La learning curve mostra che il modello non è in grado di generalizzare, infatti gli errori aumentano all'aumentare del numero delle istanze (quella di traning intorno alle 10 istanze supera quella di validation).
+
+\paragraph{\textbf{Decision Tree Regressor}.}
+Dal punto di vista delle metriche, il Decision Tree Regressor ha ottenuto i risultati peggiori al Random Forest Regressor e ad AdaBoost.
+La learning curve mostra che la curva di traning aumenta all'aumentare del numero delle istanze, mentre quella di validation diminuisce. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{Random Forest Regressor}.}
+Dal punto di vista delle metriche il Random Forest Regressor risulta essere il miglior modello.
+La learning curve mostra che entrambe le curve di training e di validation diminuiscono all'aumentare del numero di istanze. Il modello sembrebbe iniziare a generalizzare bene.
+\paragraph{\textbf{AdaBoost Regressor}.}
+Dal punto di vista delle metriche il AdaBoost Regressor ha ottenuto risultati secondi al Random Forest Regressor. La curva di training aumenta all'aumentare delle istanze, mentre quella di validation diminuisce. Il modello dunque non ha generalizzato bene.
+
+\paragraph{\textbf{Conclusioni}} Con lo split 50/50 il RandomForest sembrerebbe essere il migliore. DecisionTree si comporta meglio rispetto al passato. AdaBoost peggiora rispetto al passato.
+
 
 \noindent\textbf{Split 60/40}
 
@@ -447,8 +550,21 @@ sono stati eseguti addestramenti con diversi split tra training e test set
     \label{tab:emissions_info}
 \end{table}
 
-\noindent RandomForest sembrerebbe essere il migliore
+\paragraph{\textbf{SVR}.}
+Dal punto di vista delle metriche il regressore SVR ha ottenuto i peggiori risultati in termini di MAE, RMSE e MSLE. La learning curve mostra che il modello non è in grado di generalizzare, infatti gli errori aumentano all'aumentare del numero delle istanze.
 
+\paragraph{\textbf{Decision Tree Regressor}.}
+Dal punto di vista delle metriche, il Decision Tree Regressor ha ottenuto i risultati peggiori al Random Forest Regressor e ad AdaBoost.
+La learning curve mostra che la curva di traning aumenta all'aumentare del numero delle istanze, mentre quella di validation diminuisce. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{Random Forest Regressor}.}
+Dal punto di vista delle metriche il Random Forest Regressor risulta essere il miglior modello.
+La learning curve mostra che entrambe le curve di training e di validation diminuiscono all'aumentare del numero di istanze. Il modello sembrebbe iniziare a generalizzare bene.
+\paragraph{\textbf{AdaBoost Regressor}.}
+Dal punto di vista delle metriche il AdaBoost Regressor ha ottenuto risultati secondi al Random Forest Regressor. La curva di training aumenta all'aumentare delle istanze, mentre quella di validation diminuisce. Il modello dunque non ha generalizzato bene.
+
+\paragraph{\textbf{Conclusioni}} Con lo split 60/40 il RandomForest sembrerebbe essere il migliore. DecisionTree si comporta meglio rispetto allo split precedente. AdaBoost migliora rispetto allo split precendete.
+
+\newpage
 
 \noindent\textbf{Split 70/30}
 
@@ -489,8 +605,21 @@ sono stati eseguti addestramenti con diversi split tra training e test set
     \label{tab:emissions_info}
 \end{table}
 
-\noindent AdaBoost sembrerebbe essere il migliore
+\paragraph{\textbf{SVR}.}
+Dal punto di vista delle metriche il regressore SVR ha ottenuto i peggiori risultati in termini di MAE, RMSE e MSLE. La learning curve mostra che il modello non è in grado di generalizzare, infatti gli errori aumentano all'aumentare del numero delle istanze.
 
+\paragraph{\textbf{Decision Tree Regressor}.}
+Dal punto di vista delle metriche, il Decision Tree Regressor ha ottenuto i risultati peggiori al Random Forest Regressor e ad AdaBoost.
+La learning curve mostra che la curva di traning aumenta all'aumentare del numero delle istanze, mentre quella di validation diminuisce. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{Random Forest Regressor}.}
+Dal punto di vista delle metriche il Random Forest Regressor risulta essere il miglior modello PER MAE.
+La learning curve mostra che entrambe le curve di training e di validation diminuiscono all'aumentare del numero di istanze. Il modello sembrebbe iniziare a generalizzare bene.
+\paragraph{\textbf{AdaBoost Regressor}.}
+Dal punto di vista delle metriche il AdaBoost Regressor ha ottenuto i migliori risultati in RMSE e MSLE. La curva di training aumenta all'aumentare delle istanze, mentre quella di validation diminuisce. Il modello dunque non ha generalizzato bene.
+
+\paragraph{\textbf{Conclusioni}} Con lo split 70/30 il RandomForest sembrerebbe essere il migliore. DecisionTree si comporta peggio rispetto allo split precedente. AdaBoost peggiora rispetto allo split precedente.
+
+\newpage
 
 \noindent\textbf{Split 80/20}
 
@@ -531,9 +660,21 @@ sono stati eseguti addestramenti con diversi split tra training e test set
     \label{tab:emissions_info}
 \end{table}
 
-\noindent RandomForest sembrerebbe essere il migliore
+\paragraph{\textbf{SVR}.}
+Dal punto di vista delle metriche il regressore SVR ha ottenuto i peggiori risultati in termini di MAE, RMSE e MSLE. La learning curve mostra che il modello non è in grado di generalizzare, infatti gli errori aumentano all'aumentare del numero delle istanze.
 
+\paragraph{\textbf{Decision Tree Regressor}.}
+Dal punto di vista delle metriche, il Decision Tree Regressor ha ottenuto i risultati peggiori al Random Forest Regressor e ad AdaBoost.
+La learning curve mostra che la curva di traning aumenta all'aumentare del numero delle istanze, mentre quella di validation diminuisce. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{Random Forest Regressor}.}
+Dal punto di vista delle metriche il Random Forest Regressor risulta essere il miglior modello.
+La learning curve mostra che la curva di training aumenta all'aumentare del numero delle istanze, mentre quella di validation prima aumenta e poi diminuisce. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{AdaBoost Regressor}.}
+Dal punto di vista delle metriche il AdaBoost Regressor ha ottenuto risultati secondi al Random Forest Regressor. La curva di training aumenta all'aumentare delle istanze, mentre quella di validation aumenta e poi diminuisce. Il modello dunque non ha generalizzato bene.
 
+\paragraph{\textbf{Conclusioni}} Con lo split 80/20 il RandomForest sembrerebbe essere il migliore. DecisionTree si comporta peggio rispetto alo split precedente. AdaBoost migliora rispetto allo split precedente.
+
+\newpage
 
 \noindent\textbf{Split 90/10}
 
@@ -574,8 +715,24 @@ sono stati eseguti addestramenti con diversi split tra training e test set
     \label{tab:emissions_info}
 \end{table}
 
-\noindent RandomForest sembrerebbe essere il migliore
+\paragraph{\textbf{SVR}.}
+Dal punto di vista delle metriche il regressore SVR ha ottenuto i peggiori risultati in termini di MAE, RMSE e MSLE. La learning curve mostra che il modello non è in grado di generalizzare, infatti gli errori aumentano all'aumentare del numero delle istanze (quella di traning intorno alle 10 istanze supera quella di validation).
 
-\noindent\textbf{Conclusioni}
+\paragraph{\textbf{Decision Tree Regressor}.}
+Dal punto di vista delle metriche, il Decision Tree Regressor ha ottenuto risultati secondi al Random Forest Regressor.
+La learning curve mostra che la curva di traning aumenta all'aumentare del numero delle istanze, mentre quella di validation diminuisce. Il modello dunque non ha generalizzato bene.
+\paragraph{\textbf{Random Forest Regressor}.}
+Dal punto di vista delle metriche il Random Forest Regressor risulta essere il miglior modello.
+La learning curve mostra che entrambe le curve di training e di validation diminuiscono all'aumentare del numero di istanze. Il modello sembrebbe iniziare a generalizzare bene.
+\paragraph{\textbf{AdaBoost Regressor}.}
+Dal punto di vista delle metriche il AdaBoost Regressor ha ottenuto risultati peggiori rispetto al Random Forest Regressor e al Decision Tree Regressor. La curva di training aumenta all'aumentare delle istanze, mentre quella di validation diminuisce. Il modello dunque non ha generalizzato bene.
+
+\paragraph{\textbf{Conclusioni}} Con lo split 90/10 il RandomForest sembrerebbe essere il migliore. In genere tutti i modelli (SVR escluso) migliorano rispetto allo split precedente
+
+\paragraph{\textbf{Conclusioni generali}}
 RandomForest sembra essere ancora il migliore.
 Inoltre il dataset completo si comporta meglio rispetto a quello Azure senza e con riduzione
+
+
+\subsubsection{Confronto tra i due dataset}
+Si può notare che il dataset completo si comporta meglio rispetto a quello Azure. Inoltre la riduzione del dataset ha portato a miglioramenti in entrambi i dataset. RandomForest sembra essere il migliore in entrambi i dataset. Inoltre AdaBoost sembra migliorare con la riduzione del dataset. SVR si comporta peggio rispetto agli altri modelli in entrambi i dataset. DecisionTree si comporta meglio con il dataset completo rispetto a quello Azure. Random Forest sembra dunque il miglior modello per questo problema con uno split del 60/40 per il dataset completo, mentre per il dataset Azure sembra essere il miglior modello con uno split del 90/10.
