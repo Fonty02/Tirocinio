@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1713773538.97932 "main.aux" "main.bbl" "main" 1713774337.52428 0
+["bibtex main"] 1713779013.66005 "main.aux" "main.bbl" "main" 1713779030.01655 0
   "./bibliography.bib" 1710195963 60029 3505228279ccf3caae7d666e0a07b0fc ""
   "C:/Users/fonta/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1713774335 41628 1e848a27eb8c892e0a47d52f6ae9fcab "pdflatex"
+  "main.aux" 1713779028 41628 1e848a27eb8c892e0a47d52f6ae9fcab "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1713774320.47649 "c:/Users/fonta/Desktop/Tirocinio/Relazione/main.tex" "main.pdf" "main" 1713774337.52609 0
+["pdflatex"] 1713779014.17446 "c:/Users/fonta/Desktop/Tirocinio/Relazione/main.tex" "main.pdf" "main" 1713779030.0179 0
   "C:/Users/fonta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1710784687 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/fonta/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1710785943 14064 ded5b7aae9723b2732d1fe7f3834db36 ""
   "C:/Users/fonta/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710784362 24233103 3729b742d40f93a448248fd0112072ca ""
@@ -390,11 +390,11 @@
   "images/risultati-valutazione.png" 1710195963 55480 fce76e1a43634652998b69419b778213 ""
   "images/situazione-attuale.png" 1710195963 56054 8210ece2f2aed87419d2f44057620709 ""
   "images/uniba-logo.png" 1710195963 593504 d4521a8a57dd6a041ed548de98f8b93a ""
-  "main.aux" 1713774335 41628 1e848a27eb8c892e0a47d52f6ae9fcab "pdflatex"
-  "main.bbl" 1713773539 12206 eba33862177a02ebe762dd3fb88bb1ff "bibtex main"
-  "main.out" 1713774335 7450 b05678e1f8ad4493863a86525c712fbe "pdflatex"
+  "main.aux" 1713779028 41628 1e848a27eb8c892e0a47d52f6ae9fcab "pdflatex"
+  "main.bbl" 1713779014 12206 eba33862177a02ebe762dd3fb88bb1ff "bibtex main"
+  "main.out" 1713779028 7450 b05678e1f8ad4493863a86525c712fbe "pdflatex"
   "main.tex" 1713770726 1899 93b274d49ec3e315478837adfdfcc962 ""
-  "main.toc" 1713774335 12188 64cb1e4793d83e10c3d47649d271ccdb "pdflatex"
+  "main.toc" 1713779028 12188 64cb1e4793d83e10c3d47649d271ccdb "pdflatex"
   "pages/Dataset.tex" 1713551427 7220 eac047d8b7e46b4e32f912e7512cbcbf ""
   "pages/Introduzione.tex" 1713551427 3842 eac8a701f2cdcb03f8302cad38203c39 ""
   "pages/Modelli.tex" 1713551503 8972 7a1d7a7de74506e2110c24bad3f830ad ""
@@ -402,7 +402,7 @@
   "pages/Risultati.tex" 1713551503 3902 f913ba5ca01fab81320851c8e22a9e7b ""
   "pages/configurazione.tex" 1712911241 2653 cf835a0797ab35ea52f35bb6208f9b38 ""
   "pages/emissioni.tex" 1713551427 2980 72140812ea7c78d81caa74dc7b3adfbc ""
-  "pages/erroriClassi.tex" 1713774311 5233 3d7ee3ccde7979d5fa2b5505db996e37 ""
+  "pages/erroriClassi.tex" 1713778978 5213 ec540e9b8ee7ceccdf377bb2ad937bd2 ""
   "pages/statistiche.tex" 1713550703 13346 8e190c3763b3bd26398137bcc7a4ad47 ""
   "pages/tradeoff.tex" 1713551503 9462 2fcbeb88c22353ad80155263b78a0b7d ""
   (generated)

@@ -11,7 +11,7 @@ Gli errori sono stati calcolati come segue:
         |y - \hat{y}|
          \end{equation*}
     \item \textbf{Errore percentuale}: \begin{equation*}
-        \frac{|y - \hat{y}|}{y}
+        \frac{|y - \hat{y}|}{y} \cdot 100
     \end{equation*}
 \end{itemize}
 dove $y$ è il valore reale e $\hat{y}$ è il valore predetto.
@@ -29,9 +29,9 @@ Nella totalità abbiamo 262 righe nella classe \textbf{low}, 1 nella classe \tex
     \begin{tabular}{|c|c|c|c|}
         \hline
         \textbf{Classe} &  \textbf{Numero elementi} & \textbf{Errore assoluto medio} & \textbf{Errore percentuale medio} \\ \hline
-        low             & 78                & 0.021805                   & 8.130055            \\ \hline
+        low             & 78                & 0.021805                   & 813            \\ \hline
         medium          & 0                & -                  & -            \\ \hline
-        high            & 2                & 0.790026                   & 0.800683            \\ \hline
+        high            & 2                & 0.790026                   & 80            \\ \hline
     \end{tabular}
     \caption{Errori delle classi per il dataset completo}
 \end{table}
@@ -48,9 +48,9 @@ Nella totalità abbiamo 228 righe nella classe \textbf{low}, 17 nella classe \te
     \begin{tabular}{|c|c|c|c|}
         \hline
         \textbf{Classe} &  \textbf{Numero elementi} & \textbf{Errore assoluto medio} & \textbf{Errore percentuale medio} \\ \hline
-        low             & 69                & 0.004995                   & 17.239501            \\ \hline
-        medium          & 7                & 0.021113                  & 0.519728            \\ \hline
-        high            & 1                & 0.025475                   & 0.412309            \\ \hline
+        low             & 69                & 0.004995                   & 1723.95            \\ \hline
+        medium          & 7                & 0.021113                  & 51.97            \\ \hline
+        high            & 1                & 0.025475                   & 41.23            \\ \hline
     \end{tabular}
     \caption{Errori delle classi per il dataset completo ridotto}
 \end{table}
@@ -68,9 +68,9 @@ Nella totalità abbiamo 88 righe nella classe \textbf{low}, 1 nella classe \text
     \begin{tabular}{|c|c|c|c|}
         \hline
         \textbf{Classe} &  \textbf{Numero elementi} & \textbf{Errore assoluto medio} & \textbf{Errore percentuale medio} \\ \hline
-        low             & 78                & 0.044774                   & 1.886323            \\ \hline
+        low             & 78                & 0.044774                   & 188.63            \\ \hline
         medium          & 0                & -                  & -            \\ \hline
-        high            & 2                & 0.588654                   & 0.667605            \\ \hline
+        high            & 2                & 0.588654                   & 66.76            \\ \hline
     \end{tabular}
     \caption{Errori delle classi per il dataset Azure}
 \end{table}
@@ -87,8 +87,8 @@ Nella totalità abbiamo 64 righe nella classe \textbf{low}, 13 nella classe \tex
     \begin{tabular}{|c|c|c|c|}
         \hline
         \textbf{Classe} &  \textbf{Numero elementi} & \textbf{Errore assoluto medio} & \textbf{Errore percentuale medio} \\ \hline
-        low             & 20                & 0.005607                   & 1.031516            \\ \hline
-        medium          & 5                & 0.017295                  & 0.617001            \\ \hline
+        low             & 20                & 0.005607                   & 103.15            \\ \hline
+        medium          & 5                & 0.017295                  & 61.7            \\ \hline
         high            & 0                & -                   & -            \\ \hline
     \end{tabular}
     \caption{Errori delle classi per il dataset Azure ridotto}
