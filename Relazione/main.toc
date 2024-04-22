@@ -152,3 +152,8 @@
 \contentsline {paragraph}{\textbf {Conclusioni}}{68}{section*.193}%
 \contentsline {paragraph}{\textbf {Conclusioni generali}}{68}{section*.194}%
 \contentsline {subsubsection}{\numberline {9.2.3}Confronto tra i quattro dataset}{68}{subsubsection.9.2.3}%
+\contentsline {section}{\numberline {10}Errori delle classi}{69}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Dataset Completo}{69}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Dataset Completo Ridotto}{69}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Dataset Azure}{70}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Dataset Azure Ridotto}{70}{subsection.10.4}%
