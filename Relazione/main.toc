@@ -157,3 +157,6 @@
 \contentsline {subsection}{\numberline {10.2}Dataset Completo Ridotto}{69}{subsection.10.2}%
 \contentsline {subsection}{\numberline {10.3}Dataset Azure}{70}{subsection.10.3}%
 \contentsline {subsection}{\numberline {10.4}Dataset Azure Ridotto}{70}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Criterio di early stopping modificato}{71}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Introduzione}{71}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Risultati}{72}{subsection.11.2}%
