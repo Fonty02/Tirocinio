@@ -11,7 +11,7 @@ Il classico criterio di early stopping prevede di fermare l'addestramento del mo
 \end{figure}
 
 \noindent Questa curva mostra mostra il comportamento dello score in funzione delle emissioni. In particolare si tiene traccia solo delle epoche in cui lo score è migliorato rispetto al risultato migliore.
-Si può notareee coome la curva presenti una forte crescita iniziale, per poi stabilizzarsi e avere un andamento quasi lineare.
+Si può notare come la curva presenti una forte crescita iniziale, per poi stabilizzarsi e avere un andamento quasi lineare.
 Questo andamento lineare indica dunque un miglioramento molto piccolo dello score rispetto alle emissioni.
 
 \noindent Il criterio di early stopping con emissioni si pone dunque come obiettivo quello di fermare l'addestramento del modello quando il miglioramento dello score rispetto alle emissioni è troppo piccolo.
@@ -22,7 +22,7 @@ L'idea alla base sarebbe quello di fermare l'addestramento studiando la derivata
 
 \noindent Quando la differenza tra due rapporti consecutivi è minore di una certa soglia, per un certo numero di volte consecutive, si ferma l'addestramento del modello.
 
-\subsection{Risultati}
+\subsection{Primo esperimento}
 
 Il primo esperimento è stato compiuto con il dataset MovieLens-1m. La soglia è stata impostata a 50 e il numero di epoche consecutive a 5.
 
@@ -49,29 +49,29 @@ Il primo esperimento è stato compiuto con il dataset MovieLens-1m. La soglia è
     \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|}
         \hline
-        \textbf{Modello} & \textbf{Emissioni criterio classico} & \textbf{Emissioni criterio nuovo} & \textbf{\% riduzione emissioni}\\
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni}\\
         \hline
-        BPR & 0.0039484410735596 & 0.0023033357250144 & 41.66468025979944 \\
+        BPR & 3.9484 & 2.3033 & 41.6647 \\
         \hline
-        CKFG & 0.0058809963315004 & 0.0017677235676938 & 69.94176720999916 \\
+        CKFG & 5.881 & 1.767 & 69.9418 \\
         \hline
-        CKE & 0.0056839400805431 & 0.0019837209300914 & 65.09954535090989 \\
+        CKE & 5.68394 & 1.9837 & 65.09955 \\
         \hline
-        DMF & 0.0022927107080996 & 0.0019667838359149 & 14.21578706084803 \\
+        DMF & 2.2927 & 1.9667 & 14.2158 \\
         \hline
-        KGCN & 0.0068754360865535 & 0.0014540033748426 & 78.85220142346697 \\
+        KGCN & 6.8754 & 1.454 & 78.8522 \\
         \hline
-        KGNNLS & 0.0077630102482626 & 0.0017017676558759 & 78.07850818879488 \\
+        KGNNLS & 7.763 & 1.70177 & 78.0785 \\
         \hline
-        LINE & 0.0019128751122784 & 0.0013831331993146 & 27.693491831405115 \\
+        LINE & 1.9128 & 1.3831 & 27.6935 \\
         \hline
-        MultiDAE & 0.0080303354663545 & 0.0022960839796295 & 71.4073715942549 \\
+        MultiDAE & 8.0303 & 2.29608 & 71.40737 \\
         \hline
-        LightGCN & 0.0156259694833856 & 0.00149257404153 & 90.44811879917603 \\
+        LightGCN & 15.626 & 1.4926 & 90.4481 \\
         \hline
-        NGCF & 0.0077581795314332 & 0.0026600754977172 & 65.71263288069599 \\
+        NGCF & 7.7582 & 2.6601 & 65.7126 \\
         \hline
-        DGCF & 0.0949030178650827 & 0.0104625019174358 & 88.97558565280859\\
+        DGCF & 94.903 & 10.4625 & 88.9756\\
         \hline
     \end{tabular}
     }
@@ -211,3 +211,140 @@ Ecco perchè la percentuale di riduzione degli score è negativa per giniindex e
 Possiamo notare come LINE e DMF non abbiano subito variazioni di score, mentre LightGCN e DGCF abbiano subito una riduzione molto alta (in percentuale comunque molto inferiore rispetto alla riduzione delle emissioni).
 Probabilmente per LINE e DMF il criterio di early stopping classico ha portato ad eseguire qualche epoca in più ma che non ha portato a miglioramenti.
 
+\subsection{Secondo esperimento}
+Il secondo esperimento è stato compiuto con il dataset LFM-1b\_artist\_20U50I\_25strat. La soglia è stata impostata a 30 e il numero di epoche consecutive a 7, dunque un criterio più stringente dal punto di vista della soglia ma meno stringente dal punto di vista delle epoche consecutive.
+
+
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \setlength\tabcolsep{0pt}
+    \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png} &
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_LFM-1b_artist_20U50I_25strat_earlyModified.png} \\
+        \hline
+    \end{tabularx}
+    \caption{Emissioni con criterio classico e modificato}
+    \label{tab:emissions_info}
+\end{table}
+
+
+
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni}\\
+        \hline
+        BPR & 4.6785 & 4.8381 & -3.4125 \\
+        \hline
+        CKFG & 2.8024 & 2.8539 & -1.8368 \\
+        \hline
+        CKE & 4.8062 & 1.6694 & 65.2659 \\
+        \hline
+        DMF & 5.1886 & 5.3978 & -4.0321 \\
+        \hline
+        KGCN & 4.9718 & 5.0108 & -0.7863 \\
+        \hline
+        KGNNLS & 4.9701 & 5.0453 & -1.5133 \\
+        \hline
+        LINE & 6.0602 & 6.2294 & -2.7912 \\
+        \hline
+        MultiDAE & 7.1668 & 3.1731 & 55.7245 \\
+        \hline
+        LightGCN & 21.4561 & 6.2812 & 70.7256 \\
+        \hline
+        NGCF & 15.8887 & 1.0731 & 93.2463 \\
+        \hline
+        DGCF & 28.2945 & 5.3468 & 81.103\\
+        \hline
+    \end{tabular}
+    }
+    \caption{Confronto delle emissioni}
+\end{table}
+
+\noindent La soglia più stringente mostra chiaramente come la riduzione delle emissioni sia meno alta rispetto al primo esperimento.
+Per alcuni modelli vengono registrate addirittura delle variazioni negative, ovvero le emissioni sono aumentate rispetto al criterio classico. Questo potrebbe dipende da un picco di consumi dell'hardware in un certo momento, dovuto magari a qualche processo in background.
+NGCF è l'unico modello in cui si registra un'aumento della percentuale di riduzione delle emissioni rispetto al primo esperimento.
+
+
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \setlength\tabcolsep{0pt}
+    \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png} &
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/ndcg@10_LFM-1b_artist_20U50I_25strat_comparison.png} \\
+        \hline
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/giniindex@10_LFM-1b_artist_20U50I_25strat_comparison.png} &
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png} \\
+        \hline
+    \end{tabularx}
+    \caption{Confronto di performance tra criteri}
+    \label{tab:emissions_info}
+\end{table}
+
+
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score}\\
+            \hline
+            BPR              & recall@10         & 0.0772                            & 0.0772                         & 0.0                         \\ \hline
+            CFKG             & recall@10         & 0.1387                            & 0.1387                         & 0.0                         \\ \hline
+            CKE              & recall@10         & 0.1066                            & 0.1078                         & -1.1257                     \\ \hline
+            DMF              & recall@10         & 0.0698                            & 0.0698                         & 0.0                         \\ \hline
+            KGCN             & recall@10         & 0.1299                            & 0.1299                         & 0.0                         \\ \hline
+            KGNNLS           & recall@10         & 0.1299                            & 0.1299                         & 0.0                         \\ \hline
+            LINE             & recall@10         & 0.0496                            & 0.0496                         & 0.0                         \\ \hline
+            MultiDAE         & recall@10         & 0.1024                            & 0.0806                         & 21.2891                     \\ \hline
+            LightGCN         & recall@10         & 0.1012                            & 0.0773                         & 23.6166                     \\ \hline
+            NGCF             & recall@10         & 0.0947                            & 0.0183                         & 80.6758                     \\ \hline
+            DGCF             & recall@10         & 0.0901                            & 0.0774                         & 14.0954                     \\ \hline
+            BPR              & ndcg@10           & 0.04                              & 0.04                           & 0.0                         \\ \hline
+            CFKG             & ndcg@10           & 0.0687                            & 0.0687                         & 0.0                         \\ \hline
+            CKE              & ndcg@10           & 0.0539                            & 0.0532                         & 1.2987                      \\ \hline
+            DMF              & ndcg@10           & 0.0359                            & 0.0359                         & 0.0                         \\ \hline
+            KGCN             & ndcg@10           & 0.0621                            & 0.0621                         & 0.0                         \\ \hline
+            KGNNLS           & ndcg@10           & 0.0621                            & 0.0621                         & 0.0                         \\ \hline
+            LINE             & ndcg@10           & 0.0261                            & 0.0261                         & 0.0                         \\ \hline
+            MultiDAE         & ndcg@10           & 0.0522                            & 0.0419                         & 19.7318                     \\ \hline
+            LightGCN         & ndcg@10           & 0.0523                            & 0.0399                         & 23.7094                     \\ \hline
+            NGCF             & ndcg@10           & 0.0488                            & 0.009                          & 81.5574                     \\ \hline
+            DGCF             & ndcg@10           & 0.0464                            & 0.0397                         & 14.4397                     \\ \hline
+            BPR              & averagepopularity@10 & 877.7191                       & 877.7191                       & 0.0                         \\ \hline
+            CFKG             & averagepopularity@10 & 686.1384                       & 686.1384                       & 0.0                         \\ \hline
+            CKE              & averagepopularity@10 & 492.1156                       & 507.6022                       & -3.1469                     \\ \hline
+            DMF              & averagepopularity@10 & 872.5193                       & 872.5193                       & 0.0                         \\ \hline
+            KGCN             & averagepopularity@10 & 635.7879                       & 635.7879                       & 0.0                         \\ \hline
+            KGNNLS           & averagepopularity@10 & 635.7866                       & 635.7866                       & 0.0                         \\ \hline
+            LINE             & averagepopularity@10 & 244.7699                       & 244.7699                       & 0.0                         \\ \hline
+            MultiDAE         & averagepopularity@10 & 700.0905                       & 929.5664                       & -32.778                     \\ \hline
+            LightGCN         & averagepopularity@10 & 680.2857                       & 902.6965                       & -32.6937                    \\ \hline
+            NGCF             & averagepopularity@10 & 734.8359                       & 112.7163                       & 84.661                      \\ \hline
+            DGCF             & averagepopularity@10 & 742.4452                       & 892.5034                       & -20.2114                    \\ \hline
+            BPR              & giniindex@10       & 0.9991                           & 0.9991                         & 0.0                         \\ \hline
+            CFKG             & giniindex@10       & 0.9989                           & 0.9989                         & 0.0                         \\ \hline
+            CKE              & giniindex@10       & 0.9926                           & 0.9929                         & -0.0302                    \\ \hline
+            DMF              & giniindex@10       & 0.9996                           & 0.9996                         & 0.0                         \\ \hline
+            KGCN             & giniindex@10       & 0.9978                           & 0.9978                         & 0.0                         \\ \hline
+            KGNNLS           & giniindex@10       & 0.9978                           & 0.9978                         & 0.0                         \\ \hline
+            LINE             & giniindex@10       & 0.984                            & 0.984                          & 0.0                         \\ \hline
+            MultiDAE         & giniindex@10       & 0.998                            & 0.9995                         & -0.1503                    \\ \hline
+            LightGCN         & giniindex@10       & 0.9953                           & 0.9993                          & -0.4019                    \\ \hline
+            NGCF             & giniindex@10       & 0.9865                           & 0.8987                         & 8.9002                      \\ \hline
+            DGCF             & giniindex@10       & 0.996                           & 0.9993                         & -0.3313                    \\ \hline
+        \end{tabular}
+    }
+    \caption{Confronto degli score tra criteri e modelli}
+\end{table}
+
+Si può chiaramente notare come gli algoritmi che prima avevano registrato un aumento delle emissiooni abbiano le stesse performance ad ogni metrica.
+Questo è un chiaro segno che in questo caso gli algoritmi in entrambi i casi abbiano terminato l'esecuzione con il criterio di early stopping classico e che le emissioni abbiano subito un picco in un certo momento dovuto ad altri fattori.
+Si può chiaramente notare come, rispetto al primo esperimento, tutti gli altri modelli, ad eccezione di NGCF, abbiano subito una riduzione delle performance molto più bassa rispetto al primo esperimento a fronte di riduzione di emissioni minori, a conferma che il criterio più stringente ha permesso a questi modelli di continuare l'addestramento e dunque essere allenati per più epoche.
+Un anomalia si può notare per NGCF, che ha subito una riduzione delle performance molto alta rispetto al primo esperimento a fronte di una riduzione delle emissioni molto più alte. In entrambi i casi la differenza di errore è dell'ordine dei centesimi. Questo potrebbe essere dovuto al un dataset con diverse caratteristiche rispetto al precedente.
