@@ -160,4 +160,5 @@
 \contentsline {section}{\numberline {11}Criterio di early stopping modificato}{71}{section.11}%
 \contentsline {subsection}{\numberline {11.1}Introduzione}{71}{subsection.11.1}%
 \contentsline {subsection}{\numberline {11.2}Primo esperimento}{72}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Secondo esperimento}{75}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.3}Secondo esperimento}{77}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Terzo esperimento}{83}{subsection.11.4}%
