@@ -504,9 +504,11 @@ Il terzo esperimento è stato eseguito sul dataset amazon\_books\_60core\_kg e i
 
 \begin{table}[H]
     \centering
-    \begin{tabular}{|l|l|l|l|l|}
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|c|c|c|c|c|}
     \hline
-    \textbf{Modello} & \textbf{Metrica} & \textbf{Performance classica} & \textbf{Performance modificata} & \textbf{Riduzione performance (\%)} \\ \hline
+    \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score}\\
+    \hline
     BPR              & recall@10         & 0.0393                        & 0.0214                          & 45.5471                               \\ \hline
     CFKG             & recall@10         & 0.0929                        & 0.0243                          & 73.8428                               \\ \hline
     CKE              & recall@10         & 0.0977                        & 0.0532                          & 45.5476                               \\ \hline
@@ -548,8 +550,8 @@ Il terzo esperimento è stato eseguito sul dataset amazon\_books\_60core\_kg e i
     LightGCN         & giniindex@10     & 0.8761                        & 0.9964                          & -13.7313                              \\ \hline
     NGCF             & giniindex@10     & 0.9011                        & 0.7956                          & 11.7079                               \\ \hline
     \end{tabular}
+    }
     \caption{Performance dei modelli su diverse metriche e dataset}
-    \label{tab:my-table}
     \end{table}
 
 

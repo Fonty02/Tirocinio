@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.8)  12 MAY 2024 19:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.8)  12 MAY 2024 20:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2412,10 +2412,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [85 <./images/ndcg@10_amazon_books_60core_kg_comparison.png> <./images/giniindex@10_amazon_books_60core_kg_comparison.png>]
-Overfull \hbox (178.38925pt too wide) in paragraph at lines 507--551
- [][] 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2427,7 +2423,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <images/decrement_averagepopularity@10_amazon_books_60core_kg.png, id=1191, 722.7pt x 361.35pt>
 File: images/decrement_averagepopularity@10_amazon_books_60core_kg.png Graphic file (type png)
 <use images/decrement_averagepopularity@10_amazon_books_60core_kg.png>
-Package pdftex.def Info: images/decrement_averagepopularity@10_amazon_books_60core_kg.png  used on input line 558.
+Package pdftex.def Info: images/decrement_averagepopularity@10_amazon_books_60core_kg.png  used on input line 560.
 (pdftex.def)             Requested size: 361.3491pt x 180.67456pt.
 
 
@@ -2441,17 +2437,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <images/decrement_giniindex@10_amazon_books_60core_kg.png, id=1197, 722.7pt x 361.35pt>
 File: images/decrement_giniindex@10_amazon_books_60core_kg.png Graphic file (type png)
 <use images/decrement_giniindex@10_amazon_books_60core_kg.png>
-Package pdftex.def Info: images/decrement_giniindex@10_amazon_books_60core_kg.png  used on input line 564.
+Package pdftex.def Info: images/decrement_giniindex@10_amazon_books_60core_kg.png  used on input line 566.
 (pdftex.def)             Requested size: 361.3491pt x 180.67456pt.
 <images/decrement_ndcg@10_amazon_books_60core_kg.png, id=1198, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_amazon_books_60core_kg.png Graphic file (type png)
 <use images/decrement_ndcg@10_amazon_books_60core_kg.png>
-Package pdftex.def Info: images/decrement_ndcg@10_amazon_books_60core_kg.png  used on input line 570.
+Package pdftex.def Info: images/decrement_ndcg@10_amazon_books_60core_kg.png  used on input line 572.
 (pdftex.def)             Requested size: 361.3491pt x 180.67456pt.
 <images/decrement_recall@10_amazon_books_60core_kg.png, id=1199, 722.7pt x 361.35pt>
 File: images/decrement_recall@10_amazon_books_60core_kg.png Graphic file (type png)
 <use images/decrement_recall@10_amazon_books_60core_kg.png>
-Package pdftex.def Info: images/decrement_recall@10_amazon_books_60core_kg.png  used on input line 576.
+Package pdftex.def Info: images/decrement_recall@10_amazon_books_60core_kg.png  used on input line 578.
 (pdftex.def)             Requested size: 361.3491pt x 180.67456pt.
 
 
@@ -2514,15 +2510,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C51133FF75E6E4D33CAFBDF939883BEF;8266.
  ) 
 Here is how much of TeX's memory you used:
- 37581 strings out of 474457
- 861324 string characters out of 5754949
+ 37580 strings out of 474457
+ 861310 string characters out of 5754949
  1955190 words of memory out of 5000000
- 58816 multiletter control sequences out of 15000+600000
+ 58815 multiletter control sequences out of 15000+600000
  577264 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,117p,763b,625s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\fonta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (93 pages, 5020953 bytes).
+Output written on main.pdf (93 pages, 5021137 bytes).
 PDF statistics:
  1399 PDF objects out of 1440 (max. 8388607)
  433 named destinations out of 1000 (max. 500000)
