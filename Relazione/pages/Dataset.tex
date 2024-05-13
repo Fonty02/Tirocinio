@@ -1,4 +1,4 @@
-\section{Dataset del regressore}
+\subsection {Dataset del regressore}
 In questo capitolo si analizza il dataset utilizzato e come questo è stato trattato per l'addestramento dei modelli. Inoltre, si descrivono le feature di input e output del modello.
 
 \noindent Il dataset nella sua totalità è composto da 13 feature di input e una feature di output. Le feature di input possiamo suddividerle in 4 categorie:
@@ -11,7 +11,7 @@ In questo capitolo si analizza il dataset utilizzato e come questo è stato trat
 Nel dataset sono presenti 201 righe (dunque 201 esperimenti distinti).
 \subsection{Descrizione delle feature di output}
 La feature di output \textit{emissions} rappresenta le emissioni di CO$_2$eq prodotte dalla macchina durante l'addestramento del modello.
-\subsection{Descrizione delle feature di input}
+\subsubsection{Descrizione delle feature di input}
 \begin{center}
 \begin{table}[H]
     \centering
@@ -113,7 +113,7 @@ Altri valori unici presenti per le varie feature di input sono:
     \item \textbf{ram\_size}: [64, 16, 27.40581512]
     \item \textbf{is\_gpu}: [1, 0]
 \end{itemize}
-\subsection{Pre-Processing}
+\subsubsection{Pre-Processing}
 
 Per poter sfruttare le feature di input per l'addestramento del modello, è stato necessario effettuare un pre-processing. Le feature \textit{model\_name} e \textit{model\_type} sono state trasformate in variabili numeriche. In particolare il valore \textit{general} è stato trasformato in 0 e il valore \textit{knowledge} è stato trasformato in 1.
 Per quanto riguarda la feature \textit{model\_name}, ogni valore è stato trasformato in un numero intero univoco. In questo modo, il modello può sfruttare queste feature per l'addestramento.

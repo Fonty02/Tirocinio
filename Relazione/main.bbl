@@ -22,6 +22,12 @@ Ting Bai, Ji-Rong Wen, Jun Zhang, and Wayne~Xin Zhao.
   Knowledge Management}, CIKM '17, page 1979–1982, New York, NY, USA, 2017.
   Association for Computing Machinery.
 
+\bibitem{KnowledgeBased}
+Robin Burke.
+\newblock Knowledge-based recommender systems.
+\newblock {\em Encyclopedia of library and information systems}, 69(Supplement
+  32):175--186, 2000.
+
 \bibitem{KTUP}
 Yixin Cao, Xiang Wang, Xiangnan He, Zikun Hu, and Tat-Seng Chua.
 \newblock Unifying knowledge graph learning and recommendation: Towards a
@@ -34,6 +40,12 @@ Chong Chen, Min Zhang, Yongfeng Zhang, Yiqun Liu, and Shaoping Ma.
 \newblock Efficient neural matrix factorization without sampling for
   recommendation.
 \newblock {\em ACM Trans. Inf. Syst.}, 38(2), jan 2020.
+
+\bibitem{RecommenderSustainability}
+Alexander Felfernig, Manfred Wundara, Thi Ngoc~Trang Tran, Seda Polat-Erdeniz,
+  Sebastian Lubos, Merfat El~Mansi, Damian Garber, and Viet-Man Le.
+\newblock Recommender systems for sustainability: overview and research issues.
+\newblock {\em Frontiers in Big Data}, 6, 2023.
 
 \bibitem{LightGCN}
 Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, YongDong Zhang, and Meng Wang.
@@ -61,6 +73,12 @@ Xiangnan He, Lizi Liao, Hanwang Zhang, Liqiang Nie, Xia Hu, and Tat-Seng Chua.
 \newblock In {\em Proceedings of the 26th International Conference on World
   Wide Web}, WWW '17, page 173–182, Republic and Canton of Geneva, CHE, 2017.
   International World Wide Web Conferences Steering Committee.
+
+\bibitem{DataSparsity}
+Zan Huang, Hsinchun Chen, and Daniel Zeng.
+\newblock Applying associative retrieval techniques to alleviate the sparsity
+  problem in collaborative filtering.
+\newblock {\em ACM Trans. Inf. Syst.}, 22(1):116–142, jan 2004.
 
 \bibitem{FISM}
 Santosh Kabbur, Xia Ning, and George Karypis.
@@ -90,6 +108,13 @@ Zihan Lin, Changxin Tian, Yupeng Hou, and Wayne~Xin Zhao.
 \newblock In {\em Proceedings of the ACM Web Conference 2022}, WWW ’22. ACM,
   April 2022.
 
+\bibitem{RecommenderOverview}
+Linyuan Lü, Matúš Medo, Chi~Ho Yeung, Yi-Cheng Zhang, Zi-Ke Zhang, and Tao
+  Zhou.
+\newblock Recommender systems.
+\newblock {\em Physics Reports}, 519(1):1--49, 2012.
+\newblock Recommender Systems.
+
 \bibitem{MacridVAE}
 Jianxin Ma, Chang Zhou, Peng Cui, Hongxia Yang, and Wenwu Zhu.
 \newblock {\em Learning disentangled representations for recommendation}.
@@ -103,6 +128,12 @@ Kelong Mao, Jieming Zhu, Jinpeng Wang, Quanyu Dai, Zhenhua Dong, Xi~Xiao, and
   Information \& Knowledge Management}, CIKM '21, page 1243–1252, New York,
   NY, USA, 2021. Association for Computing Machinery.
 
+\bibitem{Attacchi}
+Bamshad Mobasher, Robin Burke, Runa Bhaumik, and Chad Williams.
+\newblock Toward trustworthy recommender systems: An analysis of attack models
+  and algorithm robustness.
+\newblock {\em ACM Trans. Internet Technol.}, 7(4):23–es, oct 2007.
+
 \bibitem{SLIMElastic}
 Xia Ning and George Karypis.
 \newblock Slim: Sparse linear methods for top-n recommender systems.
@@ -115,6 +146,18 @@ Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, and Lars Schmidt-Thieme.
 \newblock In {\em Proceedings of the Twenty-Fifth Conference on Uncertainty in
   Artificial Intelligence}, UAI '09, page 452–461, Arlington, Virginia, USA,
   2009. AUAI Press.
+
+\bibitem{ColdStart}
+Andrew~I. Schein, Alexandrin Popescul, Lyle~H. Ungar, and David~M. Pennock.
+\newblock Methods and metrics for cold-start recommendations.
+\newblock In {\em Proceedings of the 25th Annual International ACM SIGIR
+  Conference on Research and Development in Information Retrieval}, SIGIR '02,
+  page 253–260, New York, NY, USA, 2002. Association for Computing Machinery.
+
+\bibitem{GreenAI}
+Roy Schwartz, Jesse Dodge, Noah~A. Smith, and Oren Etzioni.
+\newblock Green ai.
+\newblock {\em Commun. ACM}, 63(12):54–63, nov 2020.
 
 \bibitem{RecVAE}
 Ilya Shenbin, Anton Alekseev, Elena Tutubalina, Valentin Malykh, and Sergey~I.
@@ -240,6 +283,11 @@ Yao Wu, Christopher DuBois, Alice~X. Zheng, and Martin Ester.
 \newblock In {\em Proceedings of the Ninth ACM International Conference on Web
   Search and Data Mining}, WSDM '16, page 153–162, New York, NY, USA, 2016.
   Association for Computing Machinery.
+
+\bibitem{sostenibilita}
+Aimee Wynsberghe.
+\newblock Sustainable ai: Ai for sustainability and the sustainability of ai.
+\newblock {\em AI and Ethics}, 1, 02 2021.
 
 \bibitem{DMF}
 Hong-Jian Xue, Xinyu Dai, Jianbing Zhang, Shujian Huang, and Jiajun Chen.
