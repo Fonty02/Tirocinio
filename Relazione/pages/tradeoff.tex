@@ -1,7 +1,7 @@
-\section{Trade-off}
+\subsection{Trade-off}
 
 
-\subsection{Introduzione}
+\subsubsection{Introduzione}
 In questa sezione verranno analizzati i trade-off tra le varie metriche di valutazione e le emissioni di CO2 analizzando un dataset per volta.
 
 Di seguito un elenco delle metriche con una piccola descrizione:
@@ -12,7 +12,7 @@ Di seguito un elenco delle metriche con una piccola descrizione:
     \item Average Popularity: è una metrica che misura la popolarità media degli item raccomandati. Un valore alto indica che le raccomandazioni sono concentrate su item popolari.
 \end{itemize}
 
-\subsection{LFM-1b\_artist\_20U50I}
+\subsubsection{LFM-1b\_artist\_20U50I}
 
 
 \begin{table}[H]
@@ -37,7 +37,7 @@ Per quanto riguarda il Gini Index possiamo notare che DGCF si comporta meglio di
 Infine, per quanto riguarda l'Average Popularity, anche in questo caso possiamo notare anche che DGCF performa meglio di altri modelli, ma LINE risulta il miglior in assoluto ed è uno degli algoritmi che emette meno.
 
 
-\subsection{LFM-1b\_artist\_20U50I\_75strat}
+\subsubsection{LFM-1b\_artist\_20U50I\_75strat}
 
 
 \begin{table}[H]
@@ -66,7 +66,7 @@ Infine, per quanto riguarda l'Average Popularity, anche in questo caso possiamo 
 
 
 
-\subsection{LFM-1b\_artist\_20U50I\_50strat}
+\subsubsection{LFM-1b\_artist\_20U50I\_50strat}
 
 
 \begin{table}[H]
@@ -93,7 +93,7 @@ Infine, per quanto riguarda l'Average Popularity, anche in questo caso possiamo 
 
 
 
-\subsection{LFM-1b\_artist\_20U50I\_25strat}
+\subsubsection{LFM-1b\_artist\_20U50I\_25strat}
 
 
 \begin{table}[H]
@@ -119,7 +119,7 @@ Per quanto riguarda il Gini Index possiamo notare che DGCF si comporta meglio di
 Infine, per quanto riguarda l'Average Popularity, in questo caso possiamo notare anche che DGCF è uno dei peggiori mentre ItemKNN risulta il miglior in assoluto ed è l'algoritmo che emette meno.
 
 
-\subsection{ml-10m\_50U10I}
+\subsubsection{ml-10m\_50U10I}
 
 
 \begin{table}[H]
@@ -144,7 +144,7 @@ Emissioni cosi alte non sono però giustificate. Nelle metriche di recall e ndcg
 ItemKNN si conferma uno dei migliori algoritmi per queste due metriche in quanto emette meno ed è uno dei più performanti.
 Per quanto riguarda le metriche di Gini Index e Average Popularity possiamo notare che LightGCN è uno di migliori, ma anche in questo caso la differenza rispetto ad altri modelli non giustifica emissioni così alte. ItemKNN si conferma con il secondo peggior modello come punteggi. Line risulta essere il migliore in quanto è il secondo per basse emissioni ed ottiene i punteggi migliori. 
 
-\subsection{Conclusioni}
+\subsubsection{Conclusioni}
 
 Si può facilmente notare come il trade-off emissioni-performance sia decisamente a svantaggio dell'DGCF. Infatti, a fronte di emissioni molto elevate, le performance risultato spesso essere peggiori di modelli molto più semplici.
 Con i due dataset più grandi possiamo notare come in generale ItemKNN risulti essere uno degli algoritmi con il miglior trade-off emissioni-performance nelle metriche di ranking, mentre LINE risulta essere il migliore nelle metriche di popolarità e equità nelle distribuzioni.

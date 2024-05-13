@@ -1,4 +1,4 @@
-\section{Errori delle classi}
+\subsection{Errori delle classi}
 
 Lo step successivo è stato quello di analizzare gli errori di predizione delle classi per ogni dataset.
 Si è deciso di procedere per ogni dataset con il modello del RandomForestRegressor in quanto risulta essere il migliore in ogni caso.
@@ -17,7 +17,7 @@ Gli errori sono stati calcolati come segue:
 dove $y$ è il valore reale e $\hat{y}$ è il valore predetto.
 
 
-\subsection{Dataset Completo}
+\subsubsection{Dataset Completo}
 
 Il dataset completo conta 265 righe, di cui 185 per il training e 80 per il testing.
 Il calcolo delle classi vede come \textbf{low\_bound} delle emissioni 0.36027045739563296 mentre l' \textbf{high\_bound} è 0.7205403996360675.
@@ -36,7 +36,7 @@ Nella totalità abbiamo 262 righe nella classe \textbf{low}, 1 nella classe \tex
     \caption{Errori delle classi per il dataset completo}
 \end{table}
 
-\subsection{Dataset Completo Ridotto}
+\subsubsection{Dataset Completo Ridotto}
 
 Il dataset completo "ridotto" conta 254 righe, di cui 177 per il training e 77 per il testing.
 Il calcolo delle classi vede come \textbf{low\_bound} delle emissioni 0.029759662206275274 mentre l' \textbf{high\_bound} è 0.059518809257352256.
@@ -56,7 +56,7 @@ Nella totalità abbiamo 228 righe nella classe \textbf{low}, 17 nella classe \te
 \end{table}
 
 
-\subsection{Dataset Azure}
+\subsubsection{Dataset Azure}
 
 Il dataset Azure conta 91 righe, di cui 63 per il training e 28 per il testing.
 Il calcolo delle classi vede come \textbf{low\_bound} delle emissioni 0.3610033427811713 mentre l' \textbf{high\_bound} è 0.7203571782896829.
@@ -75,7 +75,7 @@ Nella totalità abbiamo 88 righe nella classe \textbf{low}, 1 nella classe \text
     \caption{Errori delle classi per il dataset Azure}
 \end{table}
 
-\subsection{Dataset Azure Ridotto}
+\subsubsection{Dataset Azure Ridotto}
 
 Il dataset Azure "ridotto" conta 83 righe, di cui 58 per il training e 25 per il testing.
 Il calcolo delle classi vede come \textbf{low\_bound} delle emissioni 0.021137526211647432 mentre l' \textbf{high\_bound} è 0.04062554515063527.

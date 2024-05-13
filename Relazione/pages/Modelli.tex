@@ -1,9 +1,9 @@
-\section{Modelli di regressione}
+\subsection{Modelli di regressione}
 \subsection{Introduzione ai regressori}
 I regressori sono dei modelli di machine learning il cui obiettivo è quello di prevedere un valore numerico continuo (in questo caso il valore delle emissioni).
 I regressori vengono valutati sulla base di metriche quali, per esempio, l'errore quadratico medio (MSE), l'errore assoluto medio (MAE), e l'errore quadrato logaritmico medio (MSLE).
 
-\subsection{Regressori utilizzati}
+\subsubsection{Regressori utilizzati}
 In questo lavoro sono stati utilizzati i seguenti regressori:
 \begin{itemize}
     \item \textbf{Support Vector Regression (SVR)}\footnote{\href{https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html}{SVR}}{}
@@ -11,7 +11,7 @@ In questo lavoro sono stati utilizzati i seguenti regressori:
     \item \textbf{Random Forest Regressor} \footnote{\href{https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html}{Random Forest Regressor}}{}
     \item \textbf{AdaBoost Regressor} \footnote{\href{https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostRegressor.html}{AdaBoost Regressor}}{}
 \end{itemize}
-\subsubsection{Support Vector Regression (SVR)}
+\paragraph{Support Vector Regression (SVR)}
 %add a footnote to SVM
 La SVR è un algoritmo che estende il concetto di Support Vector Machine (SVM)\footnote{Algoritmi di classificazione che cercano di trovare un iperpiano ottimale per ottenere separabilità lineare}{} al caso della regressione.
 \begin{figure}[H]
@@ -34,7 +34,7 @@ La SVR è un algoritmo che estende il concetto di Support Vector Machine (SVM)\f
 \end{itemize}
 
 
-\subsubsection{Decision Tree Regressor}
+\paragraph{Decision Tree Regressor}
 
 I Decision Tree Regressors sono modelli di regressione basati su alberi decisionali. Questi algoritmi suddividono ripetutamente il set di dati in base alle caratteristiche (features) per creare una struttura ad albero che rappresenta la relazione di decisione. Ogni nodo interno dell'albero rappresenta una decisione basata su una caratteristica, e le foglie dell'albero contengono i valori di output previsti.
 \begin{figure}[H]
@@ -62,7 +62,7 @@ I Decision Tree Regressors sono modelli di regressione basati su alberi decision
     \item \textbf{monotonic\_constraints=None}: Vincoli monotoni sui valori delle features
 \end{itemize}
 
-\subsubsection{Random Forest Regressor}
+\paragraph{Random Forest Regressor}
 I Random Forest Regressors sono modelli di regressione basati su alberi decisionali. Vengono costruiti su più alberi decisionali che combinano le loro previsioni per ottenere una previsione più accurata e stabile.
 \begin{figure}[H]
     \centering
@@ -95,7 +95,7 @@ I Random Forest Regressors sono modelli di regressione basati su alberi decision
     \item \textbf{monotonic\_constraints=None}: Vincoli monotoni sui valori delle features
 \end{itemize}
 \newpage
-\subsubsection{AdaBoost Regressor}
+\paragraph{AdaBoost Regressor}
 L'AdaBoost Regressor è un modello basato sull'algoritmo di boosting AdaBoost\footnote{Crea un modello forte combinando modelli più deboli, ognuno allenato su diverse parti del dataset}{}. Questo algoritmo costruisce un modello di previsione combinando più modelli di previsione più deboli.
 \begin{figure}[H]
     \centering
@@ -116,4 +116,3 @@ L'AdaBoost Regressor è un modello basato sull'algoritmo di boosting AdaBoost\fo
     \item \textbf{learning\_rate=1.0}: tasso di apprendimento
     \item \textbf{loss=linear}: funzione di perdita
 \end{itemize}
-

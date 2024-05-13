@@ -1,4 +1,4 @@
-\section{Criterio di early stopping modificato}
+\section{Seconda parte}
 \subsection{Introduzione}
 Come step successivo si è deciso di modificare il criterio di early stopping dei modelli inserendo come variabile anche le emissioni.
 Il classico criterio di early stopping prevede di fermare l'addestramento del modello quando lo score ottenuto con il validation set non migliora per un certo numero di epoche consecutive.
@@ -604,7 +604,7 @@ Il primo esperimento è stato effettuato con una soglia di tolleranza pari a 40 
         \textbf{Criterio classico} & \textbf{Criterio modificato} \\
         \hline
         \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_movielens_1m_40_5_earlyClassic.png} &
-        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_movielens_1m_40_5_earlyClassic.png} \\
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_movielens_1m_40_5_earlyModified.png} \\
         \hline
     \end{tabularx}
     \caption{Emissioni con criterio classico e modificato}
@@ -619,12 +619,25 @@ Il primo esperimento è stato effettuato con una soglia di tolleranza pari a 40 
     \begin{tabular}{|c|c|c|c|}
         \hline
         \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni}\\
+        \hline
+        BPR & 3.9484 & 2.2898 & 42.0068 \\ \hline
+        CKFG & 5.881 & 1.7411 & 70.3944 \\ \hline
+        CKE & 5.6839 & 2.0271 & 64.3357 \\ \hline
+        DMF & 2.2927 & 1.9885 & 13.2688 \\ \hline
+        KGCN & 6.8754 & 3.8305 & 44.2875 \\ \hline
+        KGNNLS & 7.763 & 1.7384 & 77.607 \\ \hline
+        LINE & 1.9129 & 1.4341 & 25.0296 \\ \hline
+        MultiDAE & 8.0303 & 2.9614 & 17.2318 \\ \hline
+        LightGCN & 15.626 & 1.6634 & 89.3547 \\ \hline
+        NGCF & 7.7582 & 2.7574 & 64.4576 \\ \hline
+        DGCF & 94.903 & 10.4183 & 89.0222 \\ \hline
+
     \end{tabular}
     }
     \caption{Confronto delle emissioni}
 \end{table}
 
-\noindent dfsfdfd
+\noindent Rispetto all'ultimo esperimento con lo stesso dataset, possiamo notare come la sola riduzione della soglia da 50 a 40 abbia portato molti algoritmi e diminuire la percentuale di riduzione delle emissioni, mentre per tanti altri la percentuale è pressocchè invariata
 
 \begin{figure}[H]
     \centering
@@ -659,7 +672,52 @@ Il primo esperimento è stato effettuato con una soglia di tolleranza pari a 40 
         \begin{tabular}{|c|c|c|c|c|}
     \hline
     \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score}\\
-    \end{tabular}
+    \hline
+BPR              & recall@10         & 0.1635                        & 0.1632                           & 0.1835                               \\ \hline
+CFKG             & recall@10         & 0.1526                        & 0.1303                           & 14.6134                              \\ \hline
+CKE              & recall@10         & 0.1593                        & 0.1494                           & 6.2147                               \\ \hline
+DMF              & recall@10         & 0.1432                        & 0.1432                           & 0.0                                  \\ \hline
+KGCN             & recall@10         & 0.1422                        & 0.1422                           & 0.0                                  \\ \hline
+KGNNLS           & recall@10         & 0.1421                        & 0.1197                           & 15.7635                              \\ \hline
+LINE             & recall@10         & 0.1451                        & 0.1451                           & 0.0                                  \\ \hline
+MultiDAE         & recall@10         & 0.1799                        & 0.1489                           & 17.2318                              \\ \hline
+LightGCN         & recall@10         & 0.173                         & 0.1111                           & 35.7803                              \\ \hline
+NGCF             & recall@10         & 0.1586                        & 0.1408                           & 11.2232                              \\ \hline
+DGCF             & recall@10         & 0.1656                        & 0.1022                           & 38.285                               \\ \hline
+BPR              & ndcg@10           & 0.2554                        & 0.2558                           & -0.1566                              \\ \hline
+CFKG             & ndcg@10           & 0.2402                        & 0.221                            & 7.9933                               \\ \hline
+CKE              & ndcg@10           & 0.2534                        & 0.244                            & 3.7096                               \\ \hline
+DMF              & ndcg@10           & 0.2289                        & 0.2289                           & 0.0                                  \\ \hline
+KGCN             & ndcg@10           & 0.232                         & 0.2333                           & -0.5603                              \\ \hline
+KGNNLS           & ndcg@10           & 0.2319                        & 0.207                            & 10.7374                              \\ \hline
+LINE             & ndcg@10           & 0.2277                        & 0.2277                           & 0.0                                  \\ \hline
+MultiDAE         & ndcg@10           & 0.2633                        & 0.2336                           & 11.2799                              \\ \hline
+LightGCN         & ndcg@10           & 0.2682                        & 0.1924                           & 28.2625                              \\ \hline
+NGCF             & ndcg@10           & 0.2539                        & 0.2378                           & 6.3411                               \\ \hline
+DGCF             & ndcg@10           & 0.2613                        & 0.1782                           & 31.8025                              \\ \hline
+BPR              & avgpopularity@10 & 1146.3572                     & 1173.1199                        & -2.3346                              \\ \hline
+CFKG             & avgpopularity@10 & 1115.4498                     & 1395.6098                        & -25.1163                             \\ \hline
+CKE              & avgpopularity@10 & 1165.2413                     & 1333.5153                        & -14.4411                             \\ \hline
+DMF              & avgpopularity@10 & 1379.7292                     & 1379.7292                        & 0.0                                  \\ \hline
+KGCN             & avgpopularity@10 & 1188.9582                     & 1193.5298                        & -0.3845                              \\ \hline
+KGNNLS           & avgpopularity@10 & 1188.8981                     & 1455.58                          & -22.431                              \\ \hline
+LINE             & avgpopularity@10 & 979.498                       & 979.498                          & 0.0                                  \\ \hline
+MultiDAE         & avgpopularity@10 & 1137.4597                     & 1335.1498                        & -17.38                               \\ \hline
+LightGCN         & avgpopularity@10 & 1088.741                      & 1662.4263                        & -52.6925                             \\ \hline
+NGCF             & avgpopularity@10 & 1201.8831                     & 1401.4325                        & -16.6031                             \\ \hline
+DGCF             & avgpopularity@10 & 1172.6874                     & 1807.8717                        & -54.1648                             \\ \hline
+BPR              & giniindex@10     & 0.8839                        & 0.8907                           & -0.7693                              \\ \hline
+CFKG             & giniindex@10     & 0.8822                        & 0.9443                           & -7.0392                              \\ \hline
+CKE              & giniindex@10     & 0.8894                        & 0.9315                           & -4.7335                              \\ \hline
+DMF              & giniindex@10     & 0.9443                        & 0.9443                           & 0.0                                  \\ \hline
+KGCN             & giniindex@10     & 0.8992                        & 0.9012                           & -0.2224                              \\ \hline
+KGNNLS           & giniindex@10     & 0.8992                        & 0.9502                           & -5.6717                              \\ \hline
+LINE             & giniindex@10     & 0.8904                        & 0.8904                           & 0.0                                  \\ \hline
+MultiDAE         & giniindex@10     & 0.875                         & 0.9283                           & -6.0914                              \\ \hline
+LightGCN         & giniindex@10     & 0.8759                        & 0.9783                           & -11.6908                             \\ \hline
+NGCF             & giniindex@10     & 0.9079                        & 0.9484                           & -4.4608                              \\ \hline
+DGCF             & giniindex@10     & 0.8992                        & 0.9845                           & -9.4862                              \\ \hline
+\end{tabular}
     }
     \caption{Performance dei modelli su diverse metriche e dataset}
     \end{table}
@@ -688,4 +746,4 @@ Il primo esperimento è stato effettuato con una soglia di tolleranza pari a 40 
     \includegraphics[scale=0.5]{images/decrement_recall@10_movielens_1m_40_5.png}
     \caption{Decremento di recall@10}
 \end{figure}
-\noindent fdsdfdfd
+\noindent Il calo delle performance è più contenuto rispetto all'esperimento precedente. Anche in questo caso per molti modelli la riduzione delle performance è pressocchè identica rispetto all'esperimento precedente, per pochi modelli invece la riduzione delle performance è inferiore

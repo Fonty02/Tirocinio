@@ -1,10 +1,12 @@
-\section{Regressore}
+\subsection{Regressore}
 
-\subsection{Dataset originale}
+\subsubsection{Dataset originale}
 
-\subsubsection{Dataset completo}
 
-Il nuovo dataset presenta i seguenti valori:
+\noindent \textbf{Dataset completo}
+
+
+\noindent Il nuovo dataset presenta i seguenti valori:
 \begin{itemize}
     \item \textbf{n\_users}: [19841, 22155, 23679, 50000, 6040]
     \item \textbf{n\_items}: [42457, 24878, 33653, 38932, 54458, 4414, 10000 3706]
@@ -317,7 +319,9 @@ La learning curve mostrano che il modello non è riuscito a generalizzare bene i
 In generale Random Forest sembra essere il miglior modello. Decision Tree è il secondo migliore. AdaBoost e SVR non sono riusciti a generalizzare bene. In particolare lo split dove le performance sono migliori osservando sia learning curve che metriche è il 70/30 a cui segue il 60/40.
 
 
-\subsubsection{Dataset Azure}
+
+\noindent \textbf{Dataset Azure}
+
 
 \noindent Parallelamente si è deciso di procedere eliminando tutti i risultati non prodotti sulla macchina Azure in modo da avere un regressore specifico per tali esperimenti.
 
@@ -602,11 +606,13 @@ particolare lo split dove le performance sono migliori osservando sia learning c
 
 
 
-\subsection{Dataset ridotto}
+\subsubsection{Dataset ridotto}
 
 Per provare a migliorare ancor di più le performance dei modelli di regressione, si è deciso di eliminare tutti gli outlier dal dataset(in questo caso le emissioni più alte). In particolare si sono eliminate 11 emissioni dal dataset completo e 8 dal dataset AZURE.
 
-\subsubsection{Dataset completo ridotto}
+\noindent \textbf{Dataset completo ridotto}
+
+
 
 \begin{figure}[H]
     \centering
@@ -614,7 +620,7 @@ Per provare a migliorare ancor di più le performance dei modelli di regressione
     \caption{Distribuzione delle emissioni nel dataset completo ridotto}
 \end{figure}
 
-E' possibile notare un miglior bilanciamento delle emissioni. Per quanto riguarda i modelli, sono stati eseguti addestramenti con diversi split tra training e test set
+\noindent E' possibile notare un miglior bilanciamento delle emissioni. Per quanto riguarda i modelli, sono stati eseguti addestramenti con diversi split tra training e test set
 
 \noindent\textbf{Split 50/50}
 
@@ -898,7 +904,8 @@ Come si può notare in generale la riduzione del dataset ha portato a migliorame
 
 \newpage
 
-\subsubsection{Dataset AZURE}
+
+\noindent \textbf{Dataset AZURE}
 
 \begin{figure}[H]
     \centering
@@ -907,7 +914,7 @@ Come si può notare in generale la riduzione del dataset ha portato a migliorame
 \end{figure}
 
 
-E’ possibile notare un miglior bilanciamento delle emissioni. Per quanto riguarda i modelli,
+\noindent E’ possibile notare un miglior bilanciamento delle emissioni. Per quanto riguarda i modelli,
 sono stati eseguti addestramenti con diversi split tra training e test set
 
 
@@ -1188,7 +1195,7 @@ RandomForest sembra essere ancora il migliore.
 Inoltre il dataset completo si comporta meglio rispetto a quello Azure senza e con riduzione
 
 
-\subsubsection{Confronto tra i quattro dataset}
+\paragraph{Confronto tra i quattro dataset}
 Si può notare che in generale il dataset completo performa meglio del dataset di Azure. E' possibile anche notare come i dataset ridotti performano meglio di quelli completi. Il dataset che performa meglio in assoluto è dunque il dataset completo ridotto.
 Riassumendo:
 \begin{itemize}

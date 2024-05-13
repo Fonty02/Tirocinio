@@ -1,9 +1,13 @@
-\section{Configurazione}
+\subsection{Configurazione}
 
-\subsection{Parametri di running}
+\subsubsection{Parametri di running}
 Qui di seguito vengono riportati i parametri di running dei vari esperimenti effettuati.
-\subsubsection*{Parametri di environment}
-I parametri di environment servono per configurare l'ambiente di esecuzione.
+
+
+\noindent \textbf{Parametri di environment}
+
+
+\noindent I parametri di environment servono per configurare l'ambiente di esecuzione.
 \begin{itemize}
     \item \textbf{gpu\_id}: 0
     \item \textbf{worker}: 0
@@ -15,8 +19,11 @@ I parametri di environment servono per configurare l'ambiente di esecuzione.
     \item \textbf{shuffle}: True
 \end{itemize}
 
-\subsubsection*{Parametri di training}
-I parametri di training servono per l'addestramento dei modelli.
+
+\noindent \textbf{Parametri di training}
+
+
+\noindent I parametri di training servono per l'addestramento dei modelli.
 \begin{itemize}
     \item \textbf{epochs}: 200
     \item \textbf{train\_batch\_size}: 2048
@@ -39,8 +46,11 @@ I parametri di training servono per l'addestramento dei modelli.
     \item \textbf{enable\_scaler}: False
 \end{itemize}
 
-\subsubsection*{Parametri di evaluation}
-I parametri di evaluation servono per valutare i modelli.
+
+\noindent \textbf{Parametri di evaluation}
+
+
+\noindent I parametri di evaluation servono per valutare i modelli.
 \begin{itemize}
     \item \textbf{eval\_args}:
     \item \begin{itemize}
@@ -57,7 +67,10 @@ I parametri di evaluation servono per valutare i modelli.
     \item \textbf{metric\_decimal\_place}: 4
 \end{itemize}
 
-\subsubsection*{Iper parametri dei modelli}
-Gli iper parametri dei modelli sono un insieme di parametri che vengono utilizzati per configurare i modelli. La loro configurazione può influenzare il risultato finale. Esistono delle tecniche di HyperTuning che permettono di trovare i migliori iper parametri per un determinato modello e dataset.
+
+\noindent \textbf{Iper parametri dei modelli}
+
+
+\noindent Gli iper parametri dei modelli sono un insieme di parametri che vengono utilizzati per configurare i modelli. La loro configurazione può influenzare il risultato finale. Esistono delle tecniche di HyperTuning che permettono di trovare i migliori iper parametri per un determinato modello e dataset.
 In questo caso si è scelto di utilizzare gli iper parametri di default
 
