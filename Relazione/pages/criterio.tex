@@ -587,7 +587,7 @@ Il terzo esperimento è stato eseguito sul dataset amazon\_books\_60core\_kg e i
 DMF è l'unico modello che ha mantenuto performance quasi invarianti a fronte di una riduzione delle emissioni del 61\%. (la più bassa ma comunque molto alta).
     
 
-\subsection{Confronto tra criteri}
+\subsection{Confronto tra criteri MovieLens-1m}
 La parte esplorativa ha mostrato come alcuni algoritmi (DGCF per esempio) mostrino un'elevata riduzione delle performance in ogni contesto, mentre alti come DFM rimangono stabili.
 Tenendo conto dei parametri utilizzati e delle dimensioni dei dataset è evidente come all'aumentare della dimensione del dataset bisogna diminuire la soglia di tollereanza e aumentare il numero di epoche consecutive per ottenere emissioni ridotte senza perdere troppo in performance.
 Seguiranno dunque diversi risultati eseguiti con il dataset MovieLens-1m
@@ -1229,3 +1229,163 @@ Il quarto esperimento è stato effettuato con una soglia di tolleranza pari a 30
 
 \noindent Rispetto ai 3 esperimenti la percentuale di riduzione delle performance è diminuita. Per ora dunque questo è l'esperimento che ha emesso di più e performato.
 
+\subsubsection{Quinto esperimento}
+
+Il quinto esperimento è stato effettuato con una soglia di tolleranza pari a 40 e un numero di epoche consecutive pari a 7
+
+
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \setlength\tabcolsep{0pt}
+    \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \textbf{Criterio classico} & \textbf{Criterio modificato} \\
+        \hline
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_movielens_1m_40_7_earlyClassic.png} &
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_movielens_1m_40_7_earlyModified.png} \\
+        \hline
+    \end{tabularx}
+    \caption{Emissioni con criterio classico e modificato}
+    \label{tab:emissions_info}
+\end{table}
+
+
+
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni}\\
+        \hline
+        BPR & 3.9484 & 3.2382 & 17.9867 \\ \hline
+        CFKG & 5.881 & 1.9178 & 67.3907 \\ \hline
+        CKE & 5.6839 & 2.32 & 59.1839 \\ \hline
+        DMF & 2.2927 & 1.9929 & 13.0788 \\ \hline
+        KGCN & 6.8754 & 4.0376 & 41.2747 \\ \hline
+        KGNNLS & 7.763 & 2.0222 & 73.9507 \\ \hline
+        LINE & 1.9129 & 1.3883 & 27.4219 \\ \hline
+        MultiDAE & 8.0303 & 3.1853 & 60.3338 \\ \hline
+        LightGCN & 15.626 & 1.8528 & 88.1427 \\ \hline
+        NGCF & 7.7582 & 3.1472 & 59.4342 \\ \hline
+        DGCF & 94.903 & 13.3956 & 85.885 \\ \hline
+
+    \end{tabular}
+    }
+    \caption{Confronto delle emissioni}
+\end{table}
+
+\noindent Rispetto al quarto esperimento la percentuale di riduzioni delle emissioni in generale è diminuita, dunque gli algoritmi hanno emesso di più.
+Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi in background sulla maacchina che hanno portato a un consumo leggermente più elevato dell'hardware.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, trim=0 0 0 0]{images/recall@10_movielens_1m_40_7_comparison.png}
+    \caption{Confronto score recall@10}
+    
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, trim=0 0 0 0]{images/ndcg@10_movielens_1m_40_7_comparison.png}
+    \caption{Confronto score ndcg@10}
+    
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, trim=0 0 0 0]{images/giniindex@10_movielens_1m_40_7_comparison.png}
+    \caption{Confronto score giniindex@10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, trim=0 0 0 0]{images/averagepopularity@10_movielens_1m_40_7_comparison.png}
+    \caption{Confronto score averagepopularity@10}
+\end{figure}
+
+
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score}\\
+    \hline
+    BPR      & recall@10           & 0.1635                  & 0.1635                    & 0.0               \\ \hline
+    CFKG     & recall@10           & 0.1526                  & 0.1344                    & 11.9266           \\ \hline
+    CKE      & recall@10           & 0.1593                  & 0.1543                    & 3.1387            \\ \hline
+    DMF      & recall@10           & 0.1432                  & 0.1432                    & 0.0               \\ \hline
+    KGCN     & recall@10           & 0.1422                  & 0.1422                    & 0.0               \\ \hline
+    KGNNLS   & recall@10           & 0.1421                  & 0.1255                    & 11.6819           \\ \hline
+    LINE     & recall@10           & 0.1451                  & 0.1451                    & 0.0               \\\hline
+    MultiDAE & recall@10           & 0.1799                  & 0.1549                    & 13.8966           \\\hline
+    LightGCN & recall@10           & 0.173                   & 0.1161                    & 32.8902           \\\hline
+    NGCF     & recall@10           & 0.1586                  & 0.1479                    & 6.7465            \\\hline
+    DGCF     & recall@10           & 0.1656                  & 0.1111                    & 32.9106           \\\hline
+    BPR      & ndcg@10             & 0.2554                  & 0.2554                    & 0.0               \\\hline
+    CFKG     & ndcg@10             & 0.2402                  & 0.2245                    & 6.5362            \\\hline
+    CKE      & ndcg@10             & 0.2534                  & 0.2515                    & 0.7498            \\\hline
+    DMF      & ndcg@10             & 0.2289                  & 0.2289                    & 0.0               \\\hline
+    KGCN     & ndcg@10             & 0.232                   & 0.232                     & 0.0               \\\hline
+    KGNNLS   & ndcg@10             & 0.2319                  & 0.2159                    & 6.8995            \\\hline
+    LINE     & ndcg@10             & 0.2277                  & 0.2277                    & 0.0               \\\hline
+    MultiDAE & ndcg@10             & 0.2633                  & 0.2392                    & 9.1531            \\\hline
+    LightGCN & ndcg@10             & 0.2682                  & 0.2002                    & 25.3542           \\\hline
+    NGCF     & ndcg@10             & 0.2539                  & 0.2433                    & 4.1749            \\\hline
+    DGCF     & ndcg@10             & 0.2613                  & 0.1921                    & 26.483            \\\hline
+    BPR      & averagepopularity@10 & 1146.3572              & 1146.3572                 & 0.0               \\\hline
+    CFKG     & averagepopularity@10 & 1115.4498              & 1338.642                  & -20.0092          \\\hline
+    CKE      & averagepopularity@10 & 1165.2413              & 1288.1031                 & -10.5439          \\\hline
+    DMF      & averagepopularity@10 & 1379.7292              & 1379.7292                 & 0.0               \\\hline
+    KGCN     & averagepopularity@10 & 1188.9582              & 1188.9582                 & 0.0               \\\hline
+    KGNNLS   & averagepopularity@10 & 1188.8981              & 1399.9527                 & -17.7521          \\\hline
+    LINE     & averagepopularity@10 & 979.498                & 979.498                   & 0.0               \\\hline
+    MultiDAE & averagepopularity@10 & 1137.4597              & 1291.1089                 & -13.5081          \\\hline
+    LightGCN & averagepopularity@10 & 1088.741               & 1629.6349                 & -49.6807          \\\hline
+    NGCF     & averagepopularity@10 & 1201.8831              & 1359.7681                 & -13.1365          \\\hline
+    DGCF     & averagepopularity@10 & 1172.6874              & 1708.6632                 & -45.7049          \\\hline
+    BPR      & giniindex@10        & 0.8839                  & 0.8839                    & 0.0               \\\hline
+    CFKG     & giniindex@10        & 0.8822                  & 0.9367                    & -6.1777           \\\hline
+    CKE      & giniindex@10        & 0.8894                  & 0.92                      & -3.4405           \\\hline
+    DMF      & giniindex@10        & 0.9443                  & 0.9443                    & 0.0               \\\hline
+    KGCN     & giniindex@10        & 0.8992                  & 0.8992                    & 0.0               \\\hline
+    KGNNLS   & giniindex@10        & 0.8992                  & 0.942                     & -4.7598           \\\hline
+    LINE     & giniindex@10        & 0.8904                  & 0.8904                    & 0.0               \\\hline
+    MultiDAE & giniindex@10        & 0.875                   & 0.9185                    & -4.9714           \\\hline
+    LightGCN & giniindex@10        & 0.8759                  & 0.9748                    & -11.2912          \\\hline
+    NGCF     & giniindex@10        & 0.9079                  & 0.9397                    & -3.5026           \\\hline
+    DGCF     & giniindex@10        & 0.8992                  & 0.9791                    &-8.8857        \\\hline
+\end{tabular}
+    }
+    \caption{Performance dei modelli su diverse metriche e dataset}
+    \end{table}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/decrement_averagepopularity@10_movielens_1m_40_7.png}
+    \caption{Decremento di averagepopularity@10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/decrement_giniindex@10_movielens_1m_40_7.png}
+    \caption{Decremento di giniindex@10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/decrement_ndcg@10_movielens_1m_40_7.png}
+    \caption{Decremento di ndcg@10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/decrement_recall@10_movielens_1m_40_7.png}
+    \caption{Decremento di recall@10}
+\end{figure}
+
+\noindent Rispetto all'ultimo esperimento ci sono modelli che hanno performato meglio, dunque percentuale di riduzione dello score minore, mentre altri hanno performato peggio, dunque la percentuale di riduzione dello score è maggiore. In generale le variazioni tendono a essere minime in entrambi i casi

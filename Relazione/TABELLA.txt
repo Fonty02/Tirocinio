@@ -1,399 +1,397 @@
-30 6
+40 7
 
 
-
-
-BPR dataset: movielens_1m_30_6 metric: recall@10
+BPR dataset: movielens_1m_40_7 metric: recall@10
 Emissioni classic: 3.9484
-Emissioni modified: 3.1221
+Emissioni modified: 3.2382
 Performance classic: 0.1635
 Performance modified: 0.1635
-Riduzione emissioni in percentuale: 20.9289
+Riduzione emissioni in percentuale: 17.9867
 Riduzione performance: in percentuale: 0.0
 
 
-CFKG dataset: movielens_1m_30_6 metric: recall@10
+CFKG dataset: movielens_1m_40_7 metric: recall@10
 Emissioni classic: 5.881
-Emissioni modified: 1.9202
+Emissioni modified: 1.9178
 Performance classic: 0.1526
 Performance modified: 0.1344
-Riduzione emissioni in percentuale: 67.3495
+Riduzione emissioni in percentuale: 67.3907
 Riduzione performance: in percentuale: 11.9266
 
 
-CKE dataset: movielens_1m_30_6 metric: recall@10
+CKE dataset: movielens_1m_40_7 metric: recall@10
 Emissioni classic: 5.6839
-Emissioni modified: 2.078
+Emissioni modified: 2.32
 Performance classic: 0.1593
-Performance modified: 0.1517
-Riduzione emissioni in percentuale: 63.4416
-Riduzione performance: in percentuale: 4.7709
+Performance modified: 0.1543
+Riduzione emissioni in percentuale: 59.1839
+Riduzione performance: in percentuale: 3.1387
 
 
-DMF dataset: movielens_1m_30_6 metric: recall@10
+DMF dataset: movielens_1m_40_7 metric: recall@10
 Emissioni classic: 2.2927
-Emissioni modified: 1.9962
+Emissioni modified: 1.9929
 Performance classic: 0.1432
 Performance modified: 0.1432
-Riduzione emissioni in percentuale: 12.9347
+Riduzione emissioni in percentuale: 13.0788
 Riduzione performance: in percentuale: 0.0
 
 
-KGCN dataset: movielens_1m_30_6 metric: recall@10
+KGCN dataset: movielens_1m_40_7 metric: recall@10
 Emissioni classic: 6.8754
-Emissioni modified: 3.9292
+Emissioni modified: 4.0376
 Performance classic: 0.1422
 Performance modified: 0.1422
-Riduzione emissioni in percentuale: 42.8516
+Riduzione emissioni in percentuale: 41.2747
 Riduzione performance: in percentuale: 0.0
 
 
-KGNNLS dataset: movielens_1m_30_6 metric: recall@10
+KGNNLS dataset: movielens_1m_40_7 metric: recall@10
 Emissioni classic: 7.763
-Emissioni modified: 4.7984
+Emissioni modified: 2.0222
 Performance classic: 0.1421
-Performance modified: 0.1421
-Riduzione emissioni in percentuale: 38.1885
-Riduzione performance: in percentuale: 0.0
+Performance modified: 0.1255
+Riduzione emissioni in percentuale: 73.9507
+Riduzione performance: in percentuale: 11.6819
 
 
-LINE dataset: movielens_1m_30_6 metric: recall@10
+LINE dataset: movielens_1m_40_7 metric: recall@10
 Emissioni classic: 1.9129
-Emissioni modified: 1.3937
+Emissioni modified: 1.3883
 Performance classic: 0.1451
 Performance modified: 0.1451
-Riduzione emissioni in percentuale: 27.1407
+Riduzione emissioni in percentuale: 27.4219
 Riduzione performance: in percentuale: 0.0
 
 
-MultiDAE dataset: movielens_1m_30_6 metric: recall@10
+MultiDAE dataset: movielens_1m_40_7 metric: recall@10
 Emissioni classic: 8.0303
-Emissioni modified: 3.7405
+Emissioni modified: 3.1853
 Performance classic: 0.1799
-Performance modified: 0.1624
-Riduzione emissioni in percentuale: 53.4206
-Riduzione performance: in percentuale: 9.7276
+Performance modified: 0.1549
+Riduzione emissioni in percentuale: 60.3338
+Riduzione performance: in percentuale: 13.8966
 
 
-LightGCN dataset: movielens_1m_30_6 metric: recall@10
+LightGCN dataset: movielens_1m_40_7 metric: recall@10
 Emissioni classic: 15.626
-Emissioni modified: 2.1161
+Emissioni modified: 1.8528
 Performance classic: 0.173
-Performance modified: 0.1204
-Riduzione emissioni in percentuale: 86.458
-Riduzione performance: in percentuale: 30.4046
+Performance modified: 0.1161
+Riduzione emissioni in percentuale: 88.1427
+Riduzione performance: in percentuale: 32.8902
 
 
-NGCF dataset: movielens_1m_30_6 metric: recall@10
+NGCF dataset: movielens_1m_40_7 metric: recall@10
 Emissioni classic: 7.7582
-Emissioni modified: 2.885
+Emissioni modified: 3.1472
 Performance classic: 0.1586
-Performance modified: 0.1438
-Riduzione emissioni in percentuale: 62.8137
-Riduzione performance: in percentuale: 9.3317
+Performance modified: 0.1479
+Riduzione emissioni in percentuale: 59.4342
+Riduzione performance: in percentuale: 6.7465
 
 
-DGCF dataset: movielens_1m_30_6 metric: recall@10
+DGCF dataset: movielens_1m_40_7 metric: recall@10
 Emissioni classic: 94.903
-Emissioni modified: 12.0604
+Emissioni modified: 13.3956
 Performance classic: 0.1656
-Performance modified: 0.108
-Riduzione emissioni in percentuale: 87.2918
-Riduzione performance: in percentuale: 34.7826
+Performance modified: 0.1111
+Riduzione emissioni in percentuale: 85.885
+Riduzione performance: in percentuale: 32.9106
 
 
-BPR dataset: movielens_1m_30_6 metric: ndcg@10
+BPR dataset: movielens_1m_40_7 metric: ndcg@10
 Emissioni classic: 3.9484
-Emissioni modified: 3.1221
+Emissioni modified: 3.2382
 Performance classic: 0.2554
 Performance modified: 0.2554
-Riduzione emissioni in percentuale: 20.9289
+Riduzione emissioni in percentuale: 17.9867
 Riduzione performance: in percentuale: 0.0
 
 
-CFKG dataset: movielens_1m_30_6 metric: ndcg@10
+CFKG dataset: movielens_1m_40_7 metric: ndcg@10
 Emissioni classic: 5.881
-Emissioni modified: 1.9202
+Emissioni modified: 1.9178
 Performance classic: 0.2402
 Performance modified: 0.2245
-Riduzione emissioni in percentuale: 67.3495
+Riduzione emissioni in percentuale: 67.3907
 Riduzione performance: in percentuale: 6.5362
 
 
-CKE dataset: movielens_1m_30_6 metric: ndcg@10
+CKE dataset: movielens_1m_40_7 metric: ndcg@10
 Emissioni classic: 5.6839
-Emissioni modified: 2.078
+Emissioni modified: 2.32
 Performance classic: 0.2534
-Performance modified: 0.2482
-Riduzione emissioni in percentuale: 63.4416
-Riduzione performance: in percentuale: 2.0521
+Performance modified: 0.2515
+Riduzione emissioni in percentuale: 59.1839
+Riduzione performance: in percentuale: 0.7498
 
 
-DMF dataset: movielens_1m_30_6 metric: ndcg@10
+DMF dataset: movielens_1m_40_7 metric: ndcg@10
 Emissioni classic: 2.2927
-Emissioni modified: 1.9962
+Emissioni modified: 1.9929
 Performance classic: 0.2289
 Performance modified: 0.2289
-Riduzione emissioni in percentuale: 12.9347
+Riduzione emissioni in percentuale: 13.0788
 Riduzione performance: in percentuale: 0.0
 
 
-KGCN dataset: movielens_1m_30_6 metric: ndcg@10
+KGCN dataset: movielens_1m_40_7 metric: ndcg@10
 Emissioni classic: 6.8754
-Emissioni modified: 3.9292
+Emissioni modified: 4.0376
 Performance classic: 0.232
-Performance modified: 0.2328
-Riduzione emissioni in percentuale: 42.8516
-Riduzione performance: in percentuale: -0.3448
+Performance modified: 0.232
+Riduzione emissioni in percentuale: 41.2747
+Riduzione performance: in percentuale: 0.0
 
 
-KGNNLS dataset: movielens_1m_30_6 metric: ndcg@10
+KGNNLS dataset: movielens_1m_40_7 metric: ndcg@10
 Emissioni classic: 7.763
-Emissioni modified: 4.7984
+Emissioni modified: 2.0222
 Performance classic: 0.2319
-Performance modified: 0.2327
-Riduzione emissioni in percentuale: 38.1885
-Riduzione performance: in percentuale: -0.345
+Performance modified: 0.2159
+Riduzione emissioni in percentuale: 73.9507
+Riduzione performance: in percentuale: 6.8995
 
 
-LINE dataset: movielens_1m_30_6 metric: ndcg@10
+LINE dataset: movielens_1m_40_7 metric: ndcg@10
 Emissioni classic: 1.9129
-Emissioni modified: 1.3937
+Emissioni modified: 1.3883
 Performance classic: 0.2277
 Performance modified: 0.2277
-Riduzione emissioni in percentuale: 27.1407
+Riduzione emissioni in percentuale: 27.4219
 Riduzione performance: in percentuale: 0.0
 
 
-MultiDAE dataset: movielens_1m_30_6 metric: ndcg@10
+MultiDAE dataset: movielens_1m_40_7 metric: ndcg@10
 Emissioni classic: 8.0303
-Emissioni modified: 3.7405
+Emissioni modified: 3.1853
 Performance classic: 0.2633
-Performance modified: 0.2463
-Riduzione emissioni in percentuale: 53.4206
-Riduzione performance: in percentuale: 6.4565
+Performance modified: 0.2392
+Riduzione emissioni in percentuale: 60.3338
+Riduzione performance: in percentuale: 9.1531
 
 
-LightGCN dataset: movielens_1m_30_6 metric: ndcg@10
+LightGCN dataset: movielens_1m_40_7 metric: ndcg@10
 Emissioni classic: 15.626
-Emissioni modified: 2.1161
+Emissioni modified: 1.8528
 Performance classic: 0.2682
-Performance modified: 0.2064
-Riduzione emissioni in percentuale: 86.458
-Riduzione performance: in percentuale: 23.0425
+Performance modified: 0.2002
+Riduzione emissioni in percentuale: 88.1427
+Riduzione performance: in percentuale: 25.3542
 
 
-NGCF dataset: movielens_1m_30_6 metric: ndcg@10
+NGCF dataset: movielens_1m_40_7 metric: ndcg@10
 Emissioni classic: 7.7582
-Emissioni modified: 2.885
+Emissioni modified: 3.1472
 Performance classic: 0.2539
-Performance modified: 0.2401
-Riduzione emissioni in percentuale: 62.8137
-Riduzione performance: in percentuale: 5.4352
+Performance modified: 0.2433
+Riduzione emissioni in percentuale: 59.4342
+Riduzione performance: in percentuale: 4.1749
 
 
-DGCF dataset: movielens_1m_30_6 metric: ndcg@10
+DGCF dataset: movielens_1m_40_7 metric: ndcg@10
 Emissioni classic: 94.903
-Emissioni modified: 12.0604
+Emissioni modified: 13.3956
 Performance classic: 0.2613
-Performance modified: 0.1857
-Riduzione emissioni in percentuale: 87.2918
-Riduzione performance: in percentuale: 28.9323
+Performance modified: 0.1921
+Riduzione emissioni in percentuale: 85.885
+Riduzione performance: in percentuale: 26.483
 
 
-BPR dataset: movielens_1m_30_6 metric: averagepopularity@10
+BPR dataset: movielens_1m_40_7 metric: averagepopularity@10
 Emissioni classic: 3.9484
-Emissioni modified: 3.1221
+Emissioni modified: 3.2382
 Performance classic: 1146.3572
 Performance modified: 1146.3572
-Riduzione emissioni in percentuale: 20.9289
+Riduzione emissioni in percentuale: 17.9867
 Riduzione performance: in percentuale: 0.0
 
 
-CFKG dataset: movielens_1m_30_6 metric: averagepopularity@10
+CFKG dataset: movielens_1m_40_7 metric: averagepopularity@10
 Emissioni classic: 5.881
-Emissioni modified: 1.9202
+Emissioni modified: 1.9178
 Performance classic: 1115.4498
 Performance modified: 1338.642
-Riduzione emissioni in percentuale: 67.3495
+Riduzione emissioni in percentuale: 67.3907
 Riduzione performance: in percentuale: -20.0092
 
 
-CKE dataset: movielens_1m_30_6 metric: averagepopularity@10
+CKE dataset: movielens_1m_40_7 metric: averagepopularity@10
 Emissioni classic: 5.6839
-Emissioni modified: 2.078
+Emissioni modified: 2.32
 Performance classic: 1165.2413
-Performance modified: 1320.1912
-Riduzione emissioni in percentuale: 63.4416
-Riduzione performance: in percentuale: -13.2977
+Performance modified: 1288.1031
+Riduzione emissioni in percentuale: 59.1839
+Riduzione performance: in percentuale: -10.5439
 
 
-DMF dataset: movielens_1m_30_6 metric: averagepopularity@10
+DMF dataset: movielens_1m_40_7 metric: averagepopularity@10
 Emissioni classic: 2.2927
-Emissioni modified: 1.9962
+Emissioni modified: 1.9929
 Performance classic: 1379.7292
 Performance modified: 1379.7292
-Riduzione emissioni in percentuale: 12.9347
+Riduzione emissioni in percentuale: 13.0788
 Riduzione performance: in percentuale: 0.0
 
 
-KGCN dataset: movielens_1m_30_6 metric: averagepopularity@10
+KGCN dataset: movielens_1m_40_7 metric: averagepopularity@10
 Emissioni classic: 6.8754
-Emissioni modified: 3.9292
+Emissioni modified: 4.0376
 Performance classic: 1188.9582
-Performance modified: 1187.2098
-Riduzione emissioni in percentuale: 42.8516
-Riduzione performance: in percentuale: 0.1471
+Performance modified: 1188.9582
+Riduzione emissioni in percentuale: 41.2747
+Riduzione performance: in percentuale: 0.0
 
 
-KGNNLS dataset: movielens_1m_30_6 metric: averagepopularity@10
+KGNNLS dataset: movielens_1m_40_7 metric: averagepopularity@10
 Emissioni classic: 7.763
-Emissioni modified: 4.7984
+Emissioni modified: 2.0222
 Performance classic: 1188.8981
-Performance modified: 1187.2158
-Riduzione emissioni in percentuale: 38.1885
-Riduzione performance: in percentuale: 0.1415
+Performance modified: 1399.9527
+Riduzione emissioni in percentuale: 73.9507
+Riduzione performance: in percentuale: -17.7521
 
 
-LINE dataset: movielens_1m_30_6 metric: averagepopularity@10
+LINE dataset: movielens_1m_40_7 metric: averagepopularity@10
 Emissioni classic: 1.9129
-Emissioni modified: 1.3937
+Emissioni modified: 1.3883
 Performance classic: 979.498
 Performance modified: 979.498
-Riduzione emissioni in percentuale: 27.1407
+Riduzione emissioni in percentuale: 27.4219
 Riduzione performance: in percentuale: 0.0
 
 
-MultiDAE dataset: movielens_1m_30_6 metric: averagepopularity@10
+MultiDAE dataset: movielens_1m_40_7 metric: averagepopularity@10
 Emissioni classic: 8.0303
-Emissioni modified: 3.7405
+Emissioni modified: 3.1853
 Performance classic: 1137.4597
-Performance modified: 1238.6498
-Riduzione emissioni in percentuale: 53.4206
-Riduzione performance: in percentuale: -8.8961
+Performance modified: 1291.1089
+Riduzione emissioni in percentuale: 60.3338
+Riduzione performance: in percentuale: -13.5081
 
 
-LightGCN dataset: movielens_1m_30_6 metric: averagepopularity@10
+LightGCN dataset: movielens_1m_40_7 metric: averagepopularity@10
 Emissioni classic: 15.626
-Emissioni modified: 2.1161
+Emissioni modified: 1.8528
 Performance classic: 1088.741
-Performance modified: 1585.7381
-Riduzione emissioni in percentuale: 86.458
-Riduzione performance: in percentuale: -45.6488
+Performance modified: 1629.6349
+Riduzione emissioni in percentuale: 88.1427
+Riduzione performance: in percentuale: -49.6807
 
 
-NGCF dataset: movielens_1m_30_6 metric: averagepopularity@10
+NGCF dataset: movielens_1m_40_7 metric: averagepopularity@10
 Emissioni classic: 7.7582
-Emissioni modified: 2.885
+Emissioni modified: 3.1472
 Performance classic: 1201.8831
-Performance modified: 1407.3654
-Riduzione emissioni in percentuale: 62.8137
-Riduzione performance: in percentuale: -17.0967
+Performance modified: 1359.7681
+Riduzione emissioni in percentuale: 59.4342
+Riduzione performance: in percentuale: -13.1365
 
 
-DGCF dataset: movielens_1m_30_6 metric: averagepopularity@10
+DGCF dataset: movielens_1m_40_7 metric: averagepopularity@10
 Emissioni classic: 94.903
-Emissioni modified: 12.0604
+Emissioni modified: 13.3956
 Performance classic: 1172.6874
-Performance modified: 1760.6621
-Riduzione emissioni in percentuale: 87.2918
-Riduzione performance: in percentuale: -50.1391
+Performance modified: 1708.6632
+Riduzione emissioni in percentuale: 85.885
+Riduzione performance: in percentuale: -45.7049
 
 
-BPR dataset: movielens_1m_30_6 metric: giniindex@10
+BPR dataset: movielens_1m_40_7 metric: giniindex@10
 Emissioni classic: 3.9484
-Emissioni modified: 3.1221
+Emissioni modified: 3.2382
 Performance classic: 0.8839
 Performance modified: 0.8839
-Riduzione emissioni in percentuale: 20.9289
+Riduzione emissioni in percentuale: 17.9867
 Riduzione performance: in percentuale: 0.0
 
 
-CFKG dataset: movielens_1m_30_6 metric: giniindex@10
+CFKG dataset: movielens_1m_40_7 metric: giniindex@10
 Emissioni classic: 5.881
-Emissioni modified: 1.9202
+Emissioni modified: 1.9178
 Performance classic: 0.8822
 Performance modified: 0.9367
-Riduzione emissioni in percentuale: 67.3495
+Riduzione emissioni in percentuale: 67.3907
 Riduzione performance: in percentuale: -6.1777
 
 
-CKE dataset: movielens_1m_30_6 metric: giniindex@10
+CKE dataset: movielens_1m_40_7 metric: giniindex@10
 Emissioni classic: 5.6839
-Emissioni modified: 2.078
+Emissioni modified: 2.32
 Performance classic: 0.8894
-Performance modified: 0.9266
-Riduzione emissioni in percentuale: 63.4416
-Riduzione performance: in percentuale: -4.1826
+Performance modified: 0.92
+Riduzione emissioni in percentuale: 59.1839
+Riduzione performance: in percentuale: -3.4405
 
 
-DMF dataset: movielens_1m_30_6 metric: giniindex@10
+DMF dataset: movielens_1m_40_7 metric: giniindex@10
 Emissioni classic: 2.2927
-Emissioni modified: 1.9962
+Emissioni modified: 1.9929
 Performance classic: 0.9443
 Performance modified: 0.9443
-Riduzione emissioni in percentuale: 12.9347
+Riduzione emissioni in percentuale: 13.0788
 Riduzione performance: in percentuale: 0.0
 
 
-KGCN dataset: movielens_1m_30_6 metric: giniindex@10
+KGCN dataset: movielens_1m_40_7 metric: giniindex@10
 Emissioni classic: 6.8754
-Emissioni modified: 3.9292
+Emissioni modified: 4.0376
 Performance classic: 0.8992
-Performance modified: 0.8984
-Riduzione emissioni in percentuale: 42.8516
-Riduzione performance: in percentuale: 0.089
+Performance modified: 0.8992
+Riduzione emissioni in percentuale: 41.2747
+Riduzione performance: in percentuale: 0.0
 
 
-KGNNLS dataset: movielens_1m_30_6 metric: giniindex@10
+KGNNLS dataset: movielens_1m_40_7 metric: giniindex@10
 Emissioni classic: 7.763
-Emissioni modified: 4.7984
+Emissioni modified: 2.0222
 Performance classic: 0.8992
-Performance modified: 0.8983
-Riduzione emissioni in percentuale: 38.1885
-Riduzione performance: in percentuale: 0.1001
+Performance modified: 0.942
+Riduzione emissioni in percentuale: 73.9507
+Riduzione performance: in percentuale: -4.7598
 
 
-LINE dataset: movielens_1m_30_6 metric: giniindex@10
+LINE dataset: movielens_1m_40_7 metric: giniindex@10
 Emissioni classic: 1.9129
-Emissioni modified: 1.3937
+Emissioni modified: 1.3883
 Performance classic: 0.8904
 Performance modified: 0.8904
-Riduzione emissioni in percentuale: 27.1407
+Riduzione emissioni in percentuale: 27.4219
 Riduzione performance: in percentuale: 0.0
 
 
-MultiDAE dataset: movielens_1m_30_6 metric: giniindex@10
+MultiDAE dataset: movielens_1m_40_7 metric: giniindex@10
 Emissioni classic: 8.0303
-Emissioni modified: 3.7405
+Emissioni modified: 3.1853
 Performance classic: 0.875
-Performance modified: 0.9054
-Riduzione emissioni in percentuale: 53.4206
-Riduzione performance: in percentuale: -3.4743
+Performance modified: 0.9185
+Riduzione emissioni in percentuale: 60.3338
+Riduzione performance: in percentuale: -4.9714
 
 
-LightGCN dataset: movielens_1m_30_6 metric: giniindex@10
+LightGCN dataset: movielens_1m_40_7 metric: giniindex@10
 Emissioni classic: 15.626
-Emissioni modified: 2.1161
+Emissioni modified: 1.8528
 Performance classic: 0.8759
-Performance modified: 0.9709
-Riduzione emissioni in percentuale: 86.458
-Riduzione performance: in percentuale: -10.846
+Performance modified: 0.9748
+Riduzione emissioni in percentuale: 88.1427
+Riduzione performance: in percentuale: -11.2912
 
 
-NGCF dataset: movielens_1m_30_6 metric: giniindex@10
+NGCF dataset: movielens_1m_40_7 metric: giniindex@10
 Emissioni classic: 7.7582
-Emissioni modified: 2.885
+Emissioni modified: 3.1472
 Performance classic: 0.9079
-Performance modified: 0.9481
-Riduzione emissioni in percentuale: 62.8137
-Riduzione performance: in percentuale: -4.4278
+Performance modified: 0.9397
+Riduzione emissioni in percentuale: 59.4342
+Riduzione performance: in percentuale: -3.5026
 
 
-DGCF dataset: movielens_1m_30_6 metric: giniindex@10
+DGCF dataset: movielens_1m_40_7 metric: giniindex@10
 Emissioni classic: 94.903
-Emissioni modified: 12.0604
+Emissioni modified: 13.3956
 Performance classic: 0.8992
-Performance modified: 0.982
-Riduzione emissioni in percentuale: 87.2918
-Riduzione performance: in percentuale: -9.2082
+Performance modified: 0.9791
+Riduzione emissioni in percentuale: 85.885
+Riduzione performance: in percentuale: -8.8857
