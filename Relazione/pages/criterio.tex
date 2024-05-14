@@ -627,7 +627,7 @@ Il primo esperimento è stato effettuato con una soglia di tolleranza pari a 40 
         KGCN & 6.8754 & 3.8305 & 44.2875 \\ \hline
         KGNNLS & 7.763 & 1.7384 & 77.607 \\ \hline
         LINE & 1.9129 & 1.4341 & 25.0296 \\ \hline
-        MultiDAE & 8.0303 & 2.9614 & 17.2318 \\ \hline
+        MultiDAE & 8.0303 & 2.9614 & 63.68 \\ \hline
         LightGCN & 15.626 & 1.6634 & 89.3547 \\ \hline
         NGCF & 7.7582 & 2.7574 & 64.4576 \\ \hline
         DGCF & 94.903 & 10.4183 & 89.0222 \\ \hline
@@ -642,27 +642,27 @@ Il primo esperimento è stato effettuato con una soglia di tolleranza pari a 40 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth, trim=0 0 0 0]{images/recall@10_movielens_1m_40_5_comparison.png}
-    \caption{Confronto score recall@10 con dataset amazon\_books\_60core\_kg}
+    \caption{Confronto score recall@10}
     
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth, trim=0 0 0 0]{images/ndcg@10_movielens_1m_40_5_comparison.png}
-    \caption{Confronto score ndcg@10 con dataset amazon\_books\_60core\_kg}
+    \caption{Confronto score ndcg@10}
     
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth, trim=0 0 0 0]{images/giniindex@10_movielens_1m_40_5_comparison.png}
-    \caption{Confronto score giniindex@10 con dataset amazon\_books\_60core\_kg}
+    \caption{Confronto score giniindex@10}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth, trim=0 0 0 0]{images/averagepopularity@10_movielens_1m_40_5_comparison.png}
-    \caption{Confronto score averagepopularity@10 con dataset amazon\_books\_60core\_kg}
+    \caption{Confronto score averagepopularity@10}
 \end{figure}
 
 
@@ -747,3 +747,161 @@ DGCF             & giniindex@10     & 0.8992                        & 0.9845    
     \caption{Decremento di recall@10}
 \end{figure}
 \noindent Il calo delle performance è più contenuto rispetto all'esperimento precedente. Anche in questo caso per molti modelli la riduzione delle performance è pressocchè identica rispetto all'esperimento precedente, per pochi modelli invece la riduzione delle performance è inferiore
+
+
+\subsubsection{Secondo esperimento}
+Il secondoo esperimento è stato effettuato con una soglia di tolleranza pari a 30 e un numero di epoche consecutive pari a 5 (dunque criterio più stringente rispetto al primo esperimento)
+
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \setlength\tabcolsep{0pt}
+    \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \textbf{Criterio classico} & \textbf{Criterio modificato} \\
+        \hline
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_movielens_1m_30_5_earlyClassic.png} &
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_movielens_1m_30_5_earlyModified.png} \\
+        \hline
+    \end{tabularx}
+    \caption{Emissioni con criterio classico e modificato}
+    \label{tab:emissions_info}
+\end{table}
+
+
+
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni}\\
+        \hline
+        BPR & 3.9484 & 2.5219 & 36.1284 \\ \hline
+        CKFG & 5.881 & 1.8872 & 67.9104 \\ \hline
+        CKE & 5.6839 & 2.0466 & 63.9932 \\ \hline
+        DMF & 2.2927 & 2.0856 & 9.0319 \\ \hline
+        KGCN & 6.8754 & 3.796 & 44.7884 \\ \hline
+        KGNNLS & 7.763 & 4.3657 & 43.7626 \\ \hline
+        LINE & 1.9129 & 1.4314 & 25.1721 \\ \hline
+        MultiDAE & 8.0303 & 3.9614 & 50.4865 \\ \hline
+        LightGCN & 15.626 & 1.9001 & 87.8402 \\ \hline
+        NGCF & 7.7582 & 2.6923 & 65.2979 \\ \hline
+        DGCF & 94.903 & 10.4109 & 89.03 \\ \hline
+
+    \end{tabular}
+    }
+    \caption{Confronto delle emissioni}
+\end{table}
+
+\noindent Rispetto al primoo esperimento si può facilemnte nootare come una soglia più bassa abbia portato a un generale diminuzione della percentuale di riduzione delle emissioni (cioè gli algoritmi hanno eseguito un training più lungo).
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, trim=0 0 0 0]{images/recall@10_movielens_1m_30_5_comparison.png}
+    \caption{Confronto score recall@10}
+    
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, trim=0 0 0 0]{images/ndcg@10_movielens_1m_30_5_comparison.png}
+    \caption{Confronto score ndcg@10}
+    
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, trim=0 0 0 0]{images/giniindex@10_movielens_1m_30_5_comparison.png}
+    \caption{Confronto score giniindex@10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, trim=0 0 0 0]{images/averagepopularity@10_movielens_1m_30_5_comparison.png}
+    \caption{Confronto score averagepopularity@10}
+\end{figure}
+
+
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score}\\
+    \hline
+    BPR & recall@10 & 0.1635 & 0.1635 & 0.0 \\ \hline
+    CFKG & recall@10 & 0.1526 & 0.1301 & 14.7444 \\ \hline
+    CKE & recall@10 & 0.1593 & 0.1494 & 6.2147 \\ \hline
+    DMF & recall@10 & 0.1432 & 0.1432 & 0.0 \\ \hline 
+    KGCN & recall@10 & 0.1422 & 0.1422 & 0.0 \\ \hline
+    KGNNLS & recall@10 & 0.1421 & 0.1423 & -0.1407 \\ \hline
+    LINE & recall@10 & 0.1451 & 0.1451 & 0.0 \\ \hline
+    MultiDAE & recall@10 & 0.1799 & 0.1619 & 10.0056 \\ \hline
+    LightGCN & recall@10 & 0.173 & 0.1161 & 32.8902 \\ \hline
+    NGCF & recall@10 & 0.1586 & 0.1408 & 11.2232 \\ \hline
+    DGCF & recall@10 & 0.1656 & 0.1021 & 38.3454 \\ \hline
+    BPR & ndcg@10 & 0.2554 & 0.2554 & 0.0 \\ \hline
+    CFKG & ndcg@10 & 0.2402 & 0.2209 & 8.035 \\ \hline
+    CKE & ndcg@10 & 0.2534 & 0.244 & 3.7096 \\      \hline
+    DMF & ndcg@10 & 0.2289 & 0.2289 & 0.0 \\\hline
+    KGCN & ndcg@10 & 0.232 & 0.2333 & -0.5603 \\\hline
+    KGNNLS & ndcg@10 & 0.2319 & 0.2334 & -0.6468 \\\hline
+    LINE & ndcg@10 & 0.2277 & 0.2277 & 0.0 \\\hline
+    MultiDAE & ndcg@10 & 0.2633 & 0.247 & 6.1907 \\\hline
+    LightGCN & ndcg@10 & 0.2682 & 0.2002 & 25.3542 \\\hline
+    NGCF & ndcg@10 & 0.2539 & 0.2378 & 6.3411 \\\hline
+    DGCF & ndcg@10 & 0.2613 & 0.1781 & 31.8408 \\ \hline
+    BPR & averagepopularity@10 & 1146.3572 & 1146.3572 & 0.0 \\\hline
+    CFKG & averagepopularity@10 & 1115.4498 & 1361.1447 & -22.0265 \\\hline
+    CKE & averagepopularity@10 & 1165.2413 & 1333.5153 & -14.4411 \\\hline
+    DMF & averagepopularity@10 & 1379.7292 & 1379.7292 & 0.0 \\\hline
+    KGCN & averagepopularity@10 & 1188.9582 & 1193.5298 & -0.3845 \\\hline
+    KGNNLS & averagepopularity@10 & 1188.8981 & 1193.7263 & -0.4061 \\\hline
+    LINE & averagepopularity@10 & 979.498 & 979.498 & 0.0 \\\hline
+    MultiDAE & averagepopularity@10 & 1137.4597 & 1261.7868 & -10.9302 \\\hline
+    LightGCN & averagepopularity@10 & 1088.741 & 1629.6349 & -49.6807 \\\hline
+    NGCF & averagepopularity@10 & 1201.8831 & 1401.4325 & -16.6031 \\\hline
+    DGCF & averagepopularity@10 & 1172.6874 & 1807.9008 & -54.1673 \\ \hline
+    BPR & giniindex@10 & 0.8839 & 0.8839 & 0.0 \\\hline
+    CFKG & giniindex@10 & 0.8822 & 0.9401 & -6.5631 \\\hline
+    CKE & giniindex@10 & 0.8894 & 0.9315 & -4.7335 \\\hline
+    DMF & giniindex@10 & 0.9443 & 0.9443 & 0.0 \\\hline
+    KGCN & giniindex@10 & 0.8992 & 0.9012 & -0.2224 \\\hline
+    KGNNLS & giniindex@10 & 0.8992 & 0.9013 & -0.2335 \\\hline
+    LINE & giniindex@10 & 0.8904 & 0.8904 & 0.0 \\\hline
+    MultiDAE & giniindex@10 & 0.875 & 0.9101 & -4.0114 \\\hline
+    LightGCN & giniindex@10 & 0.8759 & 0.9748 & -11.2912 \\\hline
+    NGCF & giniindex@10 & 0.9079 & 0.9484 & -4.4608 \\\hline
+    DGCF & giniindex@10 & 0.8992 & 0.9845 & -9.4862 \\ \hline
+\end{tabular}
+    }
+    \caption{Performance dei modelli su diverse metriche e dataset}
+    \end{table}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/decrement_averagepopularity@10_movielens_1m_30_5.png}
+    \caption{Decremento di averagepopularity@10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/decrement_giniindex@10_movielens_1m_30_5.png}
+    \caption{Decremento di giniindex@10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/decrement_ndcg@10_movielens_1m_30_5.png}
+    \caption{Decremento di ndcg@10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/decrement_recall@10_movielens_1m_30_5.png}
+    \caption{Decremento di recall@10}
+\end{figure}
+\noindent Rispetto allo scorso esperimento, KGNNLS escluso, tutti i modelli hanno avuto un comportamento pressochè simile all'esperimento precedente emettendo leggermente di più. Dunque la combinazione di parametri 40 e 5 si è rivelata migliore di 30 e 5
