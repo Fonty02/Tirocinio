@@ -953,7 +953,7 @@ Il terzo esperimento è stato effettuato con una soglia di tolleranza pari a 40 
     \caption{Confronto delle emissioni}
 \end{table}
 
-\noindent Rispetto al primo esperimento la percentuale di riduzioni delle emissioni in generale è diminuita. Rispetto al secondo esperimento, invece, la percentuale di riduzione delle emissioni è, in generale, leggermente aumentata (cioè ci sono state più emissioni).
+\noindent Rispetto al primo esperimento la percentuale di riduzioni delle emissioni in generale è diminuita. Rispetto al secondo esperimento, invece, la percentuale di riduzione delle emissioni è diminuita per alcuni modelli e aumentata per altri.
 
 
 \begin{figure}[H]
@@ -1389,3 +1389,176 @@ Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi i
 \end{figure}
 
 \noindent Rispetto all'ultimo esperimento ci sono modelli che hanno performato meglio, dunque percentuale di riduzione dello score minore, mentre altri hanno performato peggio, dunque la percentuale di riduzione dello score è maggiore. In generale le variazioni tendono a essere minime in entrambi i casi
+
+
+
+\subsubsection{Sesto esperimento}
+
+Il quinto esperimento è stato effettuato con una soglia di tolleranza pari a 30 e un numero di epoche consecutive pari a 7
+
+
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \setlength\tabcolsep{0pt}
+    \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \textbf{Criterio classico} & \textbf{Criterio modificato} \\
+        \hline
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_movielens_1m_30_7_earlyClassic.png} &
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_movielens_1m_30_7_earlyModified.png} \\
+        \hline
+    \end{tabularx}
+    \caption{Emissioni con criterio classico e modificato}
+    \label{tab:emissions_info}
+\end{table}
+
+
+
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni}\\
+        \hline
+        BPR      & 3.9484   & 3.16     & 19.9686 \\ \hline
+        CFKG     & 5.881    & 4.8334   & 17.8139 \\\hline
+        CKE      & 5.6839   & 2.3175   & 59.2271 \\\hline
+        DMF      & 2.2927   & 1.9826   & 13.5251 \\\hline
+        KGCN     & 6.8754   & 4.0424   & 41.2058 \\\hline
+        KGNNLS   & 7.763    & 4.963    & 36.0686 \\\hline
+        LINE     & 1.9129   & 1.435    & 24.9825 \\\hline
+        MultiDAE & 8.0303   & 3.9954   & 50.2465 \\\hline
+        LightGCN & 15.626   & 2.0841   & 86.6623 \\\hline
+        NGCF     & 7.7582   & 3.1251   & 59.7184 \\\hline
+        DGCF     & 94.903   & 13.3787  & 85.9028 \\\hline
+
+    \end{tabular}
+    }
+    \caption{Confronto delle emissioni}
+\end{table}
+
+\noindent Rispetto al quinto esperimento la percentuale di riduzioni delle emissioni in generale è diminuita, dunque gli algoritmi hanno emesso di più.
+Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi in background sulla maacchina che hanno portato a un consumo leggermente più elevato dell'hardware.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, trim=0 0 0 0]{images/recall@10_movielens_1m_30_7_comparison.png}
+    \caption{Confronto score recall@10}
+    
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, trim=0 0 0 0]{images/ndcg@10_movielens_1m_30_7_comparison.png}
+    \caption{Confronto score ndcg@10}
+    
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, trim=0 0 0 0]{images/giniindex@10_movielens_1m_30_7_comparison.png}
+    \caption{Confronto score giniindex@10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, trim=0 0 0 0]{images/averagepopularity@10_movielens_1m_30_7_comparison.png}
+    \caption{Confronto score averagepopularity@10}
+\end{figure}
+
+
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score}\\
+    \hline
+    BPR & recall@10 & 0.1635 & 0.1635 & 0.0 \\ \hline
+    CFKG & recall@10 & 0.1526 & 0.1526 & 0.0 \\ \hline
+    CKE & recall@10 & 0.1593 & 0.1543 & 3.1387 \\ \hline
+    DMF & recall@10 & 0.1432 & 0.1432 & 0.0 \\ \hline
+    KGCN & recall@10 & 0.1422 & 0.1422 & 0.0 \\ \hline
+    KGNNLS & recall@10 & 0.1421 & 0.1421 & 0.0 \\ \hline
+    LINE & recall@10 & 0.1451 & 0.1451 & 0.0 \\ \hline
+    MultiDAE & recall@10 & 0.1799 & 0.1655 & 8.0044 \\ \hline
+    LightGCN & recall@10 & 0.173 & 0.1204 & 30.4046 \\ \hline
+    NGCF & recall@10 & 0.1586 & 0.1479 & 6.7465 \\ \hline
+    DGCF & recall@10 & 0.1656 & 0.1112 & 32.8502 \\ \hline
+    BPR & ndcg@10 & 0.2554 & 0.2554 & 0.0 \\ \hline
+    CFKG & ndcg@10 & 0.2402 & 0.2402 & 0.0 \\ \hline
+    CKE & ndcg@10 & 0.2534 & 0.2515 & 0.7498 \\ \hline
+    DMF & ndcg@10 & 0.2289 & 0.2289 & 0.0 \\ \hline
+    KGCN & ndcg@10 & 0.232 & 0.232 & 0.0 \\ \hline
+    KGNNLS & ndcg@10 & 0.2319 & 0.2319 & 0.0 \\ \hline
+    LINE & ndcg@10 & 0.2277 & 0.2277 & 0.0 \\ \hline
+    MultiDAE & ndcg@10 & 0.2633 & 0.2503 & 4.9373 \\ \hline
+    LightGCN & ndcg@10 & 0.2682 & 0.2064 & 23.0425 \\ \hline
+    NGCF & ndcg@10 & 0.2539 & 0.2433 & 4.1749 \\ \hline
+    DGCF & ndcg@10 & 0.2613 & 0.1923 & 26.4064 \\ \hline
+    BPR & averagepopularity@10 & 1146.3572 & 1146.3572 & 0.0 \\ \hline
+    CFKG & averagepopularity@10 & 1115.4498 & 1115.4498 & 0.0 \\ \hline
+    CKE & averagepopularity@10 & 1165.2413 & 1288.1031 & -10.5439 \\ \hline
+    DMF & averagepopularity@10 & 1379.7292 & 1379.7292 & 0.0 \\ \hline
+    KGCN & averagepopularity@10 & 1188.9582 & 1188.9582 & 0.0 \\ \hline
+    KGNNLS & averagepopularity@10 & 1188.8981 & 1188.8981 & 0.0 \\ \hline
+    LINE & averagepopularity@10 & 979.498 & 979.498 & 0.0 \\ \hline
+    MultiDAE & averagepopularity@10 & 1137.4597 & 1219.8457 & -7.243 \\ \hline
+    LightGCN & averagepopularity@10 & 1088.741 & 1585.7381 & -45.6488 \\ \hline
+    NGCF & averagepopularity@10 & 1201.8831 & 1359.7681 & -13.1365 \\ \hline
+    DGCF & averagepopularity@10 & 1172.6874 & 1708.7667 & -45.7137 \\ \hline
+    BPR & giniindex@10 & 0.8839 & 0.8839 & 0.0 \\ \hline
+    CFKG & giniindex@10 & 0.8822 & 0.8822 & 0.0 \\ \hline
+    CKE & giniindex@10 & 0.8894 & 0.92 & -3.4405 \\ \hline
+    DMF & giniindex@10 & 0.9443 & 0.9443 & 0.0 \\ \hline
+    KGCN & giniindex@10 & 0.8992 & 0.8992 & 0.0 \\ \hline
+    KGNNLS & giniindex@10 & 0.8992 & 0.8992 & 0.0 \\ \hline
+    LINE & giniindex@10 & 0.8904 & 0.8904 & 0.0 \\ \hline
+    MultiDAE & giniindex@10 & 0.875 & 0.9016 & -3.04 \\ \hline
+    LightGCN & giniindex@10 & 0.8759 & 0.9709 & -10.846 \\ \hline
+    NGCF & giniindex@10 & 0.9079 & 0.9397 & -3.5026 \\ \hline
+    DGCF & giniindex@10 & 0.8992 & 0.9791 & -8.8857 \\ \hline
+\end{tabular}
+    }
+    \caption{Performance dei modelli su diverse metriche e dataset}
+    \end{table}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/decrement_averagepopularity@10_movielens_1m_30_7.png}
+    \caption{Decremento di averagepopularity@10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/decrement_giniindex@10_movielens_1m_30_7.png}
+    \caption{Decremento di giniindex@10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/decrement_ndcg@10_movielens_1m_30_7.png}
+    \caption{Decremento di ndcg@10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/decrement_recall@10_movielens_1m_30_7.png}
+    \caption{Decremento di recall@10}
+\end{figure}
+
+\noindent Rispetto all'ultimo esperimento in generale tutti i modelli hanno performato meglio, portando diversi a performare come con il criterio classico.
+
+
+
+\subsubsection{Conclusioni}
+
+Appare subito evidente come il criterio più stringente (cioè che richiede condizioni più \textit{difficili} da verificare) \textbf{soglia 30, epoche 7} risulti essere quello che si avvicina di più al criterio classico, sia in emissioni che in performance. Il criterio meno stringente invece \textbf{soglia 40, epoche 5} è quello che più si discosta dal criterio classico, sia in emissioni che in performance.\\
+
+\noindent Osservando i grafici dei decrementi delle emissioni in rapporto a quello delle performance, il secondo e il terzo esperimento sembrano essere i migliori.
+Infatti nel secondo esperimento abbiamoo riduzioni di performance mooltoo basse (in generale sotto il 10\%) a fronte di riduzioni delle emissioni che si aggirano intorno al 60\% (eccezioni escluse).
+Nel terzo esperimento, invece, abbiamo riduzioni di performance leggermente maggiori (intorno al 15\%) con riduzioni delle emissioni che si aggirano intorno al 70\% (eccezioni escluse).\\
