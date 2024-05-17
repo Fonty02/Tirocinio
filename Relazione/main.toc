@@ -1,12 +1,12 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
-\contentsline {section}{\numberline {1}Sostenibilità}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Introduzione alla sostenibilità}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Sostenibilità ambientale}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Green AI}{3}{subsection.1.3}%
-\contentsline {section}{\numberline {2}Recommender Systems}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Introduzione}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Recommender Systems e Sustainability}{6}{subsection.2.2}%
+\contentsline {section}{\numberline {1}Sostenibilità}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Introduzione alla sostenibilità}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Sostenibilità ambientale}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Green AI}{4}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Recommender Systems}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Introduzione}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Recommender Systems e Sustainability}{7}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Design esperimenti}{8}{section.3}%
 \contentsline {section}{\numberline {4}Lavoro precedente}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Introduzione}{9}{subsection.4.1}%
@@ -48,130 +48,143 @@
 \contentsline {subsubsection}{\numberline {5.4.5}LFM-1b\_artist\_20U50I\_25strat}{32}{subsubsection.5.4.5}%
 \contentsline {subsubsection}{\numberline {5.4.6}ml-10m\_50U10I}{33}{subsubsection.5.4.6}%
 \contentsline {subsubsection}{\numberline {5.4.7}Conclusioni}{33}{subsubsection.5.4.7}%
-\contentsline {subsection}{\numberline {5.5}Regressore}{34}{subsection.5.5}%
-\contentsline {subsubsection}{\numberline {5.5.1}Dataset originale}{34}{subsubsection.5.5.1}%
-\contentsline {paragraph}{\textbf {SVR}.}{35}{section*.50}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{35}{section*.51}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{36}{section*.52}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{36}{section*.53}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{36}{section*.54}%
-\contentsline {paragraph}{\textbf {SVR}.}{37}{section*.57}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{37}{section*.58}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{38}{section*.59}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{38}{section*.60}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{38}{section*.61}%
-\contentsline {paragraph}{\textbf {SVR}.}{39}{section*.64}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{39}{section*.65}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{40}{section*.66}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{40}{section*.67}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{40}{section*.68}%
-\contentsline {paragraph}{\textbf {SVR}.}{41}{section*.71}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{41}{section*.72}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{41}{section*.73}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{41}{section*.74}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{41}{section*.75}%
-\contentsline {paragraph}{\textbf {SVR}.}{42}{section*.78}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{42}{section*.79}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{43}{section*.80}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{43}{section*.81}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{43}{section*.82}%
-\contentsline {paragraph}{\textbf {Conclusioni generali}}{43}{section*.83}%
-\contentsline {paragraph}{\textbf {SVR}.}{44}{section*.87}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{44}{section*.88}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{45}{section*.89}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{45}{section*.90}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{45}{section*.91}%
-\contentsline {paragraph}{\textbf {SVR}.}{46}{section*.94}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{46}{section*.95}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{46}{section*.96}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{46}{section*.97}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{46}{section*.98}%
-\contentsline {paragraph}{\textbf {SVR}.}{47}{section*.101}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{47}{section*.102}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{48}{section*.103}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{48}{section*.104}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{48}{section*.105}%
-\contentsline {paragraph}{\textbf {SVR}.}{49}{section*.108}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{49}{section*.109}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{49}{section*.110}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{49}{section*.111}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{50}{section*.112}%
-\contentsline {paragraph}{\textbf {SVR}.}{51}{section*.115}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{51}{section*.116}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{52}{section*.117}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{52}{section*.118}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{52}{section*.119}%
-\contentsline {paragraph}{\textbf {Conclusioni generali}}{53}{section*.120}%
-\contentsline {subsubsection}{\numberline {5.5.2}Dataset ridotto}{53}{subsubsection.5.5.2}%
-\contentsline {paragraph}{\textbf {SVR}.}{54}{section*.124}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{54}{section*.125}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{54}{section*.126}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{54}{section*.127}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{54}{section*.128}%
-\contentsline {paragraph}{\textbf {SVR}.}{55}{section*.131}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{55}{section*.132}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{56}{section*.133}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{56}{section*.134}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{56}{section*.135}%
-\contentsline {paragraph}{\textbf {SVR}.}{57}{section*.138}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{57}{section*.139}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{57}{section*.140}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{57}{section*.141}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{58}{section*.142}%
-\contentsline {paragraph}{\textbf {SVR}.}{58}{section*.145}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{59}{section*.146}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{59}{section*.147}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{59}{section*.148}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{59}{section*.149}%
-\contentsline {paragraph}{\textbf {SVR}.}{60}{section*.152}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{60}{section*.153}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{61}{section*.154}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{61}{section*.155}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{61}{section*.156}%
-\contentsline {paragraph}{\textbf {Conclusioni generali}}{61}{section*.157}%
-\contentsline {paragraph}{\textbf {SVR}.}{63}{section*.161}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{63}{section*.162}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{63}{section*.163}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{63}{section*.164}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{63}{section*.165}%
-\contentsline {paragraph}{\textbf {SVR}.}{64}{section*.168}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{64}{section*.169}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{65}{section*.170}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{65}{section*.171}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{65}{section*.172}%
-\contentsline {paragraph}{\textbf {SVR}.}{66}{section*.175}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{66}{section*.176}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{67}{section*.177}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{67}{section*.178}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{67}{section*.179}%
-\contentsline {paragraph}{\textbf {SVR}.}{68}{section*.182}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{68}{section*.183}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{69}{section*.184}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{69}{section*.185}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{69}{section*.186}%
-\contentsline {paragraph}{\textbf {SVR}.}{70}{section*.189}%
-\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{70}{section*.190}%
-\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{71}{section*.191}%
-\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{71}{section*.192}%
-\contentsline {paragraph}{\textbf {Conclusioni}}{71}{section*.193}%
-\contentsline {paragraph}{\textbf {Conclusioni generali}}{71}{section*.194}%
-\contentsline {paragraph}{Confronto tra i quattro dataset}{71}{section*.195}%
-\contentsline {subsection}{\numberline {5.6}Errori delle classi}{72}{subsection.5.6}%
-\contentsline {subsubsection}{\numberline {5.6.1}Dataset Completo}{72}{subsubsection.5.6.1}%
-\contentsline {subsubsection}{\numberline {5.6.2}Dataset Completo Ridotto}{72}{subsubsection.5.6.2}%
-\contentsline {subsubsection}{\numberline {5.6.3}Dataset Azure}{73}{subsubsection.5.6.3}%
-\contentsline {subsubsection}{\numberline {5.6.4}Dataset Azure Ridotto}{73}{subsubsection.5.6.4}%
-\contentsline {section}{\numberline {6}Seconda parte}{74}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Introduzione}{74}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Parte esplorativa}{75}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Primo esperimento}{75}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}Secondo esperimento}{80}{subsubsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}Terzo esperimento}{86}{subsubsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.3}Confronto tra criteri MovieLens-1m}{92}{subsection.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}Primo esperimento}{92}{subsubsection.6.3.1}%
-\contentsline {subsubsection}{\numberline {6.3.2}Secondo esperimento}{98}{subsubsection.6.3.2}%
-\contentsline {subsubsection}{\numberline {6.3.3}Terzo esperimento}{104}{subsubsection.6.3.3}%
-\contentsline {subsubsection}{\numberline {6.3.4}Quarto esperimento}{110}{subsubsection.6.3.4}%
-\contentsline {subsubsection}{\numberline {6.3.5}Quinto esperimento}{116}{subsubsection.6.3.5}%
-\contentsline {subsubsection}{\numberline {6.3.6}Sesto esperimento}{121}{subsubsection.6.3.6}%
-\contentsline {subsubsection}{\numberline {6.3.7}Conclusioni}{127}{subsubsection.6.3.7}%
+\contentsline {subsection}{\numberline {5.5}Regressore}{35}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Dataset originale}{35}{subsubsection.5.5.1}%
+\contentsline {paragraph}{\textbf {SVR}.}{36}{section*.50}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{37}{section*.51}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{37}{section*.52}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{37}{section*.53}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{37}{section*.54}%
+\contentsline {paragraph}{\textbf {SVR}.}{38}{section*.57}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{39}{section*.58}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{39}{section*.59}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{39}{section*.60}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{39}{section*.61}%
+\contentsline {paragraph}{\textbf {SVR}.}{40}{section*.64}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{41}{section*.65}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{41}{section*.66}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{41}{section*.67}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{41}{section*.68}%
+\contentsline {paragraph}{\textbf {SVR}.}{42}{section*.71}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{42}{section*.72}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{42}{section*.73}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{42}{section*.74}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{43}{section*.75}%
+\contentsline {paragraph}{\textbf {SVR}.}{44}{section*.78}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{44}{section*.79}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{44}{section*.80}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{44}{section*.81}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{44}{section*.82}%
+\contentsline {paragraph}{\textbf {Conclusioni generali}}{44}{section*.83}%
+\contentsline {paragraph}{\textbf {SVR}.}{45}{section*.87}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{46}{section*.88}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{46}{section*.89}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{46}{section*.90}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{46}{section*.91}%
+\contentsline {paragraph}{\textbf {SVR}.}{47}{section*.94}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{47}{section*.95}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{47}{section*.96}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{47}{section*.97}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{48}{section*.98}%
+\contentsline {paragraph}{\textbf {SVR}.}{49}{section*.101}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{50}{section*.102}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{50}{section*.103}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{50}{section*.104}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{50}{section*.105}%
+\contentsline {paragraph}{\textbf {SVR}.}{51}{section*.108}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{51}{section*.109}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{51}{section*.110}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{51}{section*.111}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{52}{section*.112}%
+\contentsline {paragraph}{\textbf {SVR}.}{53}{section*.115}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{54}{section*.116}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{54}{section*.117}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{54}{section*.118}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{54}{section*.119}%
+\contentsline {paragraph}{\textbf {Conclusioni generali}}{55}{section*.120}%
+\contentsline {subsubsection}{\numberline {5.5.2}Dataset ridotto}{55}{subsubsection.5.5.2}%
+\contentsline {paragraph}{\textbf {SVR}.}{56}{section*.124}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{56}{section*.125}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{56}{section*.126}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{56}{section*.127}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{57}{section*.128}%
+\contentsline {paragraph}{\textbf {SVR}.}{58}{section*.131}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{59}{section*.132}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{59}{section*.133}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{59}{section*.134}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{59}{section*.135}%
+\contentsline {paragraph}{\textbf {SVR}.}{60}{section*.138}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{60}{section*.139}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{60}{section*.140}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{60}{section*.141}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{61}{section*.142}%
+\contentsline {paragraph}{\textbf {SVR}.}{62}{section*.145}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{62}{section*.146}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{62}{section*.147}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{62}{section*.148}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{62}{section*.149}%
+\contentsline {paragraph}{\textbf {SVR}.}{63}{section*.152}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{64}{section*.153}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{64}{section*.154}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{64}{section*.155}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{64}{section*.156}%
+\contentsline {paragraph}{\textbf {Conclusioni generali}}{64}{section*.157}%
+\contentsline {paragraph}{\textbf {SVR}.}{66}{section*.161}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{66}{section*.162}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{66}{section*.163}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{66}{section*.164}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{67}{section*.165}%
+\contentsline {paragraph}{\textbf {SVR}.}{68}{section*.168}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{68}{section*.169}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{68}{section*.170}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{68}{section*.171}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{68}{section*.172}%
+\contentsline {paragraph}{\textbf {SVR}.}{69}{section*.175}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{70}{section*.176}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{70}{section*.177}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{70}{section*.178}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{70}{section*.179}%
+\contentsline {paragraph}{\textbf {SVR}.}{71}{section*.182}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{72}{section*.183}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{72}{section*.184}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{72}{section*.185}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{72}{section*.186}%
+\contentsline {paragraph}{\textbf {SVR}.}{73}{section*.189}%
+\contentsline {paragraph}{\textbf {Decision Tree Regressor}.}{74}{section*.190}%
+\contentsline {paragraph}{\textbf {Random Forest Regressor}.}{74}{section*.191}%
+\contentsline {paragraph}{\textbf {AdaBoost Regressor}.}{74}{section*.192}%
+\contentsline {paragraph}{\textbf {Conclusioni}}{74}{section*.193}%
+\contentsline {paragraph}{\textbf {Conclusioni generali}}{74}{section*.194}%
+\contentsline {paragraph}{Confronto tra i quattro dataset}{74}{section*.195}%
+\contentsline {subsection}{\numberline {5.6}Errori delle classi}{75}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Dataset Completo}{75}{subsubsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.2}Dataset Completo Ridotto}{75}{subsubsection.5.6.2}%
+\contentsline {subsubsection}{\numberline {5.6.3}Dataset Azure}{75}{subsubsection.5.6.3}%
+\contentsline {subsubsection}{\numberline {5.6.4}Dataset Azure Ridotto}{76}{subsubsection.5.6.4}%
+\contentsline {section}{\numberline {6}Seconda parte}{77}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Introduzione}{77}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Parte esplorativa}{78}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Primo esperimento}{78}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Secondo esperimento}{84}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Terzo esperimento}{90}{subsubsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.3}Confronto tra criteri MovieLens-1m}{96}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Primo esperimento}{96}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Secondo esperimento}{102}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}Terzo esperimento}{108}{subsubsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.4}Quarto esperimento}{114}{subsubsection.6.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.5}Quinto esperimento}{119}{subsubsection.6.3.5}%
+\contentsline {subsubsection}{\numberline {6.3.6}Sesto esperimento}{126}{subsubsection.6.3.6}%
+\contentsline {subsubsection}{\numberline {6.3.7}Conclusioni}{131}{subsubsection.6.3.7}%
+\contentsline {subsection}{\numberline {6.4}Introduzione}{132}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Parte esplorativa}{134}{subsection.6.5}%
+\contentsline {subsubsection}{\numberline {6.5.1}Primo esperimento}{134}{subsubsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.2}Secondo esperimento}{140}{subsubsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.3}Terzo esperimento}{146}{subsubsection.6.5.3}%
+\contentsline {subsection}{\numberline {6.6}Confronto tra criteri MovieLens-1m}{152}{subsection.6.6}%
+\contentsline {subsubsection}{\numberline {6.6.1}Primo esperimento}{152}{subsubsection.6.6.1}%
+\contentsline {subsubsection}{\numberline {6.6.2}Secondo esperimento}{158}{subsubsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.3}Terzo esperimento}{164}{subsubsection.6.6.3}%
+\contentsline {subsubsection}{\numberline {6.6.4}Quarto esperimento}{170}{subsubsection.6.6.4}%
+\contentsline {subsubsection}{\numberline {6.6.5}Quinto esperimento}{175}{subsubsection.6.6.5}%
+\contentsline {subsubsection}{\numberline {6.6.6}Sesto esperimento}{182}{subsubsection.6.6.6}%
+\contentsline {subsubsection}{\numberline {6.6.7}Conclusioni}{187}{subsubsection.6.6.7}%
