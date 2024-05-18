@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1715976320.57419 "main.aux" "main.bbl" "main" 1715977710.79809 0
+["bibtex main"] 1716020756.0887 "main.aux" "main.bbl" "main" 1716020927.57486 0
   "./bibliography.bib" 1715606756 70677 30ed5b73c5e42437d60a0d966f35aaae ""
   "E:/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1715977709 80683 e5325cb7606a05e6206ba6e57a296fc2 "pdflatex"
+  "main.aux" 1716020926 62016 04389a5e2c1edc76bc2c60cb7c65e490 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1715977692.31167 "c:/Users/fonta/Desktop/Tirocinio/Relazione/main.tex" "main.pdf" "main" 1715977710.7989 0
+["pdflatex"] 1716020911.10162 "c:/Users/fonta/Desktop/Tirocinio/Relazione/main.tex" "main.pdf" "main" 1716020927.57559 0
   "C:/Users/fonta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1715234821 91245 9ee8cb7f350b2696982aa139ccaecc55 ""
   "C:/Users/fonta/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1709902509 14064 4e1f104848c90078f3a43b49a6c8cda8 ""
   "C:/Users/fonta/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1709901367 24219692 f427664277253c988bfde5a1cd9af7c9 ""
@@ -485,18 +485,18 @@
   "images/sensibility_recall@10.png" 1715975662 57875 f3a8b940de64f3600874981493a9be48 ""
   "images/situazione-attuale.png" 1713374975 56054 8210ece2f2aed87419d2f44057620709 ""
   "images/uniba-logo.png" 1712568861 593504 d4521a8a57dd6a041ed548de98f8b93a ""
-  "main.aux" 1715977709 80683 e5325cb7606a05e6206ba6e57a296fc2 "pdflatex"
-  "main.bbl" 1715976320 14204 576b394cb39884d2336bb5afac8259be "bibtex main"
-  "main.out" 1715977709 11549 b838edfea321a4c5f736db0c3769d2a9 "pdflatex"
+  "main.aux" 1716020926 62016 04389a5e2c1edc76bc2c60cb7c65e490 "pdflatex"
+  "main.bbl" 1716020756 14204 576b394cb39884d2336bb5afac8259be "bibtex main"
+  "main.out" 1716020926 9491 2651a33cfed90180a7acc9eb23eae2f1 "pdflatex"
   "main.tex" 1715973139 2086 96453c7890c87afe0b39a7c297f121cc ""
-  "main.toc" 1715977709 15133 36a01af0f91a19478b79698980beb4e7 "pdflatex"
+  "main.toc" 1716020926 13914 e78a6d0d9c6266ece365c31226459517 "pdflatex"
   "pages/DesignEsperimenti.tex" 1715611448 1791 6f0cef9035b186ede32f62f3a0031d8a ""
   "pages/LavoroPrecedente.tex" 1715611448 8460 52ba30458b87994e807a6376a24dbbb7 ""
   "pages/Modelli.tex" 1715611770 8960 b1aee484a3f74bb8dd36e0f4ad7e8654 ""
   "pages/NuovoRegressore.tex" 1715612921 64188 50d5211844e50ac774f5d525a0c429de ""
   "pages/Risultati.tex" 1715606756 3914 fff59f25fa1d845fdcaf0bacc5e61b01 ""
   "pages/configurazione.tex" 1715612222 2733 33ef6ccd2b16f80f6c3dff05742ca83d ""
-  "pages/criterio.tex" 1715977691 191573 d2b8c19eec3daa98a9a9bbb9781b5db4 ""
+  "pages/criterio.tex" 1716020910 98276 081404b43d56aa94aa5c6ec037844db6 ""
   "pages/emissioni.tex" 1715612276 2989 2aea95f0b95335754ce2c3928825fe49 ""
   "pages/erroriClassi.tex" 1715612988 5228 ed53598dc847aa8a316b53d481c26ce2 ""
   "pages/introSostenibilit.tex" 1715606756 7035 6ccfdadbe8c3553db3a1ea0c3e7378b8 ""
