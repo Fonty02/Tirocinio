@@ -3,7 +3,7 @@
 
 \subsection{Introduzione}
 
-\noindent Per quanto riguarda la previsione questo prima parte del documento si propone di presentare lo stato attuale del lavoro svolto in questo ambito.
+\noindent Per quanto riguarda la valutazione e la predizione delle emissioni questa prima parte del documento si propone di presentare lo stato attuale del lavoro svolto in questo ambito.
 
 
 
@@ -11,7 +11,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{images/situazione-attuale.png}
+    \includegraphics[width=\textwidth]{images/situazione-attuale.png}
     \caption{Emissioni prodotte dai vari modelli}
 \end{figure}
 
@@ -25,19 +25,20 @@
 
 
 \subsection {Dataset del regressore}
-In questo capitolo si analizza il dataset utilizzato e come questo è stato trattato per l'addestramento dei modelli. Inoltre, si descrivono le feature di input e output del modello.
+In questo paragrafo si analizza il dataset utilizzato e come questo è stato trattato per l'addestramento dei modelli. Inoltre, si descrivono le feature di input e output del modello.
+Nel dataset sono presenti 201 righe (dunque 201 esperimenti distinti).
 
-\noindent Il dataset nella sua totalità è composto da 13 feature di input e una feature di output. Le feature di input possiamo suddividerle in 4 categorie:
+\noindent Il dataset nella sua totalità è composto da 13 feature di input e una feature di output.
+\subsection{Descrizione della feature di output}
+La feature di output \textit{emissions} rappresenta le emissioni di CO$_2$eq prodotte dalla macchina durante l'addestramento del modello.
+\subsubsection{Descrizione delle feature di input}
+Le feature di input possono essere suddivise in 4 categorie:
 \begin{itemize}
     \item \textbf{Feature relative al dataset}, quali \textit{n\_users}, \textit{n\_items}, \textit{n\_inter}, \textit{sparsity}
     \item \textbf{Feature relative al knowledge graph}, quali \textit{kg\_entities}, \textit{kg\_relations}, \textit{kg\_triples}, \textit{kg\_items}
     \item \textbf{Feature relative all'hardware utilizzato per l'addestramento}, quali \textit{cpu\_cores}, \textit{ram\_size}, \textit{is\_gpu}
     \item \textbf{Feature relative al modello}, quali \textit{model\_name}, \textit{model\_type}
 \end{itemize}
-Nel dataset sono presenti 201 righe (dunque 201 esperimenti distinti).
-\subsection{Descrizione delle feature di output}
-La feature di output \textit{emissions} rappresenta le emissioni di CO$_2$eq prodotte dalla macchina durante l'addestramento del modello.
-\subsubsection{Descrizione delle feature di input}
 \begin{center}
 \begin{table}[H]
     \centering
@@ -76,7 +77,7 @@ La feature di output \textit{emissions} rappresenta le emissioni di CO$_2$eq pro
 \end{table}
 \end{center}
 
-Per quanto riguarda la feature \textit{model\_type} abbiamo i seguenti valori:
+\noindent Per quanto riguarda la feature \textit{model\_type} abbiamo i seguenti valori:
 \begin{itemize}
     \item \textbf{General}: Modelli che si basano su tecniche tradizionali
     \item \textbf{Knowledge}: Modelli che incorporano conoscenza esterna (knowledge graph) per migliorare le raccomandazioni
@@ -142,6 +143,6 @@ Altri valori unici presenti per le varie feature di input sono:
 \subsubsection{Pre-Processing}
 
 Per poter sfruttare le feature di input per l'addestramento del modello, è stato necessario effettuare un pre-processing. Le feature \textit{model\_name} e \textit{model\_type} sono state trasformate in variabili numeriche. In particolare il valore \textit{general} è stato trasformato in 0 e il valore \textit{knowledge} è stato trasformato in 1.
-Per quanto riguarda la feature \textit{model\_name}, ogni valore è stato trasformato in un numero intero univoco. In questo modo, il modello può sfruttare queste feature per l'addestramento.
+Per quanto riguarda la feature \textit{model\_name}, ogni valore è stato trasformato in un numero intero univoco. In questo modo, il modello di regressione può sfruttare queste feature per l'addestramento.
 Prima di cominciare con l'addestramento dei modelli la feature di output è stata separata dalle feature di input. I dati sono poi stati suddivisi rispettivamente in training set e test set. In particolare il 70\% dei dati è stato usato per l'addestramento, mentre il 30\% è stato usato per la valutazione. Inoltre, mediante il \textit{random\_state}=2, è garantita la riproducibilità dell'esperimento.
 

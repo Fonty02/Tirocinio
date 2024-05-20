@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.8)  18 MAY 2024 10:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  20 MAY 2024 12:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,9 +7,9 @@ entering extended mode
 (c:/Users/fonta/Desktop/Tirocinio/Relazione/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
-(E:\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(E:\Programs\MiKTeX\tex/latex/base\size12.clo
+(C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count188
@@ -23,14 +23,14 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (E:\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (E:\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (E:\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (E:\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count196
@@ -45,60 +45,60 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen147
 \Gm@layoutvoffset=\dimen148
 \Gm@dimlist=\toks18
- (E:\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (E:\Programs\MiKTeX\tex/latex/base\inputenc.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
-) (E:\Programs\MiKTeX\tex/generic/babel\babel.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2024/02/07 v24.2 The Babel package
 \babel@savecnt=\count199
 \U@D=\dimen149
 \l@unhyphenated=\language79
- (E:\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count266
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(E:\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (E:\Programs\MiKTeX\tex/latex/babel-italian\italian.ldf
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.ldf
 Language: italian 2024/01/03 v.1.5.00 Italian support for the babel system
 \it@lettering=\count267
 \it@doublequoteactive=\count268
 \it@ISOcompliance=\count269
-)) (E:\Programs\MiKTeX\tex/generic/babel/locale/it\babel-italian.tex
+)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/it\babel-italian.tex
 Package babel Info: Importing font and identification data for italian
 (babel)             from babel-it.ini. Reported on input line 11.
-) (E:\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count270
-) (E:\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (E:\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (E:\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (E:\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (E:\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (E:\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
-) (E:\Programs\MiKTeX\tex/latex/float\float.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count271
 \float@exts=\toks21
 \float@box=\box51
 \@float@everytoks=\toks22
 \@floatcapt=\box52
-) (E:\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip50
 \f@nch@O@elh=\skip51
@@ -109,13 +109,13 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip56
 \f@nch@O@olf=\skip57
 \f@nch@O@orf=\skip58
-) (E:\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (E:\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (E:\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -125,9 +125,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (E:\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
-Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
- (E:\Programs\MiKTeX\tex/latex/tools\calc.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count272
 \calc@Bcount=\count273
@@ -139,23 +139,23 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count274
 \calc@Cskip=\skip61
-) (E:\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
-) (E:\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip62
 
 For additional information on amsmath, use the `?' option.
-(E:\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (E:\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
 \ex@=\dimen154
-)) (E:\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen155
-) (E:\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count275
@@ -217,31 +217,31 @@ LaTeX Info: Redefining \] on input line 2954.
 \l_MT_below_shortintertext_sep=\dimen169
 \xmathstrut@box=\box55
 \xmathstrut@dim=\dimen170
-) (E:\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (E:\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (E:\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (E:\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (E:\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (E:\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks28
 \pgfutil@tempdima=\dimen171
 \pgfutil@tempdimb=\dimen172
-) (E:\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box56
-) (E:\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (E:\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (E:\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (E:\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (E:\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (E:\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks29
 \pgfkeys@temptoks=\toks30
- (E:\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks31
 ))
 \pgf@x=\dimen173
@@ -264,32 +264,32 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokb=\toks33
 \t@pgf@tokc=\toks34
 \pgf@sys@id@count=\count292
- (E:\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (E:\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (E:\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (E:\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+))) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count293
 \pgfsyssoftpath@bigbuffer@items=\count294
-) (E:\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen183
 \pgfmath@count=\count295
 \pgfmath@box=\box57
 \pgfmath@toks=\toks35
 \pgfmath@stack@operand=\toks36
 \pgfmath@stack@operation=\toks37
-) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count296
-)) (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen184
 \pgf@picmaxx=\dimen185
@@ -305,75 +305,75 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen195
 \pgf@zx=\dimen196
 \pgf@zy=\dimen197
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen198
 \pgf@path@lasty=\dimen199
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen256
 \pgf@shorten@start@additional=\dimen257
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
 \pgf@picture@serial@count=\count297
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen258
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen259
 \pgf@pt@y=\dimen260
 \pgf@pt@temp=\dimen261
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen262
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen263
 \pgf@sys@shading@range@num=\count298
 \pgf@shadingcount=\count299
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box61
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (E:\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+))) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box62
-) (E:\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (E:\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen264
 \pgf@nodesepend=\dimen265
-) (E:\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (E:\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (E:\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (E:\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (E:\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (E:\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (E:\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen266
 \pgffor@skip=\dimen267
 \pgffor@stack=\toks38
 \pgffor@toks=\toks39
-)) (E:\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (E:\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count300
 \pgfplotmarksize=\dimen268
@@ -394,30 +394,30 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count302
 \tikznumberofcurrentchild=\count303
 \tikz@fig@count=\count304
- (E:\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count305
 \pgfmatrixcurrentcolumn=\count306
 \pgf@matrix@numberofcolumns=\count307
 )
 \tikz@expandcount=\count308
- (E:\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (E:\Programs\MiKTeX\tex/latex/imakeidx\imakeidx.sty
+))) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/imakeidx\imakeidx.sty
 Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchronous mode
- (E:\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (E:\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (E:\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks40
 \XKV@tempa@toks=\toks41
 )
 \XKV@depth=\count309
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (E:\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (E:\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (E:\Programs\MiKTeX\tex/latex/tools\multicol.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count310
 \mult@box=\box67
@@ -486,30 +486,30 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \mult@nat@firstbox=\box111
 \colbreak@box=\box112
 \mc@col@check@num=\count319
-)) (E:\Programs\MiKTeX\tex/latex/base\textcomp.sty
+)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (E:\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
- (E:\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
- (E:\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
-)) (E:\Programs\MiKTeX\tex/latex/polynom\polynom.sty
+)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/polynom\polynom.sty
 Package: polynom 2017/07/17 0.19 (CH,HA)
 \pld@currstage=\count320
-) (E:\Programs\MiKTeX\tex/latex/algorithms\algorithm.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
- (E:\Programs\MiKTeX\tex/latex/base\ifthen.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks42
 \c@algorithm=\count321
-) (E:\Programs\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
 Package: algpseudocode 
- (E:\Programs\MiKTeX\tex/latex/algorithmicx\algorithmicx.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -525,35 +525,35 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip70
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (E:\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
- (E:\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (E:\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (E:\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (E:\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (E:\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (E:\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (E:\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (E:\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (E:\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (E:\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (E:\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (E:\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count329
@@ -561,15 +561,15 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \@linkdim=\dimen286
 \Hy@linkcounter=\count330
 \Hy@pagecounter=\count331
- (E:\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (E:\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count332
- (E:\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -583,15 +583,15 @@ Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
 \c@Hy@tempcnt=\count333
- (E:\Programs\MiKTeX\tex/latex/url\url.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen287
- (E:\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (E:\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count334
@@ -604,7 +604,7 @@ Package hyperref Info: backreferencing OFF on input line 6078.
 Package hyperref Info: Link coloring ON on input line 6081.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
- (E:\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -613,46 +613,46 @@ package with kernel methods
 \c@Hfootnote=\count337
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (E:\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
- (E:\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count338
 \c@bookmark@seq@number=\count339
- (E:\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (E:\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip71
-) (E:\Programs\MiKTeX\tex/latex/cancel\cancel.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
-) (E:\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
 \t@pgfplots@toka=\toks43
 \t@pgfplots@tokb=\toks44
 \t@pgfplots@tokc=\toks45
 \pgfplots@tmpa=\dimen290
 \c@pgfplots@coordindex=\count340
 \c@pgfplots@scanlineindex=\count341
- (E:\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (E:\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (E:\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (E:\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks46
 \t@pgf@tokb=\toks47
 \t@pgf@tokc=\toks48
-(E:\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (E:\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (E:\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (E:\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (E:\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
+(C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count342
-) (E:\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (E:\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count343
 \t@pgfplotstable@a=\toks49
-) (E:\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (E:\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (E:\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (E:\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (E:\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count344
- (E:\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (E:\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (E:\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (E:\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (E:\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (E:\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen291
 \pgfdecoratedremainingdistance=\dimen292
 \pgfdecoratedinputsegmentcompleteddistance=\dimen293
@@ -663,7 +663,7 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfdecorationsegmentlength=\dimen297
 )
 \tikz@lib@dec@box=\box113
-) (E:\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (E:\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (E:\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (E:\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (E:\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count346
 \pgfplots@xmin@reg=\dimen298
 \pgfplots@xmax@reg=\dimen299
@@ -671,13 +671,13 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfplots@ymax@reg=\dimen301
 \pgfplots@zmin@reg=\dimen302
 \pgfplots@zmax@reg=\dimen303
-) (E:\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (E:\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (E:\Programs\MiKTeX\tex/latex/caption\caption.sty
+))) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (E:\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen304
 \captionmargin=\dimen305
@@ -693,9 +693,9 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count348
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-) (E:\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
- (E:\Programs\MiKTeX\tex/latex/tools\array.sty
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen312
 \ar@mcellbox=\box114
@@ -712,9 +712,9 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen318
 \TX@cols=\count349
 \TX@ftn=\toks51
-) (E:\Programs\MiKTeX\tex/latex/comment\comment.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write4
- Excluding comment 'comment') (E:\Programs\MiKTeX\tex/latex/tools\bm.sty
+ Excluding comment 'comment') (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
 Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -723,7 +723,7 @@ Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
-) (E:\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count350
 \l__pdf_internal_box=\box116
@@ -1008,7 +1008,7 @@ italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting
 italian.ldf    on input line 35.
 
-(E:\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count351
 \scratchdimen=\dimen319
@@ -1021,10 +1021,10 @@ italian.ldf    on input line 35.
 \MPnumerator=\count355
 \makeMPintoPDFobject=\count356
 \everyMPtoPDFconversion=\toks53
-) (E:\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (E:\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 35.
@@ -1045,11 +1045,11 @@ File: images/uniba-logo.png Graphic file (type png)
 Package pdftex.def Info: images/uniba-logo.png  used on input line 42.
 (pdftex.def)             Requested size: 120.45705pt x 120.45705pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
-(E:\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
- (E:\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+ (C:\Users\fonta\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (main.toc [1{C:/Users/fonta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
@@ -1066,8 +1066,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2] (pages/introSostenibilit.tex
-LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 9.
+<images/sdg.png, id=326, 804.00375pt x 477.785pt>
+File: images/sdg.png Graphic file (type png)
+<use images/sdg.png>
+Package pdftex.def Info: images/sdg.png  used on input line 10.
+(pdftex.def)             Requested size: 402.0009pt x 238.8919pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1076,7 +1079,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
-[3])
+[3 <./images/sdg.png>]
+LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 22.
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.71667pt, for example:
@@ -1085,6 +1091,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [4] (pages/recommender.tex
+File: images/cfRecSys.png Graphic file (type png)
+<use images/cfRecSys.png>
+Package pdftex.def Info: images/cfRecSys.png  used on input line 28.
+(pdftex.def)             Requested size: 269.70119pt x 196.14822pt.
+File: images/contentbased.png Graphic file (type png)
+<use images/contentbased.png>
+Package pdftex.def Info: images/contentbased.png  used on input line 28.
+(pdftex.def)             Requested size: 269.70119pt x 153.03075pt.
+File: images/hybridRecSys.png Graphic file (type png)
+<use images/hybridRecSys.png>
+Package pdftex.def Info: images/hybridRecSys.png  used on input line 28.
+(pdftex.def)             Requested size: 269.70119pt x 212.33852pt.
+File: images/knowledge.png Graphic file (type png)
+<use images/knowledge.png>
+Package pdftex.def Info: images/knowledge.png  used on input line 28.
+(pdftex.def)             Requested size: 269.70119pt x 156.97728pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1092,7 +1115,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5])
+[5]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1100,12 +1123,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6] (pages/DesignEsperimenti.tex
-<images/risultati-valutazione.png, id=369, 572.89032pt x 247.67531pt>
+[6 <./images/cfRecSys.png> <./images/contentbased.png> <./images/hybridRecSys.png> <./images/knowledge.png>])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7] (pages/DesignEsperimenti.tex
+<images/risultati-valutazione.png, id=385, 572.89032pt x 247.67531pt>
 File: images/risultati-valutazione.png Graphic file (type png)
 <use images/risultati-valutazione.png>
 Package pdftex.def Info: images/risultati-valutazione.png  used on input line 23.
-(pdftex.def)             Requested size: 429.66669pt x 185.75601pt.
+(pdftex.def)             Requested size: 540.60236pt x 233.72183pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1114,12 +1145,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7 <./images/risultati-valutazione.png>]) (pages/LavoroPrecedente.tex
-<images/situazione-attuale.png, id=381, 1795.70876pt x 792.9625pt>
+[8 <./images/risultati-valutazione.png>]) (pages/LavoroPrecedente.tex
+<images/situazione-attuale.png, id=396, 1795.70876pt x 792.9625pt>
 File: images/situazione-attuale.png Graphic file (type png)
 <use images/situazione-attuale.png>
 Package pdftex.def Info: images/situazione-attuale.png  used on input line 14.
-(pdftex.def)             Requested size: 448.92609pt x 198.24013pt.
+(pdftex.def)             Requested size: 540.60236pt x 238.72545pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1128,7 +1159,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8 <./images/situazione-attuale.png>]
+[9 <./images/situazione-attuale.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1136,7 +1167,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9]
+[10]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1144,7 +1175,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10])
+[11]) (pages/Modelli.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1152,8 +1183,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11] (pages/Modelli.tex
-<images/SVR.png, id=495, 897.3525pt x 548.0475pt>
+[12]
+<images/SVR.png, id=510, 897.3525pt x 548.0475pt>
 File: images/SVR.png Graphic file (type png)
 <use images/SVR.png>
 Package pdftex.def Info: images/SVR.png  used on input line 19.
@@ -1166,8 +1197,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12 <./images/SVR.png (PNG copy)>]
-<images/DecisionTreeRegressor.png, id=508, 569.12625pt x 388.45125pt>
+[13 <./images/SVR.png (PNG copy)>]
+<images/DecisionTreeRegressor.png, id=524, 569.12625pt x 388.45125pt>
 File: images/DecisionTreeRegressor.png Graphic file (type png)
 <use images/DecisionTreeRegressor.png>
 Package pdftex.def Info: images/DecisionTreeRegressor.png  used on input line 42.
@@ -1180,8 +1211,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13 <./images/DecisionTreeRegressor.png>]
-<images/RandomForestRegressor.png, id=518, 569.12625pt x 329.23pt>
+[14 <./images/DecisionTreeRegressor.png>]
+<images/RandomForestRegressor.png, id=533, 569.12625pt x 329.23pt>
 File: images/RandomForestRegressor.png Graphic file (type png)
 <use images/RandomForestRegressor.png>
 Package pdftex.def Info: images/RandomForestRegressor.png  used on input line 69.
@@ -1194,7 +1225,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14 <./images/RandomForestRegressor.png>]
+[15 <./images/RandomForestRegressor.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1202,13 +1233,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15]
-<images/AdaBoost.png, id=531, 1027.84pt x 578.16pt>
+[16]
+<images/AdaBoost.png, id=546, 1027.84pt x 578.16pt>
 File: images/AdaBoost.png Graphic file (type png)
 <use images/AdaBoost.png>
 Package pdftex.def Info: images/AdaBoost.png  used on input line 102.
-(pdftex.def)             Requested size: 411.12872pt x 231.2599pt.
-)
+(pdftex.def)             Requested size: 513.91875pt x 289.07928pt.
+) (pages/Risultati.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1216,23 +1247,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16 <./images/AdaBoost.png>] (pages/Risultati.tex
-<images/SVR_lc.png, id=540, 586.19pt x 456.70625pt>
+[17 <./images/AdaBoost.png>]
+<images/SVR_lc.png, id=556, 586.19pt x 456.70625pt>
 File: images/SVR_lc.png Graphic file (type png)
 <use images/SVR_lc.png>
 Package pdftex.def Info: images/SVR_lc.png  used on input line 44.
 (pdftex.def)             Requested size: 175.85835pt x 137.01292pt.
-<images/DecisionTree_lc.png, id=541, 586.19pt x 456.70625pt>
+<images/DecisionTree_lc.png, id=557, 586.19pt x 456.70625pt>
 File: images/DecisionTree_lc.png Graphic file (type png)
 <use images/DecisionTree_lc.png>
 Package pdftex.def Info: images/DecisionTree_lc.png  used on input line 44.
 (pdftex.def)             Requested size: 175.85835pt x 137.01292pt.
-<images/RandomForestRegressor_lc.png, id=542, 586.19pt x 456.70625pt>
+<images/RandomForestRegressor_lc.png, id=558, 586.19pt x 456.70625pt>
 File: images/RandomForestRegressor_lc.png Graphic file (type png)
 <use images/RandomForestRegressor_lc.png>
 Package pdftex.def Info: images/RandomForestRegressor_lc.png  used on input line 45.
 (pdftex.def)             Requested size: 175.85835pt x 137.01292pt.
-<images/AdaBoostRegressor_lc.png, id=543, 586.19pt x 456.70625pt>
+<images/AdaBoostRegressor_lc.png, id=559, 586.19pt x 456.70625pt>
 File: images/AdaBoostRegressor_lc.png Graphic file (type png)
 <use images/AdaBoostRegressor_lc.png>
 Package pdftex.def Info: images/AdaBoostRegressor_lc.png  used on input line 45.
@@ -1245,7 +1276,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17])
+[18 <./images/SVR_lc.png> <./images/DecisionTree_lc.png> <./images/RandomForestRegressor_lc.png> <./images/AdaBoostRegressor_lc.png>])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1253,15 +1284,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18 <./images/SVR_lc.png> <./images/DecisionTree_lc.png> <./images/RandomForestRegressor_lc.png> <./images/AdaBoostRegressor_lc.png>] (pages/statistiche.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[19]
+[19] (pages/statistiche.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1285,7 +1308,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22])
+[22]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1293,7 +1316,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23] (pages/configurazione.tex
+[23]) (pages/configurazione.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1301,15 +1324,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[25] (pages/emissioni.tex
+[24]) (pages/emissioni.tex
 File: images/emissions_LFM-1b_artist_20U50I.png Graphic file (type png)
 <use images/emissions_LFM-1b_artist_20U50I.png>
 Package pdftex.def Info: images/emissions_LFM-1b_artist_20U50I.png  used on input line 20.
@@ -1326,7 +1341,16 @@ File: images/emissions_LFM-1b_artist_20U50I_25strat.png Graphic file (type png)
 <use images/emissions_LFM-1b_artist_20U50I_25strat.png>
 Package pdftex.def Info: images/emissions_LFM-1b_artist_20U50I_25strat.png  used on input line 20.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
-<images/emissions_ml-10m_50U10I.png, id=619, 462.528pt x 346.896pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+<images/emissions_ml-10m_50U10I.png, id=630, 462.528pt x 346.896pt>
 File: images/emissions_ml-10m_50U10I.png Graphic file (type png)
 <use images/emissions_ml-10m_50U10I.png>
 Package pdftex.def Info: images/emissions_ml-10m_50U10I.png  used on input line 38.
@@ -1339,15 +1363,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26 <./images/emissions_LFM-1b_artist_20U50I.png> <./images/emissions_LFM-1b_artist_20U50I_75strat.png> <./images/emissions_LFM-1b_artist_20U50I_50strat.png> <./images/emissions_LFM-1b_artist_20U50I_25strat.png>])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[27 <./images/emissions_ml-10m_50U10I.png>] (pages/tradeoff.tex
+[26 <./images/emissions_LFM-1b_artist_20U50I.png> <./images/emissions_LFM-1b_artist_20U50I_75strat.png> <./images/emissions_LFM-1b_artist_20U50I_50strat.png> <./images/emissions_LFM-1b_artist_20U50I_25strat.png>]) (pages/tradeoff.tex
 File: images/recall@10_LFM-1b_artist_20U50I.png Graphic file (type png)
 <use images/recall@10_LFM-1b_artist_20U50I.png>
 Package pdftex.def Info: images/recall@10_LFM-1b_artist_20U50I.png  used on input line 30.
@@ -1372,7 +1388,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28 <./images/recall@10_LFM-1b_artist_20U50I.png> <./images/ndcg@10_LFM-1b_artist_20U50I.png> <./images/giniindex@10_LFM-1b_artist_20U50I.png> <./images/averagepopularity@10_LFM-1b_artist_20U50I.png>]
+[27 <./images/emissions_ml-10m_50U10I.png>]
 File: images/recall@10_LFM-1b_artist_20U50I_75strat.png Graphic file (type png)
 <use images/recall@10_LFM-1b_artist_20U50I_75strat.png>
 Package pdftex.def Info: images/recall@10_LFM-1b_artist_20U50I_75strat.png  used on input line 55.
@@ -1389,6 +1405,15 @@ File: images/averagepopularity@10_LFM-1b_artist_20U50I_75strat.png Graphic file 
 <use images/averagepopularity@10_LFM-1b_artist_20U50I_75strat.png>
 Package pdftex.def Info: images/averagepopularity@10_LFM-1b_artist_20U50I_75strat.png  used on input line 55.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28 <./images/recall@10_LFM-1b_artist_20U50I.png> <./images/ndcg@10_LFM-1b_artist_20U50I.png> <./images/giniindex@10_LFM-1b_artist_20U50I.png> <./images/averagepopularity@10_LFM-1b_artist_20U50I.png>]
 File: images/recall@10_LFM-1b_artist_20U50I_50strat.png Graphic file (type png)
 <use images/recall@10_LFM-1b_artist_20U50I_50strat.png>
 Package pdftex.def Info: images/recall@10_LFM-1b_artist_20U50I_50strat.png  used on input line 84.
@@ -1471,24 +1496,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32 <./images/recall@10_ml-10m_50U10I.png> <./images/ndcg@10_ml-10m_50U10I.png> <./images/giniindex@10_ml-10m_50U10I.png> <./images/averagepopularity@10_ml-10m_50U10I.png>])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[33] (pages/NuovoRegressore.tex
+[32 <./images/recall@10_ml-10m_50U10I.png> <./images/ndcg@10_ml-10m_50U10I.png> <./images/giniindex@10_ml-10m_50U10I.png> <./images/averagepopularity@10_ml-10m_50U10I.png>]) (pages/NuovoRegressore.tex
 Overfull \hbox (30.56793pt too wide) in paragraph at lines 14--16
 []\OT1/cmss/bx/n/12 sparsity\OT1/cmss/m/n/12 : [0.99893136, 0.99955742, 0.9993401, 0.99913541, 0.99878504, 0.98996762, 0.98589245, 0.95531637] 
  []
 
-<images/nuova-situazione.png, id=705, 1796.7125pt x 792.9625pt>
+<images/nuova-situazione.png, id=712, 1796.7125pt x 792.9625pt>
 File: images/nuova-situazione.png Graphic file (type png)
 <use images/nuova-situazione.png>
 Package pdftex.def Info: images/nuova-situazione.png  used on input line 30.
-(pdftex.def)             Requested size: 449.17703pt x 198.24013pt.
+(pdftex.def)             Requested size: 540.60236pt x 238.59236pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1496,7 +1513,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34 <./images/nuova-situazione.png>]
+[33 <./images/nuova-situazione.png>]
 File: images/SVR_lc50.png Graphic file (type png)
 <use images/SVR_lc50.png>
 Package pdftex.def Info: images/SVR_lc50.png  used on input line 72.
@@ -1521,7 +1538,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35 <./images/SVR_lc50.png> <./images/DecisionTree_lc50.png> <./images/RandomForest_lc50.png> <./images/AdaBoost_lc50.png>]
+[34 <./images/SVR_lc50.png> <./images/DecisionTree_lc50.png> <./images/RandomForest_lc50.png> <./images/AdaBoost_lc50.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1529,7 +1546,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36]
+[35]
 File: images/SVR_lc60.png Graphic file (type png)
 <use images/SVR_lc60.png>
 Package pdftex.def Info: images/SVR_lc60.png  used on input line 128.
@@ -1554,7 +1571,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37 <./images/SVR_lc60.png> <./images/DecisionTree_lc60.png> <./images/RandomForest_lc60.png> <./images/AdaBoost_lc60.png>]
+[36 <./images/SVR_lc60.png> <./images/DecisionTree_lc60.png> <./images/RandomForest_lc60.png> <./images/AdaBoost_lc60.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1562,7 +1579,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38]
+[37]
 File: images/SVR_lc70.png Graphic file (type png)
 <use images/SVR_lc70.png>
 Package pdftex.def Info: images/SVR_lc70.png  used on input line 185.
@@ -1587,7 +1604,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39 <./images/SVR_lc70.png> <./images/DecisionTree_lc70.png> <./images/RandomForestRegressor_lc70.png> <./images/AdaBoostRegressor_lc70.png>]
+[38 <./images/SVR_lc70.png> <./images/DecisionTree_lc70.png> <./images/RandomForestRegressor_lc70.png> <./images/AdaBoostRegressor_lc70.png>]
 File: images/SVR_lc80.png Graphic file (type png)
 <use images/SVR_lc80.png>
 Package pdftex.def Info: images/SVR_lc80.png  used on input line 241.
@@ -1612,7 +1629,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40]
+[39]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1620,7 +1637,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41 <./images/SVR_lc80.png> <./images/DecisionTree_lc80.png> <./images/RandomForest_lc80.png> <./images/AdaBoost_lc80.png>]
+[40 <./images/SVR_lc80.png> <./images/DecisionTree_lc80.png> <./images/RandomForest_lc80.png> <./images/AdaBoost_lc80.png>]
 File: images/SVR_lc90.png Graphic file (type png)
 <use images/SVR_lc90.png>
 Package pdftex.def Info: images/SVR_lc90.png  used on input line 295.
@@ -1645,12 +1662,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42 <./images/SVR_lc90.png> <./images/DecisionTree_lc90.png> <./images/RandomForest_lc90.png> <./images/AdaBoost_lc90.png>]
-<images/nuova-situazione2.png, id=794, 1796.7125pt x 792.9625pt>
+[41 <./images/SVR_lc90.png> <./images/DecisionTree_lc90.png> <./images/RandomForest_lc90.png> <./images/AdaBoost_lc90.png>]
+<images/nuova-situazione2.png, id=801, 1796.7125pt x 792.9625pt>
 File: images/nuova-situazione2.png Graphic file (type png)
 <use images/nuova-situazione2.png>
 Package pdftex.def Info: images/nuova-situazione2.png  used on input line 330.
-(pdftex.def)             Requested size: 449.17703pt x 198.24013pt.
+(pdftex.def)             Requested size: 540.60236pt x 238.59236pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1659,7 +1676,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43 <./images/nuova-situazione2.png>]
+[42 <./images/nuova-situazione2.png>]
 File: images/SVR_lc50_Azure.png Graphic file (type png)
 <use images/SVR_lc50_Azure.png>
 Package pdftex.def Info: images/SVR_lc50_Azure.png  used on input line 370.
@@ -1684,7 +1701,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44 <./images/SVR_lc50_Azure.png> <./images/DecisionTree_lc50_Azure.png> <./images/RandomForest_lc50_Azure.png> <./images/AdaBoost_lc50_Azure.png>]
+[43 <./images/SVR_lc50_Azure.png> <./images/DecisionTree_lc50_Azure.png> <./images/RandomForest_lc50_Azure.png> <./images/AdaBoost_lc50_Azure.png>]
 File: images/SVR_lc60_Azure.png Graphic file (type png)
 <use images/SVR_lc60_Azure.png>
 Package pdftex.def Info: images/SVR_lc60_Azure.png  used on input line 420.
@@ -1709,7 +1726,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45]
+[44]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1717,7 +1734,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46 <./images/SVR_lc60_Azure.png> <./images/DecisionTree_lc60_Azure.png> <./images/RandomForest_lc60_Azure.png> <./images/AdaBoost_lc60_Azure.png>]
+[45 <./images/SVR_lc60_Azure.png> <./images/DecisionTree_lc60_Azure.png> <./images/RandomForest_lc60_Azure.png> <./images/AdaBoost_lc60_Azure.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1725,7 +1742,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47]
+[46]
 File: images/SVR_lc70_Azure.png Graphic file (type png)
 <use images/SVR_lc70_Azure.png>
 Package pdftex.def Info: images/SVR_lc70_Azure.png  used on input line 473.
@@ -1750,7 +1767,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48 <./images/SVR_lc70_Azure.png> <./images/DecisionTree_lc70_Azure.png> <./images/RandomForestRegressor_lc70_Azure.png> <./images/AdaBoostRegressor_lc70_Azure.png>]
+[47 <./images/SVR_lc70_Azure.png> <./images/DecisionTree_lc70_Azure.png> <./images/RandomForestRegressor_lc70_Azure.png> <./images/AdaBoostRegressor_lc70_Azure.png>]
 File: images/SVR_lc80_Azure.png Graphic file (type png)
 <use images/SVR_lc80_Azure.png>
 Package pdftex.def Info: images/SVR_lc80_Azure.png  used on input line 527.
@@ -1775,7 +1792,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49]
+[48]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1783,7 +1800,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50 <./images/SVR_lc80_Azure.png> <./images/DecisionTree_lc80_Azure.png> <./images/RandomForest_lc80_Azure.png> <./images/AdaBoost_lc80_Azure.png>]
+[49 <./images/SVR_lc80_Azure.png> <./images/DecisionTree_lc80_Azure.png> <./images/RandomForest_lc80_Azure.png> <./images/AdaBoost_lc80_Azure.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1791,7 +1808,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[51]
+[50]
 File: images/SVR_lc90_Azure.png Graphic file (type png)
 <use images/SVR_lc90_Azure.png>
 Package pdftex.def Info: images/SVR_lc90_Azure.png  used on input line 580.
@@ -1816,7 +1833,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52 <./images/SVR_lc90_Azure.png> <./images/DecisionTree_lc90_Azure.png> <./images/RandomForest_lc90_Azure.png> <./images/AdaBoost_lc90_Azure.png>]
+[51 <./images/SVR_lc90_Azure.png> <./images/DecisionTree_lc90_Azure.png> <./images/RandomForest_lc90_Azure.png> <./images/AdaBoost_lc90_Azure.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1824,12 +1841,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53]
-<images/nuova-situazione-ridotto.png, id=903, 1795.70876pt x 792.9625pt>
+[52]
+<images/nuova-situazione-ridotto.png, id=910, 1795.70876pt x 792.9625pt>
 File: images/nuova-situazione-ridotto.png Graphic file (type png)
 <use images/nuova-situazione-ridotto.png>
 Package pdftex.def Info: images/nuova-situazione-ridotto.png  used on input line 619.
-(pdftex.def)             Requested size: 448.92609pt x 198.24013pt.
+(pdftex.def)             Requested size: 540.60236pt x 238.72545pt.
 File: images/SVR_lc50_ridotto.png Graphic file (type png)
 <use images/SVR_lc50_ridotto.png>
 Package pdftex.def Info: images/SVR_lc50_ridotto.png  used on input line 659.
@@ -1854,7 +1871,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54 <./images/nuova-situazione-ridotto.png>]
+[53 <./images/nuova-situazione-ridotto.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1862,7 +1879,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[55 <./images/SVR_lc50_ridotto.png> <./images/DecisionTree_lc50_ridotto.png> <./images/RandomForest_lc50_ridotto.png> <./images/AdaBoost_lc50_ridotto.png>]
+[54 <./images/SVR_lc50_ridotto.png> <./images/DecisionTree_lc50_ridotto.png> <./images/RandomForest_lc50_ridotto.png> <./images/AdaBoost_lc50_ridotto.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1870,7 +1887,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56]
+[55]
 File: images/SVR_lc60_ridotto.png Graphic file (type png)
 <use images/SVR_lc60_ridotto.png>
 Package pdftex.def Info: images/SVR_lc60_ridotto.png  used on input line 715.
@@ -1895,7 +1912,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[57 <./images/SVR_lc60_ridotto.png> <./images/DecisionTree_lc60_ridotto.png> <./images/RandomForest_lc60_ridotto.png> <./images/AdaBoost_lc60_ridotto.png>]
+[56 <./images/SVR_lc60_ridotto.png> <./images/DecisionTree_lc60_ridotto.png> <./images/RandomForest_lc60_ridotto.png> <./images/AdaBoost_lc60_ridotto.png>]
 File: images/SVR_lc70_ridotto.png Graphic file (type png)
 <use images/SVR_lc70_ridotto.png>
 Package pdftex.def Info: images/SVR_lc70_ridotto.png  used on input line 768.
@@ -1920,7 +1937,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58]
+[57]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1928,7 +1945,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59 <./images/SVR_lc70_ridotto.png> <./images/DecisionTree_lc70_ridotto.png> <./images/RandomForest_lc70_ridotto.png> <./images/AdaBoost_lc70_ridotto.png>]
+[58 <./images/SVR_lc70_ridotto.png> <./images/DecisionTree_lc70_ridotto.png> <./images/RandomForest_lc70_ridotto.png> <./images/AdaBoost_lc70_ridotto.png>]
 File: images/SVR_lc80_ridotto.png Graphic file (type png)
 <use images/SVR_lc80_ridotto.png>
 Package pdftex.def Info: images/SVR_lc80_ridotto.png  used on input line 823.
@@ -1953,7 +1970,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[60 <./images/SVR_lc80_ridotto.png> <./images/DecisionTree_lc80_ridotto.png> <./images/RandomForest_lc80_ridotto.png> <./images/AdaBoost_lc80_ridotto.png>]
+[59 <./images/SVR_lc80_ridotto.png> <./images/DecisionTree_lc80_ridotto.png> <./images/RandomForest_lc80_ridotto.png> <./images/AdaBoost_lc80_ridotto.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1961,7 +1978,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[61]
+[60]
 File: images/SVR_lc90_ridotto.png Graphic file (type png)
 <use images/SVR_lc90_ridotto.png>
 Package pdftex.def Info: images/SVR_lc90_ridotto.png  used on input line 879.
@@ -1986,7 +2003,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[62 <./images/SVR_lc90_ridotto.png> <./images/DecisionTree_lc90_ridotto.png> <./images/RandomForest_lc90_ridotto.png> <./images/AdaBoost_lc90_ridotto.png>]
+[61 <./images/SVR_lc90_ridotto.png> <./images/DecisionTree_lc90_ridotto.png> <./images/RandomForest_lc90_ridotto.png> <./images/AdaBoost_lc90_ridotto.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1994,12 +2011,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[63]
-<images/nuova-situazione2-ridotto.png, id=1004, 1796.7125pt x 792.9625pt>
+[62]
+<images/nuova-situazione2-ridotto.png, id=1011, 1796.7125pt x 792.9625pt>
 File: images/nuova-situazione2-ridotto.png Graphic file (type png)
 <use images/nuova-situazione2-ridotto.png>
 Package pdftex.def Info: images/nuova-situazione2-ridotto.png  used on input line 912.
-(pdftex.def)             Requested size: 449.17703pt x 198.24013pt.
+(pdftex.def)             Requested size: 540.60236pt x 238.59236pt.
 File: images/SVR_lc50_ridottoAzure.png Graphic file (type png)
 <use images/SVR_lc50_ridottoAzure.png>
 Package pdftex.def Info: images/SVR_lc50_ridottoAzure.png  used on input line 955.
@@ -2024,7 +2041,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[64 <./images/nuova-situazione2-ridotto.png>]
+[63 <./images/nuova-situazione2-ridotto.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2032,7 +2049,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[65 <./images/SVR_lc50_ridottoAzure.png> <./images/DecisionTree_lc50_ridottoAzure.png> <./images/RandomForest_lc50_ridottoAzure.png> <./images/AdaBoost_lc50_ridottoAzure.png>]
+[64 <./images/SVR_lc50_ridottoAzure.png> <./images/DecisionTree_lc50_ridottoAzure.png> <./images/RandomForest_lc50_ridottoAzure.png> <./images/AdaBoost_lc50_ridottoAzure.png>]
 File: images/SVR_lc60_ridottoAzure.png Graphic file (type png)
 <use images/SVR_lc60_ridottoAzure.png>
 Package pdftex.def Info: images/SVR_lc60_ridottoAzure.png  used on input line 1009.
@@ -2057,7 +2074,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[66 <./images/SVR_lc60_ridottoAzure.png> <./images/DecisionTree_lc60_ridottoAzure.png> <./images/RandomForest_lc60_ridottoAzure.png> <./images/AdaBoost_lc60_ridottoAzure.png>]
+[65 <./images/SVR_lc60_ridottoAzure.png> <./images/DecisionTree_lc60_ridottoAzure.png> <./images/RandomForest_lc60_ridottoAzure.png> <./images/AdaBoost_lc60_ridottoAzure.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2065,7 +2082,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67]
+[66]
 File: images/SVR_lc70_ridottoAzure.png Graphic file (type png)
 <use images/SVR_lc70_ridottoAzure.png>
 Package pdftex.def Info: images/SVR_lc70_ridottoAzure.png  used on input line 1064.
@@ -2090,7 +2107,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[68 <./images/SVR_lc70_ridottoAzure.png> <./images/DecisionTree_lc70_ridottoAzure.png> <./images/RandomForest_lc70_ridottoAzure.png> <./images/AdaBoost_lc70_ridottoAzure.png>]
+[67 <./images/SVR_lc70_ridottoAzure.png> <./images/DecisionTree_lc70_ridottoAzure.png> <./images/RandomForest_lc70_ridottoAzure.png> <./images/AdaBoost_lc70_ridottoAzure.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2098,7 +2115,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[69]
+[68]
 File: images/SVR_lc80_ridottoAzure.png Graphic file (type png)
 <use images/SVR_lc80_ridottoAzure.png>
 Package pdftex.def Info: images/SVR_lc80_ridottoAzure.png  used on input line 1119.
@@ -2123,7 +2140,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[70 <./images/SVR_lc80_ridottoAzure.png> <./images/DecisionTree_lc80_ridottoAzure.png> <./images/RandomForest_lc80_ridottoAzure.png> <./images/AdaBoost_lc80_ridottoAzure.png>]
+[69 <./images/SVR_lc80_ridottoAzure.png> <./images/DecisionTree_lc80_ridottoAzure.png> <./images/RandomForest_lc80_ridottoAzure.png> <./images/AdaBoost_lc80_ridottoAzure.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2131,7 +2148,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[71]
+[70]
 File: images/SVR_lc90_ridottoAzure.png Graphic file (type png)
 <use images/SVR_lc90_ridottoAzure.png>
 Package pdftex.def Info: images/SVR_lc90_ridottoAzure.png  used on input line 1174.
@@ -2156,7 +2173,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[72 <./images/SVR_lc90_ridottoAzure.png> <./images/DecisionTree_lc90_ridottoAzure.png> <./images/RandomForest_lc90_ridottoAzure.png> <./images/AdaBoost_lc90_ridottoAzure.png>])
+[71 <./images/SVR_lc90_ridottoAzure.png> <./images/DecisionTree_lc90_ridottoAzure.png> <./images/RandomForest_lc90_ridottoAzure.png> <./images/AdaBoost_lc90_ridottoAzure.png>]) (pages/erroriClassi.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2164,7 +2181,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[73] (pages/erroriClassi.tex
+[72])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2172,19 +2189,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[74])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[75] (pages/criterio.tex
-<images/curve_emissions_score.png, id=1117, 462.528pt x 346.896pt>
+[73] (pages/criterio.tex
+<images/curve_emissions_score.png, id=1120, 462.528pt x 346.896pt>
 File: images/curve_emissions_score.png Graphic file (type png)
 <use images/curve_emissions_score.png>
-Package pdftex.def Info: images/curve_emissions_score.png  used on input line 8.
+Package pdftex.def Info: images/curve_emissions_score.png  used on input line 10.
 (pdftex.def)             Requested size: 540.60236pt x 405.47498pt.
 
 
@@ -2194,52 +2203,52 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[76 <./images/curve_emissions_score.png>]
+[74 <./images/curve_emissions_score.png>]
 File: images/emissions_movielens_1m_earlyClassic.png Graphic file (type png)
 <use images/emissions_movielens_1m_earlyClassic.png>
-Package pdftex.def Info: images/emissions_movielens_1m_earlyClassic.png  used on input line 40.
+Package pdftex.def Info: images/emissions_movielens_1m_earlyClassic.png  used on input line 44.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 File: images/emissions_movielens_1m_earlyModified.png Graphic file (type png)
 <use images/emissions_movielens_1m_earlyModified.png>
-Package pdftex.def Info: images/emissions_movielens_1m_earlyModified.png  used on input line 40.
+Package pdftex.def Info: images/emissions_movielens_1m_earlyModified.png  used on input line 44.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
-<images/recall@10_movielens_1m_comparison.png, id=1127, 722.7pt x 361.35pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[75 <./images/emissions_movielens_1m_earlyClassic.png> <./images/emissions_movielens_1m_earlyModified.png>]
+<images/recall@10_movielens_1m_comparison.png, id=1139, 722.7pt x 361.35pt>
 File: images/recall@10_movielens_1m_comparison.png Graphic file (type png)
 <use images/recall@10_movielens_1m_comparison.png>
-Package pdftex.def Info: images/recall@10_movielens_1m_comparison.png  used on input line 87.
+Package pdftex.def Info: images/recall@10_movielens_1m_comparison.png  used on input line 91.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[77 <./images/emissions_movielens_1m_earlyClassic.png> <./images/emissions_movielens_1m_earlyModified.png>]
-<images/ndcg@10_movielens_1m_comparison.png, id=1138, 722.7pt x 361.35pt>
+<images/ndcg@10_movielens_1m_comparison.png, id=1140, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_comparison.png>
-Package pdftex.def Info: images/ndcg@10_movielens_1m_comparison.png  used on input line 94.
+Package pdftex.def Info: images/ndcg@10_movielens_1m_comparison.png  used on input line 98.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/giniindex@10_movielens_1m_comparison.png, id=1139, 722.7pt x 361.35pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[76 <./images/recall@10_movielens_1m_comparison.png>]
+<images/giniindex@10_movielens_1m_comparison.png, id=1148, 722.7pt x 361.35pt>
 File: images/giniindex@10_movielens_1m_comparison.png Graphic file (type png)
 <use images/giniindex@10_movielens_1m_comparison.png>
-Package pdftex.def Info: images/giniindex@10_movielens_1m_comparison.png  used on input line 101.
+Package pdftex.def Info: images/giniindex@10_movielens_1m_comparison.png  used on input line 105.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[78 <./images/recall@10_movielens_1m_comparison.png> <./images/ndcg@10_movielens_1m_comparison.png>]
-<images/averagepopularity@10_movielens_1m_comparison.png, id=1148, 722.7pt x 361.35pt>
+<images/averagepopularity@10_movielens_1m_comparison.png, id=1149, 722.7pt x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_comparison.png Graphic file (type png)
 <use images/averagepopularity@10_movielens_1m_comparison.png>
-Package pdftex.def Info: images/averagepopularity@10_movielens_1m_comparison.png  used on input line 107.
+Package pdftex.def Info: images/averagepopularity@10_movielens_1m_comparison.png  used on input line 111.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2249,11 +2258,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[79 <./images/giniindex@10_movielens_1m_comparison.png> <./images/averagepopularity@10_movielens_1m_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m.png, id=1158, 722.7pt x 361.35pt>
+[77 <./images/ndcg@10_movielens_1m_comparison.png> <./images/giniindex@10_movielens_1m_comparison.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[78 <./images/averagepopularity@10_movielens_1m_comparison.png>]
+<images/decrement_averagepopularity@10_movielens_1m.png, id=1164, 722.7pt x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m.png Graphic file (type png)
 <use images/decrement_averagepopularity@10_movielens_1m.png>
-Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m.png  used on input line 216.
+Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m.png  used on input line 220.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2263,16 +2280,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[80]
-<images/decrement_giniindex@10_movielens_1m.png, id=1164, 722.7pt x 361.35pt>
+[79]
+<images/decrement_giniindex@10_movielens_1m.png, id=1171, 722.7pt x 361.35pt>
 File: images/decrement_giniindex@10_movielens_1m.png Graphic file (type png)
 <use images/decrement_giniindex@10_movielens_1m.png>
-Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m.png  used on input line 222.
+Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m.png  used on input line 226.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/decrement_ndcg@10_movielens_1m.png, id=1165, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m.png, id=1172, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m.png>
-Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m.png  used on input line 228.
+Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m.png  used on input line 232.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2282,11 +2299,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[81 <./images/decrement_averagepopularity@10_movielens_1m.png> <./images/decrement_giniindex@10_movielens_1m.png>]
-<images/decrement_recall@10_movielens_1m.png, id=1174, 722.7pt x 361.35pt>
+[80 <./images/decrement_averagepopularity@10_movielens_1m.png> <./images/decrement_giniindex@10_movielens_1m.png>]
+<images/decrement_recall@10_movielens_1m.png, id=1181, 722.7pt x 361.35pt>
 File: images/decrement_recall@10_movielens_1m.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m.png>
-Package pdftex.def Info: images/decrement_recall@10_movielens_1m.png  used on input line 234.
+Package pdftex.def Info: images/decrement_recall@10_movielens_1m.png  used on input line 238.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2296,19 +2313,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[82 <./images/decrement_ndcg@10_movielens_1m.png> <./images/decrement_recall@10_movielens_1m.png>]
+[81 <./images/decrement_ndcg@10_movielens_1m.png> <./images/decrement_recall@10_movielens_1m.png>]
 File: images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png Graphic file (type png)
 <use images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png>
-Package pdftex.def Info: images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png  used on input line 263.
+Package pdftex.def Info: images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png  used on input line 267.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 File: images/emissions_LFM-1b_artist_20U50I_25strat_earlyModified.png Graphic file (type png)
 <use images/emissions_LFM-1b_artist_20U50I_25strat_earlyModified.png>
-Package pdftex.def Info: images/emissions_LFM-1b_artist_20U50I_25strat_earlyModified.png  used on input line 263.
+Package pdftex.def Info: images/emissions_LFM-1b_artist_20U50I_25strat_earlyModified.png  used on input line 267.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
-<images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=1185, 722.7pt x 361.35pt>
+<images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=1192, 722.7pt x 361.35pt>
 File: images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png Graphic file (type png)
 <use images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png>
-Package pdftex.def Info: images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png  used on input line 311.
+Package pdftex.def Info: images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png  used on input line 315.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2318,16 +2335,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[83 <./images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png> <./images/emissions_LFM-1b_artist_20U50I_25strat_earlyModified.png>]
-<images/ndcg@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=1194, 722.7pt x 361.35pt>
+[82 <./images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png> <./images/emissions_LFM-1b_artist_20U50I_25strat_earlyModified.png>]
+<images/ndcg@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=1201, 722.7pt x 361.35pt>
 File: images/ndcg@10_LFM-1b_artist_20U50I_25strat_comparison.png Graphic file (type png)
 <use images/ndcg@10_LFM-1b_artist_20U50I_25strat_comparison.png>
-Package pdftex.def Info: images/ndcg@10_LFM-1b_artist_20U50I_25strat_comparison.png  used on input line 318.
+Package pdftex.def Info: images/ndcg@10_LFM-1b_artist_20U50I_25strat_comparison.png  used on input line 322.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/giniindex@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=1195, 722.7pt x 361.35pt>
+<images/giniindex@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=1202, 722.7pt x 361.35pt>
 File: images/giniindex@10_LFM-1b_artist_20U50I_25strat_comparison.png Graphic file (type png)
 <use images/giniindex@10_LFM-1b_artist_20U50I_25strat_comparison.png>
-Package pdftex.def Info: images/giniindex@10_LFM-1b_artist_20U50I_25strat_comparison.png  used on input line 325.
+Package pdftex.def Info: images/giniindex@10_LFM-1b_artist_20U50I_25strat_comparison.png  used on input line 329.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2337,11 +2354,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[84 <./images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png> <./images/ndcg@10_LFM-1b_artist_20U50I_25strat_comparison.png>]
-<images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=1204, 722.7pt x 361.35pt>
+[83 <./images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png> <./images/ndcg@10_LFM-1b_artist_20U50I_25strat_comparison.png>]
+<images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=1211, 722.7pt x 361.35pt>
 File: images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png Graphic file (type png)
 <use images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png>
-Package pdftex.def Info: images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png  used on input line 331.
+Package pdftex.def Info: images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png  used on input line 335.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2351,11 +2368,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[85 <./images/giniindex@10_LFM-1b_artist_20U50I_25strat_comparison.png> <./images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png>]
-<images/decrement_averagepopularity@10_LFM-1b_artist_20U50I_25strat.png, id=1214, 722.7pt x 361.35pt>
+[84 <./images/giniindex@10_LFM-1b_artist_20U50I_25strat_comparison.png> <./images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png>]
+<images/decrement_averagepopularity@10_LFM-1b_artist_20U50I_25strat.png, id=1220, 722.7pt x 361.35pt>
 File: images/decrement_averagepopularity@10_LFM-1b_artist_20U50I_25strat.png Graphic file (type png)
 <use images/decrement_averagepopularity@10_LFM-1b_artist_20U50I_25strat.png>
-Package pdftex.def Info: images/decrement_averagepopularity@10_LFM-1b_artist_20U50I_25strat.png  used on input line 396.
+Package pdftex.def Info: images/decrement_averagepopularity@10_LFM-1b_artist_20U50I_25strat.png  used on input line 400.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2365,16 +2382,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[86]
-<images/decrement_giniindex@10_LFM-1b_artist_20U50I_25strat.png, id=1220, 722.7pt x 361.35pt>
+[85]
+<images/decrement_giniindex@10_LFM-1b_artist_20U50I_25strat.png, id=1227, 722.7pt x 361.35pt>
 File: images/decrement_giniindex@10_LFM-1b_artist_20U50I_25strat.png Graphic file (type png)
 <use images/decrement_giniindex@10_LFM-1b_artist_20U50I_25strat.png>
-Package pdftex.def Info: images/decrement_giniindex@10_LFM-1b_artist_20U50I_25strat.png  used on input line 402.
+Package pdftex.def Info: images/decrement_giniindex@10_LFM-1b_artist_20U50I_25strat.png  used on input line 406.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/decrement_ndcg@10_LFM-1b_artist_20U50I_25strat.png, id=1221, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_LFM-1b_artist_20U50I_25strat.png, id=1228, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_LFM-1b_artist_20U50I_25strat.png Graphic file (type png)
 <use images/decrement_ndcg@10_LFM-1b_artist_20U50I_25strat.png>
-Package pdftex.def Info: images/decrement_ndcg@10_LFM-1b_artist_20U50I_25strat.png  used on input line 408.
+Package pdftex.def Info: images/decrement_ndcg@10_LFM-1b_artist_20U50I_25strat.png  used on input line 412.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2384,11 +2401,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[87 <./images/decrement_averagepopularity@10_LFM-1b_artist_20U50I_25strat.png> <./images/decrement_giniindex@10_LFM-1b_artist_20U50I_25strat.png>]
-<images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png, id=1230, 722.7pt x 361.35pt>
+[86 <./images/decrement_averagepopularity@10_LFM-1b_artist_20U50I_25strat.png> <./images/decrement_giniindex@10_LFM-1b_artist_20U50I_25strat.png>]
+<images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png, id=1237, 722.7pt x 361.35pt>
 File: images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png Graphic file (type png)
 <use images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png>
-Package pdftex.def Info: images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png  used on input line 414.
+Package pdftex.def Info: images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png  used on input line 418.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2398,19 +2415,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[88 <./images/decrement_ndcg@10_LFM-1b_artist_20U50I_25strat.png> <./images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png>]
+[87 <./images/decrement_ndcg@10_LFM-1b_artist_20U50I_25strat.png> <./images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png>]
 File: images/emissions_amazon_books_60core_kg_earlyClassic.png Graphic file (type png)
 <use images/emissions_amazon_books_60core_kg_earlyClassic.png>
-Package pdftex.def Info: images/emissions_amazon_books_60core_kg_earlyClassic.png  used on input line 440.
+Package pdftex.def Info: images/emissions_amazon_books_60core_kg_earlyClassic.png  used on input line 444.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 File: images/emissions_amazon_books_60core_kg_earlyModified.png Graphic file (type png)
 <use images/emissions_amazon_books_60core_kg_earlyModified.png>
-Package pdftex.def Info: images/emissions_amazon_books_60core_kg_earlyModified.png  used on input line 440.
+Package pdftex.def Info: images/emissions_amazon_books_60core_kg_earlyModified.png  used on input line 444.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
-<images/recall@10_amazon_books_60core_kg_comparison.png, id=1241, 722.7pt x 361.35pt>
+<images/recall@10_amazon_books_60core_kg_comparison.png, id=1248, 722.7pt x 361.35pt>
 File: images/recall@10_amazon_books_60core_kg_comparison.png Graphic file (type png)
 <use images/recall@10_amazon_books_60core_kg_comparison.png>
-Package pdftex.def Info: images/recall@10_amazon_books_60core_kg_comparison.png  used on input line 484.
+Package pdftex.def Info: images/recall@10_amazon_books_60core_kg_comparison.png  used on input line 488.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2420,16 +2437,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[89 <./images/emissions_amazon_books_60core_kg_earlyClassic.png> <./images/emissions_amazon_books_60core_kg_earlyModified.png>]
-<images/ndcg@10_amazon_books_60core_kg_comparison.png, id=1250, 722.7pt x 361.35pt>
+[88 <./images/emissions_amazon_books_60core_kg_earlyClassic.png> <./images/emissions_amazon_books_60core_kg_earlyModified.png>]
+<images/ndcg@10_amazon_books_60core_kg_comparison.png, id=1257, 722.7pt x 361.35pt>
 File: images/ndcg@10_amazon_books_60core_kg_comparison.png Graphic file (type png)
 <use images/ndcg@10_amazon_books_60core_kg_comparison.png>
-Package pdftex.def Info: images/ndcg@10_amazon_books_60core_kg_comparison.png  used on input line 491.
+Package pdftex.def Info: images/ndcg@10_amazon_books_60core_kg_comparison.png  used on input line 495.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/giniindex@10_amazon_books_60core_kg_comparison.png, id=1251, 722.7pt x 361.35pt>
+<images/giniindex@10_amazon_books_60core_kg_comparison.png, id=1258, 722.7pt x 361.35pt>
 File: images/giniindex@10_amazon_books_60core_kg_comparison.png Graphic file (type png)
 <use images/giniindex@10_amazon_books_60core_kg_comparison.png>
-Package pdftex.def Info: images/giniindex@10_amazon_books_60core_kg_comparison.png  used on input line 498.
+Package pdftex.def Info: images/giniindex@10_amazon_books_60core_kg_comparison.png  used on input line 502.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2439,11 +2456,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[90 <./images/recall@10_amazon_books_60core_kg_comparison.png> <./images/ndcg@10_amazon_books_60core_kg_comparison.png>]
-<images/averagepopularity@10_amazon_books_60core_kg_comparison.png, id=1260, 722.7pt x 361.35pt>
+[89 <./images/recall@10_amazon_books_60core_kg_comparison.png> <./images/ndcg@10_amazon_books_60core_kg_comparison.png>]
+<images/averagepopularity@10_amazon_books_60core_kg_comparison.png, id=1267, 722.7pt x 361.35pt>
 File: images/averagepopularity@10_amazon_books_60core_kg_comparison.png Graphic file (type png)
 <use images/averagepopularity@10_amazon_books_60core_kg_comparison.png>
-Package pdftex.def Info: images/averagepopularity@10_amazon_books_60core_kg_comparison.png  used on input line 504.
+Package pdftex.def Info: images/averagepopularity@10_amazon_books_60core_kg_comparison.png  used on input line 508.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2453,11 +2470,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[91 <./images/giniindex@10_amazon_books_60core_kg_comparison.png> <./images/averagepopularity@10_amazon_books_60core_kg_comparison.png>]
-<images/decrement_averagepopularity@10_amazon_books_60core_kg.png, id=1270, 722.7pt x 361.35pt>
+[90 <./images/giniindex@10_amazon_books_60core_kg_comparison.png> <./images/averagepopularity@10_amazon_books_60core_kg_comparison.png>]
+<images/decrement_averagepopularity@10_amazon_books_60core_kg.png, id=1276, 722.7pt x 361.35pt>
 File: images/decrement_averagepopularity@10_amazon_books_60core_kg.png Graphic file (type png)
 <use images/decrement_averagepopularity@10_amazon_books_60core_kg.png>
-Package pdftex.def Info: images/decrement_averagepopularity@10_amazon_books_60core_kg.png  used on input line 564.
+Package pdftex.def Info: images/decrement_averagepopularity@10_amazon_books_60core_kg.png  used on input line 568.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2467,16 +2484,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[92]
-<images/decrement_giniindex@10_amazon_books_60core_kg.png, id=1276, 722.7pt x 361.35pt>
+[91]
+<images/decrement_giniindex@10_amazon_books_60core_kg.png, id=1283, 722.7pt x 361.35pt>
 File: images/decrement_giniindex@10_amazon_books_60core_kg.png Graphic file (type png)
 <use images/decrement_giniindex@10_amazon_books_60core_kg.png>
-Package pdftex.def Info: images/decrement_giniindex@10_amazon_books_60core_kg.png  used on input line 570.
+Package pdftex.def Info: images/decrement_giniindex@10_amazon_books_60core_kg.png  used on input line 574.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/decrement_ndcg@10_amazon_books_60core_kg.png, id=1277, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_amazon_books_60core_kg.png, id=1284, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_amazon_books_60core_kg.png Graphic file (type png)
 <use images/decrement_ndcg@10_amazon_books_60core_kg.png>
-Package pdftex.def Info: images/decrement_ndcg@10_amazon_books_60core_kg.png  used on input line 576.
+Package pdftex.def Info: images/decrement_ndcg@10_amazon_books_60core_kg.png  used on input line 580.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2486,11 +2503,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[93 <./images/decrement_averagepopularity@10_amazon_books_60core_kg.png> <./images/decrement_giniindex@10_amazon_books_60core_kg.png>]
-<images/decrement_recall@10_amazon_books_60core_kg.png, id=1286, 722.7pt x 361.35pt>
+[92 <./images/decrement_averagepopularity@10_amazon_books_60core_kg.png> <./images/decrement_giniindex@10_amazon_books_60core_kg.png>]
+<images/decrement_recall@10_amazon_books_60core_kg.png, id=1293, 722.7pt x 361.35pt>
 File: images/decrement_recall@10_amazon_books_60core_kg.png Graphic file (type png)
 <use images/decrement_recall@10_amazon_books_60core_kg.png>
-Package pdftex.def Info: images/decrement_recall@10_amazon_books_60core_kg.png  used on input line 582.
+Package pdftex.def Info: images/decrement_recall@10_amazon_books_60core_kg.png  used on input line 586.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2500,19 +2517,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[94 <./images/decrement_ndcg@10_amazon_books_60core_kg.png> <./images/decrement_recall@10_amazon_books_60core_kg.png>]
+[93 <./images/decrement_ndcg@10_amazon_books_60core_kg.png> <./images/decrement_recall@10_amazon_books_60core_kg.png>]
 File: images/emissions_movielens_1m_40_5_earlyClassic.png Graphic file (type png)
 <use images/emissions_movielens_1m_40_5_earlyClassic.png>
-Package pdftex.def Info: images/emissions_movielens_1m_40_5_earlyClassic.png  used on input line 608.
+Package pdftex.def Info: images/emissions_movielens_1m_40_5_earlyClassic.png  used on input line 612.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 File: images/emissions_movielens_1m_40_5_earlyModified.png Graphic file (type png)
 <use images/emissions_movielens_1m_40_5_earlyModified.png>
-Package pdftex.def Info: images/emissions_movielens_1m_40_5_earlyModified.png  used on input line 608.
+Package pdftex.def Info: images/emissions_movielens_1m_40_5_earlyModified.png  used on input line 612.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
-<images/recall@10_movielens_1m_40_5_comparison.png, id=1297, 722.7pt x 361.35pt>
+<images/recall@10_movielens_1m_40_5_comparison.png, id=1304, 722.7pt x 361.35pt>
 File: images/recall@10_movielens_1m_40_5_comparison.png Graphic file (type png)
 <use images/recall@10_movielens_1m_40_5_comparison.png>
-Package pdftex.def Info: images/recall@10_movielens_1m_40_5_comparison.png  used on input line 654.
+Package pdftex.def Info: images/recall@10_movielens_1m_40_5_comparison.png  used on input line 658.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2522,16 +2539,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[95 <./images/emissions_movielens_1m_40_5_earlyClassic.png> <./images/emissions_movielens_1m_40_5_earlyModified.png>]
-<images/ndcg@10_movielens_1m_40_5_comparison.png, id=1306, 722.7pt x 361.35pt>
+[94 <./images/emissions_movielens_1m_40_5_earlyClassic.png> <./images/emissions_movielens_1m_40_5_earlyModified.png>]
+<images/ndcg@10_movielens_1m_40_5_comparison.png, id=1313, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_40_5_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_40_5_comparison.png>
-Package pdftex.def Info: images/ndcg@10_movielens_1m_40_5_comparison.png  used on input line 661.
+Package pdftex.def Info: images/ndcg@10_movielens_1m_40_5_comparison.png  used on input line 665.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/giniindex@10_movielens_1m_40_5_comparison.png, id=1307, 722.7pt x 361.35pt>
+<images/giniindex@10_movielens_1m_40_5_comparison.png, id=1314, 722.7pt x 361.35pt>
 File: images/giniindex@10_movielens_1m_40_5_comparison.png Graphic file (type png)
 <use images/giniindex@10_movielens_1m_40_5_comparison.png>
-Package pdftex.def Info: images/giniindex@10_movielens_1m_40_5_comparison.png  used on input line 668.
+Package pdftex.def Info: images/giniindex@10_movielens_1m_40_5_comparison.png  used on input line 672.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2541,11 +2558,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[96 <./images/recall@10_movielens_1m_40_5_comparison.png> <./images/ndcg@10_movielens_1m_40_5_comparison.png>]
-<images/averagepopularity@10_movielens_1m_40_5_comparison.png, id=1316, 722.7pt x 361.35pt>
+[95 <./images/recall@10_movielens_1m_40_5_comparison.png> <./images/ndcg@10_movielens_1m_40_5_comparison.png>]
+<images/averagepopularity@10_movielens_1m_40_5_comparison.png, id=1323, 722.7pt x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_40_5_comparison.png Graphic file (type png)
 <use images/averagepopularity@10_movielens_1m_40_5_comparison.png>
-Package pdftex.def Info: images/averagepopularity@10_movielens_1m_40_5_comparison.png  used on input line 674.
+Package pdftex.def Info: images/averagepopularity@10_movielens_1m_40_5_comparison.png  used on input line 678.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2555,11 +2572,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[97 <./images/giniindex@10_movielens_1m_40_5_comparison.png> <./images/averagepopularity@10_movielens_1m_40_5_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m_40_5.png, id=1326, 722.7pt x 361.35pt>
+[96 <./images/giniindex@10_movielens_1m_40_5_comparison.png> <./images/averagepopularity@10_movielens_1m_40_5_comparison.png>]
+<images/decrement_averagepopularity@10_movielens_1m_40_5.png, id=1332, 722.7pt x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m_40_5.png Graphic file (type png)
 <use images/decrement_averagepopularity@10_movielens_1m_40_5.png>
-Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m_40_5.png  used on input line 738.
+Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m_40_5.png  used on input line 742.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2569,16 +2586,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[98]
-<images/decrement_giniindex@10_movielens_1m_40_5.png, id=1332, 722.7pt x 361.35pt>
+[97]
+<images/decrement_giniindex@10_movielens_1m_40_5.png, id=1339, 722.7pt x 361.35pt>
 File: images/decrement_giniindex@10_movielens_1m_40_5.png Graphic file (type png)
 <use images/decrement_giniindex@10_movielens_1m_40_5.png>
-Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m_40_5.png  used on input line 744.
+Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m_40_5.png  used on input line 748.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/decrement_ndcg@10_movielens_1m_40_5.png, id=1333, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m_40_5.png, id=1340, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m_40_5.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m_40_5.png>
-Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m_40_5.png  used on input line 750.
+Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m_40_5.png  used on input line 754.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2588,19 +2605,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[99 <./images/decrement_averagepopularity@10_movielens_1m_40_5.png> <./images/decrement_giniindex@10_movielens_1m_40_5.png>]
-<images/decrement_recall@10_movielens_1m_40_5.png, id=1342, 722.7pt x 361.35pt>
+[98 <./images/decrement_averagepopularity@10_movielens_1m_40_5.png> <./images/decrement_giniindex@10_movielens_1m_40_5.png>]
+<images/decrement_recall@10_movielens_1m_40_5.png, id=1349, 722.7pt x 361.35pt>
 File: images/decrement_recall@10_movielens_1m_40_5.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m_40_5.png>
-Package pdftex.def Info: images/decrement_recall@10_movielens_1m_40_5.png  used on input line 756.
+Package pdftex.def Info: images/decrement_recall@10_movielens_1m_40_5.png  used on input line 760.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 File: images/emissions_movielens_1m_30_5_earlyClassic.png Graphic file (type png)
 <use images/emissions_movielens_1m_30_5_earlyClassic.png>
-Package pdftex.def Info: images/emissions_movielens_1m_30_5_earlyClassic.png  used on input line 776.
+Package pdftex.def Info: images/emissions_movielens_1m_30_5_earlyClassic.png  used on input line 780.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 File: images/emissions_movielens_1m_30_5_earlyModified.png Graphic file (type png)
 <use images/emissions_movielens_1m_30_5_earlyModified.png>
-Package pdftex.def Info: images/emissions_movielens_1m_30_5_earlyModified.png  used on input line 776.
+Package pdftex.def Info: images/emissions_movielens_1m_30_5_earlyModified.png  used on input line 780.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 
 
@@ -2610,11 +2627,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[100 <./images/decrement_ndcg@10_movielens_1m_40_5.png> <./images/decrement_recall@10_movielens_1m_40_5.png>]
-<images/recall@10_movielens_1m_30_5_comparison.png, id=1353, 722.7pt x 361.35pt>
+[99 <./images/decrement_ndcg@10_movielens_1m_40_5.png> <./images/decrement_recall@10_movielens_1m_40_5.png>]
+<images/recall@10_movielens_1m_30_5_comparison.png, id=1360, 722.7pt x 361.35pt>
 File: images/recall@10_movielens_1m_30_5_comparison.png Graphic file (type png)
 <use images/recall@10_movielens_1m_30_5_comparison.png>
-Package pdftex.def Info: images/recall@10_movielens_1m_30_5_comparison.png  used on input line 812.
+Package pdftex.def Info: images/recall@10_movielens_1m_30_5_comparison.png  used on input line 816.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2624,16 +2641,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[101 <./images/emissions_movielens_1m_30_5_earlyClassic.png> <./images/emissions_movielens_1m_30_5_earlyModified.png>]
-<images/ndcg@10_movielens_1m_30_5_comparison.png, id=1362, 722.7pt x 361.35pt>
+[100 <./images/emissions_movielens_1m_30_5_earlyClassic.png> <./images/emissions_movielens_1m_30_5_earlyModified.png>]
+<images/ndcg@10_movielens_1m_30_5_comparison.png, id=1369, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_30_5_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_30_5_comparison.png>
-Package pdftex.def Info: images/ndcg@10_movielens_1m_30_5_comparison.png  used on input line 819.
+Package pdftex.def Info: images/ndcg@10_movielens_1m_30_5_comparison.png  used on input line 823.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/giniindex@10_movielens_1m_30_5_comparison.png, id=1363, 722.7pt x 361.35pt>
+<images/giniindex@10_movielens_1m_30_5_comparison.png, id=1370, 722.7pt x 361.35pt>
 File: images/giniindex@10_movielens_1m_30_5_comparison.png Graphic file (type png)
 <use images/giniindex@10_movielens_1m_30_5_comparison.png>
-Package pdftex.def Info: images/giniindex@10_movielens_1m_30_5_comparison.png  used on input line 826.
+Package pdftex.def Info: images/giniindex@10_movielens_1m_30_5_comparison.png  used on input line 830.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2643,11 +2660,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[102 <./images/recall@10_movielens_1m_30_5_comparison.png> <./images/ndcg@10_movielens_1m_30_5_comparison.png>]
-<images/averagepopularity@10_movielens_1m_30_5_comparison.png, id=1372, 722.7pt x 361.35pt>
+[101 <./images/recall@10_movielens_1m_30_5_comparison.png> <./images/ndcg@10_movielens_1m_30_5_comparison.png>]
+<images/averagepopularity@10_movielens_1m_30_5_comparison.png, id=1379, 722.7pt x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_30_5_comparison.png Graphic file (type png)
 <use images/averagepopularity@10_movielens_1m_30_5_comparison.png>
-Package pdftex.def Info: images/averagepopularity@10_movielens_1m_30_5_comparison.png  used on input line 832.
+Package pdftex.def Info: images/averagepopularity@10_movielens_1m_30_5_comparison.png  used on input line 836.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2657,11 +2674,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[103 <./images/giniindex@10_movielens_1m_30_5_comparison.png> <./images/averagepopularity@10_movielens_1m_30_5_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m_30_5.png, id=1382, 722.7pt x 361.35pt>
+[102 <./images/giniindex@10_movielens_1m_30_5_comparison.png> <./images/averagepopularity@10_movielens_1m_30_5_comparison.png>]
+<images/decrement_averagepopularity@10_movielens_1m_30_5.png, id=1388, 722.7pt x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m_30_5.png Graphic file (type png)
 <use images/decrement_averagepopularity@10_movielens_1m_30_5.png>
-Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m_30_5.png  used on input line 896.
+Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m_30_5.png  used on input line 900.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2671,16 +2688,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[104]
-<images/decrement_giniindex@10_movielens_1m_30_5.png, id=1388, 722.7pt x 361.35pt>
+[103]
+<images/decrement_giniindex@10_movielens_1m_30_5.png, id=1395, 722.7pt x 361.35pt>
 File: images/decrement_giniindex@10_movielens_1m_30_5.png Graphic file (type png)
 <use images/decrement_giniindex@10_movielens_1m_30_5.png>
-Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m_30_5.png  used on input line 902.
+Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m_30_5.png  used on input line 906.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/decrement_ndcg@10_movielens_1m_30_5.png, id=1389, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m_30_5.png, id=1396, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m_30_5.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m_30_5.png>
-Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m_30_5.png  used on input line 908.
+Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m_30_5.png  used on input line 912.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2690,19 +2707,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[105 <./images/decrement_averagepopularity@10_movielens_1m_30_5.png> <./images/decrement_giniindex@10_movielens_1m_30_5.png>]
-<images/decrement_recall@10_movielens_1m_30_5.png, id=1398, 722.7pt x 361.35pt>
+[104 <./images/decrement_averagepopularity@10_movielens_1m_30_5.png> <./images/decrement_giniindex@10_movielens_1m_30_5.png>]
+<images/decrement_recall@10_movielens_1m_30_5.png, id=1405, 722.7pt x 361.35pt>
 File: images/decrement_recall@10_movielens_1m_30_5.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m_30_5.png>
-Package pdftex.def Info: images/decrement_recall@10_movielens_1m_30_5.png  used on input line 914.
+Package pdftex.def Info: images/decrement_recall@10_movielens_1m_30_5.png  used on input line 918.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 File: images/emissions_movielens_1m_40_6_earlyClassic.png Graphic file (type png)
 <use images/emissions_movielens_1m_40_6_earlyClassic.png>
-Package pdftex.def Info: images/emissions_movielens_1m_40_6_earlyClassic.png  used on input line 935.
+Package pdftex.def Info: images/emissions_movielens_1m_40_6_earlyClassic.png  used on input line 939.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 File: images/emissions_movielens_1m_40_6_earlyModified.png Graphic file (type png)
 <use images/emissions_movielens_1m_40_6_earlyModified.png>
-Package pdftex.def Info: images/emissions_movielens_1m_40_6_earlyModified.png  used on input line 935.
+Package pdftex.def Info: images/emissions_movielens_1m_40_6_earlyModified.png  used on input line 939.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 
 
@@ -2712,11 +2729,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[106 <./images/decrement_ndcg@10_movielens_1m_30_5.png> <./images/decrement_recall@10_movielens_1m_30_5.png>]
-<images/recall@10_movielens_1m_40_6_comparison.png, id=1409, 722.7pt x 361.35pt>
+[105 <./images/decrement_ndcg@10_movielens_1m_30_5.png> <./images/decrement_recall@10_movielens_1m_30_5.png>]
+<images/recall@10_movielens_1m_40_6_comparison.png, id=1416, 722.7pt x 361.35pt>
 File: images/recall@10_movielens_1m_40_6_comparison.png Graphic file (type png)
 <use images/recall@10_movielens_1m_40_6_comparison.png>
-Package pdftex.def Info: images/recall@10_movielens_1m_40_6_comparison.png  used on input line 971.
+Package pdftex.def Info: images/recall@10_movielens_1m_40_6_comparison.png  used on input line 975.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2726,16 +2743,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[107 <./images/emissions_movielens_1m_40_6_earlyClassic.png> <./images/emissions_movielens_1m_40_6_earlyModified.png>]
-<images/ndcg@10_movielens_1m_40_6_comparison.png, id=1418, 722.7pt x 361.35pt>
+[106 <./images/emissions_movielens_1m_40_6_earlyClassic.png> <./images/emissions_movielens_1m_40_6_earlyModified.png>]
+<images/ndcg@10_movielens_1m_40_6_comparison.png, id=1425, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_40_6_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_40_6_comparison.png>
-Package pdftex.def Info: images/ndcg@10_movielens_1m_40_6_comparison.png  used on input line 978.
+Package pdftex.def Info: images/ndcg@10_movielens_1m_40_6_comparison.png  used on input line 982.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/giniindex@10_movielens_1m_40_6_comparison.png, id=1419, 722.7pt x 361.35pt>
+<images/giniindex@10_movielens_1m_40_6_comparison.png, id=1426, 722.7pt x 361.35pt>
 File: images/giniindex@10_movielens_1m_40_6_comparison.png Graphic file (type png)
 <use images/giniindex@10_movielens_1m_40_6_comparison.png>
-Package pdftex.def Info: images/giniindex@10_movielens_1m_40_6_comparison.png  used on input line 985.
+Package pdftex.def Info: images/giniindex@10_movielens_1m_40_6_comparison.png  used on input line 989.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2745,11 +2762,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[108 <./images/recall@10_movielens_1m_40_6_comparison.png> <./images/ndcg@10_movielens_1m_40_6_comparison.png>]
-<images/averagepopularity@10_movielens_1m_40_6_comparison.png, id=1428, 722.7pt x 361.35pt>
+[107 <./images/recall@10_movielens_1m_40_6_comparison.png> <./images/ndcg@10_movielens_1m_40_6_comparison.png>]
+<images/averagepopularity@10_movielens_1m_40_6_comparison.png, id=1435, 722.7pt x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_40_6_comparison.png Graphic file (type png)
 <use images/averagepopularity@10_movielens_1m_40_6_comparison.png>
-Package pdftex.def Info: images/averagepopularity@10_movielens_1m_40_6_comparison.png  used on input line 991.
+Package pdftex.def Info: images/averagepopularity@10_movielens_1m_40_6_comparison.png  used on input line 995.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2759,11 +2776,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[109 <./images/giniindex@10_movielens_1m_40_6_comparison.png> <./images/averagepopularity@10_movielens_1m_40_6_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m_40_6.png, id=1438, 722.7pt x 361.35pt>
+[108 <./images/giniindex@10_movielens_1m_40_6_comparison.png> <./images/averagepopularity@10_movielens_1m_40_6_comparison.png>]
+<images/decrement_averagepopularity@10_movielens_1m_40_6.png, id=1444, 722.7pt x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m_40_6.png Graphic file (type png)
 <use images/decrement_averagepopularity@10_movielens_1m_40_6.png>
-Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m_40_6.png  used on input line 1055.
+Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m_40_6.png  used on input line 1059.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2773,16 +2790,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[110]
-<images/decrement_giniindex@10_movielens_1m_40_6.png, id=1444, 722.7pt x 361.35pt>
+[109]
+<images/decrement_giniindex@10_movielens_1m_40_6.png, id=1451, 722.7pt x 361.35pt>
 File: images/decrement_giniindex@10_movielens_1m_40_6.png Graphic file (type png)
 <use images/decrement_giniindex@10_movielens_1m_40_6.png>
-Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m_40_6.png  used on input line 1061.
+Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m_40_6.png  used on input line 1065.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/decrement_ndcg@10_movielens_1m_40_6.png, id=1445, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m_40_6.png, id=1452, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m_40_6.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m_40_6.png>
-Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m_40_6.png  used on input line 1067.
+Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m_40_6.png  used on input line 1071.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2792,19 +2809,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[111 <./images/decrement_averagepopularity@10_movielens_1m_40_6.png> <./images/decrement_giniindex@10_movielens_1m_40_6.png>]
-<images/decrement_recall@10_movielens_1m_40_6.png, id=1454, 722.7pt x 361.35pt>
+[110 <./images/decrement_averagepopularity@10_movielens_1m_40_6.png> <./images/decrement_giniindex@10_movielens_1m_40_6.png>]
+<images/decrement_recall@10_movielens_1m_40_6.png, id=1461, 722.7pt x 361.35pt>
 File: images/decrement_recall@10_movielens_1m_40_6.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m_40_6.png>
-Package pdftex.def Info: images/decrement_recall@10_movielens_1m_40_6.png  used on input line 1073.
+Package pdftex.def Info: images/decrement_recall@10_movielens_1m_40_6.png  used on input line 1077.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 File: images/emissions_movielens_1m_30_6_earlyClassic.png Graphic file (type png)
 <use images/emissions_movielens_1m_30_6_earlyClassic.png>
-Package pdftex.def Info: images/emissions_movielens_1m_30_6_earlyClassic.png  used on input line 1098.
+Package pdftex.def Info: images/emissions_movielens_1m_30_6_earlyClassic.png  used on input line 1102.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 File: images/emissions_movielens_1m_30_6_earlyModified.png Graphic file (type png)
 <use images/emissions_movielens_1m_30_6_earlyModified.png>
-Package pdftex.def Info: images/emissions_movielens_1m_30_6_earlyModified.png  used on input line 1098.
+Package pdftex.def Info: images/emissions_movielens_1m_30_6_earlyModified.png  used on input line 1102.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 
 
@@ -2814,11 +2831,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[112 <./images/decrement_ndcg@10_movielens_1m_40_6.png> <./images/decrement_recall@10_movielens_1m_40_6.png>]
-<images/recall@10_movielens_1m_30_6_comparison.png, id=1465, 722.7pt x 361.35pt>
+[111 <./images/decrement_ndcg@10_movielens_1m_40_6.png> <./images/decrement_recall@10_movielens_1m_40_6.png>]
+<images/recall@10_movielens_1m_30_6_comparison.png, id=1472, 722.7pt x 361.35pt>
 File: images/recall@10_movielens_1m_30_6_comparison.png Graphic file (type png)
 <use images/recall@10_movielens_1m_30_6_comparison.png>
-Package pdftex.def Info: images/recall@10_movielens_1m_30_6_comparison.png  used on input line 1134.
+Package pdftex.def Info: images/recall@10_movielens_1m_30_6_comparison.png  used on input line 1138.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2828,16 +2845,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[113 <./images/emissions_movielens_1m_30_6_earlyClassic.png> <./images/emissions_movielens_1m_30_6_earlyModified.png>]
-<images/ndcg@10_movielens_1m_30_6_comparison.png, id=1474, 722.7pt x 361.35pt>
+[112 <./images/emissions_movielens_1m_30_6_earlyClassic.png> <./images/emissions_movielens_1m_30_6_earlyModified.png>]
+<images/ndcg@10_movielens_1m_30_6_comparison.png, id=1481, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_30_6_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_30_6_comparison.png>
-Package pdftex.def Info: images/ndcg@10_movielens_1m_30_6_comparison.png  used on input line 1141.
+Package pdftex.def Info: images/ndcg@10_movielens_1m_30_6_comparison.png  used on input line 1145.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/giniindex@10_movielens_1m_30_6_comparison.png, id=1475, 722.7pt x 361.35pt>
+<images/giniindex@10_movielens_1m_30_6_comparison.png, id=1482, 722.7pt x 361.35pt>
 File: images/giniindex@10_movielens_1m_30_6_comparison.png Graphic file (type png)
 <use images/giniindex@10_movielens_1m_30_6_comparison.png>
-Package pdftex.def Info: images/giniindex@10_movielens_1m_30_6_comparison.png  used on input line 1148.
+Package pdftex.def Info: images/giniindex@10_movielens_1m_30_6_comparison.png  used on input line 1152.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2847,11 +2864,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[114 <./images/recall@10_movielens_1m_30_6_comparison.png> <./images/ndcg@10_movielens_1m_30_6_comparison.png>]
-<images/averagepopularity@10_movielens_1m_30_6_comparison.png, id=1484, 722.7pt x 361.35pt>
+[113 <./images/recall@10_movielens_1m_30_6_comparison.png> <./images/ndcg@10_movielens_1m_30_6_comparison.png>]
+<images/averagepopularity@10_movielens_1m_30_6_comparison.png, id=1491, 722.7pt x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_30_6_comparison.png Graphic file (type png)
 <use images/averagepopularity@10_movielens_1m_30_6_comparison.png>
-Package pdftex.def Info: images/averagepopularity@10_movielens_1m_30_6_comparison.png  used on input line 1154.
+Package pdftex.def Info: images/averagepopularity@10_movielens_1m_30_6_comparison.png  used on input line 1158.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2861,11 +2878,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[115 <./images/giniindex@10_movielens_1m_30_6_comparison.png> <./images/averagepopularity@10_movielens_1m_30_6_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m_30_6.png, id=1494, 722.7pt x 361.35pt>
+[114 <./images/giniindex@10_movielens_1m_30_6_comparison.png> <./images/averagepopularity@10_movielens_1m_30_6_comparison.png>]
+<images/decrement_averagepopularity@10_movielens_1m_30_6.png, id=1500, 722.7pt x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m_30_6.png Graphic file (type png)
 <use images/decrement_averagepopularity@10_movielens_1m_30_6.png>
-Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m_30_6.png  used on input line 1218.
+Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m_30_6.png  used on input line 1222.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2875,16 +2892,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[116]
-<images/decrement_giniindex@10_movielens_1m_30_6.png, id=1500, 722.7pt x 361.35pt>
+[115]
+<images/decrement_giniindex@10_movielens_1m_30_6.png, id=1507, 722.7pt x 361.35pt>
 File: images/decrement_giniindex@10_movielens_1m_30_6.png Graphic file (type png)
 <use images/decrement_giniindex@10_movielens_1m_30_6.png>
-Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m_30_6.png  used on input line 1224.
+Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m_30_6.png  used on input line 1228.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/decrement_ndcg@10_movielens_1m_30_6.png, id=1501, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m_30_6.png, id=1508, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m_30_6.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m_30_6.png>
-Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m_30_6.png  used on input line 1230.
+Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m_30_6.png  used on input line 1234.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2894,19 +2911,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[117 <./images/decrement_averagepopularity@10_movielens_1m_30_6.png> <./images/decrement_giniindex@10_movielens_1m_30_6.png>]
-<images/decrement_recall@10_movielens_1m_30_6.png, id=1510, 722.7pt x 361.35pt>
+[116 <./images/decrement_averagepopularity@10_movielens_1m_30_6.png> <./images/decrement_giniindex@10_movielens_1m_30_6.png>]
+<images/decrement_recall@10_movielens_1m_30_6.png, id=1517, 722.7pt x 361.35pt>
 File: images/decrement_recall@10_movielens_1m_30_6.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m_30_6.png>
-Package pdftex.def Info: images/decrement_recall@10_movielens_1m_30_6.png  used on input line 1236.
+Package pdftex.def Info: images/decrement_recall@10_movielens_1m_30_6.png  used on input line 1240.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 File: images/emissions_movielens_1m_40_7_earlyClassic.png Graphic file (type png)
 <use images/emissions_movielens_1m_40_7_earlyClassic.png>
-Package pdftex.def Info: images/emissions_movielens_1m_40_7_earlyClassic.png  used on input line 1258.
+Package pdftex.def Info: images/emissions_movielens_1m_40_7_earlyClassic.png  used on input line 1262.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 File: images/emissions_movielens_1m_40_7_earlyModified.png Graphic file (type png)
 <use images/emissions_movielens_1m_40_7_earlyModified.png>
-Package pdftex.def Info: images/emissions_movielens_1m_40_7_earlyModified.png  used on input line 1258.
+Package pdftex.def Info: images/emissions_movielens_1m_40_7_earlyModified.png  used on input line 1262.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 
 
@@ -2916,11 +2933,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[118 <./images/decrement_ndcg@10_movielens_1m_30_6.png> <./images/decrement_recall@10_movielens_1m_30_6.png>]
-<images/recall@10_movielens_1m_40_7_comparison.png, id=1521, 722.7pt x 361.35pt>
+[117 <./images/decrement_ndcg@10_movielens_1m_30_6.png> <./images/decrement_recall@10_movielens_1m_30_6.png>]
+<images/recall@10_movielens_1m_40_7_comparison.png, id=1528, 722.7pt x 361.35pt>
 File: images/recall@10_movielens_1m_40_7_comparison.png Graphic file (type png)
 <use images/recall@10_movielens_1m_40_7_comparison.png>
-Package pdftex.def Info: images/recall@10_movielens_1m_40_7_comparison.png  used on input line 1295.
+Package pdftex.def Info: images/recall@10_movielens_1m_40_7_comparison.png  used on input line 1299.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2930,16 +2947,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[119 <./images/emissions_movielens_1m_40_7_earlyClassic.png> <./images/emissions_movielens_1m_40_7_earlyModified.png>]
-<images/ndcg@10_movielens_1m_40_7_comparison.png, id=1530, 722.7pt x 361.35pt>
+[118 <./images/emissions_movielens_1m_40_7_earlyClassic.png> <./images/emissions_movielens_1m_40_7_earlyModified.png>]
+<images/ndcg@10_movielens_1m_40_7_comparison.png, id=1537, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_40_7_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_40_7_comparison.png>
-Package pdftex.def Info: images/ndcg@10_movielens_1m_40_7_comparison.png  used on input line 1302.
+Package pdftex.def Info: images/ndcg@10_movielens_1m_40_7_comparison.png  used on input line 1306.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/giniindex@10_movielens_1m_40_7_comparison.png, id=1531, 722.7pt x 361.35pt>
+<images/giniindex@10_movielens_1m_40_7_comparison.png, id=1538, 722.7pt x 361.35pt>
 File: images/giniindex@10_movielens_1m_40_7_comparison.png Graphic file (type png)
 <use images/giniindex@10_movielens_1m_40_7_comparison.png>
-Package pdftex.def Info: images/giniindex@10_movielens_1m_40_7_comparison.png  used on input line 1309.
+Package pdftex.def Info: images/giniindex@10_movielens_1m_40_7_comparison.png  used on input line 1313.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2949,11 +2966,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[120 <./images/recall@10_movielens_1m_40_7_comparison.png> <./images/ndcg@10_movielens_1m_40_7_comparison.png>]
-<images/averagepopularity@10_movielens_1m_40_7_comparison.png, id=1540, 722.7pt x 361.35pt>
+[119 <./images/recall@10_movielens_1m_40_7_comparison.png> <./images/ndcg@10_movielens_1m_40_7_comparison.png>]
+<images/averagepopularity@10_movielens_1m_40_7_comparison.png, id=1547, 722.7pt x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_40_7_comparison.png Graphic file (type png)
 <use images/averagepopularity@10_movielens_1m_40_7_comparison.png>
-Package pdftex.def Info: images/averagepopularity@10_movielens_1m_40_7_comparison.png  used on input line 1315.
+Package pdftex.def Info: images/averagepopularity@10_movielens_1m_40_7_comparison.png  used on input line 1319.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2963,11 +2980,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[121 <./images/giniindex@10_movielens_1m_40_7_comparison.png> <./images/averagepopularity@10_movielens_1m_40_7_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m_40_7.png, id=1550, 722.7pt x 361.35pt>
+[120 <./images/giniindex@10_movielens_1m_40_7_comparison.png> <./images/averagepopularity@10_movielens_1m_40_7_comparison.png>]
+<images/decrement_averagepopularity@10_movielens_1m_40_7.png, id=1556, 722.7pt x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m_40_7.png Graphic file (type png)
 <use images/decrement_averagepopularity@10_movielens_1m_40_7.png>
-Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m_40_7.png  used on input line 1379.
+Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m_40_7.png  used on input line 1383.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2977,16 +2994,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[122]
-<images/decrement_giniindex@10_movielens_1m_40_7.png, id=1556, 722.7pt x 361.35pt>
+[121]
+<images/decrement_giniindex@10_movielens_1m_40_7.png, id=1563, 722.7pt x 361.35pt>
 File: images/decrement_giniindex@10_movielens_1m_40_7.png Graphic file (type png)
 <use images/decrement_giniindex@10_movielens_1m_40_7.png>
-Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m_40_7.png  used on input line 1385.
+Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m_40_7.png  used on input line 1389.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/decrement_ndcg@10_movielens_1m_40_7.png, id=1557, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m_40_7.png, id=1564, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m_40_7.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m_40_7.png>
-Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m_40_7.png  used on input line 1391.
+Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m_40_7.png  used on input line 1395.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -2996,19 +3013,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[123 <./images/decrement_averagepopularity@10_movielens_1m_40_7.png> <./images/decrement_giniindex@10_movielens_1m_40_7.png>]
-<images/decrement_recall@10_movielens_1m_40_7.png, id=1566, 722.7pt x 361.35pt>
+[122 <./images/decrement_averagepopularity@10_movielens_1m_40_7.png> <./images/decrement_giniindex@10_movielens_1m_40_7.png>]
+<images/decrement_recall@10_movielens_1m_40_7.png, id=1573, 722.7pt x 361.35pt>
 File: images/decrement_recall@10_movielens_1m_40_7.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m_40_7.png>
-Package pdftex.def Info: images/decrement_recall@10_movielens_1m_40_7.png  used on input line 1397.
+Package pdftex.def Info: images/decrement_recall@10_movielens_1m_40_7.png  used on input line 1401.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 File: images/emissions_movielens_1m_30_7_earlyClassic.png Graphic file (type png)
 <use images/emissions_movielens_1m_30_7_earlyClassic.png>
-Package pdftex.def Info: images/emissions_movielens_1m_30_7_earlyClassic.png  used on input line 1421.
+Package pdftex.def Info: images/emissions_movielens_1m_30_7_earlyClassic.png  used on input line 1425.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 File: images/emissions_movielens_1m_30_7_earlyModified.png Graphic file (type png)
 <use images/emissions_movielens_1m_30_7_earlyModified.png>
-Package pdftex.def Info: images/emissions_movielens_1m_30_7_earlyModified.png  used on input line 1421.
+Package pdftex.def Info: images/emissions_movielens_1m_30_7_earlyModified.png  used on input line 1425.
 (pdftex.def)             Requested size: 269.70119pt x 202.28491pt.
 
 
@@ -3018,11 +3035,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[124 <./images/decrement_ndcg@10_movielens_1m_40_7.png> <./images/decrement_recall@10_movielens_1m_40_7.png>]
-<images/recall@10_movielens_1m_30_7_comparison.png, id=1577, 722.7pt x 361.35pt>
+[123 <./images/decrement_ndcg@10_movielens_1m_40_7.png> <./images/decrement_recall@10_movielens_1m_40_7.png>]
+<images/recall@10_movielens_1m_30_7_comparison.png, id=1584, 722.7pt x 361.35pt>
 File: images/recall@10_movielens_1m_30_7_comparison.png Graphic file (type png)
 <use images/recall@10_movielens_1m_30_7_comparison.png>
-Package pdftex.def Info: images/recall@10_movielens_1m_30_7_comparison.png  used on input line 1458.
+Package pdftex.def Info: images/recall@10_movielens_1m_30_7_comparison.png  used on input line 1462.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -3032,16 +3049,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[125 <./images/emissions_movielens_1m_30_7_earlyClassic.png> <./images/emissions_movielens_1m_30_7_earlyModified.png>]
-<images/ndcg@10_movielens_1m_30_7_comparison.png, id=1586, 722.7pt x 361.35pt>
+[124 <./images/emissions_movielens_1m_30_7_earlyClassic.png> <./images/emissions_movielens_1m_30_7_earlyModified.png>]
+<images/ndcg@10_movielens_1m_30_7_comparison.png, id=1593, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_30_7_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_30_7_comparison.png>
-Package pdftex.def Info: images/ndcg@10_movielens_1m_30_7_comparison.png  used on input line 1465.
+Package pdftex.def Info: images/ndcg@10_movielens_1m_30_7_comparison.png  used on input line 1469.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/giniindex@10_movielens_1m_30_7_comparison.png, id=1587, 722.7pt x 361.35pt>
+<images/giniindex@10_movielens_1m_30_7_comparison.png, id=1594, 722.7pt x 361.35pt>
 File: images/giniindex@10_movielens_1m_30_7_comparison.png Graphic file (type png)
 <use images/giniindex@10_movielens_1m_30_7_comparison.png>
-Package pdftex.def Info: images/giniindex@10_movielens_1m_30_7_comparison.png  used on input line 1472.
+Package pdftex.def Info: images/giniindex@10_movielens_1m_30_7_comparison.png  used on input line 1476.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -3051,11 +3068,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[126 <./images/recall@10_movielens_1m_30_7_comparison.png> <./images/ndcg@10_movielens_1m_30_7_comparison.png>]
-<images/averagepopularity@10_movielens_1m_30_7_comparison.png, id=1596, 722.7pt x 361.35pt>
+[125 <./images/recall@10_movielens_1m_30_7_comparison.png> <./images/ndcg@10_movielens_1m_30_7_comparison.png>]
+<images/averagepopularity@10_movielens_1m_30_7_comparison.png, id=1603, 722.7pt x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_30_7_comparison.png Graphic file (type png)
 <use images/averagepopularity@10_movielens_1m_30_7_comparison.png>
-Package pdftex.def Info: images/averagepopularity@10_movielens_1m_30_7_comparison.png  used on input line 1478.
+Package pdftex.def Info: images/averagepopularity@10_movielens_1m_30_7_comparison.png  used on input line 1482.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -3065,11 +3082,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[127 <./images/giniindex@10_movielens_1m_30_7_comparison.png> <./images/averagepopularity@10_movielens_1m_30_7_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m_30_7.png, id=1606, 722.7pt x 361.35pt>
+[126 <./images/giniindex@10_movielens_1m_30_7_comparison.png> <./images/averagepopularity@10_movielens_1m_30_7_comparison.png>]
+<images/decrement_averagepopularity@10_movielens_1m_30_7.png, id=1612, 722.7pt x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m_30_7.png Graphic file (type png)
 <use images/decrement_averagepopularity@10_movielens_1m_30_7.png>
-Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m_30_7.png  used on input line 1542.
+Package pdftex.def Info: images/decrement_averagepopularity@10_movielens_1m_30_7.png  used on input line 1546.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -3079,16 +3096,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[128]
-<images/decrement_giniindex@10_movielens_1m_30_7.png, id=1612, 722.7pt x 361.35pt>
+[127]
+<images/decrement_giniindex@10_movielens_1m_30_7.png, id=1619, 722.7pt x 361.35pt>
 File: images/decrement_giniindex@10_movielens_1m_30_7.png Graphic file (type png)
 <use images/decrement_giniindex@10_movielens_1m_30_7.png>
-Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m_30_7.png  used on input line 1548.
+Package pdftex.def Info: images/decrement_giniindex@10_movielens_1m_30_7.png  used on input line 1552.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
-<images/decrement_ndcg@10_movielens_1m_30_7.png, id=1613, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m_30_7.png, id=1620, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m_30_7.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m_30_7.png>
-Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m_30_7.png  used on input line 1554.
+Package pdftex.def Info: images/decrement_ndcg@10_movielens_1m_30_7.png  used on input line 1558.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
 
@@ -3098,14 +3115,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[129 <./images/decrement_averagepopularity@10_movielens_1m_30_7.png> <./images/decrement_giniindex@10_movielens_1m_30_7.png>]
-<images/decrement_recall@10_movielens_1m_30_7.png, id=1622, 722.7pt x 361.35pt>
+[128 <./images/decrement_averagepopularity@10_movielens_1m_30_7.png> <./images/decrement_giniindex@10_movielens_1m_30_7.png>]
+<images/decrement_recall@10_movielens_1m_30_7.png, id=1629, 722.7pt x 361.35pt>
 File: images/decrement_recall@10_movielens_1m_30_7.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m_30_7.png>
-Package pdftex.def Info: images/decrement_recall@10_movielens_1m_30_7.png  used on input line 1560.
+Package pdftex.def Info: images/decrement_recall@10_movielens_1m_30_7.png  used on input line 1564.
 (pdftex.def)             Requested size: 540.60236pt x 270.30055pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1568--1569
+Underfull \hbox (badness 10000) in paragraph at lines 1572--1573
 
  []
 
@@ -3116,21 +3133,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[130 <./images/decrement_ndcg@10_movielens_1m_30_7.png> <./images/decrement_recall@10_movielens_1m_30_7.png>]
-<images/sensibility_recall@10.png, id=1631, 1445.4pt x 722.7pt>
+[129 <./images/decrement_ndcg@10_movielens_1m_30_7.png> <./images/decrement_recall@10_movielens_1m_30_7.png>]
+<images/sensibility_recall@10.png, id=1638, 1445.4pt x 722.7pt>
 File: images/sensibility_recall@10.png Graphic file (type png)
 <use images/sensibility_recall@10.png>
-Package pdftex.def Info: images/sensibility_recall@10.png  used on input line 1572.
+Package pdftex.def Info: images/sensibility_recall@10.png  used on input line 1576.
 (pdftex.def)             Requested size: 540.60236pt x 270.29504pt.
-<images/sensibility_ndcg@10.png, id=1632, 1445.4pt x 722.7pt>
+<images/sensibility_ndcg@10.png, id=1639, 1445.4pt x 722.7pt>
 File: images/sensibility_ndcg@10.png Graphic file (type png)
 <use images/sensibility_ndcg@10.png>
-Package pdftex.def Info: images/sensibility_ndcg@10.png  used on input line 1577.
+Package pdftex.def Info: images/sensibility_ndcg@10.png  used on input line 1581.
 (pdftex.def)             Requested size: 540.60236pt x 270.29504pt.
-<images/sensibility_averagepopularity@10.png, id=1633, 1445.4pt x 722.7pt>
+<images/sensibility_averagepopularity@10.png, id=1640, 1445.4pt x 722.7pt>
 File: images/sensibility_averagepopularity@10.png Graphic file (type png)
 <use images/sensibility_averagepopularity@10.png>
-Package pdftex.def Info: images/sensibility_averagepopularity@10.png  used on input line 1582.
+Package pdftex.def Info: images/sensibility_averagepopularity@10.png  used on input line 1586.
 (pdftex.def)             Requested size: 540.60236pt x 270.29504pt.
 
 
@@ -3140,11 +3157,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[131 <./images/sensibility_recall@10.png> <./images/sensibility_ndcg@10.png>]
-<images/sensibility_giniindex@10.png, id=1642, 1445.4pt x 722.7pt>
+[130 <./images/sensibility_recall@10.png> <./images/sensibility_ndcg@10.png>]
+<images/sensibility_giniindex@10.png, id=1649, 1445.4pt x 722.7pt>
 File: images/sensibility_giniindex@10.png Graphic file (type png)
 <use images/sensibility_giniindex@10.png>
-Package pdftex.def Info: images/sensibility_giniindex@10.png  used on input line 1587.
+Package pdftex.def Info: images/sensibility_giniindex@10.png  used on input line 1591.
 (pdftex.def)             Requested size: 540.60236pt x 270.29504pt.
 
 
@@ -3154,8 +3171,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[132 <./images/sensibility_averagepopularity@10.png> <./images/sensibility_giniindex@10.png>])
-Underfull \hbox (badness 10000) in paragraph at lines 1607--79
+[131 <./images/sensibility_averagepopularity@10.png> <./images/sensibility_giniindex@10.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 1611--74
 
  []
 
@@ -3166,7 +3183,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[133] (main.bbl
+[132] (main.bbl
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[133]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3182,7 +3207,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[135]
+[135])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3190,15 +3215,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[136])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[137] (main.aux)
+[136] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -3208,20 +3225,20 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2651A33CFED90180A7ACC9EB23EAE2F1;9491.
+(rerunfilecheck)             Checksum: 4C22F4100F94BE9120B68E4615B6340D;9721.
  ) 
 Here is how much of TeX's memory you used:
- 38189 strings out of 474457
- 889865 string characters out of 5754949
+ 38231 strings out of 474436
+ 902890 string characters out of 5741954
  1960190 words of memory out of 5000000
- 59287 multiletter control sequences out of 15000+600000
+ 59349 multiletter control sequences out of 15000+600000
  577264 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,117p,910b,627s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\fonta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (137 pages, 7206102 bytes).
+ <C:\Users\fonta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/fonta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (136 pages, 7783418 bytes).
 PDF statistics:
- 1863 PDF objects out of 2073 (max. 8388607)
- 564 named destinations out of 1000 (max. 500000)
- 1568 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1871 PDF objects out of 2073 (max. 8388607)
+ 565 named destinations out of 1000 (max. 500000)
+ 1593 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,13 +9,31 @@ Questi sistemi sono basati su algoritmi di apprendimento automatico e intelligen
     
     \item \textbf{Collaborative filtering}: i sistemi di raccomandazione collaborative filtering generano raccomandazioni basate sulla somiglianza tra gli utenti. Questi sistemi analizzano i dati relativi alle preferenze e ai comportamenti degli utenti, e generano raccomandazioni in base alla somiglianza tra gli utenti. I sistemi di raccomandazione collaborative filtering possono essere di due tipi: user-based e item-based. I sistemi user-based generano raccomandazioni basate sulla somiglianza tra gli utenti, mentre i sistemi item-based generano raccomandazioni basate sulla somiglianza tra gli item.
     \item \textbf{Approci ibridi}: i sistemi di raccomandazione ibridi combinano tecniche di content-based e collaborative filtering per generare raccomandazioni personalizzate.
-    \item \textbf{Knowledge-based} \cite{KnowledgeBased}: i sistemi di raccomandazione knowledge-based generano raccomandazioni basate basandosi su conoscenza semantica
+    \item \textbf{Knowledge-based} \cite{KnowledgeBased}: i sistemi di raccomandazione knowledge-based generano raccomandazioni basandosi su conoscenza semantica
 \end{itemize}
+
+
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \setlength\tabcolsep{0pt}
+    \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/cfRecSys.png} &
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/contentbased.png} \\
+        \hline
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/hybridRecSys.png} &
+        \includegraphics[width=\linewidth, trim=0 0 0 0]{images/knowledge.png} \\
+        \hline
+    \end{tabularx}
+    \caption{Tipi di Recommender Systems}
+\end{table}
+
 
 \noindent Per valutare le prestazioni di un sistema di raccomandazione si possono utilizzare diverse metriche che è possibile riassumere nelle seguenti categorie:
 \begin{itemize}
     \item \textbf{Accuracy metrics}: queste metriche valutano la precisione e l'accuratezza delle raccomandazioni generate dal sistema. Alcune delle metriche più comuni sono l'RMSE (Root Mean Squared Error) e il MAE (Mean Absolute Error).
-    \item \textbf{Ranking metrics}: queste metriche valutano la qualità dell'ordinamento delle raccomandazioni generate dal sistema. Alcune delle metriche più comuni sono il coefficiente di correlazione di Kendall Tau il coefficiente di correlazione di Spearman, l'NDCG (Normalized Discounted Cumulative Gain).
+    \item \textbf{Ranking metrics}: queste metriche valutano la qualità dell'ordinamento delle raccomandazioni generate dal sistema. Alcune delle metriche più comuni sono il coefficiente di correlazione di Kendall Tau, il coefficiente di correlazione di Spearman, l'NDCG (Normalized Discounted Cumulative Gain).
     \item \textbf{Diversity metrics}: queste metriche valutano la diversità delle raccomandazioni generate dal sistema. Alcune delle metriche più comuni sono la diversità delle raccomandazioni e la novità delle raccomandazioni.
     \item \textbf{Coverage metrics}: queste metriche valutano la copertura degli elementi raccomandati dal sistema.
     

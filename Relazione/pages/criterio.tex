@@ -1,5 +1,7 @@
-\section{Seconda parte}io\subsection{Introduzione}
-Come step successivo si è deciso di modificare il criterio di early stopping dei modelli inserendo come variabile anche le emissioni.
+\section{Seconda parte - Addestramento sostenibile}
+\subsection{Introduzione}
+La seconda parte consiste nell'addestrare i modelli di recommendation in modo sostenibile, ovvero cercando di ridurre le emissioni di CO2 prodotte durante l'addestramento senza compromettere le performance dei modelli in modo significativo.
+Si è dunque deciso di modificare il criterio di early stopping dei modelli inserendo come variabile anche le emissioni.
 Il classico criterio di early stopping prevede di fermare l'addestramento del modello quando lo score ottenuto con il validation set non migliora per un certo numero di epoche consecutive.
 
 
@@ -11,7 +13,7 @@ Il classico criterio di early stopping prevede di fermare l'addestramento del mo
 
 \noindent Questa curva mostra mostra il comportamento dello score in funzione delle emissioni. In particolare si tiene traccia solo delle epoche in cui lo score è migliorato rispetto al risultato migliore.
 Si può notare come la curva presenti una forte crescita iniziale, per poi stabilizzarsi e avere un andamento quasi lineare.
-Questo andamento lineare indica dunque un miglioramento molto piccolo dello score rispetto alle emissioni.
+Questo andamento lineare indica dunque un miglioramento molto piccolo dello score rispetto all'aumento delle emissioni.
 
 \noindent Il criterio di early stopping con emissioni si pone dunque come obiettivo quello di fermare l'addestramento del modello quando il miglioramento dello score rispetto alle emissioni è troppo piccolo.
 L'idea alla base sarebbe quello di fermare l'addestramento studiando la derivata della curva. Siccome i valori sono discreti, si è deciso di approssimare la derivata con la differenza tra due punti consecutivi \footnote{Metodo delle differenze divise di ordine 1}{} mediante la seguente formula:
@@ -22,6 +24,8 @@ L'idea alla base sarebbe quello di fermare l'addestramento studiando la derivata
 \noindent Quando la differenza tra due rapporti consecutivi è minore di una certa soglia, per un certo numero di volte consecutive, si ferma l'addestramento del modello.
 
 \subsection{Parte esplorativa}
+
+In questa parte si sono eseguti diversi esperimenti usando dataset diversi e parametri diversi per cercare di capire come il criterio di early stopping con emissioni influenzi le performance dei modelli in base ai parametri e alle dimensioni del dataset.
 \subsubsection{Primo esperimento}
 
 Il primo esperimento è stato compiuto con il dataset MovieLens-1m. La soglia è stata impostata a 50 e il numero di epoche consecutive a 5.
@@ -301,8 +305,8 @@ Il secondo esperimento è stato compiuto con il dataset LFM-1b\_artist\_20U50I\_
     \caption{Confronto delle emissioni}
 \end{table}
 
-\noindent Il criterio più stringente mostra chiaramente come la riduzione delle emissioni sia meno alta rispetto al primo esperimento.
-Per alcuni modelli vengono registrate addirittura delle variazioni negative, ovvero le emissioni sono aumentate rispetto al criterio classico. Questo potrebbe dipende da un picco di consumi dell'hardware in un certo momento, dovuto magari a qualche processo in background.
+\noindent Il criterio più stringente mostra chiaramente come la riduzione delle emissioni sia inferiore rispetto al primo esperimento.
+Per alcuni modelli vengono registrate addirittura delle variazioni negative, ovvero le emissioni sono aumentate rispetto al criterio classico. Questo potrebbe dipende da un picco di consumi dell'hardware in un certo momento, dovuto a qualche processo in background.
 NGCF è l'unico modello in cui si registra un'aumento della percentuale di riduzione delle emissioni rispetto al primo esperimento.
 
 
@@ -587,9 +591,9 @@ DMF è l'unico modello che ha mantenuto performance quasi invarianti a fronte di
     
 
 \subsection{Confronto tra criteri MovieLens-1m}
-La parte esplorativa ha mostrato come alcuni algoritmi (DGCF per esempio) mostrino un'elevata riduzione delle performance in ogni contesto, mentre alti come DFM rimangono stabili.
-Tenendo conto dei parametri utilizzati e delle dimensioni dei dataset è evidente come all'aumentare della dimensione del dataset bisogna diminuire la soglia di tollereanza e aumentare il numero di epoche consecutive per ottenere emissioni ridotte senza perdere troppo in performance.
-Seguiranno dunque diversi risultati eseguiti con il dataset MovieLens-1m
+La parte esplorativa ha mostrato come alcuni modelli (DGCF per esempio) mostrino un'elevata riduzione delle performance in ogni contesto, mentre alti come DFM rimangono stabili.
+Tenendo conto dei parametri utilizzati e delle dimensioni dei dataset è evidente come all'aumentare della dimensione del dataset bisogna rendere il criterio meno stringente, dunque diminuire la soglia di tollereanza e aumentare il numero di epoche consecutive per ottenere emissioni ridotte senza perdere troppo in performance.
+Seguono dunque una serie di esperimenti eseguiti con il dataset MovieLens-1m per confrontare i parametri del criterio di early stopping e cercare di capire i più adatti per questo dataset per ogni modello.
 
 \subsubsection{Primo esperimento}
 Il primo esperimento è stato effettuato con una soglia di tolleranza pari a 40 e un numero di epoche consecutive pari a 5
@@ -647,7 +651,7 @@ Il primo esperimento è stato effettuato con una soglia di tolleranza pari a 40 
     \caption{Confronto delle emissioni}
 \end{table}
 
-\noindent Rispetto all'ultimo esperimento con lo stesso dataset, possiamo notare come la sola riduzione della soglia da 50 a 40 abbia portato molti algoritmi e diminuire la percentuale di riduzione delle emissioni, mentre per tanti altri la percentuale è pressocchè invariata
+\noindent Possiamo notare un'elevata riduzione delle emissioni per quasi tutti i modelli.
 
 \begin{figure}[H]
     \centering
@@ -756,7 +760,7 @@ DGCF             & giniindex@10     & 0.8992                        & 0.9845    
      \includegraphics[width=\textwidth]{images/decrement_recall@10_movielens_1m_40_5.png}
     \caption{Decremento di recall@10}
 \end{figure}
-\noindent Il calo delle performance è più contenuto rispetto all'esperimento precedente. Anche in questo caso per molti modelli la riduzione delle performance è pressocchè identica rispetto all'esperimento precedente, per pochi modelli invece la riduzione delle performance è inferiore
+\noindent Il calo delle performance abbastanza contenuto rispetto alla riduzione delle emissioni, con un decremento di averagepopularity@10 molto alto per alcuni modelli (LightGCN e DGCF in particolare).
 
 
 \subsubsection{Secondo esperimento}
@@ -1074,7 +1078,7 @@ Il terzo esperimento è stato effettuato con una soglia di tolleranza pari a 40 
     \caption{Decremento di recall@10}
 \end{figure}
 
-\noindent Rispetto al primo esperimento la riduzione delle performance sono diminuite (cioè gli algoritmi hanno performato meglio). Anche rispetto al secondo esperimento (con alcune eccezzioni come KGNNLS) le performance sonoo più alte, anche se di poco.
+\noindent Rispetto al primo esperimento la riduzione delle performance sono diminuite (cioè gli algoritmi hanno performato meglio). Anche rispetto al secondo esperimento (con alcune eccezzioni come KGNNLS) le performance sono più alte, anche se di poco.
 
 
 
@@ -1287,7 +1291,7 @@ Il quinto esperimento è stato effettuato con una soglia di tolleranza pari a 40
 \end{table}
 
 \noindent Rispetto al quarto esperimento la percentuale di riduzioni delle emissioni in generale è diminuita, dunque gli algoritmi hanno emesso di più.
-Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi in background sulla maacchina che hanno portato a un consumo leggermente più elevato dell'hardware.
+Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi in background sulla macchina che hanno portato a un consumo leggermente più elevato dell'hardware.
 
 
 \begin{figure}[H]
@@ -1450,7 +1454,7 @@ Il quinto esperimento è stato effettuato con una soglia di tolleranza pari a 30
 \end{table}
 
 \noindent Rispetto al quinto esperimento la percentuale di riduzioni delle emissioni in generale è diminuita, dunque gli algoritmi hanno emesso di più.
-Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi in background sulla maacchina che hanno portato a un consumo leggermente più elevato dell'hardware.
+Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi in background sulla macchina che hanno portato a un consumo leggermente più elevato dell'hardware.
 
 
 \begin{figure}[H]
@@ -1597,9 +1601,9 @@ Nello specifico, valutando i grafici e le tabelle di confronto, si possono fare 
     \item \textbf{DMF}: Per quanto riguarda il DMF non sembra esserci un parametro predominante. Infatti, in generale, le performance sono molto simili tra i vari esperimenti. I risultati suggeriscono che l'esperimento con soglia 30 e 7 epoche sia quello con il miglior tradeoff tra emissioni e performance. Tuttavia la soglia 40 dovrebbe essere più flessibile. I dati non mostrano ciò, ma potrebbe essere dovuto a processi in background che hanno influenzato i risultati. Si conclude che la soglia 40 e 7 epoche sia il miglior tradeoff tra emissioni e performance.
     \item \textbf{KGCN}: Per il KGCN il numero di epoche consecutive ha il maggior impatto. Le performance in tutti gli esperimenti sono rimaste abbastanza stabili, dunque il miglior tradeoff tra emissioni e performance sembra essere soglia 30 e 5 epoche. Come per il DMF, la soglia 40 dovrebbe essere più flessibile. I dati non mostrano ciò, ma potrebbe essere dovuto a processi in background che hanno influenzato i risultati. Si conclude che la soglia 40 e 5 epoche sia il miglior tradeoff tra emissioni e performance.
     \item \textbf{KGNNLS}: In questo caso la soglia di tolleranza sembra essere il parametro predominante. Gli esperimenti con soglia 30 hanno risultati molto simili tra loro, mentre in quelli con soglia 40 anche il numero di epoche consecutive ha un impatto. In generale, l'esperimento con soglia 40 e 5 epoche sembra essere quello con il miglior tradeoff tra emissioni e performance.
-    \item \textbf{LINE}: Anche in questo caso la soglia di tolleranza sembra essere il parametro predominante. L'algoritmo si mantiene stabile in tutti gli esperimenti per quanto riguarda le performance. I dati suggeriscoono che l'esperimento con soglia 40 e 7 epoche sia quello con il miglior tradeoff tra emissioni e performance
-    \item \textbf{MultiDAE}: Anche in questo caso la soglia di tolleranza sembra essere il parametro predominante. Fissando la soglia, maggiore è il numero delle epoche consecutive e minori sono le perdite. In questo casoo l'esperimento con soglia 40 e 7 epoche sembra essere quello con il miglior tradeoff tra emissioni e performance.
-    \item \textbf{LightGCN}: Anche in questo caso la soglia di tolleranza sembra essere il parametro predominante. I dati sembrano suggeriree che l'esperimento con soglia 40 e 6 epoche sia quello con il miglior tradeoff tra emissioni e performance.
+    \item \textbf{LINE}: Anche in questo caso la soglia di tolleranza sembra essere il parametro predominante. L'algoritmo si mantiene stabile in tutti gli esperimenti per quanto riguarda le performance. I dati suggeriscono che l'esperimento con soglia 40 e 7 epoche sia quello con il miglior tradeoff tra emissioni e performance
+    \item \textbf{MultiDAE}: Anche in questo caso la soglia di tolleranza sembra essere il parametro predominante. Fissando la soglia, maggiore è il numero delle epoche consecutive e minori sono le perdite. In questo caso l'esperimento con soglia 40 e 7 epoche sembra essere quello con il miglior tradeoff tra emissioni e performance.
+    \item \textbf{LightGCN}: Anche in questo caso la soglia di tolleranza sembra essere il parametro predominante. I dati sembrano suggerire che l'esperimento con soglia 40 e 6 epoche sia quello con il miglior tradeoff tra emissioni e performance.
     \item \textbf{NGCF}: In questo caso le epoche consecutive sembrano essere il parametro predominante. Fissate le epoche consecutive, la perdita di performance è quasi la stessa mentre la riduzione di emissioni si ottiene con una soglia più alta. I dati sembrano suggerire che l'esperimento con soglia 30 e 5 epoche sia quello con il miglior tradeoff tra emissioni e performance. Anche in questo caso la soglia 40 dovrebbe essere più flessibile. I dati non mostrano ciò, ma potrebbe essere dovuto a processi in background che hanno influenzato i risultati. Si conclude che la soglia 40 e 5 epoche sia il miglior tradeoff tra emissioni e performance.
     \item \textbf{DGCF}: Anche in questo le epoche consecutive sembrano essere il parametro predominante.Fissate queste ultime, la riduzione di performance e di emissioni è quasi la stessa al variare della soglia. Dunque la configurazione migliore sembra essere soglia 40 e 6 epoche.
 \end{itemize}
