@@ -1,0 +1,109 @@
+\makesection{Benchmarking}
+
+\begin{frame}{Dataset - LFM\_1b\_artist}
+\small
+Il primo dataset utilizzato è LFM\_1b\_artist, un dataset di ascolti musicali contenente informazioni riguardanti le interazioni tra utenti e artisti musicali
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Feature} & \textbf{Valore} \\
+\hline
+Numero di utenti & 120322 \\
+\hline
+Numero di item & 3123496 \\
+\hline
+Numero di interazioni & 65133026 \\
+\hline
+Sparsità & 0.9998266933373666 \\
+\hline
+avg\_interactions & 541.3226675088513 \\
+\hline
+\end{tabular}
+\caption{Statistiche dataset LFM\_1b\_artist}
+\end{table}
+\end{frame}
+
+\begin{frame}{Dataset - LFM\_1b\_artist}
+    Questo risultava essere troppo grande per le risorse a disposizione, quindi così processato:
+    \begin{itemize}
+        \item  \textbf{Filtraggio}: il dataset è stato filtrato eliminando tutte le interazioni in cui erano coinvolti utenti e/o item
+        con meno di 5 interazioni
+        \item  \textbf{Sampling}:sampling casuale di 50000 items e 20000 utenti. Sono sate mantenute solo le interazioni che coinvolgevano questi utenti e items
+        \item \textbf{Stratificazione}: Sono state effettuate le seguenti stratificazioni per utente in modo da mantenere la distribuzione delle interazioni: 75\% , 50\%, 25\%
+    \end{itemize}
+\end{frame}
+
+
+
+
+\begin{frame}{Dataset - MovieLens10M}
+    \small
+    E' un dataset di valutazioni di film, contenente informazioni riguardanti le valutazioni date dagli utenti ai film. In questo caso sono presenti 10 milioni di valutazioni. E' stato anche aggiunto un knowledge graph contenente informazioni riguardanti i film e gli attori.
+    
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+    \textbf{Feature} & \textbf{Valore} \\
+    \hline
+    Numero di utenti & 69878 \\
+    \hline
+    Numero di item & 10677 \\
+    \hline
+    Numero di interazioni & 10000054 \\
+    \hline
+    Sparsità & 0.9865966722939162 \\
+    \hline
+    avg\_interactions & 143.10732991785684 \\
+    \hline
+    \end{tabular}
+    \caption{Statistiche MovieLens10M}
+    \end{table}
+    \end{frame}
+    
+    \begin{frame}{Dataset - MovieLens10M}
+        Anche questo risultava essere troppo grande per le risorse a disposizione, quindi così processato:
+        \begin{itemize}
+            \item  \textbf{Filtraggio}: il dataset è stato filtrato eliminando tutte le interazioni in cui erano coinvolti utenti e/o item
+            con meno di 5 interazioni
+            \item  \textbf{Sampling}:sampling casuale di 50000 utenti e 10000 items. Sono sate mantenute solo le interazioni che coinvolgevano questi utenti e items
+        \end{itemize}
+    \end{frame}
+
+
+\begin{frame}{Emissioni - LFM\_1b\_artist}
+        \begin{wrapfigure}{r}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.45\textwidth]{images/EmissioniLFM.png}
+        \caption{Emissioni LFM\_1b\_artist}
+    \end{wrapfigure}
+    \small
+    Si può subito notare come DGCF è il modello che emette più CO2 in assoluto, da 2 a 10 volte di più rispetto agli altri modelli a seconda del dataset.
+    LightGCN e NCFG sono rispettivamente il secondo e il terzo modello che emettono più CO2.
+    Questi due modelli sono di tipo general, ma nonostante ciò emettono di più rispetto ad altri di tipo knowledge-aware, come per esempio il KGCN
+\end{frame}
+
+\begin{frame}{Emissioni - MovieLens10M}
+    \begin{wrapfigure}{r}{0.45\textwidth}
+    \centering
+    \includegraphics[width=0.45\textwidth]{images/emissions_ml-10m_50U10I.png}
+    \caption{Emissioni MovieLens10M}
+\end{wrapfigure}
+\small
+E' possibile notare come molti modelli rispetto al dataset LFM-1b\_artist\_20U50I abbiano emissioni di CO2 molto più alte (a volte anche 10 volte tanto).
+Ciò sicuramente è dovuto al fatto che il numero delle interazioni presenti in questo dataset sono circa 10 volte quelle del dataset LFM-1b\_artist\_20U50I.
+E' possibile comunque notare come i modelli che le emissioni dei modelli seguono circa lo stesso ordine dei dataset precedenti, confermando le tendenze.
+\end{frame}
+
+
+\begin{frame}{Trade - Off}
+    \begin{wrapfigure}{r}{0.45\textwidth}
+    \centering
+    \includegraphics[width=0.45\textwidth]{images/TradeOff.png}
+    \caption{Trade-Off}
+\end{wrapfigure}
+
+Per ogni dataset sono stati creati grafici che mostrano il trade-off tra emissioni e performance simili a quello mostrato in figura. In generale DGCF è il modello in cui il trade-off mostra i risultati peggiori. In genere ItemKNN risulta essere il migliore nel trade-off per le metriche di ranking mentre LINE il migliore per le metriche di popolarità e giniindex.
+\end{frame}

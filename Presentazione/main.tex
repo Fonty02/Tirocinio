@@ -1,0 +1,52 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+\documentclass[aspectratio=169,xcolor=dvipsnames, t]{beamer}
+\usepackage{fontspec} % Allows using custom font. MUST be before loading the theme!
+\usetheme{SimplePlusAIC}
+\usepackage{hyperref}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and  \bottomrule in tables
+\usepackage{svg} %allows using svg figures
+\usepackage{tikz}
+\usepackage{makecell}
+\usepackage{wrapfig}
+\usepackage[italian]{babel}
+
+
+
+
+\title[full title]{Sustainability of RecSys}
+
+\author{Emanuele Fontana}
+\institute[]{Universitàa degli Studi di Bari Aldo Moro}
+\date{}
+
+
+\begin{document}
+
+\maketitlepage
+\begin{frame}[t]{Persone coinvolte}
+    \begin{itemize}
+        \item \textbf{Relatore}: Prof. Pasquale Lops
+        \item \textbf{Relatore}: Prof. Cataldo Musto
+        \item \textbf{Correlatore}: Dott. Giuseppe Spillo
+        \item \textbf{Laurenado}: Emanuele Fontana
+    \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}[t]{Indice}
+    \tableofcontents
+\end{frame}
+
+
+\include{pages/sostenibilità}
+\include{pages/recommender}
+\include{pages/designEsperimenti}
+\include{pages/precedente}
+\include{pages/benchmarking}
+\finalpagetext{Grazie per l'attenzione!}
+\makefinalpage
+\end{document}
