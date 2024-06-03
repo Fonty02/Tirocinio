@@ -1,0 +1,132 @@
+\makesection{Addestramento sostenibile}
+
+
+\begin{frame}{Addestramento sostenibile - Introduzione}
+    \begin{wrapfigure}{r}{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.5\textwidth]{images/curve_emissions_score.png}
+        \caption{Andamento score e emissioni}
+    \end{wrapfigure}
+    \small    
+    L'idea alla base sarebbe quello di fermare l'addestramento studiando la derivata della curva. Siccome i valori sono discreti, si è deciso di approssimare la derivata con la differenza tra due punti consecutivi mediante la seguente formula:
+\begin{equation*}
+    \frac{f(x_{i+1}) - f(x_i)}{x_{i+1} - x_i}
+\end{equation*}
+Quando la differenza tra due rapporti consecutivi è minore di una certa soglia, per un certo numero di epoche consecutive, si ferma l’addestramento del modello.
+\end{frame}
+
+\begin{frame}{Addestramento sostenibile - Esplorazione}
+    La parte esplorativa è stata effettuata su diversi dataset utilizzando diversi valori di soglia e di epoche per cercare di capire la relazione tra i parametri, il trade-off e la dimensione del dataset. Gli esperimenti svolti sono stati:
+    \begin{itemize}
+        \item MovieLens1M con soglia 50 e 5 epoche
+        \item LFM-1b\_arist\_20U50I\_25strat con soglia 30 e 7 epoche
+        \item Amazon\_Books con soglia 40 e 6 epoche
+    \end{itemize}
+I risultati mostrano come per alcuni modelli (DGCF esempio) il nuovo criterio di stop influenzi di molto le emissioni e il punteggio, mentre per altri modelli (DMF ad esempio) non influenzi molto.
+In generale all'aumentare delle dimensioni del dataset bisogna rendere il criterio meno stringente.
+\end{frame}
+
+\begin{frame}{Addestramento sostenibile - Esempi di risultati}
+    \begin{table}[H]
+        \centering
+        \footnotesize
+        \setlength\tabcolsep{0pt}
+        \begin{tabularx}{\textwidth}{|X|X|}
+            \hline
+            \includegraphics[width=0.5\textwidth, height=0.6\textheight, trim=0 0 0 0]{images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png} &
+            \includegraphics[width=0.5\textwidth, height=0.6\textheight, trim=0 0 0 0]{images/emissions_LFM-1b_artist_20U50I_25strat_earlyModified.png} \\
+            \hline
+        \end{tabularx}
+        \caption{Emissioni con criterio classico e modificato}
+    \end{table}
+\end{frame}
+
+
+
+\begin{frame}{Addestramento sostenibile - Esempi di risultati}
+    \begin{table}[H]
+        \centering
+        \footnotesize
+        \setlength\tabcolsep{0pt}
+        \begin{tabularx}{\textwidth}{|X|X|}
+            \hline
+            \includegraphics[width=0.5\textwidth, height=0.6\textheight, trim=0 0 0 0]{images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png} &
+            \includegraphics[width=0.5\textwidth, height=0.6\textheight, trim=0 0 0 0]{images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png} \\
+            \hline
+        \end{tabularx}
+        \caption{Trade-Off}
+    \end{table}
+\end{frame}
+
+
+\begin{frame}{Addestramento sostenibile - Confronto criteri}
+    \begin{wrapfigure}{r}{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.5\textwidth]{images/sensibility_recall@10.png}
+        \caption{Sensibilità dei parametri con metrica Recall@10}
+    \end{wrapfigure}
+    \scriptsize 
+    Lo step successivo è stato quello di confrontare diversi criteri di early stopping per lo stesso dataset per cercare di capire la sensibilità di questi ultimi. Abbiamo un totale di 6 esperimenti con dataset MovieLens1M:
+    \begin{itemize}
+        \item Soglia 40, 5 epoche
+        \item Soglia 30, 5 epoche
+        \item Soglia 40, 6 epoche
+        \item Soglia 30, 6 epoche
+        \item Soglia 40, 7 epoche
+        \item Soglia 30, 7 epoche
+\end{itemize}
+Lo scopo è trovare un compromesso tra performance e sostenibilità. Analizzando i risultati grafici (come quelli prima visti) e i grafici di sensibilità, si può capire quale criterio è più adatto per un certo modello
+\end{frame}
+
+
+\begin{frame}{Addestramento sostenibile - Risultati modelli}
+\tiny
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Modello} & \textbf{Parametro più impattante} & \textbf{Migliori risultati} \\
+        \hline
+        BPR & Soglia & Soglia 40 e 6 epoche \\
+        \hline
+        CFKG & Soglia & Soglia 40 e 6 epoche \\
+        \hline
+        CKE & Epoche consecutive & Soglia 40 e 6 epoche \\
+        \hline
+        DMF & Nessuno predominante & Soglia 40 e 7 epoche \\
+        \hline
+        KGCN & Epoche consecutive & Soglia 40 e 5 epoche \\
+        \hline
+        KGNNLS & Soglia & Soglia 40 e 5 epoche \\
+        \hline
+        LINE & Soglia & Soglia 40 e 7 epoche \\
+        \hline
+        MultiDAE & Soglia & Soglia 40 e 7 epoche \\
+        \hline
+        LightGCN & Soglia & Soglia 40 e 6 epoche \\
+        \hline
+        NGCF & Epoche consecutive & Soglia 40 e 5 epoche \\
+        \hline
+        DGCF & Epoche consecutive & Soglia 40 e 6 epoche \\
+        \hline
+    \end{tabular}
+    \caption{Parametri più impattanti e migliori risultati per ciascun modello}
+\end{table}
+
+
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \textbf{Tipo di Modello} & \textbf{Parametro predominante} & \textbf{Numero di Modelli} & \textbf{Modelli} \\ \hline
+            Collaborative Filtering & Soglia & 5 & BPR, DMF, LightGCN, MultiDAE, LINE \\ \hline
+            Collaborative Filtering & Epoche & 2 & NGCF, DGCF \\ \hline
+            Knowledge Aware & Soglia & 2 & CFKG, KGNNLS \\ \hline
+            Knowledge Aware & Epoche & 2 & CKE, KGCN \\ \hline
+        \end{tabular}
+    }
+    \caption{Riassunto dei parametri dominanti per tipo di modello}
+\end{table}
+
+\end{frame}

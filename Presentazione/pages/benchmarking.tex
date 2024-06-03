@@ -107,3 +107,129 @@ E' possibile comunque notare come i modelli che le emissioni dei modelli seguono
 
 Per ogni dataset sono stati creati grafici che mostrano il trade-off tra emissioni e performance simili a quello mostrato in figura. In generale DGCF è il modello in cui il trade-off mostra i risultati peggiori. In genere ItemKNN risulta essere il migliore nel trade-off per le metriche di ranking mentre LINE il migliore per le metriche di popolarità e giniindex.
 \end{frame}
+
+
+
+
+\begin{frame}{Regressore - Dataset Completo}
+    \begin{wrapfigure}{r}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/distribuzioneCompleta.png}
+    \caption{Nuova distribuzione dei dati}
+\end{wrapfigure}
+
+Come è possibile notare i nuovi esperimenti hanno portato a un'ulteriore sbilanciamento nel dataset, in quanto tutti gli esperimenti con DGCF e altri modelli svettano sui risultati degli altri modelli in emissioni.
+Questo si riflette nei risultati ottenuti dai modelli di regressione. Per quanto riguarda i modelli,
+sono stati eseguti addestramenti con diversi split tra training e test set.
+
+\end{frame}
+
+
+\begin{frame}{Regressore - Analisi dei risultati Dataset Completo}
+    \begin{wrapfigure}{r}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.3\textwidth]{images/RisultatiRegCompleto.png}
+    \caption{Risultati con dataset completo}
+\end{wrapfigure}
+\small
+Sono stati eseguti addestramenti con i seguenti split:
+\begin{itemize}
+    \item 50\% training, 50\% test
+    \item 60\% training, 40\% test
+    \item 70\% training, 30\% test
+    \item 80\% training, 20\% test
+    \item 90\% training, 10\% test
+\end{itemize} 
+I migliori risultati sono stati ottenuti con lo split 70-30, con il Decision Tree Regressor che risulta essere il modello migliore.
+\end{frame}
+
+
+
+\begin{frame}{Regressore - Dataset Azure}
+    \begin{wrapfigure}{r}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/distribuzioneAzure.png}
+    \caption{Nuova distribuzione dei dati}
+\end{wrapfigure}
+
+E' stato creato un nuovo dataset con i risultati ottenuti solo sugli esperimenti eseguiti su Azure per avere un regressore specifico per gli esperimenti eseguiti su tale macchina.
+
+\end{frame}
+
+
+\begin{frame}{Regressore - Analisi dei risultati Dataset Azure}
+    \begin{wrapfigure}{r}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.3\textwidth]{images/RisultatiRegAzure.png}
+    \caption{Risultati con dataset completo}
+\end{wrapfigure}
+\small
+Sono stati eseguti addestramenti con i seguenti split:
+\begin{itemize}
+    \item 50\% training, 50\% test
+    \item 60\% training, 40\% test
+    \item 70\% training, 30\% test
+    \item 80\% training, 20\% test
+    \item 90\% training, 10\% test
+\end{itemize} 
+I migliori risultati sono stati ottenuti con lo split 90-10, con il Decision Tree Regressor che risulta essere il modello migliore.
+\end{frame}
+
+
+\begin{frame}{Errori nelle classi}
+Il dataset è stato diviso in 3 classi, ovvero \textbf{low}, \textbf{medium} e \textbf{high}, in base ai valori di emissioni di CO2 (rispettivamente codificate con 0,1,2).
+Per ogni elemento del test set, sono stati calcolati gli errori e successivamente si è proceduto a calcolare la media degli errori per ogni classe.
+Gli errori sono stati calcolati come segue:
+\begin{itemize}
+    \item \textbf{Errore assoluto}:\begin{equation*}
+        |y - \hat{y}|
+         \end{equation*}
+    \item \textbf{Errore percentuale}: \begin{equation*}
+        \frac{|y - \hat{y}|}{y} \cdot 100
+    \end{equation*}
+\end{itemize}
+dove $y$ è il valore reale e $\hat{y}$ è il valore predetto.
+\end{frame}
+
+\begin{frame}{Errori nelle classi}
+\scriptsize 
+\textbf{Dataset Completo}
+\begin{itemize}
+    \item \textbf{low\_bound}:0.36027045739563296
+    \item \textbf{high\_bound}: 0.7205403996360675.
+\end{itemize}
+
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Classe} &  \textbf{Numero elementi} & \textbf{Errore assoluto medio} & \textbf{Errore percentuale medio} \\ \hline
+        low             & 78                & 0.021805                   & 813            \\ \hline
+        medium          & 0                & -                  & -            \\ \hline
+        high            & 2                & 0.790026                   & 80            \\ \hline
+    \end{tabular}
+    \caption{Errori delle classi per il dataset completo}
+\end{table}
+
+
+
+\textbf{Dataset Azure}
+\begin{itemize}
+    \item \textbf{low\_bound}: 0.3610033427811713
+    \item  \textbf{high\_bound}: 0.7203571782896829.
+\end{itemize}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Classe} &  \textbf{Numero elementi} & \textbf{Errore assoluto medio} & \textbf{Errore percentuale medio} \\ \hline
+        low             & 78                & 0.044774                   & 188.63            \\ \hline
+        medium          & 0                & -                  & -            \\ \hline
+        high            & 2                & 0.588654                   & 66.76            \\ \hline
+    \end{tabular}
+    \caption{Errori delle classi per il dataset Azure}
+\end{table}
+
+\end{frame}
