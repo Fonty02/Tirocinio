@@ -1,9 +1,9 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
 \beamer@sectionintoc {1}{Sostenibilità}{4}{0}{1}
-\beamer@sectionintoc {2}{Recommender Systems}{7}{0}{2}
-\beamer@sectionintoc {3}{Design degli Esperimenti}{10}{0}{3}
-\beamer@sectionintoc {4}{Base di partenza}{12}{0}{4}
-\beamer@sectionintoc {5}{Benchmarking}{18}{0}{5}
-\beamer@sectionintoc {6}{Addestramento sostenibile}{32}{0}{6}
-\beamer@sectionintoc {7}{Conclusioni e sviluppi futuri}{39}{0}{7}
+\beamer@sectionintoc {2}{Recommender Systems}{6}{0}{2}
+\beamer@sectionintoc {3}{Design degli Esperimenti}{8}{0}{3}
+\beamer@sectionintoc {4}{Base di partenza}{10}{0}{4}
+\beamer@sectionintoc {5}{Benchmarking}{14}{0}{5}
+\beamer@sectionintoc {6}{Addestramento sostenibile}{24}{0}{6}
+\beamer@sectionintoc {7}{Conclusioni e sviluppi futuri}{29}{0}{7}

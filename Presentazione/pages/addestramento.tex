@@ -7,54 +7,36 @@
         \includegraphics[width=0.5\textwidth]{images/curve_emissions_score.png}
         \caption{Andamento score e emissioni}
     \end{wrapfigure}
-    \small    
-    L'idea alla base sarebbe quello di fermare l'addestramento studiando la derivata della curva. Siccome i valori sono discreti, si è deciso di approssimare la derivata con la differenza tra due punti consecutivi mediante la seguente formula:
+    \scriptsize    
+Approssimazione della derivata della curva:
 \begin{equation*}
     \frac{f(x_{i+1}) - f(x_i)}{x_{i+1} - x_i}
 \end{equation*}
-Quando la differenza tra due rapporti consecutivi è minore di una certa soglia, per un certo numero di epoche consecutive, si ferma l’addestramento del modello.
-\end{frame}
+L'addestramento sostenibile si basa su una soglia di derivata e un numero di epoche consecutive in cui la derivata è sotto la soglia
 
-\begin{frame}{Addestramento sostenibile - Esplorazione}
-    La parte esplorativa è stata effettuata su diversi dataset utilizzando diversi valori di soglia e di epoche per cercare di capire la relazione tra i parametri, il trade-off e la dimensione del dataset. Gli esperimenti svolti sono stati:
+\textbf{Parte esplorativa}
     \begin{itemize}
         \item MovieLens1M con soglia 50 e 5 epoche
         \item LFM-1b\_arist\_20U50I\_25strat con soglia 30 e 7 epoche
         \item Amazon\_Books con soglia 40 e 6 epoche
+        \item Alcuni modelli (es. DGCF) sono molto sensibili al nuovo criterio, altri (es. DMF) meno
     \end{itemize}
-I risultati mostrano come per alcuni modelli (DGCF esempio) il nuovo criterio di stop influenzi di molto le emissioni e il punteggio, mentre per altri modelli (DMF ad esempio) non influenzi molto.
-In generale all'aumentare delle dimensioni del dataset bisogna rendere il criterio meno stringente.
 \end{frame}
 
 \begin{frame}{Addestramento sostenibile - Esempi di risultati}
     \begin{table}[H]
         \centering
         \footnotesize
-        \setlength\tabcolsep{0pt}
-        \begin{tabularx}{\textwidth}{|X|X|}
-            \hline
-            \includegraphics[width=0.5\textwidth, height=0.6\textheight, trim=0 0 0 0]{images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png} &
-            \includegraphics[width=0.5\textwidth, height=0.6\textheight, trim=0 0 0 0]{images/emissions_LFM-1b_artist_20U50I_25strat_earlyModified.png} \\
-            \hline
+        \setlength\tabcolsep{20pt} % Aumenta lo spazio tra le colonne
+        \setlength{\arrayrulewidth}{0.5pt}
+        \begin{tabularx}{\textwidth}{X X}
+            \includegraphics[width=0.4\textwidth, height=0.4\textheight, trim=0 0 0 0]{images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png} &
+            \includegraphics[width=0.4\textwidth, height=0.4\textheight, trim=0 0 0 0]{images/emissions_LFM-1b_artist_20U50I_25strat_earlyModified.png} \\
+            \includegraphics[width=0.4\textwidth, height=0.4\textheight, trim=0 0 0 0]{images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png} &
+            \includegraphics[width=0.4\textwidth, height=0.4\textheight, trim=0 0 0 0]{images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png} \\
+
         \end{tabularx}
-        \caption{Emissioni con criterio classico e modificato}
-    \end{table}
-\end{frame}
-
-
-
-\begin{frame}{Addestramento sostenibile - Esempi di risultati}
-    \begin{table}[H]
-        \centering
-        \footnotesize
-        \setlength\tabcolsep{0pt}
-        \begin{tabularx}{\textwidth}{|X|X|}
-            \hline
-            \includegraphics[width=0.5\textwidth, height=0.6\textheight, trim=0 0 0 0]{images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png} &
-            \includegraphics[width=0.5\textwidth, height=0.6\textheight, trim=0 0 0 0]{images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png} \\
-            \hline
-        \end{tabularx}
-        \caption{Trade-Off}
+        \caption{Esempi di risultati}
     \end{table}
 \end{frame}
 
