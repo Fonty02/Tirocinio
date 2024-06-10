@@ -108,6 +108,12 @@ Zihan Lin, Changxin Tian, Yupeng Hou, and Wayne~Xin Zhao.
 \newblock In {\em Proceedings of the ACM Web Conference 2022}, WWW ’22. ACM,
   April 2022.
 
+\bibitem{Lops2011}
+Pasquale Lops, Marco de~Gemmis, and Giovanni Semeraro.
+\newblock {\em Content-based Recommender Systems: State of the Art and Trends},
+  pages 73--105.
+\newblock Springer US, Boston, MA, 2011.
+
 \bibitem{RecommenderOverview}
 Linyuan Lü, Matúš Medo, Chi~Ho Yeung, Yi-Cheng Zhang, Zi-Ke Zhang, and Tao
   Zhou.
@@ -146,6 +152,11 @@ Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, and Lars Schmidt-Thieme.
 \newblock In {\em Proceedings of the Twenty-Fifth Conference on Uncertainty in
   Artificial Intelligence}, UAI '09, page 452–461, Arlington, Virginia, USA,
   2009. AUAI Press.
+
+\bibitem{CFRS}
+J.~Ben Schafer, Dan Frankowski, Jon Herlocker, and Shilad Sen.
+\newblock {\em Collaborative Filtering Recommender Systems}, pages 291--324.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2007.
 
 \bibitem{ColdStart}
 Andrew~I. Schein, Alexandrin Popescul, Lyle~H. Ungar, and David~M. Pennock.
@@ -301,6 +312,16 @@ Fuzheng Zhang, Nicholas~Jing Yuan, Defu Lian, Xing Xie, and Wei-Ying Ma.
 \newblock In {\em Proceedings of the 22nd ACM SIGKDD International Conference
   on Knowledge Discovery and Data Mining}, KDD '16, page 353–362, New York,
   NY, USA, 2016. Association for Computing Machinery.
+
+\bibitem{recbole}
+Wayne~Xin Zhao, Yupeng Hou, Xingyu Pan, Chen Yang, Zeyu Zhang, Zihan Lin,
+  Jingsen Zhang, Shuqing Bian, Jiakai Tang, Wenqi Sun, Yushuo Chen, Lanling Xu,
+  Gaowei Zhang, Zhen Tian, Changxin Tian, Shanlei Mu, Xinyan Fan, Xu~Chen, and
+  Ji-Rong Wen.
+\newblock Recbole 2.0: Towards a more up-to-date recommendation library.
+\newblock In {\em Proceedings of the 31st ACM International Conference on
+  Information \& Knowledge Management}, CIKM '22, page 4722–4726, New York,
+  NY, USA, 2022. Association for Computing Machinery.
 
 \bibitem{SpectralCF}
 Lei Zheng, Chun-Ta Lu, Fei Jiang, Jiawei Zhang, and Philip~S Yu.

@@ -30,7 +30,7 @@ Questi sistemi sono basati su algoritmi di apprendimento automatico e intelligen
 \noindent I sistemi di raccomandazione possono essere di diversi tipi, a seconda della tecnica utilizzata per generare le raccomandazioni.
 \begin{itemize}
     \item \textbf{Collaborative filtering} \cite{CFRS}
-    \item \textbf{Content-based} \cite{ContentBasedRS}
+    \item \textbf{Content-based} \cite{Lops2011}
     \item \textbf{Knowledge-based} \cite{KnowledgeBased}
     \item \textbf{Approci ibridi}: combinano le tecniche precedenti
 \end{itemize}
@@ -81,6 +81,21 @@ Esistono principalmente due tipi di collaborative filtering:
 \end{itemize}
 I principali vantaggi del collaborative filtering sono la sua semplicità e la sua capacità di generare raccomandazioni personalizzate senza la necessità di dover conoscere le caratteristiche degli item (es. la durata di un film, il genere di un libro, etc.). Tuttavia, il collaborative filtering può soffrire di problemi come il cold start (per un nuovo utente e per un nuovo item), la vulnerabilità agli attacchi come le recensioni fake e la scarsa spiegaibilità delle raccomandazioni generate.\\
 
+%crea un esempio di matrice utente-item
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        & Item 1 & Item 2 & Item 3 & Item 4 \\
+        \hline
+        User 1 & 5 & 4 & 0 & 0 \\ \hline
+        User 2 & 0 & 0 & 3 & 4 \\ \hline
+        User 3 & 0 & 0 & 0 & 0 \\ \hline
+        User 4 & 0 & 0 & 0 & 0 \\
+        \hline
+    \end{tabular}
+    \caption{Esempio di matrice utente-item}
+\end{table}
 
 
 \subsection{Content-based}
@@ -96,6 +111,26 @@ I principali vantaggi sono l'indipendenza dal comportamento degli altri utenti e
 I sistemi di raccomandazione knowledge-based generano raccomandazioni basandosi su conoscenza semantica, rappresentata mediante i knowledge-graph. I knowledge-graph sono grafi in cui i nodi rappresentano concetti e le relazioni tra i concetti, e gli archi rappresentano le relazioni tra i concetti. I sistemi di raccomandazione knowledge-based utilizzano i knowledge-graph per rappresentare le caratteristiche degli item e le preferenze dell'utente, e generare raccomandazioni basate su questa rappresentazione. In particolare, si utilizzano tecniche di reasoning per inferire nuove conoscenze a partire dalle conoscenze esistenti, e generare raccomandazioni basate su queste nuove conoscenze. I principali vantaggi dei sistemi di raccomandazione knowledge-based l'assenza del problema di cold-start. Tuttavia, i sistemi di raccomandazione knowledge-based possono soffrire di problemi come la scarsa spiegabilità delle raccomandazioni generate e la difficoltà di rappresentare la conoscenza semantica in modo accurato e completo. Inoltre, i sistemi di raccomandazione knowledge-based possono richiedere una quantità significativa di risorse computazionali per generare raccomandazioni accurate e rilevanti.\\
 
 \subsection{Modelli di raccomandazione a stato dell'arte}
+Negli ultimi anni, sono stati proposti diversi modelli di raccomandazione basati su diverse tecniche, che hanno ottenuto risultati molto promettenti in termini di accuratezza e prestazioni. Questi modelli sono chiamati a stato dell'arte (\textbf{SOTA:}state-of-the-art) per l'implementazione di sistemi di raccomandazione. Alcuni esempi di modelli di raccomandazione a stato dell'arte sono:
+\begin{itemize}
+    \item \textbf{ItemKNN} \cite{ItemKNN}: ItemKNN è un modello di raccomandazione basato su collaborative filtering item-based. In particolare, ItemKNN calcola la similarità tra gli item e genera raccomandazioni basate sugli item più simili a quelli valutati positivamente dall'utente target.
+    \item \textbf{BPR} \cite{BPR}: BPR (Bayesian Personalized Ranking) è un modello di raccomandazione basato su collaborative filtering user-based. In particolare, BPR calcola la similarità tra gli utenti e genera raccomandazioni basate sugli utenti più simili all'utente target.
+    \item \textbf{CFKG} \cite{CFKG}: CFKG è un modello di raccomandazione basato su collaborative filtering e knowledge-based. In particolare, CFKG utilizza i knowledge-graph per rappresentare le caratteristiche degli item e le preferenze dell'utente, e genera raccomandazioni basate su questa rappresentazione.
+    \item \textbf{CKE} \cite{CKE}: CKE (Collaborative Knowledge Embedding) è un modello di raccomandazione basato su collaborative filtering e knowledge-based. In particolare, CKE utilizza tecniche di embedding per rappresentare le caratteristiche degli item e le preferenze dell'utente, e genera raccomandazioni basate su questa rappresentazione.
+    \item \textbf{DMF} \cite{DMF}: DMF (Deep Matrix Factorization) è un modello di raccomandazione basato su deep learning. In particolare, DMF utilizza tecniche di deep learning per apprendere le rappresentazioni latenti degli item e degli utenti, e genera raccomandazioni basate su queste rappresentazioni.
+    \item \textbf{KGCN} \cite{KGCN}: KGCN (Knowledge Graph Convolutional Networks) è un modello di raccomandazione basato su deep learning e knowledge-based. In particolare, KGCN utilizza tecniche di deep learning e convolutional neural networks per apprendere le rappresentazioni degli item e degli utenti a partire dai knowledge-graph, e genera raccomandazioni basate su queste rappresentazioni.
+    \item \textbf{KGNNLS} \cite{KGNNLS}: KGNNLS (Knowledge Graph Neural Network with Latent Space) è un modello di raccomandazione basato su deep learning e knowledge-based. In particolare, KGNNLS utilizza tecniche di deep learning e neural networks per apprendere le rappresentazioni degli item e degli utenti a partire dai knowledge-graph, e genera raccomandazioni basate su queste rappresentazioni.
+    \item \textbf{LINE} \cite{LINE}: LINE (Large-scale Information Network Embedding) è un modello di raccomandazione basato su deep learning e knowledge-based. In particolare, LINE utilizza tecniche di deep learning e neural networks per apprendere le rappresentazioni degli item e degli utenti a partire dai knowledge-graph, e genera raccomandazioni basate su queste rappresentazioni.
+    \item \textbf{MultiDAE} \cite{MultiDAE}: MultiDAE è un modello di raccomandazione basato su deep learning. In particolare, MultiDAE utilizza tecniche di deep learning e variational autoencoders per apprendere le rappresentazioni latenti degli item e degli utenti, e genera raccomandazioni basate su queste rappresentazioni.
+    \item \textbf{LightGCN} \cite{LightGCN}: LightGCN è un modello di raccomandazione basato su deep learning. In particolare, LightGCN utilizza tecniche di deep learning e graph convolutional networks per apprendere le rappresentazioni latenti degli item e degli utenti, e genera raccomandazioni basate su queste rappresentazioni.
+    \item \textbf{NGCF} \cite{NGCF}: NGCF (Neural Graph Collaborative Filtering) è un modello di raccomandazione basato su deep learning. In particolare, NGCF utilizza tecniche di deep learning e graph convolutional networks per apprendere le rappresentazioni latenti degli item e degli utenti, e genera raccomandazioni basate su queste rappresentazioni.
+    \item \textbf{DGCF} \cite{DGCF}: DGCF (Dual Graph Collaborative Filtering) è un modello di raccomandazione basato su deep learning. In particolare, DGCF utilizza tecniche di deep learning e graph convolutional networks per apprendere le rappresentazioni latenti degli item e degli utenti, e genera raccomandazioni basate su queste rappresentazioni.
+\end{itemize}
+
+
+\noindent Ovviamente ci sono tanti altri modelli di raccomandazione a stato dell'arte, ma questi sono solo alcuni esempi.\\
+I progettisti di RecSys spesso prendono spunto da questi modelli per creare nuovi modelli che possano adattarsi meglio alle esigenze specifiche del problema che si vuole risolvere.\\
+
 
 
 \subsection{Recommender Systems e Sustainability}
@@ -105,24 +140,5 @@ I sistemi di raccomandazione, così come tutti gli altri modelli di AI, possono 
 \noindent In ambito \textit{energia pulita e riduzione delle emissioni} viene suggerito come i sistemi di raccomandazione possano essere utilizzati per promuovere l'adozione di comportamenti sostenibili, ad esempio suggerendo all'utente di utilizzare mezzi di trasporto pubblici o condivisi, di ridurre il consumo di energia elettrica o di acquistare prodotti sostenibili. Inoltre, i sistemi di raccomandazione possono essere utilizzati per promuovere l'adozione di energie rinnovabili e la riduzione delle emissioni di gas serra. In questo caso si parla dunque di sistemi di raccomandazione i quali cercano di promuovere comportamenti sostenibili, ma a loro vola per essere addestrati richiedono grandi quantità di dati e di risorse computazionali, che possono avere un impatto negativo sull'ambiente.
 
 \noindent Una soluzione dunque può essere quella di addestrare i modelli di raccomandazione in modo sostenibile, senza però perdere di performance.
-
-\noindent
-Tracciare le emissioni degli algoritmi di raccomandazione e cercare di prevederle è molto importante quando si parla di sviluppo sostenibile in campo RecSys. Ancora oggi si tende a trascurare l'impatto ambientale di un'attività e, in questo ambito, si è molto propensi nell'utilizzare dei modelli molti complessi e pesanti
-che richiedono molte risorse per essere addestrati ed eseguti per ottenere delle buone performance. Spesso, però, modelli molto più leggeri e semplici riescono a ottenere delle performance molto simili (se non superiori) a modelli più complessi e il tutto con un impatto ambientale decisamente minore.
-Ad oggi il carbon dioxide equivalent (CO$_2$eq) è il principale indicatore utilizzato da governi e enti per misurare l'impatto ambientale di un'attività.
-Il CO$_2$eq è un'unità di misura che esprime l'equivalente in CO$_2$ di tutti i gas serra emessi da un'attività, in modo da poter confrontare l'impatto ambientale di attività diverse.
-Una strategia comune per calcolare il CO$_2$eq è quella di moltiplicare tra loro il \textbf{carbon intensity(CI)} e l'\textbf{energia consumata(PC)} dall'attività (nel nostro caso l'esecuzione di algoritmi).
-
-
-
-\begin{equation*}
-    \textit{emission} = \textit{CI}  \cdot \textit{PC}
-\end{equation*}
-
-\noindent In particolare i valori di CI dipendono dalle diverse fonti di energia utilizzate durante la computazione 
-(es. energia solare, energia eolica, etc.). Se \textit{s} è la fonte di energia,  \textit{e$_s$} sono le emissioni per KW/h di energia e \textit{p$_s$}  è la percentuale di energia prodotta dalla fonte s, allora il CI è dato da:
-\begin{equation*}
-    \textit{CI} = \sum_{s \in S} \textit{e$_s$} \cdot \textit{p$_s$}
-\end{equation*}
 
 

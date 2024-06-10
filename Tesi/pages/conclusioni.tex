@@ -1,0 +1,14 @@
+\section{Conclusioni e sviluppi futuri}
+\subsection{Conclusioni}
+Vengono qui brevemente riassunti i risultati ottenuti e le conclusioni a cui si è giunti in seguito al lavoro svolto.
+\begin{itemize}
+    \item \textbf{Benchmarking}: Vengono confermate le ipotesi iniziali per cui modelli più complessi emettono molta più CO2 rispetto a modelli più semplici senza però ottenere un miglioramento significativo delle metriche di valutazione (a volte addirittura peggiori). Si può notare inoltre come alcuni modelli tendono ad avere performance simili con qualsiasi dataset, mentre altri variano molto in base al dataset utilizzato.
+    \item \textbf{Addestramento sostenibile}: Il lavoro svolto ha portato a risultati interessanti. Si è dimostrato che è possibile addestrare un modello di Recommender System in maniera sostenibile, riducendo le emissioni di CO2 rispetto all'addestramento standard mantenendo però delle performance accettabili. Sono anche stati individuati dei pattern che possono aiutare a comprendere quali parametri del criterio di early stopping influenzino maggiormente l'addestramento in determinati contesti.
+\end{itemize}
+\subsection{Sviluppi futuri}
+Il lavoro svolto ha dunque sicuramente mosso dei passi in avanti in ambito Recommender Systems e sostenibilità ambientale, ma siamo solo agli inizi. Ci sono diverse direzioni in cui si potrebbe andare per migliorare il sistema proposto:
+\begin{itemize}
+    \item \textbf{Benchmarking}: E' necessario effettuare più esperimenti variando i dataset, i modelli ma sopratutto l'hardware su cui si effettuano gli addestramenti. Questo permetterebbe di avere una visione più chiara delle prestazioni in relazione alle emissioni di CO2.
+    \item \textbf{Addestramento sostenibile}: Anche in questo caso variare dataset, modelli, hardware e parametri di early stopping (soglia e epoche consecutive) potrebbe portare a risultati interessanti che potrebbero confermare o smentire le ipotesi fatte in questo lavoro.
+    \item \textbf{Lavorare sugli iperparametri}: Gli esperimenti effettuati in questo lavoro sono stati effettuati con i parametri di default. Gli stessi esperimenti (Benchmarking e addestramento sostenibile) potrebbero essere ripetuti con la ricerca degli iperparametri migliori per ogni modello e confrontare poi con i risultati ottenuti con i parametri di default. In questo modo si potrebbe vedere se le emissioni emesse per la ricerca degli iperparametri sono giustificate dai risultati ottenuti (quindi elevati miglioramenti).
+\end{itemize}

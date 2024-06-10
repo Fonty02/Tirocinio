@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+Database file #1: bibliografiaMia.bib
+Warning--can't use both author and editor fields in Lops2011
+Warning--empty chapter and pages in MacridVAE
+Warning--can't use both author and editor fields in CFRS
+You've used 49 entries,
+            2118 wiz_defined-function locations,
+            831 strings with 14842 characters,
+and the built_in function-call counts, 24948 in all, are:
+= -- 2571
+> -- 1358
+< -- 33
++ -- 536
+- -- 486
+* -- 1597
+:= -- 3699
+add.period$ -- 174
+call.type$ -- 49
+change.case$ -- 387
+chr.to.int$ -- 0
+cite$ -- 52
+duplicate$ -- 1190
+empty$ -- 1594
+format.name$ -- 486
+if$ -- 5645
+int.to.chr$ -- 0
+int.to.str$ -- 49
+missing$ -- 49
+newline$ -- 246
+num.names$ -- 98
+pop$ -- 433
+preamble$ -- 1
+purify$ -- 341
+quote$ -- 0
+skip$ -- 1125
+stack$ -- 0
+substring$ -- 1082
+swap$ -- 624
+text.length$ -- 33
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 190
+warning$ -- 3
+while$ -- 149
+width$ -- 51
+write$ -- 617
+(There were 3 warnings)
