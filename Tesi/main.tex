@@ -1,0 +1,85 @@
+\documentclass[12pt]{article}
+
+\usepackage[a4paper, left=1.5cm, right=1.5cm]{geometry}
+\usepackage{setspace}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage[OT1]{fontenc}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{imakeidx}
+\usepackage{textcomp}
+\usepackage{pifont}
+\usepackage{polynom}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{mathtools}
+\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
+\usepackage{cancel}
+\usepackage{pgfplots}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{comment}
+\usepackage{float}
+\usepackage{bm}
+
+
+
+\onehalfspacing
+
+\begin{document}
+\bibliographystyle{plain}
+    \pagestyle{fancy}
+    \everymath{\displaystyle}
+    \sffamily
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.1]{images/uniba-logo.png}
+        \caption*{Università degli Studi di Bari Aldo Moro}
+    \end{figure}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.1]{images/swap.png}
+        \caption*{Gruppo di ricerca Semantic Web Access and Personalization}
+    \end{figure}
+    
+
+    \title{
+        Tesi in Metodi per il Ritrovamento dell'Informazione\\   
+    \textbf{Sustainability of RecSys}}
+    \date{Tesi triennale in Informatica\\Anno accademico 2023/2024}
+    \maketitle
+
+\begin{itemize}
+    \item \textbf{Relatore}: Prof. Pasquale Lops
+    \item \textbf{Relatore}: Prof. Cataldo Musto
+    \item \textbf{Laureando}: Emanuele Fontana
+\end{itemize}
+\newpage
+    \tableofcontents
+    \newpage
+    \input{pages/abstract.tex}
+    \newpage
+    \input{pages/sostenibilità.tex}
+    \newpage
+    \input{pages/recsys.tex}
+    \newpage
+    \input{pages/metodologia.tex}
+    \newpage
+    \input{pages/esperimenti.tex}
+    \newpage
+    \input{pages/risultati.tex}
+    \newpage
+    \input{pages/conclusioni.tex}
+    \newpage
+    \bibliography{bibliography}
+    \newpage
+    \input{pages/ringraziamenti.tex}
+\end{document}
