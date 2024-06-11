@@ -1,10 +1,26 @@
-\makesection{Design degli Esperimenti}
-\begin{frame}{Design degli Esperimenti}
-    Il lavoro svolto consiste nel:
+\begin{frame}{Reserch Questions}
     \begin{itemize}
-    \item valutare e prevedere l’impatto ambientale di un sistema di raccomandazione (RecSys) in base alla sua
-    sostenibilità
-    \item cercare una soluzione per ridurre l’impatto ambientale di un RecSys senza però perdere di performance in
-    modo significativo.
+        \item \textbf{RQS1}: Qual è il trade-off tra emissioni e performance dei modelli di RecSys?
+        \item \textbf{RQS2}: Lavorare con un criterio di early-stopping basato anche sulle emissioni migliora il trade-off?
+        \item \textbf{RQS3}: Quali criteri possono essere utilizzati per migliorare il trade-off?
     \end{itemize}
+\end{frame}
+
+\begin{frame}{Lavoro svolto}
+    Per rispondere alle domande di ricerca sono state svolte le seguenti attività:
+    \begin{itemize}
+        \item \textbf{Benchmarking}: Addestramento di modelli di RecSys e misurazione delle emissioni
+        \item \textbf{Addestramento sostenibile}: Studio del criterio di early-stopping
+        \item \textbf{Criteri di miglioramento}: Studio di criteri per migliorare il trade-off
+    \end{itemize}
+    Sono state utilizzate le librerie \textbf{RecBole} e \textbf{CodeCarbon}.
+
+    \begin{equation*}
+        \textit{emission} = \textit{CI}  \cdot \textit{PC}
+    \end{equation*}
+    
+    \begin{equation*}
+        \textit{CI} = \sum_{s \in S} \textit{e$_s$} \cdot \textit{p$_s$}
+    \end{equation*}
+    
 \end{frame}

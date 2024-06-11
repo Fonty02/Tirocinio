@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.6.1)  6 JUN 2024 20:07
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.6.1)  11 JUN 2024 17:23
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/fonta/Desktop/Tirocinio/Presentazione/main
@@ -823,7 +823,7 @@ lic.ttf]:mode=node;script=latn;language=dflt;+tlig;"
 lic.ttf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
 
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 159.
+(Font)              scaled to size 9.85492pt on input line 161.
 ))
 (E:/Programs/MiKTeX/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
@@ -1104,38 +1104,93 @@ Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks53
 \verbatim@line=\toks54
 \verbatim@in@stream=\read4
-) (./main.aux
-(./pages/sostenibilità.aux) (./pages/recommender.aux)
+)
+(E:/Programs/MiKTeX/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(E:/Programs/MiKTeX/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen333
+\captionmargin=\dimen334
+\caption@leftmargin=\dimen335
+\caption@rightmargin=\dimen336
+\caption@width=\dimen337
+\caption@indent=\dimen338
+\caption@parindent=\dimen339
+\caption@hangindent=\dimen340
+Package caption Info: beamer document class detected.
+
+(E:/Programs/MiKTeX/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
+e beamer document classes (AR)
+))
+\c@caption@flags=\count369
+\c@continuedfloat=\count370
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+Package caption Info: wrapfig package is loaded.
+)
+(E:/Programs/MiKTeX/tex/latex/textpos/textpos.sty
+Package: textpos 2022/07/23 v1.10.1
+Package textpos Info: choosing support for LaTeX3 on input line 60.
+\TP@textbox=\box86
+\TP@holdbox=\box87
+\TPHorizModule=\dimen341
+\TPVertModule=\dimen342
+\TP@margin=\dimen343
+\TP@absmargin=\dimen344
+
+Grid set 16 x 16 = 28.45274pt x 16.00467pt
+\TPboxrulesize=\dimen345
+\TP@ox=\dimen346
+\TP@oy=\dimen347
+\TP@tbargs=\toks55
+TextBlockOrigin set to 0pt x 0pt
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 29.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 29.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 29.
+
+(./main.aux (./pages/sostenibilità.aux) (./pages/recommender.aux)
 (./pages/designEsperimenti.aux) (./pages/precedente.aux)
 (./pages/benchmarking.aux) (./pages/addestramento.aux) (./pages/conclusioni.aux
 ))
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+4.
  (E:/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1173,79 +1228,87 @@ LaTeX Font Info:    ... okay on input line 28.
 
 (E:/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count369
-\scratchdimen=\dimen333
-\scratchbox=\box86
-\nofMPsegments=\count370
-\nofMParguments=\count371
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count372
-\MPscratchDim=\dimen334
-\MPnumerator=\count373
-\makeMPintoPDFobject=\count374
-\everyMPtoPDFconversion=\toks56
+\scratchcounter=\count371
+\scratchdimen=\dimen348
+\scratchbox=\box88
+\nofMPsegments=\count372
+\nofMParguments=\count373
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count374
+\MPscratchDim=\dimen349
+\MPnumerator=\count375
+\makeMPintoPDFobject=\count376
+\everyMPtoPDFconversion=\toks57
 ) (E:/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(E:/Programs/MiKTeX/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (E:/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 34.
  (./main.out)
 (./main.out)
 \@outlinefile=\write5
 
 \openout5 = main.out
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 28.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 28.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 34.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 28.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 28.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Epilogue(0)/b/n on input line 28.
+(Font)                  OT1/cmr/bx/n --> TU/Epilogue(0)/b/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Epilogue(0)/b/n on input line 28.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 28.
+(Font)                  OT1/cmr/bx/n --> TU/Epilogue(0)/b/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Epilogue(0)/m/n on input line 28.
+(Font)                  OT1/cmss/m/n --> TU/Epilogue(0)/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Epilogue(0)/m/n on input line 28.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 28.
+(Font)                  OT1/cmss/bx/n --> TU/Epilogue(0)/m/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Epilogue(0)/m/it on input line 28.
+(Font)                  OT1/cmr/m/it --> TU/Epilogue(0)/m/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Epilogue(0)/m/it on input line 28.
+(Font)                  OT1/cmr/bx/it --> TU/Epilogue(0)/m/it on input line 34.
 
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 28.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 28.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/Epilogue(0)/m/n --> TU/Epilogue(0)/b/n on input line
- 28.
+ 34.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/Epilogue(0)/m/it --> TU/Epilogue(0)/b/it on input li
-ne 28.
+ne 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 28.
+(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/Epilogue(0)/b/n --> TU/Epilogue(0)/b/n on input line
- 28.
+ 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/Epilogue(0)/m/n --> TU/Epilogue(0)/b/n on input line
- 28.
+ 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/Epilogue(0)/m/it --> TU/Epilogue(0)/b/it on input li
-ne 28.
+ne 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 28.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 34.
 
 (E:/Programs/MiKTeX/tex/latex/translator/translator-basic-dictionary-English.di
 ct
@@ -1277,59 +1340,59 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 28.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 28.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 28.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 28.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 28.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 28.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 28.
-LaTeX Font Info:    Redeclaring math accent \check on input line 28.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 28.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 28.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 28.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 34.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 34.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 34.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 34.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 34.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 34.
+LaTeX Font Info:    Redeclaring math accent \check on input line 34.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 34.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 34.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 34.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 34.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 28.
+(Font)              `operators' in the math version `normal' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 28.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 34.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 28.
+(Font)              `operators' in the math version `bold' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/lmr/m/n on input line 28.
+(Font)                  OT1/cmss/b/n --> TU/lmr/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 28.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 28.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/Epilogue(0)/m/it --> TU/lmr/m/it on input line 28.
+(Font)                  TU/Epilogue(0)/m/it --> TU/lmr/m/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/Epilogue(0)/b/n --> TU/lmr/b/n on input line 28.
+(Font)                  TU/Epilogue(0)/b/n --> TU/lmr/b/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  TU/Epilogue(0)/m/n --> TU/Epilogue(0)/m/n on input line
- 28.
+ 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 28.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 28.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/Epilogue(0)/b/it --> TU/lmr/b/it on input line 28.
+(Font)                  TU/Epilogue(0)/b/it --> TU/lmr/b/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/Epilogue(0)/b/n --> TU/Epilogue(0)/b/n on input line
- 28.
+ 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/b/n --> TU/lmtt/b/n on input line 28.
+(Font)                  TU/lmtt/b/n --> TU/lmtt/b/n on input line 34.
  ("|'inkscape' -V ")
 
 Package svg Warning: No version of Inkscape was detected by invoking
@@ -1337,377 +1400,246 @@ Package svg Warning: No version of Inkscape was detected by invoking
 (svg)                so the Inkscape export will fail quite sure as the
 (svg)                command is probably unknown to your OS. You could set
 (svg)                `inkscapeversion=<version>' manually but this is very
-(svg)                unlikely to work on input line 28.
+(svg)                unlikely to work on input line 34.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 (./main.nav)
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 28.
+(Font)              scaled to size 5.39996pt on input line 34.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 28.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 30.
+(Font)              scaled to size 7.19995pt on input line 34.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 30.
+(Font)              scaled to size 9.85492pt on input line 36.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 30.
-<AICStyleData/logos/Logo shape dark_rotated.png, id=40, 792.9625pt x 446.66875p
+(Font)              scaled to size 7.19995pt on input line 36.
+<images/uniba-logo.png, id=12, 1204.5pt x 1204.5pt>
+File: images/uniba-logo.png Graphic file (type png)
+<use images/uniba-logo.png>
+Package luatex.def Info: images/uniba-logo.png  used on input line 36.
+(luatex.def)             Requested size: 56.9055pt x 56.90189pt.
+<images/logo_swap_rg_white.png, id=13, 1278.7775pt x 707.64375pt>
+File: images/logo_swap_rg_white.png Graphic file (type png)
+<use images/logo_swap_rg_white.png>
+Package luatex.def Info: images/logo_swap_rg_white.png  used on input line 36.
+(luatex.def)             Requested size: 56.9055pt x 31.48627pt.
+<AICStyleData/logos/Logo shape dark_rotated.png, id=14, 792.9625pt x 446.66875p
 t>
 File: AICStyleData/logos/Logo shape dark_rotated.png Graphic file (type png)
 <use AICStyleData/logos/Logo shape dark_rotated.png>
 Package luatex.def Info: AICStyleData/logos/Logo shape dark_rotated.png  used o
-n input line 30.
+n input line 36.
 (luatex.def)             Requested size: 455.24408pt x 256.43723pt.
  [1
 
 {C:/Users/fonta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./AICStyleData
-/logos/Logo shape dark_rotated.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
-
+/logos/Logo shape dark_rotated.png><./images/uniba-logo.png><./images/logo_swap_
+rg_white.png>]
+\openout2 = pages/sostenibilità.aux
+ (./pages/sostenibilità.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
 
 (E:/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 
 (E:/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 9.85492pt on input line 38.
+(Font)              scaled to size 9.85492pt on input line 8.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 7.19995pt on input line 38.
+(Font)              scaled to size 7.19995pt on input line 8.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 5.39996pt on input line 38.
+(Font)              scaled to size 5.39996pt on input line 8.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 3.59998pt on input line 38.
+(Font)              scaled to size 15.55188pt on input line 8.
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
+(Font)              scaled to size 15.55188pt on input line 8.
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
+(Font)              scaled to size 3.59998pt on input line 8.
  [2
 
-] (./main.toc
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 3.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 3.
-)
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 44.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 44.
- [3
-
-]
-\openout2 = pages/sostenibilità.aux
-
-(./pages/sostenibilità.tex
-<AICStyleData/logos/Logo shape light_rotated.png, id=79, 710.655pt x 399.4925pt
->
-File: AICStyleData/logos/Logo shape light_rotated.png Graphic file (type png)
-<use AICStyleData/logos/Logo shape light_rotated.png>
-Package luatex.def Info: AICStyleData/logos/Logo shape light_rotated.png  used 
-on input line 1.
-(luatex.def)             Requested size: 455.24408pt x 255.91815pt.
- [4
-
-
-<./AICStyleData/logos/Logo shape light_rotated.png>]
-Overfull \vbox (5.86337pt too high) detected at line 14
- []
-
-[5
 
 ])
 \openout2 = pages/recommender.aux
  (./pages/recommender.tex
-File: AICStyleData/logos/Logo shape light_rotated.png Graphic file (type png)
-<use AICStyleData/logos/Logo shape light_rotated.png>
-Package luatex.def Info: AICStyleData/logos/Logo shape light_rotated.png  used 
-on input line 1.
-(luatex.def)             Requested size: 455.24408pt x 255.91815pt.
- [6
+<images/netflix.png, id=32, 109.8504pt x 109.8504pt>
+File: images/netflix.png Graphic file (type png)
+<use images/netflix.png>
+Package luatex.def Info: images/netflix.png  used on input line 27.
+(luatex.def)             Requested size: 61.7141pt x 61.71526pt.
+<images/amazon.png, id=33, 325.215pt x 216.81pt>
+File: images/amazon.png Graphic file (type png)
+<use images/amazon.png>
+Package luatex.def Info: images/amazon.png  used on input line 27.
+(luatex.def)             Requested size: 61.7141pt x 41.14139pt.
+<images/spotify.png, id=34, 1204.5pt x 632.3625pt>
+File: images/spotify.png Graphic file (type png)
+<use images/spotify.png>
+Package luatex.def Info: images/spotify.png  used on input line 27.
+(luatex.def)             Requested size: 61.7141pt x 32.39189pt.
+<images/tiktok.png, id=35, 702.625pt x 533.995pt>
+File: images/tiktok.png Graphic file (type png)
+<use images/tiktok.png>
+Package luatex.def Info: images/tiktok.png  used on input line 27.
+(luatex.def)             Requested size: 61.7141pt x 46.90044pt.
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 27.
+
+[3
 
 
 
 
-] [7
+<./images/netflix.png><./images/amazon.png><./images/spotify.png><./images/tikto
+k.png>] [4
 
 ])
 \openout2 = pages/designEsperimenti.aux
- (./pages/designEsperimenti.tex
-File: AICStyleData/logos/Logo shape light_rotated.png Graphic file (type png)
-<use AICStyleData/logos/Logo shape light_rotated.png>
-Package luatex.def Info: AICStyleData/logos/Logo shape light_rotated.png  used 
-on input line 1.
-(luatex.def)             Requested size: 455.24408pt x 255.91815pt.
- [8
+ (./pages/designEsperimenti.tex [5
 
 
 
 
-]
-[9
+] [6
 
 ])
 \openout2 = pages/precedente.aux
- (./pages/precedente.tex
-File: AICStyleData/logos/Logo shape light_rotated.png Graphic file (type png)
-<use AICStyleData/logos/Logo shape light_rotated.png>
-Package luatex.def Info: AICStyleData/logos/Logo shape light_rotated.png  used 
-on input line 1.
-(luatex.def)             Requested size: 455.24408pt x 255.91815pt.
- [10
+ (./pages/precedente.tex [7
 
 
 
 
-]
-<images/risultati-valutazione.png, id=119, 572.89032pt x 247.67531pt>
-File: images/risultati-valutazione.png Graphic file (type png)
-<use images/risultati-valutazione.png>
-Package luatex.def Info: images/risultati-valutazione.png  used on input line 1
-6.
-(luatex.def)             Requested size: 411.44409pt x 177.88013pt.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 16.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 16.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 8.09995pt on input line 16.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 4.49997pt on input line 16.
+] [8
 
-Overfull \vbox (22.3047pt too high) detected at line 16
- []
-
-[11
-
-<./images/risultati-valutazione.png>]
-<images/situazione-attuale.png, id=132, 1795.70876pt x 792.9625pt>
-File: images/situazione-attuale.png Graphic file (type png)
-<use images/situazione-attuale.png>
-Package luatex.def Info: images/situazione-attuale.png  used on input line 30.
-(luatex.def)             Requested size: 205.72205pt x 90.84392pt.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 30.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 30.
- [12
-
-<./images/situazione-attuale.png>]
-<images/RegressorePrecedente.png, id=138, 379.4175pt x 532.23843pt>
-File: images/RegressorePrecedente.png Graphic file (type png)
-<use images/RegressorePrecedente.png>
-Package luatex.def Info: images/RegressorePrecedente.png  used on input line 40
-.
-(luatex.def)             Requested size: 134.51756pt x 188.70064pt.
-
-Overfull \vbox (52.96645pt too high) detected at line 40
- []
-
-[13
-
-<./images/RegressorePrecedente.png>])
+])
 \openout2 = pages/benchmarking.aux
  (./pages/benchmarking.tex
-File: AICStyleData/logos/Logo shape light_rotated.png Graphic file (type png)
-<use AICStyleData/logos/Logo shape light_rotated.png>
-Package luatex.def Info: AICStyleData/logos/Logo shape light_rotated.png  used 
-on input line 1.
-(luatex.def)             Requested size: 455.24408pt x 255.91815pt.
- [14
-
-
-
-
-]
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 8.09995pt on input line 31.
-
-[15
-
-] [16
-
-]
 File: images/EmissioniLFM.png Graphic file (type png)
 <use images/EmissioniLFM.png>
-Package luatex.def Info: images/EmissioniLFM.png  used on input line 78.
+Package luatex.def Info: images/EmissioniLFM.png  used on input line 14.
 (luatex.def)             Requested size: 205.12206pt x 157.65988pt.
 File: images/emissions_ml-10m_50U10I.png Graphic file (type png)
 <use images/emissions_ml-10m_50U10I.png>
 Package luatex.def Info: images/emissions_ml-10m_50U10I.png  used on input line
- 78.
+ 14.
 (luatex.def)             Requested size: 205.12206pt x 153.84155pt.
 
-Overfull \vbox (19.69101pt too high) detected at line 78
+Overfull \vbox (21.59106pt too high) detected at line 14
  []
 
-[17
+[9
+
+
+
 
 <./images/EmissioniLFM.png><./images/emissions_ml-10m_50U10I.png>]
-<images/TradeOff.png, id=170, 581.17125pt x 442.65375pt>
+<images/TradeOff.png, id=81, 581.17125pt x 442.65375pt>
 File: images/TradeOff.png Graphic file (type png)
 <use images/TradeOff.png>
-Package luatex.def Info: images/TradeOff.png  used on input line 87.
+Package luatex.def Info: images/TradeOff.png  used on input line 23.
 (luatex.def)             Requested size: 288.0132pt x 165.10992pt.
 
-Overfull \vbox (29.37573pt too high) detected at line 87
+Overfull \vbox (24.94109pt too high) detected at line 23
  []
 
-[18
+[10
 
-<./images/TradeOff.png>]
-<images/distribuzioneCompleta.png, id=177, 603.75563pt x 272.51813pt>
-File: images/distribuzioneCompleta.png Graphic file (type png)
-<use images/distribuzioneCompleta.png>
-Package luatex.def Info: images/distribuzioneCompleta.png  used on input line 1
-01.
-(luatex.def)             Requested size: 205.72205pt x 92.85452pt.
- [19
-
-<./images/distribuzioneCompleta.png>]
-<images/RisultatiRegCompleto.png, id=184, 611.28375pt x 693.34032pt>
-File: images/RisultatiRegCompleto.png Graphic file (type png)
-<use images/RisultatiRegCompleto.png>
-Package luatex.def Info: images/RisultatiRegCompleto.png  used on input line 12
-0.
-(luatex.def)             Requested size: 123.43448pt x 139.99861pt.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 120.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 120.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 6.29996pt on input line 120.
- [20
-
-<./images/RisultatiRegCompleto.png>]
-<images/distribuzioneAzure.png, id=191, 612.78937pt x 262.73157pt>
-File: images/distribuzioneAzure.png Graphic file (type png)
-<use images/distribuzioneAzure.png>
-Package luatex.def Info: images/distribuzioneAzure.png  used on input line 133.
-
-(luatex.def)             Requested size: 205.72205pt x 88.20102pt.
- [21
-
-<./images/distribuzioneAzure.png>]
-<images/RisultatiRegAzure.png, id=199, 611.28375pt x 692.5875pt>
-File: images/RisultatiRegAzure.png Graphic file (type png)
-<use images/RisultatiRegAzure.png>
-Package luatex.def Info: images/RisultatiRegAzure.png  used on input line 152.
-(luatex.def)             Requested size: 123.43448pt x 139.8466pt.
- [22
-
-<./images/RisultatiRegAzure.png>]
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 5.39996pt on input line 195.
-
-Overfull \vbox (15.17331pt too high) detected at line 195
- []
-
-[23
-
-])
+<./images/TradeOff.png>])
 \openout2 = pages/addestramento.aux
  (./pages/addestramento.tex
-File: AICStyleData/logos/Logo shape light_rotated.png Graphic file (type png)
-<use AICStyleData/logos/Logo shape light_rotated.png>
-Package luatex.def Info: AICStyleData/logos/Logo shape light_rotated.png  used 
-on input line 1.
-(luatex.def)             Requested size: 455.24408pt x 255.91815pt.
- [24
-
-
-
-
-]
-<images/curve_emissions_score.png, id=218, 462.528pt x 346.896pt>
+<images/curve_emissions_score.png, id=88, 462.528pt x 346.896pt>
 File: images/curve_emissions_score.png Graphic file (type png)
 <use images/curve_emissions_score.png>
-Package luatex.def Info: images/curve_emissions_score.png  used on input line 2
-4.
-(luatex.def)             Requested size: 205.72205pt x 154.29147pt.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 24.
- [25
+Package luatex.def Info: images/curve_emissions_score.png  used on input line 1
+1.
+(luatex.def)             Requested size: 246.86896pt x 185.15613pt.
+ [11
 
-<./images/curve_emissions_score.png>]
+
+
+
+<./images/curve_emissions_score.png>] [12
+
+]
 File: images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png Graphic fi
 le (type png)
 <use images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png>
 Package luatex.def Info: images/emissions_LFM-1b_artist_20U50I_25strat_earlyCla
-ssic.png  used on input line 41.
-(luatex.def)             Requested size: 164.57616pt x 94.346pt.
+ssic.png  used on input line 36.
+(luatex.def)             Requested size: 144.01031pt x 82.55803pt.
 File: images/emissions_LFM-1b_artist_20U50I_25strat_earlyModified.png Graphic f
 ile (type png)
 <use images/emissions_LFM-1b_artist_20U50I_25strat_earlyModified.png>
 Package luatex.def Info: images/emissions_LFM-1b_artist_20U50I_25strat_earlyMod
-ified.png  used on input line 41.
-(luatex.def)             Requested size: 164.57616pt x 94.346pt.
+ified.png  used on input line 36.
+(luatex.def)             Requested size: 144.01031pt x 82.55803pt.
 File: images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png Graphic file 
 (type png)
 <use images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png>
 Package luatex.def Info: images/decrement_recall@10_LFM-1b_artist_20U50I_25stra
-t.png  used on input line 41.
-(luatex.def)             Requested size: 164.5744pt x 94.34576pt.
+t.png  used on input line 36.
+(luatex.def)             Requested size: 144.00812pt x 82.55737pt.
 File: images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png Graphic file
  (type png)
 <use images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png>
 Package luatex.def Info: images/recall@10_LFM-1b_artist_20U50I_25strat_comparis
-on.png  used on input line 41.
-(luatex.def)             Requested size: 164.5744pt x 94.34576pt.
+on.png  used on input line 36.
+(luatex.def)             Requested size: 144.00812pt x 82.55737pt.
 
-Overfull \vbox (53.22293pt too high) detected at line 41
+Overfull \vbox (33.10663pt too high) detected at line 36
  []
 
-[26
+[13
 
 <./images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png><./images/emis
 sions_LFM-1b_artist_20U50I_25strat_earlyModified.png><./images/decrement_recall@
 10_LFM-1b_artist_20U50I_25strat.png><./images/recall@10_LFM-1b_artist_20U50I_25s
-trat_comparison.png>]
-<images/sensibility_recall@10.png, id=240, 1445.4pt x 722.7pt>
+trat_comparison.png>] [14
+
+]
+<images/sensibility_recall@10.png, id=120, 1445.4pt x 722.7pt>
 File: images/sensibility_recall@10.png Graphic file (type png)
 <use images/sensibility_recall@10.png>
-Package luatex.def Info: images/sensibility_recall@10.png  used on input line 6
-1.
-(luatex.def)             Requested size: 205.72205pt x 102.85349pt.
- [27
+Package luatex.def Info: images/sensibility_recall@10.png  used on input line 5
+7.
+(luatex.def)             Requested size: 329.15652pt x 164.5744pt.
 
-<./images/sensibility_recall@10.png>]
-Overfull \vbox (32.9174pt too high) detected at line 114
+Overfull \vbox (24.40556pt too high) detected at line 57
  []
 
-[28
+[15
+
+<./images/sensibility_recall@10.png>]
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
+(Font)              scaled to size 5.39996pt on input line 108.
+
+Overfull \vbox (42.43105pt too high) detected at line 108
+ []
+
+[16
 
 ])
 \openout2 = pages/conclusioni.aux
  (./pages/conclusioni.tex
-File: AICStyleData/logos/Logo shape light_rotated.png Graphic file (type png)
-<use AICStyleData/logos/Logo shape light_rotated.png>
-Package luatex.def Info: AICStyleData/logos/Logo shape light_rotated.png  used 
-on input line 1.
-(luatex.def)             Requested size: 455.24408pt x 255.91815pt.
- [29
-
-
-
-
-]
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 12.
- [30
+(Font)              scaled to size 10.79993pt on input line 8.
+ [17
 
-]
-Overfull \vbox (5.20937pt too high) detected at line 30
- []
 
-[31
+
+
+] [18
 
 ])
 File: AICStyleData/logos/Logo shape dark_rotated.png Graphic file (type png)
 <use AICStyleData/logos/Logo shape dark_rotated.png>
 Package luatex.def Info: AICStyleData/logos/Logo shape dark_rotated.png  used o
-n input line 55.
+n input line 47.
 (luatex.def)             Requested size: 455.24408pt x 256.43723pt.
- [32
+ [19
 
 
 
@@ -1721,7 +1653,8 @@ n input line 55.
 \tf@snm=\write8
 
 \openout8 = main.snm
- (./main.aux (./pages/sostenibilità.aux) (./pages/recommender.aux)
+ (./main.aux
+(./pages/sostenibilità.aux) (./pages/recommender.aux)
 (./pages/designEsperimenti.aux) (./pages/precedente.aux)
 (./pages/benchmarking.aux) (./pages/addestramento.aux) (./pages/conclusioni.aux
 ))
@@ -1730,32 +1663,29 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2A731438A5664BE1CEB91E91848FC148;1021.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31274 strings out of 476468
+ 32567 strings out of 476468
  100000,1977958 words of node,token memory allocated
- 3010 words of node memory still in use:
-   36 hlist, 9 vlist, 5 rule, 16 disc, 5 local_par, 86 glue, 18 kern, 15 penalty
-, 88 glyph, 168 attribute, 62 glue_spec, 86 attribute_list, 5 write, 1 save_pos,
- 17 pdf_literal, 12 pdf_colorstack nodes
-   avail lists: 1:11,2:980,3:197,4:300,5:414,6:41,7:4304,8:24,9:757,10:174,11:45
-5
- 52036 multiletter control sequences out of 65536+600000
- 98 fonts using 10431959 bytes
- 128i,13n,143p,511b,888s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 4031 words of node memory still in use:
+   40 hlist, 9 vlist, 5 rule, 29 disc, 7 local_par, 108 glue, 41 kern, 17 penalt
+y, 163 glyph, 178 attribute, 62 glue_spec, 91 attribute_list, 5 write, 1 save_po
+s, 17 pdf_literal, 12 pdf_colorstack nodes
+   avail lists: 2:928,3:204,4:252,5:330,6:37,7:4273,8:23,9:782,10:18,11:448
+ 53366 multiletter control sequences out of 65536+600000
+ 74 fonts using 7591111 bytes
+ 128i,13n,143p,504b,824s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <./AICStyleData/epilogueFont/Epilogue-Italic.ttf><./AICStyleData/epilogueFont/Ep
 ilogue-Regular.ttf><./AICStyleData/epilogueFont/Epilogue-Bold.ttf><E:/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><E:/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr6.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><E:/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmsy6.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (32 pages, 1065899 bytes).
+iKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (19 pages, 1130475 bytes).
 
-PDF statistics: 324 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 131072)
- 82 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 186 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
