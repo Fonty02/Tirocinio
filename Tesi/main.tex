@@ -29,8 +29,7 @@
 \usepackage{comment}
 \usepackage{float}
 \usepackage{bm}
-
-
+\usepackage{multirow}
 
 \onehalfspacing
 
@@ -39,29 +38,7 @@
     \pagestyle{fancy}
     \everymath{\displaystyle}
     \sffamily
-    \begin{figure}
-        \centering
-        \includegraphics[scale=0.1]{images/uniba-logo.png}
-        \caption*{Università degli Studi di Bari Aldo Moro}
-    \end{figure}
-    \begin{figure}
-        \centering
-        \includegraphics[scale=0.1]{images/swap.png}
-        \caption*{Gruppo di ricerca Semantic Web Access and Personalization}
-    \end{figure}
-    
-
-    \title{
-        Tesi in Metodi per il Ritrovamento dell'Informazione\\   
-    \textbf{Sustainability of RecSys}}
-    \date{Tesi triennale in Informatica\\Anno accademico 2023/2024}
-    \maketitle
-
-\begin{itemize}
-    \item \textbf{Relatore}: Prof. Pasquale Lops
-    \item \textbf{Relatore}: Prof. Cataldo Musto
-    \item \textbf{Laureando}: Emanuele Fontana
-\end{itemize}
+\input{pages/front.tex}
 \newpage
     \tableofcontents
     \newpage

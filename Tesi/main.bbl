@@ -41,6 +41,11 @@ Chong Chen, Min Zhang, Yongfeng Zhang, Yiqun Liu, and Shaoping Ma.
   recommendation.
 \newblock {\em ACM Trans. Inf. Syst.}, 38(2), jan 2020.
 
+\bibitem{differenzedivise}
+Carl de~Boor.
+\newblock Divided differences.
+\newblock {\em arXiv preprint math/0502036}, 2005.
+
 \bibitem{RecommenderSustainability}
 Alexander Felfernig, Manfred Wundara, Thi Ngoc~Trang Tran, Seda Polat-Erdeniz,
   Sebastian Lubos, Merfat El~Mansi, Damian Garber, and Viet-Man Le.
@@ -152,6 +157,12 @@ Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, and Lars Schmidt-Thieme.
 \newblock In {\em Proceedings of the Twenty-Fifth Conference on Uncertainty in
   Artificial Intelligence}, UAI '09, page 452–461, Arlington, Virginia, USA,
   2009. AUAI Press.
+
+\bibitem{energy-mix}
+Hannah Ritchie and Pablo Rosado.
+\newblock Energy mix.
+\newblock {\em Our World in Data}, 2020.
+\newblock https://ourworldindata.org/energy-mix.
 
 \bibitem{CFRS}
 J.~Ben Schafer, Dan Frankowski, Jon Herlocker, and Shilad Sen.

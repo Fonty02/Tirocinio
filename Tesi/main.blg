@@ -8,45 +8,45 @@ Database file #1: bibliografiaMia.bib
 Warning--can't use both author and editor fields in Lops2011
 Warning--empty chapter and pages in MacridVAE
 Warning--can't use both author and editor fields in CFRS
-You've used 49 entries,
+You've used 51 entries,
             2118 wiz_defined-function locations,
-            831 strings with 14842 characters,
-and the built_in function-call counts, 24948 in all, are:
-= -- 2571
-> -- 1358
+            841 strings with 15026 characters,
+and the built_in function-call counts, 25401 in all, are:
+= -- 2616
+> -- 1378
 < -- 33
-+ -- 536
-- -- 486
-* -- 1597
-:= -- 3699
-add.period$ -- 174
-call.type$ -- 49
-change.case$ -- 387
++ -- 544
+- -- 492
+* -- 1617
+:= -- 3785
+add.period$ -- 181
+call.type$ -- 51
+change.case$ -- 396
 chr.to.int$ -- 0
-cite$ -- 52
-duplicate$ -- 1190
-empty$ -- 1594
-format.name$ -- 486
-if$ -- 5645
+cite$ -- 54
+duplicate$ -- 1210
+empty$ -- 1628
+format.name$ -- 492
+if$ -- 5736
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 49
-newline$ -- 246
-num.names$ -- 98
-pop$ -- 433
+int.to.str$ -- 51
+missing$ -- 51
+newline$ -- 257
+num.names$ -- 102
+pop$ -- 441
 preamble$ -- 1
-purify$ -- 341
+purify$ -- 348
 quote$ -- 0
-skip$ -- 1125
+skip$ -- 1140
 stack$ -- 0
-substring$ -- 1082
-swap$ -- 624
+substring$ -- 1092
+swap$ -- 626
 text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 190
+type$ -- 198
 warning$ -- 3
-while$ -- 149
-width$ -- 51
-write$ -- 617
+while$ -- 153
+width$ -- 53
+write$ -- 639
 (There were 3 warnings)

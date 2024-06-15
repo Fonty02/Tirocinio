@@ -29,9 +29,9 @@ Questi sistemi sono basati su algoritmi di apprendimento automatico e intelligen
 
 \noindent I sistemi di raccomandazione possono essere di diversi tipi, a seconda della tecnica utilizzata per generare le raccomandazioni.
 \begin{itemize}
-    \item \textbf{Collaborative filtering} \cite{CFRS}
-    \item \textbf{Content-based} \cite{Lops2011}
-    \item \textbf{Knowledge-based} \cite{KnowledgeBased}
+    \item \textbf{Collaborative filtering} \cite{CFRS}: generano raccomandazioni basandosi sulle valutazioni degli utenti per gli item
+    \item \textbf{Content-based} \cite{Lops2011}: generano raccomandazioni basandosi sul contenuto degli item e sulle preferenze dell'utente
+    \item \textbf{Knowledge-aware} \cite{KnowledgeBased}: generano raccomandazioni basandosi su conoscenza semantica, rappresentata mediante i knowledge-graph
     \item \textbf{Approci ibridi}: combinano le tecniche precedenti
 \end{itemize}
 
@@ -55,14 +55,14 @@ Questi sistemi sono basati su algoritmi di apprendimento automatico e intelligen
 
 
 \noindent Per valutare le prestazioni di un sistema di raccomandazione si possono utilizzare diverse metriche che è possibile riassumere nelle seguenti categorie:
-\begin{itemize}
+\begin{itemize}    
+    \item \textbf{Classification metrics}: queste metriche valutano la capacità del sistema di classificare correttamente gli elementi in base alle preferenze dell'utente. Alcune delle metriche più comuni sono l'accuracy, la precision, il recall e l'F1-score.
+
     \item \textbf{Accuracy metrics}: queste metriche valutano la precisione e l'accuratezza delle raccomandazioni generate dal sistema. Alcune delle metriche più comuni sono l'RMSE (Root Mean Squared Error) e il MAE (Mean Absolute Error).
     \item \textbf{Ranking metrics}: queste metriche valutano la qualità dell'ordinamento delle raccomandazioni generate dal sistema. Alcune delle metriche più comuni sono il coefficiente di correlazione di Kendall Tau, il coefficiente di correlazione di Spearman, l'NDCG (Normalized Discounted Cumulative Gain).
     \item \textbf{Diversity metrics}: queste metriche valutano la diversità delle raccomandazioni generate dal sistema. Alcune delle metriche più comuni sono la diversità delle raccomandazioni e la novità delle raccomandazioni.
     \item \textbf{Coverage metrics}: queste metriche valutano la copertura degli elementi raccomandati dal sistema.
-    
-    \item \textbf{Classification metrics}: queste metriche valutano la capacità del sistema di classificare correttamente gli elementi in base alle preferenze dell'utente. Alcune delle metriche più comuni sono l'accuracy, la precision, il recall e l'F1-score.
-\end{itemize}
+\end{itemize}    
 
 \noindent Alcuni tipici problemi che si possono incontrare nella progettazione e nell'implementazione di un sistema di raccomandazione sono:
 \begin{itemize}
@@ -107,20 +107,20 @@ Un sistema di raccomandazione content-based è composto da tre componenti princi
     \item \textbf{Filtering Component}: Questa componente ha come scopo quello di generare raccomandazioni personalizzate in base al profilo dell'utente e alle caratteristiche degli item. In particolare, si calcola la somiglianza tra il profilo dell'utente e le caratteristiche degli item, e si generano raccomandazioni basate su questa somiglianza.
 \end{itemize}
 I principali vantaggi sono l'indipendenza dal comportamento degli altri utenti e la capacità di generare raccomandazioni personalizzate anche per nuovi item. Inoltre c'è una maggiore spiegabilità delle raccomandazioni generate. Tuttavia, i sistemi di raccomandazione content-based possono soffrire di problemi come la scarsa diversità delle raccomandazioni e la difficoltà di estrarre le caratteristiche rilevanti degli item. Rimane comunque il problema di cold-start per un nuovo utente.
-\subsection{Knowledge-based}
-I sistemi di raccomandazione knowledge-based generano raccomandazioni basandosi su conoscenza semantica, rappresentata mediante i knowledge-graph. I knowledge-graph sono grafi in cui i nodi rappresentano concetti e le relazioni tra i concetti, e gli archi rappresentano le relazioni tra i concetti. I sistemi di raccomandazione knowledge-based utilizzano i knowledge-graph per rappresentare le caratteristiche degli item e le preferenze dell'utente, e generare raccomandazioni basate su questa rappresentazione. In particolare, si utilizzano tecniche di reasoning per inferire nuove conoscenze a partire dalle conoscenze esistenti, e generare raccomandazioni basate su queste nuove conoscenze. I principali vantaggi dei sistemi di raccomandazione knowledge-based l'assenza del problema di cold-start. Tuttavia, i sistemi di raccomandazione knowledge-based possono soffrire di problemi come la scarsa spiegabilità delle raccomandazioni generate e la difficoltà di rappresentare la conoscenza semantica in modo accurato e completo. Inoltre, i sistemi di raccomandazione knowledge-based possono richiedere una quantità significativa di risorse computazionali per generare raccomandazioni accurate e rilevanti.\\
+\subsection{Knowledge-aware}
+I sistemi di raccomandazione knowledge-aware generano raccomandazioni basandosi su conoscenza semantica, rappresentata mediante i knowledge-graph. I knowledge-graph sono grafi in cui i nodi rappresentano concetti e le relazioni tra i concetti, e gli archi rappresentano le relazioni tra i concetti. I sistemi di raccomandazione knowledge-aware utilizzano i knowledge-graph per rappresentare le caratteristiche degli item e le preferenze dell'utente, e generare raccomandazioni basate su questa rappresentazione. In particolare, si utilizzano tecniche di reasoning per inferire nuove conoscenze a partire dalle conoscenze esistenti, e generare raccomandazioni basate su queste nuove conoscenze. I principali vantaggi dei sistemi di raccomandazione knowledge-aware l'assenza del problema di cold-start. Tuttavia, i sistemi di raccomandazione knowledge-aware possono soffrire di problemi come la scarsa spiegabilità delle raccomandazioni generate e la difficoltà di rappresentare la conoscenza semantica in modo accurato e completo. Inoltre, i sistemi di raccomandazione knowledge-aware possono richiedere una quantità significativa di risorse computazionali per generare raccomandazioni accurate e rilevanti.\\
 
 \subsection{Modelli di raccomandazione a stato dell'arte}
-Negli ultimi anni, sono stati proposti diversi modelli di raccomandazione basati su diverse tecniche, che hanno ottenuto risultati molto promettenti in termini di accuratezza e prestazioni. Questi modelli sono chiamati a stato dell'arte (\textbf{SOTA:}state-of-the-art) per l'implementazione di sistemi di raccomandazione. Alcuni esempi di modelli di raccomandazione a stato dell'arte sono:
+Negli ultimi anni, sono stati proposti diversi modelli di raccomandazione basati su diverse tecniche, che hanno ottenuto risultati molto promettenti in termini di accuratezza e prestazioni. Questi modelli sono chiamati a stato dell'arte (\textbf{SOTA}) per l'implementazione di sistemi di raccomandazione. Alcuni esempi di modelli di raccomandazione a stato dell'arte sono:
 \begin{itemize}
     \item \textbf{ItemKNN} \cite{ItemKNN}: ItemKNN è un modello di raccomandazione basato su collaborative filtering item-based. In particolare, ItemKNN calcola la similarità tra gli item e genera raccomandazioni basate sugli item più simili a quelli valutati positivamente dall'utente target.
     \item \textbf{BPR} \cite{BPR}: BPR (Bayesian Personalized Ranking) è un modello di raccomandazione basato su collaborative filtering user-based. In particolare, BPR calcola la similarità tra gli utenti e genera raccomandazioni basate sugli utenti più simili all'utente target.
-    \item \textbf{CFKG} \cite{CFKG}: CFKG è un modello di raccomandazione basato su collaborative filtering e knowledge-based. In particolare, CFKG utilizza i knowledge-graph per rappresentare le caratteristiche degli item e le preferenze dell'utente, e genera raccomandazioni basate su questa rappresentazione.
-    \item \textbf{CKE} \cite{CKE}: CKE (Collaborative Knowledge Embedding) è un modello di raccomandazione basato su collaborative filtering e knowledge-based. In particolare, CKE utilizza tecniche di embedding per rappresentare le caratteristiche degli item e le preferenze dell'utente, e genera raccomandazioni basate su questa rappresentazione.
+    \item \textbf{CFKG} \cite{CFKG}: CFKG è un modello di raccomandazione basato su collaborative filtering e knowledge-aware. In particolare, CFKG utilizza i knowledge-graph per rappresentare le caratteristiche degli item e le preferenze dell'utente, e genera raccomandazioni basate su questa rappresentazione.
+    \item \textbf{CKE} \cite{CKE}: CKE (Collaborative Knowledge Embedding) è un modello di raccomandazione basato su collaborative filtering e knowledge-aware. In particolare, CKE utilizza tecniche di embedding per rappresentare le caratteristiche degli item e le preferenze dell'utente, e genera raccomandazioni basate su questa rappresentazione.
     \item \textbf{DMF} \cite{DMF}: DMF (Deep Matrix Factorization) è un modello di raccomandazione basato su deep learning. In particolare, DMF utilizza tecniche di deep learning per apprendere le rappresentazioni latenti degli item e degli utenti, e genera raccomandazioni basate su queste rappresentazioni.
-    \item \textbf{KGCN} \cite{KGCN}: KGCN (Knowledge Graph Convolutional Networks) è un modello di raccomandazione basato su deep learning e knowledge-based. In particolare, KGCN utilizza tecniche di deep learning e convolutional neural networks per apprendere le rappresentazioni degli item e degli utenti a partire dai knowledge-graph, e genera raccomandazioni basate su queste rappresentazioni.
-    \item \textbf{KGNNLS} \cite{KGNNLS}: KGNNLS (Knowledge Graph Neural Network with Latent Space) è un modello di raccomandazione basato su deep learning e knowledge-based. In particolare, KGNNLS utilizza tecniche di deep learning e neural networks per apprendere le rappresentazioni degli item e degli utenti a partire dai knowledge-graph, e genera raccomandazioni basate su queste rappresentazioni.
-    \item \textbf{LINE} \cite{LINE}: LINE (Large-scale Information Network Embedding) è un modello di raccomandazione basato su deep learning e knowledge-based. In particolare, LINE utilizza tecniche di deep learning e neural networks per apprendere le rappresentazioni degli item e degli utenti a partire dai knowledge-graph, e genera raccomandazioni basate su queste rappresentazioni.
+    \item \textbf{KGCN} \cite{KGCN}: KGCN (Knowledge Graph Convolutional Networks) è un modello di raccomandazione basato su deep learning e knowledge-aware. In particolare, KGCN utilizza tecniche di deep learning e convolutional neural networks per apprendere le rappresentazioni degli item e degli utenti a partire dai knowledge-graph, e genera raccomandazioni basate su queste rappresentazioni.
+    \item \textbf{KGNNLS} \cite{KGNNLS}: KGNNLS (Knowledge Graph Neural Network with Latent Space) è un modello di raccomandazione basato su deep learning e knowledge-aware. In particolare, KGNNLS utilizza tecniche di deep learning e neural networks per apprendere le rappresentazioni degli item e degli utenti a partire dai knowledge-graph, e genera raccomandazioni basate su queste rappresentazioni.
+    \item \textbf{LINE} \cite{LINE}: LINE (Large-scale Information Network Embedding) è un modello di raccomandazione basato su deep learning e knowledge-aware. In particolare, LINE utilizza tecniche di deep learning e neural networks per apprendere le rappresentazioni degli item e degli utenti a partire dai knowledge-graph, e genera raccomandazioni basate su queste rappresentazioni.
     \item \textbf{MultiDAE} \cite{MultiDAE}: MultiDAE è un modello di raccomandazione basato su deep learning. In particolare, MultiDAE utilizza tecniche di deep learning e variational autoencoders per apprendere le rappresentazioni latenti degli item e degli utenti, e genera raccomandazioni basate su queste rappresentazioni.
     \item \textbf{LightGCN} \cite{LightGCN}: LightGCN è un modello di raccomandazione basato su deep learning. In particolare, LightGCN utilizza tecniche di deep learning e graph convolutional networks per apprendere le rappresentazioni latenti degli item e degli utenti, e genera raccomandazioni basate su queste rappresentazioni.
     \item \textbf{NGCF} \cite{NGCF}: NGCF (Neural Graph Collaborative Filtering) è un modello di raccomandazione basato su deep learning. In particolare, NGCF utilizza tecniche di deep learning e graph convolutional networks per apprendere le rappresentazioni latenti degli item e degli utenti, e genera raccomandazioni basate su queste rappresentazioni.
@@ -129,7 +129,7 @@ Negli ultimi anni, sono stati proposti diversi modelli di raccomandazione basati
 
 
 \noindent Ovviamente ci sono tanti altri modelli di raccomandazione a stato dell'arte, ma questi sono solo alcuni esempi.\\
-I progettisti di RecSys spesso prendono spunto da questi modelli per creare nuovi modelli che possano adattarsi meglio alle esigenze specifiche del problema che si vuole risolvere.\\
+I progettisti di Recommender Systems spesso prendono spunto da questi modelli per creare nuovi modelli che possano adattarsi meglio alle esigenze specifiche del problema che si vuole risolvere.\\
 
 
 

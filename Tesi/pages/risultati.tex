@@ -199,34 +199,35 @@ ItemKNN comincia a non performare bene nelle metriche di ranking, mentre miglior
     \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|c|}
         \hline
-        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni} & \textbf{Riduzione}\\
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{Riduzione} & \textbf{\% riduzione emissioni} \\
         \hline
-        BPR & 3.9484 & 2.3033 & 41.6647 & 1.6451\\
+        BPR & 3.9484 & 2.3033 & 1.6451 & 41.6647 \\
         \hline
-        CKFG & 5.881 & 1.767 & 69.9418 & 4.114\\
+        CKFG & 5.881 & 1.767 & 4.114 & 69.9418 \\
         \hline
-        CKE & 5.68394 & 1.9837 & 65.09955 &  3.70024\\
+        CKE & 5.68394 & 1.9837 & 3.70024 & 65.09955 \\
         \hline
-        DMF & 2.2927 & 1.9667 & 14.2158 & 0.326\\
+        DMF & 2.2927 & 1.9667 & 0.326 & 14.2158 \\
         \hline
-        KGCN & 6.8754 & 1.454 & 78.8522 & 5.4214\\
+        KGCN & 6.8754 & 1.454 & 5.4214 & 78.8522 \\
         \hline
-        KGNNLS & 7.763 & 1.70177 & 78.0785 & 6.0613\\
+        KGNNLS & 7.763 & 1.70177 & 6.0613 & 78.0785 \\
         \hline
-        LINE & 1.9128 & 1.3831 & 27.6935 & 0.5297\\
+        LINE & 1.9128 & 1.3831 & 0.5297 & 27.6935 \\
         \hline
-        MultiDAE & 8.0303 & 2.29608 & 71.40737 & 5.73422\\
+        MultiDAE & 8.0303 & 2.29608 & 5.73422 & 71.40737 \\
         \hline
-        LightGCN & 15.626 & 1.4926 & 90.4481 & 14.1334\\
+        LightGCN & 15.626 & 1.4926 & 14.1334 & 90.4481 \\
         \hline
-        NGCF & 7.7582 & 2.6601 & 65.7126 & 5.0981\\
+        NGCF & 7.7582 & 2.6601 & 5.0981 & 65.7126 \\
         \hline
-        DGCF & 94.903 & 10.4625 & 88.9756 & 84.4405\\
+        DGCF & 94.903 & 10.4625 & 84.4405 & 88.9756 \\
         \hline
     \end{tabular}
     }
     \caption{Confronto delle emissioni}
 \end{table}
+
 
 \noindent Si può dunque notare come in generale la percentuale di riduzione delle emissioni è molto alta
 
@@ -261,105 +262,68 @@ ItemKNN comincia a non performare bene nelle metriche di ranking, mentre miglior
 
 
 
+
 \begin{table}[H]
     \centering
     \resizebox{\textwidth}{!}{
         \begin{tabular}{|c|c|c|c|c|c|}
             \hline
-            \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score} & \textbf{Riduzione}\\
+            \textbf{Metrica} & \textbf{Modello} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{Riduzione} & \textbf{\% riduzione score} \\
             \hline
-            BPR & recall@10 & 0.1635 & 0.1632 & 0.1835 & 0.0003\\
+            \multirow{11}{*}{recall@10} & BPR & 0.1635 & 0.1632 & 0.0003 & 0.1835 \\ \cline{2-6}
+                                         & CFKG & 0.1526 & 0.1303 & 0.0223 & 14.6134 \\ \cline{2-6}
+                                         & CKE & 0.1593 & 0.1494 & 0.0099 & 6.2147 \\ \cline{2-6}
+                                         & DMF & 0.1432 & 0.1432 & 0.0 & 0.0 \\ \cline{2-6}
+                                         & KGCN & 0.1422 & 0.1197 & 0.0225 & 15.8228 \\ \cline{2-6}
+                                         & KGNNLS & 0.1421 & 0.1197 & 0.0224 & 15.7635 \\ \cline{2-6}
+                                         & LINE & 0.1451 & 0.1451 & 0.0 & 0.0 \\ \cline{2-6}
+                                         & MultiDAE & 0.1799 & 0.1349 & 0.045 & 25.0139 \\ \cline{2-6}
+                                         & LightGCN & 0.173 & 0.1092 & 0.0638 & 36.8786 \\ \cline{2-6}
+                                         & NGCF & 0.1586 & 0.1408 & 0.0178 & 11.2232 \\ \cline{2-6}
+                                         & DGCF & 0.1656 & 0.1022 & 0.0634 & 38.2850 \\ \cline{2-6}
             \hline
-            CFKG & recall@10 & 0.1526 & 0.1303 & 14.6134 & 0.0223\\
+            \multirow{11}{*}{ndcg@10} & BPR & 0.2554 & 0.2558 & -0.0004 & -0.1566 \\ \cline{2-6}
+                                       & CFKG & 0.2402 & 0.221 & 0.0192 & 7.9933 \\ \cline{2-6}
+                                       & CKE & 0.2534 & 0.244 & 0.0094 & 3.7096 \\ \cline{2-6}
+                                       & DMF & 0.2289 & 0.2289 & 0.0 & 0.0 \\ \cline{2-6}
+                                       & KGCN & 0.232 & 0.2069 & 0.0251 & 10.819 \\ \cline{2-6}
+                                       & KGNNLS & 0.2319 & 0.207 & 0.0249 & 10.737 \\ \cline{2-6}
+                                       & LINE & 0.2277 & 0.2277 & 0.0 & 0.0 \\ \cline{2-6}
+                                       & MultiDAE & 0.2633 & 0.2174 & 0.0459 & 17.433 \\ \cline{2-6}
+                                       & LightGCN & 0.2682 & 0.1885 & 0.0797 & 29.717 \\ \cline{2-6}
+                                       & NGCF & 0.2539 & 0.2378 & 0.0161 & 6.3411 \\ \cline{2-6}
+                                       & DGCF & 0.2613 & 0.1782 & 0.0831 & 31.8025 \\ \cline{2-6}
             \hline
-            CKE & recall@10 & 0.1593 & 0.1494 & 6.2147 & 0.0099\\
+            \multirow{11}{*}{averagepopularity@10} & BPR & 1146.3572 & 1173.1199 & -26.7627 & -2.3346 \\ \cline{2-6}
+                                                    & CFKG & 1115.4498 & 1395.6098 & -280.16 & -25.1163 \\ \cline{2-6}
+                                                    & CKE & 1165.2413 & 1333.5153 & -168.274 & -14.4411 \\ \cline{2-6}
+                                                    & DMF & 1379.7292 & 1379.7292 & 0.0 & 0.0 \\ \cline{2-6}
+                                                    & KGCN & 1188.9582 & 1455.5651 & -266.6069 & -22.4236 \\ \cline{2-6}
+                                                    & KGNNLS & 1188.8981 & 1455.58 & -266.6819 & -22.4310 \\ \cline{2-6}
+                                                    & LINE & 979.498 & 979.498 & 0.0 & 0.0 \\ \cline{2-6}
+                                                    & MultiDAE & 1137.4597 & 1394.0944 & -256.6347 & -22.5621 \\ \cline{2-6}
+                                                    & LightGCN & 1088.741 & 1684.4149 & -595.6739 & -54.7122 \\ \cline{2-6}
+                                                    & NGCF & 1201.8831 & 1401.4325 & -199.5494 & -16.6031 \\ \cline{2-6}
+                                                    & DGCF & 1172.6874 & 1807.9828 & -635.2954 & -54.1743 \\ \cline{2-6}
             \hline
-            DMF & recall@10 & 0.1432 & 0.1432 & 0.0 & 0.0\\
-            \hline
-            KGCN & recall@10 & 0.1422 & 0.1197 & 15.8228 & 0.0225\\
-            \hline
-            KGNNLS & recall@10 & 0.1421 & 0.1197 & 15.7635 & 0.0224\\
-            \hline
-            LINE & recall@10 & 0.1451 & 0.1451 & 0.0 & 0.0\\
-            \hline
-            MultiDAE & recall@10 & 0.1799 & 0.1349 & 25.0139 & 0.045\\
-            \hline
-            LightGCN & recall@10 & 0.173 & 0.1092 & 36.8786 & 0.0638\\
-            \hline
-            NGCF & recall@10 & 0.1586 & 0.1408 & 11.2232 & 0.0178\\
-            \hline
-            DGCF & recall@10 & 0.1656 & 0.1022 & 38.2850 & 0.0634\\
-            \hline
-            BPR & ndcg@10 & 0.2554 & 0.2558 & -0.1566 & -0.0004\\
-            \hline
-            CFKG & ndcg@10 & 0.2402 & 0.221 & 7.9933 & 0.0192\\
-            \hline
-            CKE & ndcg@10 & 0.2534 & 0.244 & 3.7096 & 0.0094\\
-            \hline
-            DMF & ndcg@10 & 0.2289 & 0.2289 & 0.0 & 0.0\\
-            \hline
-            KGCN & ndcg@10 & 0.232 & 0.2069 & 10.819 & 0.0251\\
-            \hline
-            KGNNLS & ndcg@10 & 0.2319 & 0.207 & 10.737 & 0.0249\\
-            \hline
-            LINE & ndcg@10 & 0.2277 & 0.2277 & 0.0 & 0.0\\
-            \hline
-            MultiDAE & ndcg@10 & 0.2633 & 0.2174 & 17.433 & 0.0459\\
-            \hline
-            LightGCN & ndcg@10 & 0.2682 & 0.1885 & 29.717 & 0.0797\\
-            \hline
-            NGCF & ndcg@10 & 0.2539 & 0.2378 & 6.3411 & 0.0161\\
-            \hline
-            DGCF & ndcg@10 & 0.2613 & 0.1782 & 31.8025 & 0.0831\\
-            \hline
-            BPR & averagepopularity@10 & 1146.3572 & 1173.1199 & -2.3346 & -26.7627\\
-            \hline
-            CFKG & averagepopularity@10 & 1115.4498 & 1395.6098 & -25.1163 & -280.16\\
-            \hline
-            CKE & averagepopularity@10 & 1165.2413 & 1333.5153 & -14.4411 & -168.274\\
-            \hline
-            DMF & averagepopularity@10 & 1379.7292 & 1379.7292 & 0.0 & 0.0\\
-            \hline
-            KGCN & averagepopularity@10 & 1188.9582 & 1455.5651 & -22.4236 & -266.6069 \\
-            \hline
-            KGNNLS & averagepopularity@10 & 1188.8981 & 1455.58 & -22.4310 & -266.6819\\
-            \hline
-            LINE & averagepopularity@10 & 979.498 & 979.498 & 0.0 & 0.0\\
-            \hline
-            MultiDAE & averagepopularity@10 & 1137.4597 & 1394.0944 & -22.5621 & -256.6347\\
-            \hline
-            LightGCN & averagepopularity@10 & 1088.741 & 1684.4149 & -54.7122 & -595.6739\\
-            \hline
-            NGCF & averagepopularity@10 & 1201.8831 & 1401.4325 & -16.6031 & -199.5494\\
-            \hline
-            DGCF & averagepopularity@10 & 1172.6874 & 1807.9828 & -54.1743 & -635.2954\\
-            \hline
-            BPR & giniindex@10 & 0.8839 & 0.8907 & -0.7693 & -0.0068 \\
-            \hline
-            CFKG & giniindex@10 & 0.8822 & 0.9443 & -7.0392 & -0.0621\\
-            \hline
-            CKE & giniindex@10 & 0.8894 & 0.9315 & -4.7335 & -0.0421\\
-            \hline
-            DMF & giniindex@10 & 0.9443 & 0.9443 & 0.0 & 0.0\\
-            \hline
-            KGCN & giniindex@10 & 0.8992 & 0.9502 & -5.6717 & -0.051\\
-            \hline
-            KGNNLS & giniindex@10 & 0.8992 & 0.9502 & -5.6717 & -0.051\\
-            \hline
-            LINE & giniindex@10 & 0.8904 & 0.8904 & 0.0 & 0.0\\
-            \hline
-            MultiDAE & giniindex@10 & 0.875 & 0.9424 & -7.7029 & -0.0674\\
-            \hline
-            LightGCN & giniindex@10 & 0.8759 & 0.9801 & -11.8963 & -0.1042\\
-            \hline
-            NGCF & giniindex@10 & 0.9079 & 0.9484 & -4.4608 & -0.0405\\
-            \hline
-            DGCF & giniindex@10 & 0.8992 & 0.9845 & -9.4862 & -0.0853\\
+            \multirow{11}{*}{giniindex@10} & BPR & 0.8839 & 0.8907 & -0.0068 & -0.7693 \\ \cline{2-6}
+                                            & CFKG & 0.8822 & 0.9443 & -0.0621 & -7.0392 \\ \cline{2-6}
+                                            & CKE & 0.8894 & 0.9315 & -0.0421 & -4.7335 \\ \cline{2-6}
+                                            & DMF & 0.9443 & 0.9443 & 0.0 & 0.0 \\ \cline{2-6}
+                                            & KGCN & 0.8992 & 0.9502 & -0.051 & -5.6717 \\ \cline{2-6}
+                                            & KGNNLS & 0.8992 & 0.9502 & -0.051 & -5.6717 \\ \cline{2-6}
+                                            & LINE & 0.8904 & 0.8904 & 0.0 & 0.0 \\ \cline{2-6}
+                                            & MultiDAE & 0.875 & 0.9424 & -0.0674 & -7.7029 \\ \cline{2-6}
+                                            & LightGCN & 0.8759 & 0.9801 & -0.1042 & -11.8963 \\ \cline{2-6}
+                                            & NGCF & 0.9079 & 0.9484 & -0.0405 & -4.4608 \\     \cline{2-6}
+                                            & DGCF & 0.8992 & 0.9845 & -0.0853 & -9.4862 \\ \cline{2-6}
             \hline
         \end{tabular}
     }
     \caption{Confronto degli score tra criteri e modelli}
+    \label{tab:confronto-score}
 \end{table}
+
 
 \begin{figure}[H]
     \centering
@@ -419,34 +383,35 @@ Probabilmente per LINE e DMF il criterio di early stopping classico ha portato a
     \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|c|}
         \hline
-        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni} & \textbf{Riduzione}\\
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{Riduzione} & \textbf{\% riduzione emissioni} \\
         \hline
-        BPR & 4.6785 & 4.8381 & -3.4125 & -0.1596\\
+        BPR & 4.6785 & 4.8381 & -0.1596 & -3.4125 \\
         \hline
-        CKFG & 2.8024 & 2.8539 & -1.8368 & -0.0515\\
+        CKFG & 2.8024 & 2.8539 & -0.0515 & -1.8368 \\
         \hline
-        CKE & 4.8062 & 1.6694 & 65.2659 & 3.1368\\
+        CKE & 4.8062 & 1.6694 & 3.1368 & 65.2659 \\
         \hline
-        DMF & 5.1886 & 5.3978 & -4.0321 & -0.2092\\
+        DMF & 5.1886 & 5.3978 & -0.2092 & -4.0321 \\
         \hline
-        KGCN & 4.9718 & 5.0108 & -0.7863 & -0.039\\
+        KGCN & 4.9718 & 5.0108 & -0.039 & -0.7863 \\
         \hline
-        KGNNLS & 4.9701 & 5.0453 & -1.5133 & -0.0752\\
+        KGNNLS & 4.9701 & 5.0453 & -0.0752 & -1.5133 \\
         \hline
-        LINE & 6.0602 & 6.2294 & -2.7912 & -0.1692\\
+        LINE & 6.0602 & 6.2294 & -0.1692 & -2.7912 \\
         \hline
-        MultiDAE & 7.1668 & 3.1731 & 55.7245 & 3.9937\\
+        MultiDAE & 7.1668 & 3.1731 & 3.9937 & 55.7245 \\
         \hline
-        LightGCN & 21.4561 & 6.2812 & 70.7256 & 15.1749\\
+        LightGCN & 21.4561 & 6.2812 & 15.1749 & 70.7256 \\
         \hline
-        NGCF & 15.8887 & 1.0731 & 93.2463 & 14.8156\\
+        NGCF & 15.8887 & 1.0731 & 14.8156 & 93.2463 \\
         \hline
-        DGCF & 28.2945 & 5.3468 & 81.1035 & 22.9477\\
+        DGCF & 28.2945 & 5.3468 & 22.9477 & 81.1035 \\
         \hline
     \end{tabular}
     }
     \caption{Confronto delle emissioni}
 \end{table}
+
 
 \noindent Il criterio più stringente mostra chiaramente come la riduzione delle emissioni sia inferiore rispetto al primo esperimento.
 Per alcuni modelli vengono registrate addirittura delle variazioni negative, ovvero le emissioni sono aumentate rispetto al criterio classico. Questo potrebbe dipende da un picco di consumi dell'hardware in un certo momento, dovuto a qualche processo in background.
@@ -483,58 +448,63 @@ NGCF è l'unico modello in cui si registra un'aumento della percentuale di riduz
 \begin{table}[H]
     \centering
     \resizebox{\textwidth}{!}{
-        \begin{tabular}{|c|c|c|c|c| c|}
+        \begin{tabular}{|c|c|c|c|c|c|}
             \hline
-            \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score} & \textbf{Riduzione}\\
+            \textbf{Metrica} & \textbf{Modello} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{Riduzione} & \textbf{\% riduzione score} \\
             \hline
-            BPR              & recall@10         & 0.0772                            & 0.0772                         & 0.0                         & 0.0                         \\ \hline
-            CFKG             & recall@10         & 0.1387                            & 0.1387                         & 0.0                         & 0.0                         \\ \hline
-            CKE              & recall@10         & 0.1066                            & 0.1078                         & -1.1257                     & -0.0121                     \\ \hline
-            DMF              & recall@10         & 0.0698                            & 0.0698                         & 0.0                         & 0.0                         \\ \hline
-            KGCN             & recall@10         & 0.1299                            & 0.1299                         & 0.0                         & 0.0                         \\ \hline
-            KGNNLS           & recall@10         & 0.1299                            & 0.1299                         & 0.0                         & 0.0                         \\ \hline
-            LINE             & recall@10         & 0.0496                            & 0.0496                         & 0.0                         & 0.0                         \\ \hline
-            MultiDAE         & recall@10         & 0.1024                            & 0.0806                         & 21.2891                     & 0.0218                      \\ \hline
-            LightGCN         & recall@10         & 0.1012                            & 0.0773                         & 23.6166                     & 0.0239                      \\ \hline
-            NGCF             & recall@10         & 0.0947                            & 0.0183                         & 80.6758                     & 0.0764                      \\ \hline
-            DGCF             & recall@10         & 0.0901                            & 0.0774                         & 14.0954                     & 0.0127                      \\ \hline
-            BPR              & ndcg@10           & 0.04                              & 0.04                           & 0.0                         & 0.0                         \\ \hline
-            CFKG             & ndcg@10           & 0.0687                            & 0.0687                         & 0.0                         & 0.0                         \\ \hline
-            CKE              & ndcg@10           & 0.0539                            & 0.0532                         & 1.2987                      & 0.0007                      \\ \hline
-            DMF              & ndcg@10           & 0.0359                            & 0.0359                         & 0.0                         & 0.0                         \\ \hline
-            KGCN             & ndcg@10           & 0.0621                            & 0.0621                         & 0.0                         & 0.0                         \\ \hline
-            KGNNLS           & ndcg@10           & 0.0621                            & 0.0621                         & 0.0                         & 0.0                         \\ \hline
-            LINE             & ndcg@10           & 0.0261                            & 0.0261                         & 0.0                         & 0.0                         \\ \hline
-            MultiDAE         & ndcg@10           & 0.0522                            & 0.0419                         & 19.7318                     & 0.0103                      \\ \hline
-            LightGCN         & ndcg@10           & 0.0523                            & 0.0399                         & 23.7094                     & 0.0124                      \\ \hline
-            NGCF             & ndcg@10           & 0.0488                            & 0.009                          & 81.5574                     & 0.0398                      \\ \hline
-            DGCF             & ndcg@10           & 0.0464                            & 0.0397                         & 14.4397                     & 0.0067                      \\ \hline
-            BPR              & averagepopularity@10 & 877.7191                       & 877.7191                       & 0.0                         & 0.0                         \\ \hline
-            CFKG             & averagepopularity@10 & 686.1384                       & 686.1384                       & 0.0                         & 0.0                         \\ \hline
-            CKE              & averagepopularity@10 & 492.1156                       & 507.6022                       & -3.1469                     & -15.4866                    \\ \hline
-            DMF              & averagepopularity@10 & 872.5193                       & 872.5193                       & 0.0                         & 0.0                         \\ \hline
-            KGCN             & averagepopularity@10 & 635.7879                       & 635.7879                       & 0.0                         & 0.0                         \\ \hline
-            KGNNLS           & averagepopularity@10 & 635.7866                       & 635.7866                       & 0.0                         & 0.0                         \\ \hline
-            LINE             & averagepopularity@10 & 244.7699                       & 244.7699                       & 0.0                         & 0.0                         \\ \hline
-            MultiDAE         & averagepopularity@10 & 700.0905                       & 929.5664                       & -32.778                     & -229.4759                   \\ \hline
-            LightGCN         & averagepopularity@10 & 680.2857                       & 902.6965                       & -32.6937                    & -222.4108                   \\ \hline
-            NGCF             & averagepopularity@10 & 734.8359                       & 112.7163                       & 84.661                      & 622.1196                    \\ \hline
-            DGCF             & averagepopularity@10 & 742.4452                       & 892.5034                       & -20.2114                    & -150.0582                   \\ \hline
-            BPR              & giniindex@10       & 0.9991                           & 0.9991                         & 0.0                         & 0.0                         \\ \hline
-            CFKG             & giniindex@10       & 0.9989                           & 0.9989                         & 0.0                         & 0.0                         \\ \hline
-            CKE              & giniindex@10       & 0.9926                           & 0.9929                         & -0.0302                    & -0.0003                     \\ \hline
-            DMF              & giniindex@10       & 0.9996                           & 0.9996                         & 0.0                         & 0.0                         \\ \hline
-            KGCN             & giniindex@10       & 0.9978                           & 0.9978                         & 0.0                         & 0.0                         \\ \hline
-            KGNNLS           & giniindex@10       & 0.9978                           & 0.9978                         & 0.0                         & 0.0                         \\ \hline
-            LINE             & giniindex@10       & 0.984                            & 0.984                          & 0.0                         & 0.0                         \\ \hline
-            MultiDAE         & giniindex@10       & 0.998                            & 0.9995                         & -0.1503                    & -0.0015                     \\ \hline
-            LightGCN         & giniindex@10       & 0.9953                           & 0.9993                          & -0.4019                    & -0.004                          \\ \hline
-            NGCF             & giniindex@10       & 0.9865                           & 0.8987                         & 8.9002                      & 0.0878                      \\ \hline
-            DGCF             & giniindex@10       & 0.996                           & 0.9993                         & -0.3313                    & -0.0033                     \\ \hline
+            \multirow{11}{*}{recall@10} & BPR & 0.0772 & 0.0772 & 0.0 & 0.0 \\ \cline{2-6}
+                                        & CFKG & 0.1387 & 0.1387 & 0.0 & 0.0 \\ \cline{2-6}
+                                        & CKE & 0.1078 & 0.1066 & -0.0121 & -1.1257 \\ \cline{2-6}
+                                        & DMF & 0.0698 & 0.0698 & 0.0 & 0.0 \\ \cline{2-6}
+                                        & KGCN & 0.1299 & 0.1299 & 0.0 & 0.0 \\ \cline{2-6}
+                                        & KGNNLS & 0.1299 & 0.1299 & 0.0 & 0.0 \\ \cline{2-6}
+                                        & LINE & 0.0496 & 0.0496 & 0.0 & 0.0 \\ \cline{2-6}
+                                        & MultiDAE & 0.0806 & 0.1024 & 0.0218 & 21.2891 \\ \cline{2-6}
+                                        & LightGCN & 0.0773 & 0.1012 & 0.0239 & 23.6166 \\ \cline{2-6}
+                                        & NGCF & 0.0183 & 0.0947 & 0.0764 & 80.6758 \\\cline{2-6}
+                                        & DGCF & 0.0774 & 0.0901 & 0.0127 & 14.0954 \\ \cline{2-6}
+            \hline
+            \multirow{11}{*}{ndcg@10} & BPR & 0.04 & 0.04 & 0.0 & 0.0 \\ \cline{2-6}
+                                      & CFKG & 0.0687 & 0.0687 & 0.0 & 0.0 \\ \cline{2-6}
+                                      & CKE & 0.0532 & 0.0539 & 0.0007 & 1.2987 \\ \cline{2-6}
+                                      & DMF & 0.0359 & 0.0359 & 0.0 & 0.0 \\ \cline{2-6}
+                                      & KGCN & 0.0621 & 0.0621 & 0.0 & 0.0 \\ \cline{2-6}
+                                      & KGNNLS & 0.0621 & 0.0621 & 0.0 & 0.0 \\ \cline{2-6}
+                                      & LINE & 0.0261 & 0.0261 & 0.0 & 0.0 \\ \cline{2-6}
+                                      & MultiDAE & 0.0419 & 0.0522 & 0.0103 & 19.7318 \\ \cline{2-6}
+                                      & LightGCN & 0.0399 & 0.0523 & 0.0124 & 23.7094 \\ \cline{2-6}
+                                      & NGCF & 0.009 & 0.0488 & 0.0398 & 81.5574 \\ \cline{2-6}
+                                      & DGCF & 0.0397 & 0.0464 & 0.0067 & 14.4397 \\ \cline{2-6}
+            \hline
+            \multirow{11}{*}{averagepopularity@10} & BPR & 877.7191 & 877.7191 & 0.0 & 0.0 \\ \cline{2-6}
+                                                  & CFKG & 686.1384 & 686.1384 & 0.0 & 0.0 \\ \cline{2-6}
+                                                  & CKE & 507.6022 & 492.1156 & -15.4866 & -3.1469 \\ \cline{2-6}
+                                                  & DMF & 872.5193 & 872.5193 & 0.0 & 0.0 \\ \cline{2-6}
+                                                  & KGCN & 635.7879 & 635.7879 & 0.0 & 0.0 \\ \cline{2-6}
+                                                  & KGNNLS & 635.7866 & 635.7866 & 0.0 & 0.0 \\\cline{2-6}
+                                                  & LINE & 244.7699 & 244.7699 & 0.0 & 0.0 \\ \cline{2-6}
+                                                  & MultiDAE & 929.5664 & 700.0905 & -229.4759 & -32.778 \\ \cline{2-6}
+                                                  & LightGCN & 902.6965 & 680.2857 & -222.4108 & -32.6937 \\ \cline{2-6}
+                                                  & NGCF & 112.7163 & 734.8359 & 622.1196 & 84.661 \\ \cline{2-6}
+                                                  & DGCF & 892.5034 & 742.4452 & -150.0582 & -20.2114 \\ \cline{2-6}
+            \hline
+            \multirow{11}{*}{giniindex@10} & BPR & 0.9991 & 0.9991 & 0.0 & 0.0 \\ \cline{2-6}
+                                            & CFKG & 0.9989 & 0.9989 & 0.0 & 0.0 \\ \cline{2-6}
+                                            & CKE & 0.9929 & 0.9926 & -0.0003 & -0.0302 \\ \cline{2-6}
+                                            & DMF & 0.9996 & 0.9996 & 0.0 & 0.0 \\ \cline{2-6}
+                                            & KGCN & 0.9978 & 0.9978 & 0.0 & 0.0 \\ \cline{2-6}
+                                            & KGNNLS & 0.9978 & 0.9978 & 0.0 & 0.0 \\ \cline{2-6}
+                                            & LINE & 0.984 & 0.984 & 0.0 & 0.0 \\ \cline{2-6}
+                                            & MultiDAE & 0.9995 & 0.998 & -0.0015 & -0.1503 \\ \cline{2-6}
+                                            & LightGCN & 0.9993 & 0.9953 & -0.004 & -0.4019 \\ \cline{2-6}
+                                            & NGCF & 0.8987 & 0.9865 & 0.0878 & 8.9002 \\ \cline{2-6}
+                                            & DGCF & 0.9993 & 0.996 & -0.0033 & -0.3313 \\ \cline{2-6}
+            \hline
         \end{tabular}
     }
     \caption{Confronto degli score tra criteri e modelli}
 \end{table}
+
 
 
 
@@ -592,27 +562,27 @@ Un anomalia si può notare per NGCF, che ha subito una riduzione delle performan
     \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|c|}
         \hline
-        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni} & \textbf{Riduzione}\\
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{Riduzione} & \textbf{\% riduzione emissioni}\\
         \hline
-        BPR & 34.3235 & 3.2958 & 90.398 & 31.0277\\
+        BPR & 34.3235 & 3.2958 & 31.0277 & 90.398\\
         \hline
-        CKFG & 53.7798 & 2.4515 & 95.4416 & 51.3283\\
+        CKFG & 53.7798 & 2.4515 & 51.3283 & 95.4416\\
         \hline
-        CKE & 21.1537 & 1.5824 & 92.5194 & 19.5713\\
+        CKE & 21.1537 & 1.5824 & 19.5713 & 92.5194\\
         \hline
-        DMF & 22.9403 & 8.8401 & 61.4649 & 14.1002\\
+        DMF & 22.9403 & 8.8401 & 14.1002 & 61.4649\\
         \hline
-        KGCN & 45.1294 & 2.7897 & 93.8185 & 42.3397\\
+        KGCN & 45.1294 & 2.7897 & 42.3397 & 93.8185\\
         \hline
-        KGNNLS & 40.1533 & 2.8432 & 92.9192 & 37.3101\\
+        KGNNLS & 40.1533 & 2.8432 & 37.3101 & 92.9192\\
         \hline
-        LINE & 32.5426 & 3.2539 & 90.0011 & 29.2887\\
+        LINE & 32.5426 & 3.2539 & 29.2887 & 90.0011\\
         \hline
-        MultiDAE & 30.3706 & 3.2749 & 89.2169 & 27.0957\\
+        MultiDAE & 30.3706 & 3.2749 & 27.0957 & 89.2169\\
         \hline
-        LightGCN & 91.732 & 4.3526 & 95.2551 & 87.3794\\
+        LightGCN & 91.732 & 4.3526 & 87.3794 & 95.2551\\
         \hline
-        NGCF & 49.55 & 4.0757 & 91.7745 & 45.4743\\
+        NGCF & 49.55 & 4.0757 & 45.4743 & 91.7745\\
         \hline
     \end{tabular}
     }
@@ -652,54 +622,57 @@ Un anomalia si può notare per NGCF, che ha subito una riduzione delle performan
 \begin{table}[H]
     \centering
     \resizebox{\textwidth}{!}{
-        \begin{tabular}{|c|c|c|c|c|c|}
-    \hline
-    \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score} & \textbf{Riduzione} \\ \hline
-    \hline
-    BPR              & recall@10         & 0.0393                        & 0.0214                          & 45.5471                               & 0.0179                                \\ \hline
-    CFKG             & recall@10         & 0.0929                        & 0.0243                          & 73.8428                               & 0.0686                                \\ \hline
-    CKE              & recall@10         & 0.0977                        & 0.0532                          & 45.5476                               & 0.0445                                \\ \hline
-    DMF              & recall@10         & 0.0216                        & 0.021                           & 2.7778                                & 0.0006                                \\ \hline
-    KGCN             & recall@10         & 0.0644                        & 0.0334                          & 48.1366                               & 0.031                                 \\ \hline
-    KGNNLS           & recall@10         & 0.0625                        & 0.0333                          & 46.72                                 & 0.0292                                \\ \hline
-    LINE             & recall@10         & 0.0391                        & 0.0192                          & 50.8951                               & 0.0199                                \\ \hline
-    MultiDAE         & recall@10         & 0.0609                        & 0.0206                          & 66.1741                               & 0.0403                                \\ \hline
-    LightGCN         & recall@10         & 0.0526                        & 0.0196                          & 62.7376                               & 0.033                                 \\ \hline
-    NGCF             & recall@10         & 0.0374                        & 0.017                           & 54.5455                               & 0.0204                                \\ \hline
-    BPR              & ndcg@10           & 0.0357                        & 0.0202                          & 43.4174                               & 0.0155                                \\ \hline
-    CFKG             & ndcg@10           & 0.0556                        & 0.0135                          & 75.7194                               & 0.0421                                \\ \hline
-    CKE              & ndcg@10           & 0.0585                        & 0.0309                          & 47.1795                               & 0.0276                                \\ \hline
-    DMF              & ndcg@10           & 0.0208                        & 0.0199                          & 4.3269                                & 0.0009                                \\ \hline
-    KGCN             & ndcg@10           & 0.0373                        & 0.0189                          & 49.3298                               & 0.0184                                \\ \hline
-    KGNNLS           & ndcg@10           & 0.0363                        & 0.0188                          & 48.2094                               & 0.0175                                \\ \hline
-    LINE             & ndcg@10           & 0.0342                        & 0.0189                          & 44.7368                               & 0.0153                                \\ \hline
-    MultiDAE         & ndcg@10           & 0.0543                        & 0.0192                          & 64.6409                               & 0.0351                                \\ \hline
-    LightGCN         & ndcg@10           & 0.0472                        & 0.0185                          & 60.8051                               & 0.0287                                \\ \hline
-    NGCF             & ndcg@10           & 0.0339                        & 0.0166                          & 51.0324                               & 0.0173                                \\ \hline
-    BPR              & avgpopularity@10 & 109.4148                      & 220.0387                        & -101.1051                              & -110.6239                             \\ \hline
-    CFKG             & avgpopularity@10 & 122.3777                      & 366.0359                        & -199.1034                             & -243.6582                             \\ \hline
-    CKE              & avgpopularity@10 & 117.927                       & 229.8594                        & -94.9167                              & -111.9324                             \\ \hline
-    DMF              & avgpopularity@10 & 158.1008                      & 156.3042                        & 1.1364                                & 1.7966                                \\ \hline
-    KGCN             & avgpopularity@10 & 140.0346                      & 256.0119                        & -82.8205                              & -115.9773                             \\ \hline
-    KGNNLS           & avgpopularity@10 & 147.1768                      & 256.0278                        & -73.9593                              & -108.851                              \\ \hline
-    LINE             & avgpopularity@10 & 58.1057                       & 100.9865                        & -73.7979                              & -42.8808                              \\ \hline
-    MultiDAE         & avgpopularity@10 & 76.5618                       & 207.1265                        & -170.535                              & -130.5647                             \\ \hline
-    LightGCN         & avgpopularity@10 & 105.7397                      & 252.0464                        & -138.365                              & -146.3067                             \\ \hline
-    NGCF             & avgpopularity@10 & 113.2036                      & 70.9028                         & 37.367                                & 42.3008                               \\ \hline
-    BPR              & giniindex@10     & 0.9007                        & 0.9926                          & -10.2032                              & -0.0919                               \\ \hline
-    CFKG             & giniindex@10     & 0.8093                        & 0.9981                          & -23.3288                              & -0.1888                               \\ \hline
-    CKE              & giniindex@10     & 0.8287                        & 0.9862                          & -19.0057                              & -0.1575                               \\ \hline
-    DMF              & giniindex@10     & 0.9858                        & 0.9875                          & -0.1724                               & -0.0017                               \\ \hline
-    KGCN             & giniindex@10     & 0.8637                        & 0.9892                          & -14.5305                              & -0.1255                               \\ \hline
-    KGNNLS           & giniindex@10     & 0.8828                        & 0.9892                          & -12.0526                              & -0.1064                               \\ \hline
-    LINE             & giniindex@10     & 0.7542                        & 0.9807                          & -30.0318                              & -0.2265                               \\ \hline
-    MultiDAE         & giniindex@10     & 0.7543                        & 0.9938                          & -31.7513                              & -0.2395                               \\ \hline
-    LightGCN         & giniindex@10     & 0.8761                        & 0.9964                          & -13.7313                              & -0.1203                               \\ \hline
-    NGCF             & giniindex@10     & 0.9011                        & 0.7956                          & 11.7079                               & 0.1055                                \\ \hline
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        \textbf{Metrica} & \textbf{Modello} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{Riduzione} & \textbf{\% riduzione score} \\ \hline
+        \multirow{11}{*}{recall@10} & BPR & 0.0393 & 0.0214 & 0.0179 & 45.5471 \\ \cline{2-6} 
+                                     & CFKG & 0.0929 & 0.0243 & 0.0686 & 73.8428 \\ \cline{2-6} 
+                                     & CKE & 0.0977 & 0.0532 & 0.0445 & 45.5476 \\ \cline{2-6} 
+                                     & DMF & 0.0216 & 0.021 & 0.0006 & 2.7778 \\ \cline{2-6} 
+                                     & KGCN & 0.0644 & 0.0334 & 0.031 & 48.1366 \\ \cline{2-6} 
+                                     & KGNNLS & 0.0625 & 0.0333 & 0.0292 & 46.72 \\ \cline{2-6} 
+                                     & LINE & 0.0391 & 0.0192 & 0.0199 & 50.8951 \\ \cline{2-6} 
+                                     & MultiDAE & 0.0609 & 0.0206 & 0.0403 & 66.1741 \\ \cline{2-6} 
+                                     & LightGCN & 0.0526 & 0.0196 & 0.033 & 62.7376 \\ \cline{2-6} 
+                                     & NGCF & 0.0374 & 0.017 & 0.0204 & 54.5455 \\ \cline{2-6} 
+        \hline
+        \multirow{11}{*}{ndcg@10} & BPR & 0.0357 & 0.0202 & 0.0155 & 43.4174 \\ \cline{2-6} 
+                                   & CFKG & 0.0556 & 0.0135 & 0.0421 & 75.7194 \\ \cline{2-6} 
+                                   & CKE & 0.0585 & 0.0309 & 0.0276 & 47.1795 \\ \cline{2-6} 
+                                   & DMF & 0.0208 & 0.0199 & 0.0009 & 4.3269 \\ \cline{2-6} 
+                                   & KGCN & 0.0373 & 0.0189 & 0.0184 & 49.3298 \\ \cline{2-6} 
+                                   & KGNNLS & 0.0363 & 0.0188 & 0.0175 & 48.2094 \\ \cline{2-6} 
+                                   & LINE & 0.0342 & 0.0189 & 0.0153 & 44.7368 \\ \cline{2-6} 
+                                   & MultiDAE & 0.0543 & 0.0192 & 0.0351 & 64.6409 \\ \cline{2-6} 
+                                   & LightGCN & 0.0472 & 0.0185 & 0.0287 & 60.8051 \\ \cline{2-6} 
+                                   & NGCF & 0.0339 & 0.0166 & 0.0173 & 51.0324 \\ \cline{2-6} 
+        \hline
+        \multirow{11}{*}{avgpopularity@10} & BPR & 109.4148 & 220.0387 & -110.6239 & -101.1051 \\ \cline{2-6} 
+                                            & CFKG & 122.3777 & 366.0359 & -243.6582 & -199.1034 \\ \cline{2-6} 
+                                            & CKE & 117.927 & 229.8594 & -111.9324 & -94.9167 \\ \cline{2-6} 
+                                            & DMF & 158.1008 & 156.3042 & 1.7966 & 1.1364 \\ \cline{2-6} 
+                                            & KGCN & 140.0346 & 256.0119 & -115.9773 & -82.8205 \\ \cline{2-6} 
+                                            & KGNNLS & 147.1768 & 256.0278 & -108.851 & -73.9593 \\ \cline{2-6} 
+                                            & LINE & 58.1057 & 100.9865 & -42.8808 & -73.7979 \\ \cline{2-6} 
+                                            & MultiDAE & 76.5618 & 207.1265 & -130.5647 & -170.535 \\ \cline{2-6} 
+                                            & LightGCN & 105.7397 & 252.0464 & -146.3067 & -138.365 \\ \cline{2-6} 
+                                            & NGCF & 113.2036 & 70.9028 & 42.3008 & 37.367 \\ \cline{2-6} 
+        \hline
+        \multirow{11}{*}{giniindex@10} & BPR & 0.9007 & 0.9926 & -0.0919 & -10.2032 \\ \cline{2-6} 
+                                        & CFKG & 0.8093 & 0.9981 & -0.1888 & -23.3288 \\ \cline{2-6} 
+                                        & CKE & 0.8287 & 0.9862 & -0.1575 & -19.0057 \\ \cline{2-6} 
+                                        & DMF & 0.9858 & 0.9875 & -0.0017 & -0.1724 \\ \cline{2-6} 
+                                        & KGCN & 0.8637 & 0.9892 & -0.1255 & -14.5305 \\ \cline{2-6} 
+                                        & KGNNLS & 0.8828 & 0.9892 & -0.1064 & -12.0526 \\ \cline{2-6} 
+                                        & LINE & 0.7542 & 0.9807 & -0.2265 & -30.0318 \\ \cline{2-6} 
+                                        & MultiDAE & 0.7543 & 0.9938 & -0.2395 & -31.7513 \\ \cline{2-6} 
+                                        & LightGCN & 0.8761 & 0.9964 & -0.1203 & -13.7313 \\ \cline{2-6} 
+                                        & NGCF & 0.9011 & 0.7956 & 0.1055 & 11.7079 \\ \cline{2-6} 
+        \hline
     \end{tabular}
     }
     \caption{Performance dei modelli su diverse metriche e dataset}
-    \end{table}
+\end{table}
 
 
 \begin{figure}[H]
@@ -754,34 +727,35 @@ Tenendo conto dei parametri utilizzati e delle dimensioni dei dataset è evident
 
 
 
+
 \begin{table}[H]
     \centering
     \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|c|}
         \hline
-        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni} & \textbf{Riduzione}\\
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{Riduzione} & \textbf{\% riduzione emissioni} \\
         \hline
-        BPR & 3.9484 & 2.2898 & 42.0068 & 1.6586\\
+        BPR & 3.9484 & 2.2898 & 1.6586 & 42.0068 \\
         \hline
-        CKFG & 5.881 & 1.7411 & 70.3944 & 4.1399\\
+        CKFG & 5.881 & 1.7411 & 4.1399 & 70.3944 \\
         \hline
-        CKE & 5.6839 & 2.0271 & 64.3357 & 3.6568\\
+        CKE & 5.6839 & 2.0271 & 3.6568 & 64.3357 \\
         \hline
-        DMF & 2.2927 & 1.9885 & 13.2688 & 0.3042\\
+        DMF & 2.2927 & 1.9885 & 0.3042 & 13.2688 \\
         \hline
-        KGCN & 6.8754 & 3.8305 & 44.2875 & 3.0449\\
+        KGCN & 6.8754 & 3.8305 & 3.0449 & 44.2875 \\
         \hline
-        KGNNLS & 7.763 & 1.7384 & 77.607 & 6.0246\\
+        KGNNLS & 7.763 & 1.7384 & 6.0246 & 77.607 \\
         \hline
-        LINE & 1.9129 & 1.4341 & 25.0296 & 0.4788\\
+        LINE & 1.9129 & 1.4341 & 0.4788 & 25.0296 \\
         \hline
-        MultiDAE & 8.0303 & 2.9614 & 63.68 & 5.0689\\
+        MultiDAE & 8.0303 & 2.9614 & 5.0689 & 63.68 \\
         \hline
-        LightGCN & 15.626 & 1.6634 & 89.3547 & 13.9626\\
+        LightGCN & 15.626 & 1.6634 & 13.9626 & 89.3547 \\
         \hline
-        NGCF & 7.7582 & 2.7574 & 64.4576 & 5.0008\\
+        NGCF & 7.7582 & 2.7574 & 5.0008 & 64.4576 \\
         \hline
-        DGCF & 94.903 & 10.4183 & 89.0222 & 84.4847\\
+        DGCF & 94.903 & 10.4183 & 84.4847 & 89.0222 \\
         \hline
 
     \end{tabular}
@@ -817,63 +791,67 @@ Tenendo conto dei parametri utilizzati e delle dimensioni dei dataset è evident
     \caption{Confronto score averagepopularity@10}
 \end{figure}
 
-
 \begin{table}[H]
     \centering
     \resizebox{\textwidth}{!}{
-        \begin{tabular}{|c|c|c|c|c|c|}
-    \hline
-    \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score} & \textbf{Riduzione} \\ \hline
-    \hline
-BPR              & recall@10         & 0.1635                        & 0.1632                           & 0.1835                               & 0.0003                                \\ \hline
-CFKG             & recall@10         & 0.1526                        & 0.1303                           & 14.6134                              & 0.0223                                \\ \hline
-CKE              & recall@10         & 0.1593                        & 0.1494                           & 6.2147                               & 0.0099                                \\ \hline
-DMF              & recall@10         & 0.1432                        & 0.1432                           & 0.0                                  & 0.0                                   \\ \hline
-KGCN             & recall@10         & 0.1422                        & 0.1422                           & 0.0                                  & 0.0                                   \\ \hline
-KGNNLS           & recall@10         & 0.1421                        & 0.1197                           & 15.7635                              & 0.0224                                \\ \hline
-LINE             & recall@10         & 0.1451                        & 0.1451                           & 0.0                                  & 0.0                                   \\ \hline
-MultiDAE         & recall@10         & 0.1799                        & 0.1489                           & 17.2318                              & 0.031                                 \\ \hline
-LightGCN         & recall@10         & 0.173                         & 0.1111                           & 35.7803                              & 0.0619                                \\ \hline
-NGCF             & recall@10         & 0.1586                        & 0.1408                           & 11.2232                              & 0.0178                                \\ \hline
-DGCF             & recall@10         & 0.1656                        & 0.1022                           & 38.285                               & 0.0634                                \\ \hline
-BPR              & ndcg@10           & 0.2554                        & 0.2558                           & -0.1566                              & -0.0004                               \\ \hline
-CFKG             & ndcg@10           & 0.2402                        & 0.221                            & 7.9933                               & 0.0192                                \\ \hline
-CKE              & ndcg@10           & 0.2534                        & 0.244                            & 3.7096                               & 0.0094                                \\ \hline
-DMF              & ndcg@10           & 0.2289                        & 0.2289                           & 0.0                                  & 0.0                                   \\ \hline
-KGCN             & ndcg@10           & 0.232                         & 0.2333                           & -0.5603                              & -0.0013                               \\ \hline
-KGNNLS           & ndcg@10           & 0.2319                        & 0.207                            & 10.7374                              & 0.0249                                \\ \hline
-LINE             & ndcg@10           & 0.2277                        & 0.2277                           & 0.0                                  & 0.0                                   \\ \hline
-MultiDAE         & ndcg@10           & 0.2633                        & 0.2336                           & 11.2799                              & 0.0297                                \\ \hline
-LightGCN         & ndcg@10           & 0.2682                        & 0.1924                           & 28.2625                              & 0.0758                                \\ \hline
-NGCF             & ndcg@10           & 0.2539                        & 0.2378                           & 6.3411                               & 0.0161                                \\ \hline
-DGCF             & ndcg@10           & 0.2613                        & 0.1782                           & 31.8025                              & 0.0831                                \\ \hline
-BPR              & avgpopularity@10 & 1146.3572                     & 1173.1199                        & -2.3346                               & -26.7627                              \\ \hline
-CFKG             & avgpopularity@10 & 1115.4498                     & 1395.6098                        & -25.1163                              & -280.16                               \\ \hline
-CKE              & avgpopularity@10 & 1165.2413                     & 1333.5153                        & -14.4411                              & -168.274                              \\ \hline
-DMF              & avgpopularity@10 & 1379.7292                     & 1379.7292                        & 0.0                                   & 0.0                                   \\ \hline
-KGCN             & avgpopularity@10 & 1188.9582                     & 1193.5298                        & -0.3845                               & -4.5716                               \\ \hline
-KGNNLS           & avgpopularity@10 & 1188.8981                     & 1455.58                          & -22.431                               & -266.6819                             \\ \hline
-LINE             & avgpopularity@10 & 979.498                       & 979.498                          & 0.0                                   & 0.0                                   \\ \hline
-MultiDAE         & avgpopularity@10 & 1137.4597                     & 1335.1498                        & -17.38                                & -197.69                               \\ \hline
-LightGCN         & avgpopularity@10 & 1088.741                      & 1662.4263                        & -52.6925                              & -573.6853                             \\ \hline
-NGCF             & avgpopularity@10 & 1201.8831                     & 1401.4325                        & -16.6031                              & -199.5494                             \\ \hline
-DGCF             & avgpopularity@10 & 1172.6874                     & 1807.8717                        & -54.1648                              & -635.1843                             \\ \hline
-BPR              & giniindex@10     & 0.8839                        & 0.8907                           & -0.7693                               & -0.0068                               \\ \hline
-CFKG             & giniindex@10     & 0.8822                        & 0.9443                           & -7.0392                               & -0.0621                               \\ \hline
-CKE              & giniindex@10     & 0.8894                        & 0.9315                           & -4.7335                               & -0.0421                               \\ \hline
-DMF              & giniindex@10     & 0.9443                        & 0.9443                           & 0.0                                   & 0.0                                   \\ \hline
-KGCN             & giniindex@10     & 0.8992                        & 0.9012                           & -0.2224                               & -0.002                                \\ \hline
-KGNNLS           & giniindex@10     & 0.8992                        & 0.9502                           & -5.6717                               & -0.051                                \\ \hline
-LINE             & giniindex@10     & 0.8904                        & 0.8904                           & 0.0                                   & 0.0                                   \\ \hline
-MultiDAE         & giniindex@10     & 0.875                         & 0.9283                           & -6.0914                               & -0.0533                               \\ \hline
-LightGCN         & giniindex@10     & 0.8759                        & 0.9783                           & -11.6908                              & -0.1024                               \\ \hline
-NGCF             & giniindex@10     & 0.9079                        & 0.9484                           & -4.4608                               & -0.0405                               \\ \hline
-DGCF             & giniindex@10     & 0.8992                        & 0.9845                           & -9.4862                               & -0.0853                               \\ \hline
-\end{tabular}
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        \textbf{Metrica} & \textbf{Modello} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{Riduzione} & \textbf{\% riduzione score} \\ \hline
+        \multirow{11}{*}{recall@10} 
+            & BPR & 0.1635 & 0.1632 & 0.0003 & 0.1835 \\ \cline{2-6} 
+            & CFKG & 0.1526 & 0.1303 & 0.0223 & 14.6134 \\ \cline{2-6} 
+            & CKE & 0.1593 & 0.1494 & 0.0099 & 6.2147 \\ \cline{2-6} 
+            & DMF & 0.1432 & 0.1432 & 0.0 & 0.0 \\ \cline{2-6} 
+            & KGCN & 0.1422 & 0.1422 & 0.0 & 0.0 \\ \cline{2-6} 
+            & KGNNLS & 0.1421 & 0.1197 & 0.0224 & 15.7635 \\ \cline{2-6} 
+            & LINE & 0.1451 & 0.1451 & 0.0 & 0.0 \\ \cline{2-6} 
+            & MultiDAE & 0.1799 & 0.1489 & 0.031 & 17.2318 \\ \cline{2-6} 
+            & LightGCN & 0.173 & 0.1111 & 0.0619 & 35.7803 \\ \cline{2-6} 
+            & NGCF & 0.1586 & 0.1408 & 0.0178 & 11.2232 \\ \cline{2-6} 
+            & DGCF & 0.1656 & 0.1022 & 0.0634 & 38.285 \\ \hline
+
+        \multirow{11}{*}{ndcg@10} 
+            & BPR & 0.2554 & 0.2558 & -0.0004 & -0.1566 \\ \cline{2-6} 
+            & CFKG & 0.2402 & 0.221 & 0.0192 & 7.9933 \\ \cline{2-6} 
+            & CKE & 0.2534 & 0.244 & 0.0094 & 3.7096 \\ \cline{2-6} 
+            & DMF & 0.2289 & 0.2289 & 0.0 & 0.0 \\ \cline{2-6} 
+            & KGCN & 0.232 & 0.2333 & -0.0013 & -0.5603 \\ \cline{2-6} 
+            & KGNNLS & 0.2319 & 0.207 & 0.0249 & 10.7374 \\ \cline{2-6} 
+            & LINE & 0.2277 & 0.2277 & 0.0 & 0.0 \\ \cline{2-6} 
+            & MultiDAE & 0.2633 & 0.2336 & 0.0297 & 11.2799 \\ \cline{2-6} 
+            & LightGCN & 0.2682 & 0.1924 & 0.0758 & 28.2625 \\ \cline{2-6} 
+            & NGCF & 0.2539 & 0.2378 & 0.0161 & 6.3411 \\ \cline{2-6} 
+            & DGCF & 0.2613 & 0.1782 & 0.0831 & 31.8025 \\ \hline
+
+        \multirow{11}{*}{avgpopularity@10} 
+            & BPR & 1146.3572 & 1173.1199 & -26.7627 & -2.3346 \\ \cline{2-6} 
+            & CFKG & 1115.4498 & 1395.6098 & -280.16 & -25.1163 \\ \cline{2-6} 
+            & CKE & 1165.2413 & 1333.5153 & -168.274 & -14.4411 \\ \cline{2-6} 
+            & DMF & 1379.7292 & 1379.7292 & 0.0 & 0.0 \\ \cline{2-6} 
+            & KGCN & 1188.9582 & 1193.5298 & -4.5716 & -0.3845 \\ \cline{2-6} 
+            & KGNNLS & 1188.8981 & 1455.58 & -266.6819 & -22.431 \\ \cline{2-6} 
+            & LINE & 979.498 & 979.498 & 0.0 & 0.0 \\ \cline{2-6} 
+            & MultiDAE & 1137.4597 & 1335.1498 & -197.69 & -17.38 \\ \cline{2-6} 
+            & LightGCN & 1088.741 & 1662.4263 & -573.6853 & -52.6925 \\ \cline{2-6} 
+            & NGCF & 1201.8831 & 1401.4325 & -199.5494 & -16.6031 \\ \cline{2-6} 
+            & DGCF & 1172.6874 & 1807.8717 & -635.1843 & -54.1648 \\ \hline
+
+        \multirow{11}{*}{giniindex@10} 
+            & BPR & 0.8839 & 0.8907 & -0.0068 & -0.7693 \\ \cline{2-6} 
+            & CFKG & 0.8822 & 0.9443 & -0.0621 & -7.0392 \\ \cline{2-6} 
+            & CKE & 0.8894 & 0.9315 & -0.0421 & -4.7335 \\ \cline{2-6} 
+            & DMF & 0.9443 & 0.9443 & 0.0 & 0.0 \\ \cline{2-6} 
+            & KGCN & 0.8992 & 0.9012 & -0.002 & -0.2224 \\ \cline{2-6} 
+            & KGNNLS & 0.8992 & 0.9502 & -0.051 & -5.6717 \\ \cline{2-6} 
+            & LINE & 0.8904 & 0.8904 & 0.0 & 0.0 \\ \cline{2-6} 
+            & MultiDAE & 0.875 & 0.9283 & -0.0533 & -6.0914 \\ \cline{2-6} 
+            & LightGCN & 0.8759 & 0.9783 & -0.1024 & -11.6908 \\ \cline{2-6} 
+            & NGCF & 0.9079 & 0.9484 & -0.0405 & -4.4608 \\ \cline{2-6} 
+            & DGCF & 0.8992 & 0.9845 & -0.0853 & -9.4862 \\ \hline
+    \end{tabular}
     }
     \caption{Performance dei modelli su diverse metriche e dataset}
-    \end{table}
-
+\end{table}
 
 \begin{figure}[H]
     \centering
@@ -924,20 +902,19 @@ DGCF             & giniindex@10     & 0.8992                        & 0.9845    
     \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|c|}
         \hline
-        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni} & \textbf{Riduzione}\\
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{Riduzione} & \textbf{\% riduzione emissioni}\\
         \hline
-        BPR & 3.9484 & 2.5219 & 36.1284 & 1.4265\\ \hline
-        CKFG & 5.881 & 1.8872 & 67.9104 & 3.9938\\ \hline
-        CKE & 5.6839 & 2.0466 & 63.9932 & 3.6373\\ \hline
-        DMF & 2.2927 & 2.0856 & 9.0319  & 0.2071\\ \hline
-        KGCN & 6.8754 & 3.796 & 44.7884 & 3.0794\\ \hline
-        KGNNLS & 7.763 & 4.3657 & 43.7626 & 3.3973\\ \hline
-        LINE & 1.9129 & 1.4314 & 25.1721 & 0.4815\\ \hline
-        MultiDAE & 8.0303 & 3.9614 & 50.4865 & 4.0689\\ \hline
-        LightGCN & 15.626 & 1.9001 & 87.8402 & 13.7259\\ \hline
-        NGCF & 7.7582 & 2.6923 & 65.2979 & 5.0659\\ \hline
-        DGCF & 94.903 & 10.4109 & 89.03 & 84.4921\\ \hline
-
+        BPR & 3.9484 & 2.5219 & 1.4265 & 36.1284 \\ \hline
+        CKFG & 5.881 & 1.8872 & 3.9938 & 67.9104 \\ \hline
+        CKE & 5.6839 & 2.0466 & 3.6373 & 63.9932 \\ \hline
+        DMF & 2.2927 & 2.0856 & 0.2071 & 9.0319 \\ \hline
+        KGCN & 6.8754 & 3.796 & 3.0794 & 44.7884 \\ \hline
+        KGNNLS & 7.763 & 4.3657 & 3.3973 & 43.7626 \\ \hline
+        LINE & 1.9129 & 1.4314 & 0.4815 & 25.1721 \\ \hline
+        MultiDAE & 8.0303 & 3.9614 & 4.0689 & 50.4865 \\ \hline
+        LightGCN & 15.626 & 1.9001 & 13.7259 & 87.8402 \\ \hline
+        NGCF & 7.7582 & 2.6923 & 5.0659 & 65.2979 \\ \hline
+        DGCF & 94.903 & 10.4109 & 84.4921 & 89.03 \\ \hline
     \end{tabular}
     }
     \caption{Confronto delle emissioni}
@@ -976,58 +953,64 @@ DGCF             & giniindex@10     & 0.8992                        & 0.9845    
 \begin{table}[H]
     \centering
     \resizebox{\textwidth}{!}{
-        \begin{tabular}{|c|c|c|c|c|c|}
-    \hline
-    \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score} & \textbf{Riduzione} \\ \hline
-    \hline
-    BPR & recall@10 & 0.1635 & 0.1635 & 0.0 & 0.0 \\ \hline
-    CFKG & recall@10 & 0.1526 & 0.1301 & 14.7444 & 0.0225 \\ \hline
-    CKE & recall@10 & 0.1593 & 0.1494 & 6.2147 & 0.0099 \\ \hline
-    DMF & recall@10 & 0.1432 & 0.1432 & 0.0 & 0.0 \\ \hline
-    KGCN & recall@10 & 0.1422 & 0.1422 & 0.0 & 0.0 \\ \hline
-    KGNNLS & recall@10 & 0.1421 & 0.1423 & -0.1407 & -0.0002 \\ \hline
-    LINE & recall@10 & 0.1451 & 0.1451 & 0.0 & 0.0 \\ \hline
-    MultiDAE & recall@10 & 0.1799 & 0.1619 & 10.0056 & 0.018 \\ \hline
-    LightGCN & recall@10 & 0.173 & 0.1161 & 32.8902 & 0.0569 \\ \hline
-    NGCF & recall@10 & 0.1586 & 0.1408 & 11.2232 & 0.0178 \\ \hline
-    DGCF & recall@10 & 0.1656 & 0.1021 & 38.3454 & 0.0635 \\ \hline
-    BPR & ndcg@10 & 0.2554 & 0.2554 & 0.0 & 0.0 \\ \hline
-    CFKG & ndcg@10 & 0.2402 & 0.2209 & 8.035 & 0.0193 \\ \hline
-    CKE & ndcg@10 & 0.2534 & 0.244 & 3.7096 & 0.0094 \\ \hline
-    DMF & ndcg@10 & 0.2289 & 0.2289 & 0.0 & 0.0 \\ \hline
-    KGCN & ndcg@10 & 0.232 & 0.2333 & -0.5603 & -0.0013 \\ \hline
-    KGNNLS & ndcg@10 & 0.2319 & 0.2334 & -0.6468 & -0.0015 \\ \hline
-    LINE & ndcg@10 & 0.2277 & 0.2277 & 0.0 & 0.0 \\ \hline
-    MultiDAE & ndcg@10 & 0.2633 & 0.247 & 6.1907 & 0.0163 \\ \hline
-    LightGCN & ndcg@10 & 0.2682 & 0.2002 & 25.3542 & 0.068 \\ \\\hline
-    NGCF & ndcg@10 & 0.2539 & 0.2378 & 6.3411 & 0.0161 \\ \hline
-    DGCF & ndcg@10 & 0.2613 & 0.1781 & 31.8408 & 0.0832 \\ \hline
-    BPR & averagepopularity@10 & 1146.3572 & 1146.3572 & 0.0 & 0.0 \\ \hline
-    CFKG & averagepopularity@10 & 1115.4498 & 1361.1447 & -22.0265 & -245.6949 \\ \hline
-    CKE & averagepopularity@10 & 1165.2413 & 1333.5153 & -14.4411 & -168.274 \\ \hline
-    DMF & averagepopularity@10 & 1379.7292 & 1379.7292 & 0.0 & 0.0 \\ \hline
-    KGCN & averagepopularity@10 & 1188.9582 & 1193.5298 & -0.3845 & -4.5716 \\ \hline
-    KGNNLS & averagepopularity@10 & 1188.8981 & 1193.7263 & -0.4061 & -4.8282 \\ \hline
-    LINE & averagepopularity@10 & 979.498 & 979.498 & 0.0 & 0.0 \\ \hline
-    MultiDAE & averagepopularity@10 & 1137.4597 & 1261.7868 & -10.9302 & -124.3271 \\ \\\hline
-    LightGCN & averagepopularity@10 & 1088.741 & 1629.6349 & -49.6807 & -540.8939 \\ \\\hline
-    NGCF & averagepopularity@10 & 1201.8831 & 1401.4325 & -16.6031 & -199.5494 \\ \hline
-    DGCF & averagepopularity@10 & 1172.6874 & 1807.9008 & -54.1673 & -635.2134 \\ \hline
-    BPR & giniindex@10 & 0.8839 & 0.8839 & 0.0 & 0.0 \\ \hline
-    CFKG & giniindex@10 & 0.8822 & 0.9401 & -6.5631 & -0.0579 \\ \hline
-    CKE & giniindex@10 & 0.8894 & 0.9315 & -4.7335 & -0.0421 \\ \hline
-    DMF & giniindex@10 & 0.9443 & 0.9443 & 0.0 & 0.0 \\ \hline
-    KGCN & giniindex@10 & 0.8992 & 0.9012 & -0.2224 & -0.002 \\ \hline
-    KGNNLS & giniindex@10 & 0.8992 & 0.9013 & -0.2335 & -0.0021 \\ \hline
-    LINE & giniindex@10 & 0.8904 & 0.8904 & 0.0 & 0.0 \\ \hline
-    MultiDAE & giniindex@10 & 0.875 & 0.9101 & -4.0114 & -0.0351 \\ \\\hline
-    LightGCN & giniindex@10 & 0.8759 & 0.9748 & -11.2912 & -0.0989 \\ \\\hline
-    NGCF & giniindex@10 & 0.9079 & 0.9484 & -4.4608 & -0.0405 \\ \hline
-    DGCF & giniindex@10 & 0.8992 & 0.9845 & -9.4862 & -0.0853 \\ \hline
-\end{tabular}
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        \textbf{Metrica} & \textbf{Modello} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{Riduzione} & \textbf{\% riduzione score} \\ \hline
+        \multirow{11}{*}{recall@10} 
+            & BPR & 0.1635 & 0.1635 & 0.0 & 0.0 \\ \cline{2-6} 
+            & CFKG & 0.1526 & 0.1301 & 0.0225 & 14.7444 \\ \cline{2-6} 
+            & CKE & 0.1593 & 0.1494 & 0.0099 & 6.2147 \\ \cline{2-6} 
+            & DMF & 0.1432 & 0.1432 & 0.0 & 0.0 \\ \cline{2-6} 
+            & KGCN & 0.1422 & 0.1422 & 0.0 & 0.0 \\ \cline{2-6} 
+            & KGNNLS & 0.1421 & 0.1423 & -0.0002 & -0.1407 \\ \cline{2-6} 
+            & LINE & 0.1451 & 0.1451 & 0.0 & 0.0 \\ \cline{2-6} 
+            & MultiDAE & 0.1799 & 0.1619 & 0.018 & 10.0056 \\ \cline{2-6} 
+            & LightGCN & 0.173 & 0.1161 & 0.0569 & 32.8902 \\ \cline{2-6} 
+            & NGCF & 0.1586 & 0.1408 & 0.0178 & 11.2232 \\ \cline{2-6} 
+            & DGCF & 0.1656 & 0.1021 & 0.0635 & 38.3454 \\ \hline
+
+        \multirow{11}{*}{ndcg@10} 
+            & BPR & 0.2554 & 0.2554 & 0.0 & 0.0 \\ \cline{2-6} 
+            & CFKG & 0.2402 & 0.2209 & 0.0193 & 8.035 \\ \cline{2-6} 
+            & CKE & 0.2534 & 0.244 & 0.0094 & 3.7096 \\ \cline{2-6} 
+            & DMF & 0.2289 & 0.2289 & 0.0 & 0.0 \\ \cline{2-6} 
+            & KGCN & 0.232 & 0.2333 & -0.0013 & -0.5603 \\ \cline{2-6} 
+            & KGNNLS & 0.2319 & 0.2334 & -0.0015 & -0.6468 \\ \cline{2-6} 
+            & LINE & 0.2277 & 0.2277 & 0.0 & 0.0 \\ \cline{2-6} 
+            & MultiDAE & 0.2633 & 0.247 & 0.0163 & 6.1907 \\ \cline{2-6} 
+            & LightGCN & 0.2682 & 0.2002 & 0.068 & 25.3542 \\ \cline{2-6} 
+            & NGCF & 0.2539 & 0.2378 & 0.0161 & 6.3411 \\ \cline{2-6} 
+            & DGCF & 0.2613 & 0.1781 & 0.0832 & 31.8408 \\ \hline
+
+        \multirow{11}{*}{avgpopularity@10} 
+            & BPR & 1146.3572 & 1146.3572 & 0.0 & 0.0 \\ \cline{2-6} 
+            & CFKG & 1115.4498 & 1361.1447 & -245.6949 & -22.0265 \\ \cline{2-6} 
+            & CKE & 1165.2413 & 1333.5153 & -168.274 & -14.4411 \\ \cline{2-6} 
+            & DMF & 1379.7292 & 1379.7292 & 0.0 & 0.0 \\ \cline{2-6} 
+            & KGCN & 1188.9582 & 1193.5298 & -4.5716 & -0.3845 \\ \cline{2-6} 
+            & KGNNLS & 1188.8981 & 1193.7263 & -4.8282 & -0.4061 \\ \cline{2-6} 
+            & LINE & 979.498 & 979.498 & 0.0 & 0.0 \\ \cline{2-6} 
+            & MultiDAE & 1137.4597 & 1261.7868 & -124.3271 & -10.9302 \\ \cline{2-6} 
+            & LightGCN & 1088.741 & 1629.6349 & -540.8939 & -49.6807 \\ \cline{2-6} 
+            & NGCF & 1201.8831 & 1401.4325 & -199.5494 & -16.6031 \\ \cline{2-6} 
+            & DGCF & 1172.6874 & 1807.9008 & -635.2134 & -54.1673 \\ \hline
+
+        \multirow{11}{*}{giniindex@10} 
+            & BPR & 0.8839 & 0.8839 & 0.0 & 0.0 \\ \cline{2-6} 
+            & CFKG & 0.8822 & 0.9401 & -0.0579 & -6.5631 \\ \cline{2-6} 
+            & CKE & 0.8894 & 0.9315 & -0.0421 & -4.7335 \\ \cline{2-6} 
+            & DMF & 0.9443 & 0.9443 & 0.0 & 0.0 \\ \cline{2-6} 
+            & KGCN & 0.8992 & 0.9012 & -0.002 & -0.2224 \\ \cline{2-6} 
+            & KGNNLS & 0.8992 & 0.9013 & -0.0021 & -0.2335 \\ \cline{2-6} 
+            & LINE & 0.8904 & 0.8904 & 0.0 & 0.0 \\ \cline{2-6} 
+            & MultiDAE & 0.875 & 0.9101 & -0.0351 & -4.0114 \\ \cline{2-6} 
+            & LightGCN & 0.8759 & 0.9748 & -0.0989 & -11.2912 \\ \cline{2-6} 
+            & NGCF & 0.9079 & 0.9484 & -0.0405 & -4.4608 \\ \cline{2-6} 
+            & DGCF & 0.8992 & 0.9845 & -0.0853 & -9.4862 \\ \hline
+    \end{tabular}
     }
     \caption{Performance dei modelli su diverse metriche e dataset}
-    \end{table}
+\end{table}
 
 
 \begin{figure}[H]
@@ -1074,28 +1057,28 @@ DGCF             & giniindex@10     & 0.8992                        & 0.9845    
 
 
 
+
 \begin{table}[H]
     \centering
     \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|c|}
         \hline
-        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni} & \textbf{Riduzione}\\
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{Riduzione} & \textbf{\% riduzione emissioni}\\
         \hline
-        BPR & 3.9484 & 2.483 & 37.1154 & 1.4654\\ \hline
-        CKFG & 5.881 & 1.8037 & 69.3305 & 4.0773\\ \hline
-        CKE & 5.6839 & 2.0806 & 63.3944 & 3.6033\\ \hline
-        DMF & 2.2927 & 2.9977 & 12.869 & 0.2949\\ \hline
-        KGCN & 6.8754 & 3.9708 & 42.2461 & 2.9046\\ \hline
-        KGNNLS & 7.763 & 1.8709 & 75.8996 & 5.8921\\ \hline
-        LINE & 1.9129 & 1.396 & 27.0205 & 0.5169\\ \hline
-        MultiDAE & 8.0303 & 3.048 & 62.044 & 4.9823\\ \hline
-        LightGCN & 15.626 & 1.7426 & 88.8482 & 13.8834\\ \hline
-        NGCF & 7.7582 & 2.821 & 63.6387 & 4.9372\\ \hline
-        DGCF & 94.903 & 11.8866 & 87.475 & 83.0164\\ \hline
-
+        BPR & 3.9484 & 2.483 & 1.4654 & 37.1154\\ \hline
+        CKFG & 5.881 & 1.8037 & 4.0773 & 69.3305\\ \hline
+        CKE & 5.6839 & 2.0806 & 3.6033 & 63.3944\\ \hline
+        DMF & 2.2927 & 2.9977 & 0.2949 & 12.869\\ \hline
+        KGCN & 6.8754 & 3.9708 & 2.9046 & 42.2461\\ \hline
+        KGNNLS & 7.763 & 1.8709 & 5.8921 & 75.8996\\ \hline
+        LINE & 1.9129 & 1.396 & 0.5169 & 27.0205\\ \hline
+        MultiDAE & 8.0303 & 3.048 & 4.9823 & 62.044\\ \hline
+        LightGCN & 15.626 & 1.7426 & 13.8834 & 88.8482\\ \hline
+        NGCF & 7.7582 & 2.821 & 4.9372 & 63.6387\\ \hline
+        DGCF & 94.903 & 11.8866 & 83.0164 & 87.475\\ \hline
     \end{tabular}
     }
-    \caption{Confronto delle emissioni}
+    \caption{Confronto delle emissioni }
 \end{table}
 
 \noindent Rispetto al primo esperimento la percentuale di riduzioni delle emissioni in generale è diminuita. Rispetto al secondo esperimento, invece, la percentuale di riduzione delle emissioni è diminuita per alcuni modelli e aumentata per altri.
@@ -1132,57 +1115,64 @@ DGCF             & giniindex@10     & 0.8992                        & 0.9845    
     \centering
     \resizebox{\textwidth}{!}{
         \begin{tabular}{|c|c|c|c|c|c|}
-    \hline
-    \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score} & \textbf{Riduzione} \\ \hline
-    \hline
-    BPR & recall@10 & 0.1635 & 0.1635 & 0.0 & 0.0 \\ \hline
-    CFKG & recall@10 & 0.1526 & 0.1301 & 14.7444 & 0.0225 \\ \hline
-    CKE & recall@10 & 0.1593 & 0.1517 & 4.7709 & 0.0076 \\ \hline
-    DMF & recall@10 & 0.1432 & 0.1432 & 0.0 & 0.0 \\ \hline
-    KGCN & recall@10 & 0.1422 & 0.1422 & 0.0 & 0.0 \\ \hline
-    KGNNLS & recall@10 & 0.1421 & 0.1232 & 13.3005 & 0.0189 \\ \hline
-    LINE & recall@10 & 0.1451 & 0.1451 & 0.0 & 0.0 \\ \hline
-    MultiDAE & recall@10 & 0.1799 & 0.1531 & 14.8972 & 0.0268 \\ \hline
-    LightGCN & recall@10 & 0.173 & 0.1126 & 34.9133 & 0.0604 \\ \hline
-    NGCF & recall@10 & 0.1586 & 0.1438 & 9.3317 & 0.0148 \\ \hline
-    DGCF & recall@10 & 0.1656 & 0.108 & 34.7826 & 0.0576 \\ \hline
-    BPR & ndcg@10 & 0.2554 & 0.2554 & 0.0 & 0.0 \\ \hline
-    CFKG & ndcg@10 & 0.2402 & 0.2209 & 8.035 & 0.0193 \\ \hline
-    CKE & ndcg@10 & 0.2534 & 0.2482 & 2.0521 & 0.0052 \\ \hline
-    DMF & ndcg@10 & 0.2289 & 0.2289 & 0.0 & 0.0 \\ \hline
-    KGCN & ndcg@10 & 0.232 & 0.2328 & -0.3448 & -0.0008 \\ \hline
-    KGNNLS & ndcg@10 & 0.2319 & 0.2115 & 8.7969 & 0.0204 \\ \hline
-    LINE & ndcg@10 & 0.2277 & 0.2277 & 0.0 & 0.0 \\ \hline
-    MultiDAE & ndcg@10 & 0.2633 & 0.2372 & 9.9126 & 0.0261 \\ \hline
-    LightGCN & ndcg@10 & 0.2682 & 0.1955 & 27.1066 & 0.0727 \\ \hline
-    NGCF & ndcg@10 & 0.2539 & 0.2401 & 5.4352 & 0.0138 \\ \hline
-    DGCF & ndcg@10 & 0.2613 & 0.1857 & 28.9323 & 0.0756 \\ \hline
-    BPR & averagepopularity@10 & 1146.3572 & 1146.3572 & 0.0 & 0.0 \\ \hline
-    CFKG & averagepopularity@10 & 1115.4498 & 1361.1447 & -22.0265 & -245.6949 \\ \hline
-    CKE & averagepopularity@10 & 1165.2413 & 1320.1912 & -13.2977 & -154.9499 \\ \hline
-    DMF & averagepopularity@10 & 1379.7292 & 1379.7292 & 0.0 & 0.0 \\ \hline
-    KGCN & averagepopularity@10 & 1188.9582 & 1187.2098 & 0.1471 & 1.7484 \\ \hline
-    KGNNLS & averagepopularity@10 & 1188.8981 & 1401.0945 & -17.8482 & -212.1964 \\ \hline
-    LINE & averagepopularity@10 & 979.498 & 979.498 & 0.0 & 0.0 \\ \hline
-    MultiDAE & averagepopularity@10 & 1137.4597 & 1297.2825 & -14.0509 & -159.8228 \\ \hline
-    LightGCN & averagepopularity@10 & 1088.741 & 1649.9548 & -51.547 & -561.2138 \\ \hline
-    NGCF & averagepopularity@10 & 1201.8831 & 1407.3654 & -17.0967 & -205.4823 \\ \hline
-    DGCF & averagepopularity@10 & 1172.6874 & 1760.7243 & -50.1444 & -588.0369 \\ \hline
-    BPR & giniindex@10 & 0.8839 & 0.8839 & 0.0 & 0.0 \\ \hline
-    CFKG & giniindex@10 & 0.8822 & 0.9401 & -6.5631 & -0.0579 \\ \hline
-    CKE & giniindex@10 & 0.8894 & 0.9266 & -4.1826 & -0.0372 \\ \hline
-    DMF & giniindex@10 & 0.9443 & 0.9443 & 0.0 & 0.0 \\ \hline
-    KGCN & giniindex@10 & 0.8992 & 0.8984 & 0.089 & 0.0008 \\ \hline
-    KGNNLS & giniindex@10 & 0.8992 & 0.945 & -5.0934 & -0.0458 \\ \hline
-    LINE & giniindex@10 & 0.8904 & 0.8904 & 0.0 & 0.0 \\ \hline
-    MultiDAE & giniindex@10 & 0.875 & 0.9204 & -5.1886 & -0.0454 \\ \hline
-    LightGCN & giniindex@10 & 0.8759 & 0.9767 & -11.5082 & -0.1008 \\ \hline
-    NGCF & giniindex@10 & 0.9079 & 0.9481 & -4.4278 & -0.0402 \\ \hline
-    DGCF & giniindex@10 & 0.8992 & 0.982 & -9.2082 & -0.0828 \\ \hline
-\end{tabular}
+            \hline
+            \textbf{Metrica} & \textbf{Modello} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{Riduzione} & \textbf{\% riduzione score} \\ \hline
+            \multirow{11}{*}{recall@10} 
+                & BPR & 0.1635 & 0.1635 & 0.0 & 0.0 \\ \cline{2-6} 
+                & CFKG & 0.1526 & 0.1301 & 0.0225 & 14.7444 \\ \cline{2-6} 
+                & CKE & 0.1593 & 0.1517 & 0.0076 & 4.7709 \\ \cline{2-6} 
+                & DMF & 0.1432 & 0.1432 & 0.0 & 0.0 \\ \cline{2-6} 
+                & KGCN & 0.1422 & 0.1422 & 0.0 & 0.0 \\ \cline{2-6} 
+                & KGNNLS & 0.1421 & 0.1232 & 0.0189 & 13.3005 \\ \cline{2-6} 
+                & LINE & 0.1451 & 0.1451 & 0.0 & 0.0 \\ \cline{2-6} 
+                & MultiDAE & 0.1799 & 0.1531 & 0.0268 & 14.8972 \\ \cline{2-6} 
+                & LightGCN & 0.173 & 0.1126 & 0.0604 & 34.9133 \\ \cline{2-6} 
+                & NGCF & 0.1586 & 0.1438 & 0.0148 & 9.3317 \\ \cline{2-6} 
+                & DGCF & 0.1656 & 0.108 & 0.0576 & 34.7826 \\ \hline
+
+            \multirow{11}{*}{ndcg@10} 
+                & BPR & 0.2554 & 0.2554 & 0.0 & 0.0 \\ \cline{2-6} 
+                & CFKG & 0.2402 & 0.2209 & 0.0193 & 8.035 \\ \cline{2-6} 
+                & CKE & 0.2534 & 0.2482 & 0.0052 & 2.0521 \\ \cline{2-6} 
+                & DMF & 0.2289 & 0.2289 & 0.0 & 0.0 \\ \cline{2-6} 
+                & KGCN & 0.232 & 0.2328 & -0.0008 & -0.3448 \\ \cline{2-6} 
+                & KGNNLS & 0.2319 & 0.2115 & 0.0204 & 8.7969 \\ \cline{2-6} 
+                & LINE & 0.2277 & 0.2277 & 0.0 & 0.0 \\ \cline{2-6} 
+                & MultiDAE & 0.2633 & 0.2372 & 0.0261 & 9.9126 \\ \cline{2-6} 
+                & LightGCN & 0.2682 & 0.1955 & 0.0727 & 27.1066 \\ \cline{2-6} 
+                & NGCF & 0.2539 & 0.2401 & 0.0138 & 5.4352 \\ \cline{2-6} 
+                & DGCF & 0.2613 & 0.1857 & 0.0756 & 28.9323 \\ \hline
+
+            \multirow{11}{*}{averagepopularity@10} 
+                & BPR & 1146.3572 & 1146.3572 & 0.0 & 0.0 \\ \cline{2-6} 
+                & CFKG & 1115.4498 & 1361.1447 & -245.6949 & -22.0265 \\ \cline{2-6} 
+                & CKE & 1165.2413 & 1320.1912 & -154.9499 & -13.2977 \\ \cline{2-6} 
+                & DMF & 1379.7292 & 1379.7292 & 0.0 & 0.0 \\ \cline{2-6} 
+                & KGCN & 1188.9582 & 1187.2098 & 1.7484 & 0.1471 \\ \cline{2-6} 
+                & KGNNLS & 1188.8981 & 1401.0945 & -212.1964 & -17.8482 \\ \cline{2-6} 
+                & LINE & 979.498 & 979.498 & 0.0 & 0.0 \\ \cline{2-6} 
+                & MultiDAE & 1137.4597 & 1297.2825 & -159.8228 & -14.0509 \\ \cline{2-6} 
+                & LightGCN & 1088.741 & 1649.9548 & -561.2138 & -51.547 \\ \cline{2-6} 
+                & NGCF & 1201.8831 & 1407.3654 & -205.4823 & -17.0967 \\ \cline{2-6} 
+                & DGCF & 1172.6874 & 1760.7243 & -588.0369 & -50.1444 \\ \hline
+
+            \multirow{11}{*}{giniindex@10} 
+                & BPR & 0.8839 & 0.8839 & 0.0 & 0.0 \\ \cline{2-6} 
+                & CFKG & 0.8822 & 0.9401 & -0.0579 & -6.5631 \\ \cline{2-6} 
+                & CKE & 0.8894 & 0.9266 & -0.0372 & -4.1826 \\ \cline{2-6} 
+                & DMF & 0.9443 & 0.9443 & 0.0 & 0.0 \\ \cline{2-6} 
+                & KGCN & 0.8992 & 0.8984 & 0.0008 & 0.089 \\ \cline{2-6} 
+                & KGNNLS & 0.8992 & 0.945 & -0.0458 & -5.0934 \\ \cline{2-6} 
+                & LINE & 0.8904 & 0.8904 & 0.0 & 0.0 \\ \cline{2-6} 
+                & MultiDAE & 0.875 & 0.9204 & -0.0454 & -5.1886 \\ \cline{2-6} 
+                & LightGCN & 0.8759 & 0.9767 & -0.1008 & -11.5082 \\ \cline{2-6} 
+                & NGCF & 0.9079 & 0.9481 & -0.0402 & -4.4278 \\ \cline{2-6} 
+                & DGCF & 0.8992 & 0.982 & -0.0828 & -9.2082 \\ \hline
+        \end{tabular}
     }
     \caption{Performance dei modelli su diverse metriche e dataset}
-    \end{table}
+\end{table}
+
 
 
 \begin{figure}[H]
@@ -1235,24 +1225,24 @@ DGCF             & giniindex@10     & 0.8992                        & 0.9845    
     \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|c|}
         \hline
-        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni} & \textbf{Riduzione}\\
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{Riduzione} & \textbf{\% riduzione emissioni}\\
         \hline
-        BPR & 3.9484 & 3.1221 & 20.93 & 0.8263\\ \hline
-        CFKG & 5.881 & 1.9202 & 67.35 & 3.9608\\ \hline
-        CKE & 5.6839 & 2.078 & 63.44 & 3.6059\\ \hline
-        DMF & 2.2927 & 1.9962 & 12.93 & 0.2965\\ \hline
-        KGCN & 6.8754 & 3.9292 & 42.85 & 2.9462\\ \hline
-        KGNNLS & 7.763 & 4.7984 & 38.19 & 2.9646\\ \hline
-        LINE & 1.9129 & 1.3937 & 27.14 & 0.5192\\ \hline
-        MultiDAE & 8.0303 & 3.7405 & 53.42 & 4.2898\\ \hline
-        LightGCN & 15.626 & 2.1161 & 86.46 & 13.5099\\ \hline
-        NGCF & 7.7582 & 2.885 & 62.81 & 4.8732\\ \hline
-        DGCF & 94.903 & 12.0604 & 87.2918 & 82.8426\\ \hline
-
+        BPR & 3.9484 & 3.1221 & 0.8263 & 20.93\\ \hline
+        CFKG & 5.881 & 1.9202 & 3.9608 & 67.35\\ \hline
+        CKE & 5.6839 & 2.078 & 3.6059 & 63.44\\ \hline
+        DMF & 2.2927 & 1.9962 & 0.2965 & 12.93\\ \hline
+        KGCN & 6.8754 & 3.9292 & 2.9462 & 42.85\\ \hline
+        KGNNLS & 7.763 & 4.7984 & 2.9646 & 38.19\\ \hline
+        LINE & 1.9129 & 1.3937 & 0.5192 & 27.14\\ \hline
+        MultiDAE & 8.0303 & 3.7405 & 4.2898 & 53.42\\ \hline
+        LightGCN & 15.626 & 2.1161 & 13.5099 & 86.46\\ \hline
+        NGCF & 7.7582 & 2.885 & 4.8732 & 62.81\\ \hline
+        DGCF & 94.903 & 12.0604 & 82.8426 & 87.2918\\ \hline
     \end{tabular}
     }
-    \caption{Confronto delle emissioni}
+    \caption{Confronto delle emissioni }
 \end{table}
+
 
 \noindent Rispetto a tutti e tre gli esperimenti precedenti la percentuale di riduzioni delle emissioni in generale è diminuita, dunque gli algoritmi hanno emesso di più.
 
@@ -1288,57 +1278,64 @@ DGCF             & giniindex@10     & 0.8992                        & 0.9845    
     \centering
     \resizebox{\textwidth}{!}{
         \begin{tabular}{|c|c|c|c|c|c|}
-    \hline
-    \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score} & \textbf{Riduzione} \\ \hline
-    \hline
-    BPR & recall@10 & 0.1635 & 0.1635 & 0.0 & 0.0 \\ \hline
-    CFKG & recall@10 & 0.1526 & 0.1344 & 11.9266 & 0.0182 \\ \hline
-    CKE & recall@10 & 0.1593 & 0.1517 & 4.7709 & 0.0076 \\ \hline
-    DMF & recall@10 & 0.1432 & 0.1432 & 0.0 & 0.0 \\ \hline
-    KGCN & recall@10 & 0.1422 & 0.1422 & 0.0 & 0.0 \\ \hline
-    KGNNLS & recall@10 & 0.1421 & 0.1421 & 0.0 & 0.0 \\ \hline
-    LINE & recall@10 & 0.1451 & 0.1451 & 0.0 & 0.0 \\ \hline
-    MultiDAE & recall@10 & 0.1799 & 0.1624 & 9.7276 & 0.0175 \\ \hline
-    LightGCN & recall@10 & 0.173 & 0.1204 & 30.4046 & 0.0526 \\ \hline
-    NGCF & recall@10 & 0.1586 & 0.1438 & 9.3317 & 0.0148 \\ \hline
-    DGCF & recall@10 & 0.1656 & 0.108 & 34.7826 & 0.0576 \\ \hline
-    BPR & ndcg@10 & 0.2554 & 0.2554 & 0.0 & 0.0 \\ \hline
-    CFKG & ndcg@10 & 0.2402 & 0.2245 & 6.5362 & 0.0157 \\ \hline
-    CKE & ndcg@10 & 0.2534 & 0.2482 & 2.0521 & 0.0052 \\ \hline
-    DMF & ndcg@10 & 0.2289 & 0.2289 & 0.0 & 0.0 \\ \hline
-    KGCN & ndcg@10 & 0.232 & 0.2328 & -0.3448 & -0.0008 \\ \hline
-    KGNNLS & ndcg@10 & 0.2319 & 0.2327 & -0.345 & -0.0008 \\ \hline
-    LINE & ndcg@10 & 0.2277 & 0.2277 & 0.0 & 0.0 \\ \hline
-    MultiDAE & ndcg@10 & 0.2633 & 0.2463 & 6.4565 & 0.017 \\ \hline
-    LightGCN & ndcg@10 & 0.2682 & 0.2064 & 23.0425 & 0.0618 \\ \hline
-    NGCF & ndcg@10 & 0.2539 & 0.2401 & 5.4352 & 0.0138 \\ \hline
-    DGCF & ndcg@10 & 0.2613 & 0.1857 & 28.9323 & 0.0756 \\ \hline
-    BPR & averagepopularity@10 & 1146.3572 & 1146.3572 & 0.0 & 0.0 \\ \hline
-    CFKG & averagepopularity@10 & 1115.4498 & 1338.642 & -20.0092 & -223.1922 \\ \hline
-    CKE & averagepopularity@10 & 1165.2413 & 1320.1912 & -13.2977 & -154.9499 \\ \hline
-    DMF & averagepopularity@10 & 1379.7292 & 1379.7292 & 0.0 & 0.0 \\ \hline
-    KGCN & averagepopularity@10 & 1188.9582 & 1187.2098 & 0.1471 & 1.7484 \\ \hline
-    KGNNLS & averagepopularity@10 & 1188.8981 & 1187.2158 & 0.1415 & 1.6823 \\ \hline
-    LINE & averagepopularity@10 & 979.498 & 979.498 & 0.0 & 0.0 \\ \hline
-    MultiDAE & averagepopularity@10 & 1137.4597 & 1238.6498 & -8.8961 & -101.1901 \\ \hline
-    LightGCN & averagepopularity@10 & 1088.741 & 1585.7381 & -45.6488 & -496.9971 \\ \hline
-    NGCF & averagepopularity@10 & 1201.8831 & 1407.3654 & -17.0967 & -205.4823 \\ \hline
-    DGCF & averagepopularity@10 & 1172.6874 & 1760.6621 & -50.1391 & -587.9747 \\ \hline
-    BPR & giniindex@10 & 0.8839 & 0.8839 & 0.0 & 0.0 \\ \hline
-    CFKG & giniindex@10 & 0.8822 & 0.9367 & -6.1777 & -0.0545 \\ \hline
-    CKE & giniindex@10 & 0.8894 & 0.9266 & -4.1826 & -0.0372 \\ \hline
-    DMF & giniindex@10 & 0.9443 & 0.9443 & 0.0 & 0.0 \\ \hline
-    KGCN & giniindex@10 & 0.8992 & 0.8984 & 0.089 & 0.0008 \\ \hline
-    KGNNLS & giniindex@10 & 0.8992 & 0.8983 & 0.1001 & 0.0009 \\ \hline
-    LINE & giniindex@10 & 0.8904 & 0.8904 & 0.0 & 0.0 \\ \hline
-    MultiDAE & giniindex@10 & 0.875 & 0.9054 & -3.4743 & -0.0304 \\ \hline
-    LightGCN & giniindex@10 & 0.8759 & 0.9709 & -10.846 & -0.095 \\ \hline
-    NGCF & giniindex@10 & 0.9079 & 0.9481 & -4.4278 & -0.0402 \\ \hline
-    DGCF & giniindex@10 & 0.8992 & 0.982 & -9.2082 & -0.0828 \\ \hline
-\end{tabular}
+            \hline
+            \textbf{Metrica} & \textbf{Modello} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{Riduzione} & \textbf{\% riduzione score} \\ \hline
+            \multirow{11}{*}{recall@10} 
+                & BPR & 0.1635 & 0.1635 & 0.0 & 0.0 \\ \cline{2-6} 
+                & CFKG & 0.1526 & 0.1344 & 0.0182 & 11.9266 \\ \cline{2-6} 
+                & CKE & 0.1593 & 0.1517 & 0.0076 & 4.7709 \\ \cline{2-6} 
+                & DMF & 0.1432 & 0.1432 & 0.0 & 0.0 \\ \cline{2-6} 
+                & KGCN & 0.1422 & 0.1422 & 0.0 & 0.0 \\ \cline{2-6} 
+                & KGNNLS & 0.1421 & 0.1421 & 0.0 & 0.0 \\ \cline{2-6} 
+                & LINE & 0.1451 & 0.1451 & 0.0 & 0.0 \\ \cline{2-6} 
+                & MultiDAE & 0.1799 & 0.1624 & 0.0175 & 9.7276 \\ \cline{2-6} 
+                & LightGCN & 0.173 & 0.1204 & 0.0526 & 30.4046 \\ \cline{2-6} 
+                & NGCF & 0.1586 & 0.1438 & 0.0148 & 9.3317 \\ \cline{2-6} 
+                & DGCF & 0.1656 & 0.108 & 0.0576 & 34.7826 \\ \hline
+
+            \multirow{11}{*}{ndcg@10} 
+                & BPR & 0.2554 & 0.2554 & 0.0 & 0.0 \\ \cline{2-6} 
+                & CFKG & 0.2402 & 0.2245 & 0.0157 & 6.5362 \\ \cline{2-6} 
+                & CKE & 0.2534 & 0.2482 & 0.0052 & 2.0521 \\ \cline{2-6} 
+                & DMF & 0.2289 & 0.2289 & 0.0 & 0.0 \\ \cline{2-6} 
+                & KGCN & 0.232 & 0.2328 & -0.0008 & -0.3448 \\ \cline{2-6} 
+                & KGNNLS & 0.2319 & 0.2327 & -0.0008 & -0.345 \\ \cline{2-6} 
+                & LINE & 0.2277 & 0.2277 & 0.0 & 0.0 \\ \cline{2-6} 
+                & MultiDAE & 0.2633 & 0.2463 & 0.017 & 6.4565 \\ \cline{2-6} 
+                & LightGCN & 0.2682 & 0.2064 & 0.0618 & 23.0425 \\ \cline{2-6} 
+                & NGCF & 0.2539 & 0.2401 & 0.0138 & 5.4352 \\ \cline{2-6} 
+                & DGCF & 0.2613 & 0.1857 & 0.0756 & 28.9323 \\ \hline
+
+            \multirow{11}{*}{averagepopularity@10} 
+                & BPR & 1146.3572 & 1146.3572 & 0.0 & 0.0 \\ \cline{2-6} 
+                & CFKG & 1115.4498 & 1338.642 & -223.1922 & -20.0092 \\ \cline{2-6} 
+                & CKE & 1165.2413 & 1320.1912 & -154.9499 & -13.2977 \\ \cline{2-6} 
+                & DMF & 1379.7292 & 1379.7292 & 0.0 & 0.0 \\ \cline{2-6} 
+                & KGCN & 1188.9582 & 1187.2098 & 1.7484 & 0.1471 \\ \cline{2-6} 
+                & KGNNLS & 1188.8981 & 1187.2158 & 1.6823 & 0.1415 \\ \cline{2-6} 
+                & LINE & 979.498 & 979.498 & 0.0 & 0.0 \\ \cline{2-6} 
+                & MultiDAE & 1137.4597 & 1238.6498 & -101.1901 & -8.8961 \\ \cline{2-6} 
+                & LightGCN & 1088.741 & 1585.7381 & -496.9971 & -45.6488 \\ \cline{2-6} 
+                & NGCF & 1201.8831 & 1407.3654 & -205.4823 & -17.0967 \\ \cline{2-6} 
+                & DGCF & 1172.6874 & 1760.6621 & -587.9747 & -50.1391 \\ \hline
+
+            \multirow{11}{*}{giniindex@10} 
+                & BPR & 0.8839 & 0.8839 & 0.0 & 0.0 \\ \cline{2-6} 
+                & CFKG & 0.8822 & 0.9367 & -0.0545 & -6.1777 \\ \cline{2-6} 
+                & CKE & 0.8894 & 0.9266 & -0.0372 & -4.1826 \\ \cline{2-6} 
+                & DMF & 0.9443 & 0.9443 & 0.0 & 0.0 \\ \cline{2-6} 
+                & KGCN & 0.8992 & 0.8984 & 0.0008 & 0.089 \\ \cline{2-6} 
+                & KGNNLS & 0.8992 & 0.8983 & 0.0009 & 0.1001 \\ \cline{2-6} 
+                & LINE & 0.8904 & 0.8904 & 0.0 & 0.0 \\ \cline{2-6} 
+                & MultiDAE & 0.875 & 0.9054 & -0.0304 & -3.4743 \\ \cline{2-6} 
+                & LightGCN & 0.8759 & 0.9709 & -0.095 & -10.846 \\ \cline{2-6} 
+                & NGCF & 0.9079 & 0.9481 & -0.0402 & -4.4278 \\ \cline{2-6} 
+                & DGCF & 0.8992 & 0.982 & -0.0828 & -9.2082 \\ \hline
+        \end{tabular}
     }
     \caption{Performance dei modelli su diverse metriche e dataset}
-    \end{table}
+\end{table}
+
 
 
 \begin{figure}[H]
@@ -1391,24 +1388,24 @@ DGCF             & giniindex@10     & 0.8992                        & 0.9845    
     \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|c|}
         \hline
-        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni} & \textbf{Riduzione}\\
+        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{Riduzione} & \textbf{\% riduzione emissioni} \\
         \hline
-        BPR & 3.9484 & 3.2382 & 17.9867 & 0.7102\\ \hline
-        CFKG & 5.881 & 1.9178 & 67.3907 & 3.9632\\ \hline
-        CKE & 5.6839 & 2.32 & 59.1839 & 3.3639\\ \hline
-        DMF & 2.2927 & 1.9929 & 13.0788 & 0.2998\\ \hline
-        KGCN & 6.8754 & 4.0376 & 41.2747 & 2.8378\\ \hline
-        KGNNLS & 7.763 & 2.0222 & 73.9507 & 5.7408\\ \hline
-        LINE & 1.9129 & 1.3883 & 27.4219 & 0.5246\\ \hline
-        MultiDAE & 8.0303 & 3.1853 & 60.3338 & 4.845\\ \hline
-        LightGCN & 15.626 & 1.8528 & 88.1427 & 13.7732\\ \hline
-        NGCF & 7.7582 & 3.1472 & 59.4342 & 4.611\\ \hline
-        DGCF & 94.903 & 13.3956 & 85.885 & 81.5074\\ \hline
-
+        BPR & 3.9484 & 3.2382 & 0.7102 & 17.9867 \\ \hline
+        CFKG & 5.881 & 1.9178 & 3.9632 & 67.3907 \\ \hline
+        CKE & 5.6839 & 2.32 & 3.3639 & 59.1839 \\ \hline
+        DMF & 2.2927 & 1.9929 & 0.2998 & 13.0788 \\ \hline
+        KGCN & 6.8754 & 4.0376 & 2.8378 & 41.2747 \\ \hline
+        KGNNLS & 7.763 & 2.0222 & 5.7408 & 73.9507 \\ \hline
+        LINE & 1.9129 & 1.3883 & 0.5246 & 27.4219 \\ \hline
+        MultiDAE & 8.0303 & 3.1853 & 4.845 & 60.3338 \\ \hline
+        LightGCN & 15.626 & 1.8528 & 13.7732 & 88.1427 \\ \hline
+        NGCF & 7.7582 & 3.1472 & 4.611 & 59.4342 \\ \hline
+        DGCF & 94.903 & 13.3956 & 81.5074 & 85.885 \\ \hline
     \end{tabular}
     }
-    \caption{Confronto delle emissioni}
+    \caption{Confronto delle emissioni }
 \end{table}
+
 
 \noindent Rispetto al quarto esperimento la percentuale di riduzioni delle emissioni in generale è diminuita, dunque gli algoritmi hanno emesso di più.
 Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi in background sulla macchina che hanno portato a un consumo leggermente più elevato dell'hardware.
@@ -1445,57 +1442,57 @@ Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi i
     \centering
     \resizebox{\textwidth}{!}{
         \begin{tabular}{|c|c|c|c|c|c|}
-    \hline
-    \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score} & \textbf{Riduzione} \\ \hline
-    \hline
-    BPR      & recall@10           & 0.1635                  & 0.1635                    & 0.0               & 0.0               \\ \hline
-    CFKG     & recall@10           & 0.1526                  & 0.1344                    & 11.9266           & 0.0182            \\ \hline
-    CKE      & recall@10           & 0.1593                  & 0.1543                    & 3.1387            & 0.005             \\ \hline
-    DMF      & recall@10           & 0.1432                  & 0.1432                    & 0.0               & 0.0               \\ \hline
-    KGCN     & recall@10           & 0.1422                  & 0.1422                    & 0.0               & 0.0               \\ \hline
-    KGNNLS   & recall@10           & 0.1421                  & 0.1255                    & 11.6819           & 0.0166            \\ \hline
-    LINE     & recall@10           & 0.1451                  & 0.1451                    & 0.0               & 0.0               \\ \hline
-    MultiDAE & recall@10           & 0.1799                  & 0.1549                    & 13.8966           & 0.025             \\ \hline
-    LightGCN & recall@10           & 0.173                   & 0.1161                    & 32.8902           & 0.0569            \\ \hline
-    NGCF     & recall@10           & 0.1586                  & 0.1479                    & 6.7465            & 0.0107            \\ \hline
-    DGCF     & recall@10           & 0.1656                  & 0.1111                    & 32.9106           & 0.0545            \\ \hline
-    BPR      & ndcg@10             & 0.2554                  & 0.2554                    & 0.0               & 0.0               \\ \hline
-    CFKG     & ndcg@10             & 0.2402                  & 0.2245                    & 6.5362            & 0.0157            \\ \hline
-    CKE      & ndcg@10             & 0.2534                  & 0.2515                    & 0.7498            & 0.0019            \\ \hline
-    DMF      & ndcg@10             & 0.2289                  & 0.2289                    & 0.0               & 0.0               \\ \hline
-    KGCN     & ndcg@10             & 0.232                   & 0.232                     & 0.0               & 0.0               \\ \hline
-    KGNNLS   & ndcg@10             & 0.2319                  & 0.2159                    & 6.8995            & 0.016             \\ \hline
-    LINE     & ndcg@10             & 0.2277                  & 0.2277                    & 0.0               & 0.0               \\ \hline
-    MultiDAE & ndcg@10             & 0.2633                  & 0.2392                    & 9.1531            & 0.0241            \\ \hline
-    LightGCN & ndcg@10             & 0.2682                  & 0.2002                    & 25.3542           & 0.068             \\ \hline
-    NGCF     & ndcg@10             & 0.2539                  & 0.2433                    & 4.1749            & 0.0106            \\ \hline
-    DGCF     & ndcg@10             & 0.2613                  & 0.1921                    & 26.483            & 0.0692            \\ \hline
-    BPR      & averagepopularity@10 & 1146.3572              & 1146.3572                 & 0.0               & 0.0               \\ \hline
-    CFKG     & averagepopularity@10 & 1115.4498              & 1338.642                  & -20.0092          & -223.1922        \\ \hline
-    CKE      & averagepopularity@10 & 1165.2413              & 1288.1031                 & -10.5439          & -122.8618        \\ \hline
-    DMF      & averagepopularity@10 & 1379.7292              & 1379.7292                 & 0.0               & 0.0               \\ \hline
-    KGCN     & averagepopularity@10 & 1188.9582              & 1188.9582                 & 0.0               & 0.0               \\ \hline
-    KGNNLS   & averagepopularity@10 & 1188.8981              & 1399.9527                 & -17.7521          & -211.0546        \\ \hline
-    LINE     & averagepopularity@10 & 979.498                & 979.498                   & 0.0               & 0.0               \\ \hline
-    MultiDAE & averagepopularity@10 & 1137.4597              & 1291.1089                 & -13.5081          & -153.6492        \\ \hline
-    LightGCN & averagepopularity@10 & 1088.741               & 1629.6349                 & -49.6807          & -540.8939        \\ \hline
-    NGCF     & averagepopularity@10 & 1201.8831              & 1359.7681                 & -13.1365          & -157.885         \\ \hline
-    DGCF     & averagepopularity@10 & 1172.6874              & 1708.6632                 & -45.7049          & -535.9758        \\ \hline
-    BPR      & giniindex@10        & 0.8839                  & 0.8839                    & 0.0               & 0.0               \\ \hline
-    CFKG     & giniindex@10        & 0.8822                  & 0.9367                    & -6.1777           & -0.0545           \\ \hline
-    CKE      & giniindex@10        & 0.8894                  & 0.92                      & -3.4405           & -0.0306           \\ \hline
-    DMF      & giniindex@10        & 0.9443                  & 0.9443                    & 0.0               & 0.0               \\ \hline
-    KGCN     & giniindex@10        & 0.8992                  & 0.8992                    & 0.0               & 0.0               \\ \hline
-    KGNNLS   & giniindex@10        & 0.8992                  & 0.942                     & -4.7598           & -0.0428           \\ \hline
-    LINE     & giniindex@10        & 0.8904                  & 0.8904                    & 0.0               & 0.0               \\ \hline
-    MultiDAE & giniindex@10        & 0.875                   & 0.9185                    & -4.9714           & -0.0435           \\ \hline
-    LightGCN & giniindex@10        & 0.8759                  & 0.9748                    & -11.2912          & -0.0989           \\ \hline
-    NGCF     & giniindex@10        & 0.9079                  & 0.9397                    & -3.5026           & -0.0318           \\ \hline
-    DGCF     & giniindex@10        & 0.8992                  & 0.9791                    &-8.8857            & -0.0799           \\ \hline
-\end{tabular}
+            \hline
+            \textbf{Metrica} & \textbf{Modello} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{Riduzione} & \textbf{\% riduzione score} \\ \hline
+            \multirow{11}{*}{recall@10} & BPR      & 0.1635                  & 0.1635                    & 0.0               & 0.0               \\ \cline{2-6}
+                                         & CFKG     & 0.1526                  & 0.1344                    & 0.0182            & 11.9266           \\ \cline{2-6}
+                                         & CKE      & 0.1593                  & 0.1543                    & 0.005             & 3.1387            \\ \cline{2-6}
+                                         & DMF      & 0.1432                  & 0.1432                    & 0.0               & 0.0               \\ \cline{2-6}
+                                         & KGCN     & 0.1422                  & 0.1422                    & 0.0               & 0.0               \\ \cline{2-6}
+                                         & KGNNLS   & 0.1421                  & 0.1255                    & 0.0166            & 11.6819           \\ \cline{2-6}
+                                         & LINE     & 0.1451                  & 0.1451                    & 0.0               & 0.0               \\ \cline{2-6}
+                                         & MultiDAE & 0.1799                  & 0.1549                    & 0.025             & 13.8966           \\ \cline{2-6}
+                                         & LightGCN & 0.173                   & 0.1161                    & 0.0569            & 32.8902           \\ \cline{2-6}
+                                         & NGCF     & 0.1586                  & 0.1479                    & 0.0107            & 6.7465            \\ \cline{2-6}
+                                         & DGCF     & 0.1656                  & 0.1111                    & 0.0545            & 32.9106           \\ \hline
+            \multirow{11}{*}{ndcg@10}   & BPR      & 0.2554                  & 0.2554                    & 0.0               & 0.0               \\ \cline{2-6}
+                                         & CFKG     & 0.2402                  & 0.2245                    & 0.0157            & 6.5362            \\ \cline{2-6}
+                                         & CKE      & 0.2534                  & 0.2515                    & 0.0019            & 0.7498            \\ \cline{2-6}
+                                         & DMF      & 0.2289                  & 0.2289                    & 0.0               & 0.0               \\ \cline{2-6}
+                                         & KGCN     & 0.232                   & 0.232                     & 0.0               & 0.0               \\ \cline{2-6}
+                                         & KGNNLS   & 0.2319                  & 0.2159                    & 0.016             & 6.8995            \\ \cline{2-6}
+                                         & LINE     & 0.2277                  & 0.2277                    & 0.0               & 0.0               \\ \cline{2-6}
+                                         & MultiDAE & 0.2633                  & 0.2392                    & 0.0241            & 9.1531            \\ \cline{2-6}
+                                         & LightGCN & 0.2682                  & 0.2002                    & 0.068             & 25.3542           \\ \cline{2-6}
+                                         & NGCF     & 0.2539                  & 0.2433                    & 0.0106            & 4.1749            \\ \cline{2-6}
+                                         & DGCF     & 0.2613                  & 0.1921                    & 0.0692            & 26.483            \\ \hline
+            \multirow{11}{*}{averagepopularity@10} & BPR      & 1146.3572              & 1146.3572                 & 0.0               & 0.0               \\ \cline{2-6}
+                                                     & CFKG     & 1115.4498              & 1338.642                  & -223.1922         & -20.0092          \\ \cline{2-6}
+                                                     & CKE      & 1165.2413              & 1288.1031                 & -122.8618         & -10.5439          \\ \cline{2-6}
+                                                     & DMF      & 1379.7292              & 1379.7292                 & 0.0               & 0.0               \\ \cline{2-6}
+                                                     & KGCN     & 1188.9582              & 1188.9582                 & 0.0               & 0.0               \\ \cline{2-6}
+                                                     & KGNNLS   & 1188.8981              & 1399.9527                 & -211.0546         & -17.7521          \\ \cline{2-6}
+                                                     & LINE     & 979.498                & 979.498                   & 0.0               & 0.0               \\ \cline{2-6}
+                                                     & MultiDAE & 1137.4597              & 1291.1089                 & -153.6492         & -13.5081          \\ \cline{2-6}
+                                                     & LightGCN & 1088.741               & 1629.6349                 & -540.8939         & -49.6807          \\ \cline{2-6}
+                                                     & NGCF     & 1201.8831              & 1359.7681                 & -157.885          & -13.1365          \\ \cline{2-6}
+                                                     & DGCF     & 1172.6874              & 1708.6632                 & -535.9758         & -45.7049          \\ \hline
+            \multirow{11}{*}{giniindex@10} & BPR      & 0.8839                  & 0.8839                    & 0.0               & 0.0               \\ \cline{2-6}
+                                           & CFKG     & 0.8822                  & 0.9367                    & -0.0545           & -6.1777           \\ \cline{2-6}
+                                           & CKE      & 0.8894                  & 0.92                      & -0.0306           & -3.4405           \\ \cline{2-6}
+                                           & DMF      & 0.9443                  & 0.9443                    & 0.0               & 0.0               \\ \cline{2-6}
+                                           & KGCN     & 0.8992                  & 0.8992                    & 0.0               & 0.0               \\ \cline{2-6}
+                                           & KGNNLS   & 0.8992                  & 0.942                     & -0.0428           & -4.7598           \\ \cline{2-6}
+                                           & LINE     & 0.8904                  & 0.8904                    & 0.0               & 0.0               \\ \cline{2-6}
+                                           & MultiDAE & 0.875                   & 0.9185                    & -0.0435           & -4.9714           \\ \cline{2-6}
+                                           & LightGCN & 0.8759                  & 0.9748                    & -0.0989           & -11.2912          \\ \cline{2-6}
+                                           & NGCF     & 0.9079                  & 0.9397                    & -0.0318           & -3.5026           \\ \cline{2-6}
+                                           & DGCF     & 0.8992                  & 0.9791                    & -0.0799           & -8.8857           \\ \hline
+        \end{tabular}
     }
-    \caption{Performance dei modelli su diverse metriche e dataset}
-    \end{table}
+    \caption{Performance dei modelli su diverse metriche e dataset }
+\end{table}
+
 
 
 \begin{figure}[H]
@@ -1542,30 +1539,29 @@ Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi i
 \end{table}
 
 
-
 \begin{table}[H]
     \centering
     \resizebox{\textwidth}{!}{
-    \begin{tabular}{|c|c|c|c|c|}
-        \hline
-        \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{\% riduzione emissioni} & \textbf{Riduzione}\\
-        \hline
-        BPR      & 3.9484   & 3.16     & 19.9686 & 0.7884\\ \hline
-        CFKG     & 5.881    & 4.8334   & 17.8139 & 1.0476\\ \hline
-        CKE      & 5.6839   & 2.3175   & 59.2271 & 3.3664\\ \hline
-        DMF      & 2.2927   & 1.9826   & 13.5251 & 0.3101\\ \hline
-        KGCN     & 6.8754   & 4.0424   & 41.2058 & 2.833\\ \hline
-        KGNNLS   & 7.763    & 4.963    & 36.0686 & 2.8\\ \hline
-        LINE     & 1.9129   & 1.435    & 24.9825 & 0.4779\\ \hline
-        MultiDAE & 8.0303   & 3.9954   & 50.2465 & 4.0349\\ \hline
-        LightGCN & 15.626   & 2.0841   & 86.6623 & 13.5419\\ \hline
-        NGCF     & 7.7582   & 3.1251   & 59.7184 & 4.6331\\ \hline
-        DGCF     & 94.903   & 13.3787  & 85.9028 & 81.5243\\ \hline
-
-    \end{tabular}
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{Riduzione} & \textbf{\% riduzione emissioni} \\
+            \hline
+            BPR      & 3.9484   & 3.16     & 0.7884 & 19.9686\\ \hline
+            CFKG     & 5.881    & 4.8334   & 1.0476 & 17.8139\\ \hline
+            CKE      & 5.6839   & 2.3175   & 3.3664 & 59.2271\\ \hline
+            DMF      & 2.2927   & 1.9826   & 0.3101 & 13.5251\\ \hline
+            KGCN     & 6.8754   & 4.0424   & 2.833  & 41.2058\\ \hline
+            KGNNLS   & 7.763    & 4.963    & 2.8    & 36.0686\\ \hline
+            LINE     & 1.9129   & 1.435    & 0.4779 & 24.9825\\ \hline
+            MultiDAE & 8.0303   & 3.9954   & 4.0349 & 50.2465\\ \hline
+            LightGCN & 15.626   & 2.0841   & 13.5419 & 86.6623\\ \hline
+            NGCF     & 7.7582   & 3.1251   & 4.6331 & 59.7184\\ \hline
+            DGCF     & 94.903   & 13.3787  & 81.5243 & 85.9028\\ \hline
+        \end{tabular}
     }
-    \caption{Confronto delle emissioni}
+    \caption{Confronto delle emissioni }
 \end{table}
+
 
 \noindent Rispetto al quinto esperimento la percentuale di riduzioni delle emissioni in generale è diminuita, dunque gli algoritmi hanno emesso di più.
 Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi in background sulla macchina che hanno portato a un consumo leggermente più elevato dell'hardware.
@@ -1602,57 +1598,61 @@ Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi i
     \centering
     \resizebox{\textwidth}{!}{
         \begin{tabular}{|c|c|c|c|c|c|}
-    \hline
-    \textbf{Modello} & \textbf{Metrica} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{\% riduzione score} & \textbf{Riduzione} \\ \hline
-    \hline
-    BPR & recall@10 & 0.1635 & 0.1635 & 0.0 & 0.0 \\ \hline
-    CFKG & recall@10 & 0.1526 & 0.1526 & 0.0 & 0.0 \\ \hline
-    CKE & recall@10 & 0.1593 & 0.1543 & 3.1387 & 0.005 \\ \hline
-    DMF & recall@10 & 0.1432 & 0.1432 & 0.0 & 0.0 \\ \hline
-    KGCN & recall@10 & 0.1422 & 0.1422 & 0.0 & 0.0 \\ \hline
-    KGNNLS & recall@10 & 0.1421 & 0.1421 & 0.0 & 0.0 \\ \hline
-    LINE & recall@10 & 0.1451 & 0.1451 & 0.0 & 0.0 \\ \hline
-    MultiDAE & recall@10 & 0.1799 & 0.1655 & 8.0044 & 0.0144 \\ \hline
-    LightGCN & recall@10 & 0.173 & 0.1204 & 30.4046 & 0.0526 \\ \hline
-    NGCF & recall@10 & 0.1586 & 0.1479 & 6.7465 & 0.0107 \\ \hline
-    DGCF & recall@10 & 0.1656 & 0.1112 & 32.8502 & 0.0544 \\ \hline
-    BPR & ndcg@10 & 0.2554 & 0.2554 & 0.0 & 0.0 \\ \hline
-    CFKG & ndcg@10 & 0.2402 & 0.2402 & 0.0 & 0.0 \\ \hline
-    CKE & ndcg@10 & 0.2534 & 0.2515 & 0.7498 & 0.0019 \\ \hline
-    DMF & ndcg@10 & 0.2289 & 0.2289 & 0.0 & 0.0 \\ \hline
-    KGCN & ndcg@10 & 0.232 & 0.232 & 0.0 & 0.0 \\ \hline
-    KGNNLS & ndcg@10 & 0.2319 & 0.2319 & 0.0 & 0.0 \\ \hline
-    LINE & ndcg@10 & 0.2277 & 0.2277 & 0.0 & 0.0 \\ \hline
-    MultiDAE & ndcg@10 & 0.2633 & 0.2503 & 4.9373 & 0.013 \\ \hline
-    LightGCN & ndcg@10 & 0.2682 & 0.2064 & 23.0425 & 0.0618 \\ \hline
-    NGCF & ndcg@10 & 0.2539 & 0.2433 & 4.1749 & 0.0106 \\ \hline
-    DGCF & ndcg@10 & 0.2613 & 0.1923 & 26.4064 & 0.069 \\ \hline
-    BPR & averagepopularity@10 & 1146.3572 & 1146.3572 & 0.0 & 0.0 \\ \hline
-    CFKG & averagepopularity@10 & 1115.4498 & 1115.4498 & 0.0 & 0.0 \\ \hline
-    CKE & averagepopularity@10 & 1165.2413 & 1288.1031 & -10.5439 & -122.8618 \\ \hline
-    DMF & averagepopularity@10 & 1379.7292 & 1379.7292 & 0.0 & 0.0 \\ \hline
-    KGCN & averagepopularity@10 & 1188.9582 & 1188.9582 & 0.0 & 0.0 \\ \hline
-    KGNNLS & averagepopularity@10 & 1188.8981 & 1188.8981 & 0.0 & 0.0 \\ \hline
-    LINE & averagepopularity@10 & 979.498 & 979.498 & 0.0 & 0.0 \\ \hline
-    MultiDAE & averagepopularity@10 & 1137.4597 & 1219.8457 & -7.243 & -82.386 \\ \hline
-    LightGCN & averagepopularity@10 & 1088.741 & 1585.7381 & -45.6488 & -496.9971 \\ \hline
-    NGCF & averagepopularity@10 & 1201.8831 & 1359.7681 & -13.1365 & -157.885 \\ \hline
-    DGCF & averagepopularity@10 & 1172.6874 & 1708.7667 & -45.7137 & -536.0793 \\ \hline
-    BPR & giniindex@10 & 0.8839 & 0.8839 & 0.0 & 0.0 \\ \hline
-    CFKG & giniindex@10 & 0.8822 & 0.8822 & 0.0 & 0.0 \\ \hline
-    CKE & giniindex@10 & 0.8894 & 0.92 & -3.4405 & -0.0306 \\ \hline
-    DMF & giniindex@10 & 0.9443 & 0.9443 & 0.0  & 0.0 \\ \hline
-    KGCN & giniindex@10 & 0.8992 & 0.8992 & 0.0 & 0.0 \\ \hline
-    KGNNLS & giniindex@10 & 0.8992 & 0.8992 & 0.0 & 0.0 \\ \hline
-    LINE & giniindex@10 & 0.8904 & 0.8904 & 0.0 & 0.0 \\ \hline
-    MultiDAE & giniindex@10 & 0.875 & 0.9016 & -3.04 & -0.0266 \\ \hline
-    LightGCN & giniindex@10 & 0.8759 & 0.9709 & -10.846 & -0.095 \\ \hline
-    NGCF & giniindex@10 & 0.9079 & 0.9397 & -3.5026 & -0.0318 \\ \hline
-    DGCF & giniindex@10 & 0.8992 & 0.9791 & -8.8857 & -0.0799 \\ \hline
-\end{tabular}
+            \hline
+            \textbf{Metrica} & \textbf{Modello} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{Riduzione} & \textbf{\% riduzione score} \\ \hline
+            \multirow{11}{*}{recall@10} 
+            & BPR      & 0.1635 & 0.1635 & 0.0      & 0.0       \\ \cline{2-6}
+            & CFKG     & 0.1526 & 0.1526 & 0.0      & 0.0       \\ \cline{2-6}
+            & CKE      & 0.1593 & 0.1543 & 0.005    & 3.1387    \\ \cline{2-6}
+            & DMF      & 0.1432 & 0.1432 & 0.0      & 0.0       \\ \cline{2-6}
+            & KGCN     & 0.1422 & 0.1422 & 0.0      & 0.0       \\ \cline{2-6}
+            & KGNNLS   & 0.1421 & 0.1421 & 0.0      & 0.0       \\ \cline{2-6}
+            & LINE     & 0.1451 & 0.1451 & 0.0      & 0.0       \\ \cline{2-6}
+            & MultiDAE & 0.1799 & 0.1655 & 0.0144   & 8.0044    \\ \cline{2-6}
+            & LightGCN & 0.173  & 0.1204 & 0.0526   & 30.4046   \\ \cline{2-6}
+            & NGCF     & 0.1586 & 0.1479 & 0.0107   & 6.7465    \\ \cline{2-6}
+            & DGCF     & 0.1656 & 0.1112 & 0.0544   & 32.8502   \\ \hline
+            \multirow{11}{*}{ndcg@10} 
+            & BPR      & 0.2554 & 0.2554 & 0.0      & 0.0       \\ \cline{2-6}
+            & CFKG     & 0.2402 & 0.2402 & 0.0      & 0.0       \\ \cline{2-6}
+            & CKE      & 0.2534 & 0.2515 & 0.0019   & 0.7498    \\ \cline{2-6}
+            & DMF      & 0.2289 & 0.2289 & 0.0      & 0.0       \\ \cline{2-6}
+            & KGCN     & 0.232  & 0.232  & 0.0      & 0.0       \\ \cline{2-6}
+            & KGNNLS   & 0.2319 & 0.2319 & 0.0      & 0.0       \\ \cline{2-6}
+            & LINE     & 0.2277 & 0.2277 & 0.0      & 0.0       \\ \cline{2-6}
+            & MultiDAE & 0.2633 & 0.2503 & 0.013    & 4.9373    \\ \cline{2-6}
+            & LightGCN & 0.2682 & 0.2064 & 0.0618   & 23.0425   \\ \cline{2-6}
+            & NGCF     & 0.2539 & 0.2433 & 0.0106   & 4.1749    \\ \cline{2-6}
+            & DGCF     & 0.2613 & 0.1923 & 0.069    & 26.4064   \\ \hline
+            \multirow{11}{*}{averagepopularity@10} 
+            & BPR      & 1146.3572 & 1146.3572 & 0.0      & 0.0       \\ \cline{2-6}
+            & CFKG     & 1115.4498 & 1115.4498 & 0.0      & 0.0       \\ \cline{2-6}
+            & CKE      & 1165.2413 & 1288.1031 & -122.8618 & -10.5439  \\ \cline{2-6}
+            & DMF      & 1379.7292 & 1379.7292 & 0.0      & 0.0       \\ \cline{2-6}
+            & KGCN     & 1188.9582 & 1188.9582 & 0.0      & 0.0       \\ \cline{2-6}
+            & KGNNLS   & 1188.8981 & 1188.8981 & 0.0      & 0.0       \\ \cline{2-6}
+            & LINE     & 979.498   & 979.498   & 0.0      & 0.0       \\ \cline{2-6}
+            & MultiDAE & 1137.4597 & 1219.8457 & -82.386  & -7.243    \\ \cline{2-6}
+            & LightGCN & 1088.741  & 1585.7381 & -496.9971 & -45.6488 \\ \cline{2-6}
+            & NGCF     & 1201.8831 & 1359.7681 & -157.885  & -13.1365 \\ \cline{2-6}
+            & DGCF     & 1172.6874 & 1708.7667 & -536.0793 & -45.7137 \\ \hline
+            \multirow{11}{*}{giniindex@10} 
+            & BPR      & 0.8839 & 0.8839 & 0.0      & 0.0       \\ \cline{2-6}
+            & CFKG     & 0.8822 & 0.8822 & 0.0      & 0.0       \\ \cline{2-6}
+            & CKE      & 0.8894 & 0.92   & -0.0306  & -3.4405   \\ \cline{2-6}
+            & DMF      & 0.9443 & 0.9443 & 0.0      & 0.0       \\ \cline{2-6}
+            & KGCN     & 0.8992 & 0.8992 & 0.0      & 0.0       \\ \cline{2-6}
+            & KGNNLS   & 0.8992 & 0.8992 & 0.0      & 0.0       \\ \cline{2-6}
+            & LINE     & 0.8904 & 0.8904 & 0.0      & 0.0       \\ \cline{2-6}
+            & MultiDAE & 0.875  & 0.9016 & -0.0266  & -3.04     \\ \cline{2-6}
+            & LightGCN & 0.8759 & 0.9709 & -0.095   & -10.846   \\ \cline{2-6}
+            & NGCF     & 0.9079 & 0.9397 & -0.0318  & -3.5026   \\ \cline{2-6}
+            & DGCF     & 0.8992 & 0.9791 & -0.0799  & -8.8857   \\ \hline
+        \end{tabular}
     }
     \caption{Performance dei modelli su diverse metriche e dataset}
-    \end{table}
+\end{table}
+
 
 
 \begin{figure}[H]
