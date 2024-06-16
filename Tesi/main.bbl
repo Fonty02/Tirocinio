@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{DatiTecnologia}
+Ifeoma Adaji and Mikhail Adisa.
+\newblock A review of the use of persuasive technologies to influence
+  sustainable behaviour.
+\newblock In {\em Adjunct proceedings of the 30th ACM conference on user
+  modeling, adaptation and personalization}, pages 317--325, 2022.
+
 \bibitem{CFKG}
 Qingyao Ai, Vahid Azizi, Xu~Chen, and Yongfeng Zhang.
 \newblock Learning heterogeneous knowledge base embeddings for explainable
@@ -22,12 +29,6 @@ Ting Bai, Ji-Rong Wen, Jun Zhang, and Wayne~Xin Zhao.
   Knowledge Management}, CIKM '17, page 1979–1982, New York, NY, USA, 2017.
   Association for Computing Machinery.
 
-\bibitem{KnowledgeBased}
-Robin Burke.
-\newblock Knowledge-based recommender systems.
-\newblock {\em Encyclopedia of library and information systems}, 69(Supplement
-  32):175--186, 2000.
-
 \bibitem{KTUP}
 Yixin Cao, Xiang Wang, Xiangnan He, Zikun Hu, and Tat-Seng Chua.
 \newblock Unifying knowledge graph learning and recommendation: Towards a
@@ -41,16 +42,40 @@ Chong Chen, Min Zhang, Yongfeng Zhang, Yiqun Liu, and Shaoping Ma.
   recommendation.
 \newblock {\em ACM Trans. Inf. Syst.}, 38(2), jan 2020.
 
+\bibitem{KGEmbedd}
+Yuanfei Dai, Shiping Wang, Neal~N Xiong, and Wenzhong Guo.
+\newblock A survey on knowledge graph embedding: Approaches, applications and
+  benchmarks.
+\newblock {\em Electronics}, 9(5):750, 2020.
+
 \bibitem{differenzedivise}
 Carl de~Boor.
 \newblock Divided differences.
 \newblock {\em arXiv preprint math/0502036}, 2005.
+
+\bibitem{DatiConsumo}
+Magdalini Eirinaki, Iraklis Varlamis, Janhavi Dahihande, Akshay Jaiswal,
+  Akshay~Anil Pagar, and Ajinkya Thakare.
+\newblock Real-time recommendations for energy-efficient appliance usage in
+  households.
+\newblock {\em Frontiers in big Data}, 5:972206, 2022.
 
 \bibitem{RecommenderSustainability}
 Alexander Felfernig, Manfred Wundara, Thi Ngoc~Trang Tran, Seda Polat-Erdeniz,
   Sebastian Lubos, Merfat El~Mansi, Damian Garber, and Viet-Man Le.
 \newblock Recommender systems for sustainability: overview and research issues.
 \newblock {\em Frontiers in Big Data}, 6, 2023.
+
+\bibitem{SostenibAmbient}
+Robert Goodland.
+\newblock The concept of environmental sustainability.
+\newblock {\em Annual review of ecology and systematics}, 26(1):1--24, 1995.
+
+\bibitem{CosineAdjustedSim}
+Dejian Guan and Wentao Zhao.
+\newblock Adversarial detection based on inner-class adjusted cosine
+  similarity.
+\newblock volume~12, page 9406. MDPI, 2022.
 
 \bibitem{LightGCN}
 Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, YongDong Zhang, and Meng Wang.
@@ -79,11 +104,23 @@ Xiangnan He, Lizi Liao, Hanwang Zhang, Liqiang Nie, Xia Hu, and Tat-Seng Chua.
   Wide Web}, WWW '17, page 173–182, Republic and Canton of Geneva, CHE, 2017.
   International World Wide Web Conferences Steering Committee.
 
+\bibitem{KnowledgeGraph}
+Aidan Hogan, Eva Blomqvist, Michael Cochez, Claudia d’Amato, Gerard~De Melo,
+  Claudio Gutierrez, Sabrina Kirrane, Jos{\'e} Emilio~Labra Gayo, Roberto
+  Navigli, Sebastian Neumaier, et~al.
+\newblock Knowledge graphs.
+\newblock {\em ACM Computing Surveys (Csur)}, 54(4):1--37, 2021.
+
 \bibitem{DataSparsity}
 Zan Huang, Hsinchun Chen, and Daniel Zeng.
 \newblock Applying associative retrieval techniques to alleviate the sparsity
   problem in collaborative filtering.
 \newblock {\em ACM Trans. Inf. Syst.}, 22(1):116–142, jan 2004.
+
+\bibitem{KnowledgeAware}
+Andreea Iana, Mehwish Alam, and Heiko Paulheim.
+\newblock A survey on knowledge-aware news recommender systems.
+\newblock {\em Semantic Web}, (Preprint):1--62, 2022.
 
 \bibitem{FISM}
 Santosh Kabbur, Xia Ning, and George Karypis.
@@ -145,11 +182,29 @@ Bamshad Mobasher, Robin Burke, Runa Bhaumik, and Chad Williams.
   and algorithm robustness.
 \newblock {\em ACM Trans. Internet Technol.}, 7(4):23–es, oct 2007.
 
+\bibitem{sostenibilità}
+Raymond Murphy.
+\newblock Sustainability: A wicked problem.
+\newblock {\em Sociologica, Italian journal of sociology on line},
+  (2/2012):0--0, 2012.
+
 \bibitem{SLIMElastic}
 Xia Ning and George Karypis.
 \newblock Slim: Sparse linear methods for top-n recommender systems.
 \newblock In {\em 2011 IEEE 11th International Conference on Data Mining},
   pages 497--506, 2011.
+
+\bibitem{2030}
+Eric Palmer.
+\newblock Introduction: the 2030 agenda.
+\newblock {\em Journal of Global Ethics}, 11(3):262--269, 2015.
+
+\bibitem{CosineSim}
+Faisal Rahutomo, Teruaki Kitasuka, Masayoshi Aritsugi, et~al.
+\newblock Semantic cosine similarity.
+\newblock In {\em The 7th international student conference on advanced science
+  and technology ICAST}, volume~4, page~1. University of Seoul South Korea,
+  2012.
 
 \bibitem{BPR}
 Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, and Lars Schmidt-Thieme.
@@ -158,11 +213,31 @@ Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, and Lars Schmidt-Thieme.
   Artificial Intelligence}, UAI '09, page 452–461, Arlington, Virginia, USA,
   2009. AUAI Press.
 
+\bibitem{Pearson}
+Paul Resnick, Neophytos Iacovou, Mitesh Suchak, Peter Bergstrom, and John
+  Riedl.
+\newblock Grouplens: An open architecture for collaborative filtering of
+  netnews.
+\newblock In {\em Proceedings of the 1994 ACM conference on Computer supported
+  cooperative work}, pages 175--186, 1994.
+
 \bibitem{energy-mix}
 Hannah Ritchie and Pablo Rosado.
 \newblock Energy mix.
 \newblock {\em Our World in Data}, 2020.
 \newblock https://ourworldindata.org/energy-mix.
+
+\bibitem{TFIDF}
+Gerard Salton.
+\newblock Automatic text processing: The transformation, analysis, and
+  retrieval of.
+\newblock {\em Reading: Addison-Wesley}, 169, 1989.
+
+\bibitem{ItemBased}
+Badrul Sarwar, George Karypis, Joseph Konstan, and John Riedl.
+\newblock Item-based collaborative filtering recommendation algorithms.
+\newblock In {\em Proceedings of the 10th international conference on World
+  Wide Web}, pages 285--295, 2001.
 
 \bibitem{CFRS}
 J.~Ben Schafer, Dan Frankowski, Jon Herlocker, and Shilad Sen.
@@ -197,6 +272,20 @@ Giuseppe Spillo, Allegra De~Filippo, Cataldo Musto, Michela Milano, and
   trade-off between algorithms performance and carbon footprint.
 \newblock In {\em Proceedings of the 17th ACM Conference on Recommender
   Systems}, pages 856--862, 2023.
+
+\bibitem{Interfacce}
+Alain Starke, Martijn Willemsen, and Chris Snijders.
+\newblock Effective user interface designs to increase energy-efficient
+  behavior in a rasch-based energy recommender system.
+\newblock In {\em Proceedings of the eleventh ACM conference on recommender
+  systems}, pages 65--73, 2017.
+
+\bibitem{SuggerimentiResponsabili}
+Alain~D Starke, Martijn~C Willemsen, and Chris Snijders.
+\newblock Using explanations as energy-saving frames: A user-centric
+  recommender study.
+\newblock In {\em Adjunct Proceedings of the 29th ACM Conference on User
+  Modeling, Adaptation and Personalization}, pages 229--237, 2021.
 
 \bibitem{EASE}
 Harald Steck.
@@ -306,7 +395,7 @@ Yao Wu, Christopher DuBois, Alice~X. Zheng, and Martin Ester.
   Search and Data Mining}, WSDM '16, page 153–162, New York, NY, USA, 2016.
   Association for Computing Machinery.
 
-\bibitem{sostenibilita}
+\bibitem{sostenibilitaAI}
 Aimee Wynsberghe.
 \newblock Sustainable ai: Ai for sustainability and the sustainability of ai.
 \newblock {\em AI and Ethics}, 1, 02 2021.
@@ -317,12 +406,22 @@ Hong-Jian Xue, Xinyu Dai, Jianbing Zhang, Shujian Huang, and Jiajun Chen.
 \newblock In {\em IJCAI}, volume~17, pages 3203--3209. Melbourne, Australia,
   2017.
 
+\bibitem{MetricheNonSostenibili}
+Eva Zangerle and Christine Bauer.
+\newblock Evaluating recommender systems: survey and framework.
+\newblock {\em ACM computing surveys}, 55(8):1--38, 2022.
+
 \bibitem{CKE}
 Fuzheng Zhang, Nicholas~Jing Yuan, Defu Lian, Xing Xie, and Wei-Ying Ma.
 \newblock Collaborative knowledge base embedding for recommender systems.
 \newblock In {\em Proceedings of the 22nd ACM SIGKDD International Conference
   on Knowledge Discovery and Data Mining}, KDD '16, page 353–362, New York,
   NY, USA, 2016. Association for Computing Machinery.
+
+\bibitem{NeuroSimb}
+Jing Zhang, Bo~Chen, Lingxi Zhang, Xirui Ke, and Haipeng Ding.
+\newblock Neural, symbolic and neural-symbolic reasoning on knowledge graphs.
+\newblock {\em AI Open}, 2:14--35, 2021.
 
 \bibitem{recbole}
 Wayne~Xin Zhao, Yupeng Hou, Xingyu Pan, Chen Yang, Zeyu Zhang, Zihan Lin,

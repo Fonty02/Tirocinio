@@ -8,51 +8,53 @@
 \contentsline {section}{\numberline {2}Recommender Systems}{9}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Introduzione}{9}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Collaborative Filtering}{11}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Content-based}{13}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Knowledge-aware}{13}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Modelli di raccomandazione a stato dell'arte}{14}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Recommender Systems e Sustainability}{16}{subsection.2.6}%
-\contentsline {section}{\numberline {3}Metodologia}{18}{section.3}%
-\contentsline {subsection}{\numberline {3.1}RQs e obiettivi del lavoro}{18}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Addestamento dei modelli}{19}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Tracking delle emissioni}{19}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Esperimenti}{22}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Dataset utilizzati}{22}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}LFM1b}{22}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Movielens-10m}{25}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Movielens-1m}{27}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}Amazon-Book}{28}{subsubsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.2}Esperimenti svolti}{28}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Benchmarking dei modelli}{28}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Addestramento sostenibile}{36}{subsubsection.4.2.2}%
-\contentsline {section}{\numberline {5}Discussione dei risultati}{40}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Benchmarking}{40}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Emissioni}{40}{subsubsection.5.1.1}%
-\contentsline {paragraph}{LFM-1b\_artist}{40}{section*.33}%
-\contentsline {paragraph}{MovieLens-10M\_50U10I}{41}{section*.35}%
-\contentsline {subsubsection}{\numberline {5.1.2}Trade-off}{42}{subsubsection.5.1.2}%
-\contentsline {paragraph}{LFM-1b\_artist\_20U50I}{42}{section*.37}%
-\contentsline {paragraph}{LFM-1b\_artist\_20U50I\_75strat}{43}{section*.39}%
-\contentsline {paragraph}{LFM-1b\_artist\_20U50I\_50strat}{44}{section*.41}%
-\contentsline {paragraph}{LFM-1b\_artist\_20U50I\_25strat}{45}{section*.43}%
-\contentsline {paragraph}{MovieLens-10M\_50U10I}{46}{section*.45}%
-\contentsline {subsubsection}{\numberline {5.1.3}Conclusioni}{48}{subsubsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.2}Addestramento sostenibile}{48}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Parte esplorativa}{48}{subsubsection.5.2.1}%
-\contentsline {paragraph}{Primo esperimento}{48}{section*.47}%
-\contentsline {paragraph}{Secondo esperimento}{55}{section*.59}%
-\contentsline {paragraph}{Terzo esperimento}{62}{section*.71}%
-\contentsline {paragraph}{Conclusioni}{69}{section*.83}%
-\contentsline {subsubsection}{\numberline {5.2.2}Confronto tra i criteri}{69}{subsubsection.5.2.2}%
-\contentsline {paragraph}{Primo esperimento}{69}{section*.84}%
-\contentsline {paragraph}{Secondo esperimento}{76}{section*.96}%
-\contentsline {paragraph}{Terzo esperimento}{82}{section*.108}%
-\contentsline {paragraph}{Quarto esperimento}{88}{section*.120}%
-\contentsline {paragraph}{Quinto esperimento}{94}{section*.132}%
-\contentsline {paragraph}{Sesto esperimento}{100}{section*.144}%
-\contentsline {paragraph}{Conclusioni}{106}{section*.156}%
-\contentsline {subsubsection}{\numberline {5.2.3}Studio di sensibilità dei criteri}{106}{subsubsection.5.2.3}%
-\contentsline {subsubsection}{\numberline {5.2.4}Conclusioni}{110}{subsubsection.5.2.4}%
-\contentsline {section}{\numberline {6}Conclusioni e sviluppi futuri}{111}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Conclusioni}{111}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Sviluppi futuri}{111}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}User-based collaborative filtering}{13}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Item-based collaborative filtering}{14}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Content-based}{14}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Knowledge-aware}{17}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Modelli di raccomandazione a stato dell'arte}{18}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Recommender Systems e sostenibilità ambientale}{21}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Metodologia}{22}{section.3}%
+\contentsline {subsection}{\numberline {3.1}RQs e obiettivi del lavoro}{22}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Addestamento dei modelli}{23}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Tracking delle emissioni}{23}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Esperimenti}{26}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Dataset utilizzati}{26}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}LFM1b}{26}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Movielens-10m}{29}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Movielens-1m}{31}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Amazon-Book}{32}{subsubsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.2}Esperimenti svolti}{32}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Benchmarking dei modelli}{32}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Addestramento sostenibile}{40}{subsubsection.4.2.2}%
+\contentsline {section}{\numberline {5}Discussione dei risultati}{44}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Benchmarking}{44}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Emissioni}{44}{subsubsection.5.1.1}%
+\contentsline {paragraph}{LFM-1b\_artist}{44}{section*.35}%
+\contentsline {paragraph}{MovieLens-10M\_50U10I}{45}{section*.37}%
+\contentsline {subsubsection}{\numberline {5.1.2}Trade-off}{46}{subsubsection.5.1.2}%
+\contentsline {paragraph}{LFM-1b\_artist\_20U50I}{46}{section*.39}%
+\contentsline {paragraph}{LFM-1b\_artist\_20U50I\_75strat}{47}{section*.41}%
+\contentsline {paragraph}{LFM-1b\_artist\_20U50I\_50strat}{48}{section*.43}%
+\contentsline {paragraph}{LFM-1b\_artist\_20U50I\_25strat}{49}{section*.45}%
+\contentsline {paragraph}{MovieLens-10M\_50U10I}{50}{section*.47}%
+\contentsline {subsubsection}{\numberline {5.1.3}Conclusioni}{52}{subsubsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.2}Addestramento sostenibile}{52}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Parte esplorativa}{52}{subsubsection.5.2.1}%
+\contentsline {paragraph}{Primo esperimento}{52}{section*.49}%
+\contentsline {paragraph}{Secondo esperimento}{59}{section*.61}%
+\contentsline {paragraph}{Terzo esperimento}{66}{section*.73}%
+\contentsline {paragraph}{Conclusioni}{73}{section*.85}%
+\contentsline {subsubsection}{\numberline {5.2.2}Confronto tra i criteri}{73}{subsubsection.5.2.2}%
+\contentsline {paragraph}{Primo esperimento}{73}{section*.86}%
+\contentsline {paragraph}{Secondo esperimento}{80}{section*.98}%
+\contentsline {paragraph}{Terzo esperimento}{86}{section*.110}%
+\contentsline {paragraph}{Quarto esperimento}{92}{section*.122}%
+\contentsline {paragraph}{Quinto esperimento}{98}{section*.134}%
+\contentsline {paragraph}{Sesto esperimento}{104}{section*.146}%
+\contentsline {paragraph}{Conclusioni}{110}{section*.158}%
+\contentsline {subsubsection}{\numberline {5.2.3}Studio di sensibilità dei criteri}{110}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}Conclusioni}{114}{subsubsection.5.2.4}%
+\contentsline {section}{\numberline {6}Conclusioni e sviluppi futuri}{115}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Conclusioni}{115}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Sviluppi futuri}{115}{subsection.6.2}%
