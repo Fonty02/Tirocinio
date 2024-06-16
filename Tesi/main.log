@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.6.1)  16 JUN 2024 10:56
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.6.1)  16 JUN 2024 11:23
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/fonta/Desktop/Tirocinio/Tesi/main
@@ -1644,7 +1644,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25<./images/per-capita-energy-source-stacked.png>] (./pages/esperimenti.tex
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
@@ -1666,15 +1666,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 []\OT1/lmr/m/n/12 Ta-bel-la 8: |In-for-ma-zio-ni sul kno-w-led-ge gra-ph del da-
 ta-set
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-[]\OT1/lmr/m/n/12 Ta-bel-la 10: |In-for-ma-zio-ni sul kno-w-led-ge gra-ph del da
--ta-set
  []
 
 
@@ -1686,7 +1680,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 256--256
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+[]\OT1/lmr/m/n/12 Ta-bel-la 10: |In-for-ma-zio-ni sul kno-w-led-ge gra-ph del da
+-ta-set
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
 []\OT1/lmr/m/n/12 Ta-bel-la 12: |In-for-ma-zio-ni sul kno-w-led-ge gra-ph del da
 -ta-set
  []
@@ -1700,7 +1700,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
@@ -1722,17 +1722,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
-<images/situazione-attuale.png, id=566, 1795.70876pt x 792.9625pt>
-File: images/situazione-attuale.png Graphic file (type png)
-<use images/situazione-attuale.png>
-Package luatex.def Info: images/situazione-attuale.png  used on input line 473.
-
-(luatex.def)             Requested size: 424.06033pt x 187.25368pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--475
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1742,6 +1731,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32]
+<images/situazione-attuale.png, id=572, 1795.70876pt x 792.9625pt>
+File: images/situazione-attuale.png Graphic file (type png)
+<use images/situazione-attuale.png>
+Package luatex.def Info: images/situazione-attuale.png  used on input line 491.
+
+(luatex.def)             Requested size: 424.06033pt x 187.25368pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--493
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1760,21 +1760,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34]
-<images/sum_mind_dataset.png, id=637, 1304.875pt x 640.3925pt>
+<images/sum_mind_dataset.png, id=632, 1304.875pt x 640.3925pt>
 File: images/sum_mind_dataset.png Graphic file (type png)
 <use images/sum_mind_dataset.png>
-Package luatex.def Info: images/sum_mind_dataset.png  used on input line 530.
+Package luatex.def Info: images/sum_mind_dataset.png  used on input line 548.
 (luatex.def)             Requested size: 424.06033pt x 208.11533pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--532
+Underfull \hbox (badness 10000) in paragraph at lines 545--550
 
  []
 
-<images/sum_amazon_books_dataset.png, id=638, 1312.905pt x 642.4pt>
+<images/sum_amazon_books_dataset.png, id=633, 1312.905pt x 642.4pt>
 File: images/sum_amazon_books_dataset.png Graphic file (type png)
 <use images/sum_amazon_books_dataset.png>
 Package luatex.def Info: images/sum_amazon_books_dataset.png  used on input lin
-e 535.
+e 553.
 (luatex.def)             Requested size: 424.06033pt x 207.49344pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1785,11 +1785,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35]
-<images/sum_movielens_dataset.png, id=655, 1296.845pt x 652.4375pt>
+<images/sum_movielens_dataset.png, id=654, 1296.845pt x 652.4375pt>
 File: images/sum_movielens_dataset.png Graphic file (type png)
 <use images/sum_movielens_dataset.png>
 Package luatex.def Info: images/sum_movielens_dataset.png  used on input line 5
-41.
+59.
 (luatex.def)             Requested size: 424.06033pt x 213.34383pt.
 
 
@@ -1828,11 +1828,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [39]
-<images/curve_emissions_score.png, id=678, 442.65375pt x 352.31625pt>
+<images/curve_emissions_score.png, id=677, 442.65375pt x 352.31625pt>
 File: images/curve_emissions_score.png Graphic file (type png)
 <use images/curve_emissions_score.png>
 Package luatex.def Info: images/curve_emissions_score.png  used on input line 6
-40.
+58.
 (luatex.def)             Requested size: 424.06033pt x 337.53702pt.
 
 
@@ -1853,17 +1853,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [41<./images/curve_emissions_score.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 669--669
+Underfull \hbox (badness 10000) in paragraph at lines 687--687
 []|\OT1/lmr/m/n/12 LFM-
  []
 
 
-Overfull \hbox (9.28186pt too wide) in paragraph at lines 669--669
+Overfull \hbox (9.28186pt too wide) in paragraph at lines 687--687
 \OT1/lmr/m/n/12 1b[]artist[]20U50I[]25strat| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--669
+Underfull \hbox (badness 10000) in paragraph at lines 687--687
 []|\OT1/lmr/m/n/12 ama-
  []
 
@@ -1924,7 +1924,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [44<./images/emissions_LFM-1b_artist_20U50I.png><./images/emissions_LFM-1b_artis
 t_20U50I_75strat.png><./images/emissions_LFM-1b_artist_20U50I_50strat.png><./ima
 ges/emissions_LFM-1b_artist_20U50I_25strat.png>]
-<images/emissions_ml-10m_50U10I.png, id=718, 462.528pt x 346.896pt>
+<images/emissions_ml-10m_50U10I.png, id=717, 462.528pt x 346.896pt>
 File: images/emissions_ml-10m_50U10I.png Graphic file (type png)
 <use images/emissions_ml-10m_50U10I.png>
 Package luatex.def Info: images/emissions_ml-10m_50U10I.png  used on input line
@@ -2168,13 +2168,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [52<./images/emissions_movielens_1m_earlyClassic.png><./images/emissions_moviele
 ns_1m_earlyModified.png>]
-<images/recall@10_movielens_1m_comparison.png, id=811, 722.7pt x 361.35pt>
+<images/recall@10_movielens_1m_comparison.png, id=810, 722.7pt x 361.35pt>
 File: images/recall@10_movielens_1m_comparison.png Graphic file (type png)
 <use images/recall@10_movielens_1m_comparison.png>
 Package luatex.def Info: images/recall@10_movielens_1m_comparison.png  used on 
 input line 238.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/ndcg@10_movielens_1m_comparison.png, id=812, 722.7pt x 361.35pt>
+<images/ndcg@10_movielens_1m_comparison.png, id=811, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_comparison.png>
 Package luatex.def Info: images/ndcg@10_movielens_1m_comparison.png  used on in
@@ -2190,13 +2190,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [53<./images/recall@10_movielens_1m_comparison.png>]
-<images/giniindex@10_movielens_1m_comparison.png, id=820, 722.7pt x 361.35pt>
+<images/giniindex@10_movielens_1m_comparison.png, id=819, 722.7pt x 361.35pt>
 File: images/giniindex@10_movielens_1m_comparison.png Graphic file (type png)
 <use images/giniindex@10_movielens_1m_comparison.png>
 Package luatex.def Info: images/giniindex@10_movielens_1m_comparison.png  used 
 on input line 252.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/averagepopularity@10_movielens_1m_comparison.png, id=821, 722.7pt x 361
+<images/averagepopularity@10_movielens_1m_comparison.png, id=820, 722.7pt x 361
 .35pt>
 File: images/averagepopularity@10_movielens_1m_comparison.png Graphic file (typ
 e png)
@@ -2224,7 +2224,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [55<./images/averagepopularity@10_movielens_1m_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m.png, id=836, 722.7pt x 361.
+<images/decrement_averagepopularity@10_movielens_1m.png, id=835, 722.7pt x 361.
 35pt>
 File: images/decrement_averagepopularity@10_movielens_1m.png Graphic file (type
  png)
@@ -2242,13 +2242,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [56]
-<images/decrement_giniindex@10_movielens_1m.png, id=842, 722.7pt x 361.35pt>
+<images/decrement_giniindex@10_movielens_1m.png, id=841, 722.7pt x 361.35pt>
 File: images/decrement_giniindex@10_movielens_1m.png Graphic file (type png)
 <use images/decrement_giniindex@10_movielens_1m.png>
 Package luatex.def Info: images/decrement_giniindex@10_movielens_1m.png  used o
 n input line 336.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/decrement_ndcg@10_movielens_1m.png, id=843, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m.png, id=842, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m.png>
 Package luatex.def Info: images/decrement_ndcg@10_movielens_1m.png  used on inp
@@ -2265,7 +2265,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [57<./images/decrement_averagepopularity@10_movielens_1m.png><./images/decrement
 _giniindex@10_movielens_1m.png>]
-<images/decrement_recall@10_movielens_1m.png, id=852, 722.7pt x 361.35pt>
+<images/decrement_recall@10_movielens_1m.png, id=851, 722.7pt x 361.35pt>
 File: images/decrement_recall@10_movielens_1m.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m.png>
 Package luatex.def Info: images/decrement_recall@10_movielens_1m.png  used on i
@@ -2309,7 +2309,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [59<./images/emissions_LFM-1b_artist_20U50I_25strat_earlyClassic.png><./images/e
 missions_LFM-1b_artist_20U50I_25strat_earlyModified.png>]
-<images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=871, 722.7pt 
+<images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=870, 722.7pt 
 x 361.35pt>
 File: images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png Graphic file
  (type png)
@@ -2317,7 +2317,7 @@ File: images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png Graphic file
 Package luatex.def Info: images/recall@10_LFM-1b_artist_20U50I_25strat_comparis
 on.png  used on input line 423.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/ndcg@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=872, 722.7pt x 
+<images/ndcg@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=871, 722.7pt x 
 361.35pt>
 File: images/ndcg@10_LFM-1b_artist_20U50I_25strat_comparison.png Graphic file (
 type png)
@@ -2335,7 +2335,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [60<./images/recall@10_LFM-1b_artist_20U50I_25strat_comparison.png>]
-<images/giniindex@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=881, 722.7
+<images/giniindex@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=880, 722.7
 pt x 361.35pt>
 File: images/giniindex@10_LFM-1b_artist_20U50I_25strat_comparison.png Graphic f
 ile (type png)
@@ -2344,7 +2344,7 @@ Package luatex.def Info: images/giniindex@10_LFM-1b_artist_20U50I_25strat_compa
 rison.png  used on input line 437.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
 <images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png, id=88
-2, 722.7pt x 361.35pt>
+1, 722.7pt x 361.35pt>
 File: images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png G
 raphic file (type png)
 <use images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png>
@@ -2376,7 +2376,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [62<./images/averagepopularity@10_LFM-1b_artist_20U50I_25strat_comparison.png>]
-<images/decrement_averagepopularity@10_LFM-1b_artist_20U50I_25strat.png, id=897
+<images/decrement_averagepopularity@10_LFM-1b_artist_20U50I_25strat.png, id=896
 , 722.7pt x 361.35pt>
 File: images/decrement_averagepopularity@10_LFM-1b_artist_20U50I_25strat.png Gr
 aphic file (type png)
@@ -2393,7 +2393,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [63]
-<images/decrement_giniindex@10_LFM-1b_artist_20U50I_25strat.png, id=903, 722.7p
+<images/decrement_giniindex@10_LFM-1b_artist_20U50I_25strat.png, id=902, 722.7p
 t x 361.35pt>
 File: images/decrement_giniindex@10_LFM-1b_artist_20U50I_25strat.png Graphic fi
 le (type png)
@@ -2401,7 +2401,7 @@ le (type png)
 Package luatex.def Info: images/decrement_giniindex@10_LFM-1b_artist_20U50I_25s
 trat.png  used on input line 519.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/decrement_ndcg@10_LFM-1b_artist_20U50I_25strat.png, id=904, 722.7pt x 3
+<images/decrement_ndcg@10_LFM-1b_artist_20U50I_25strat.png, id=903, 722.7pt x 3
 61.35pt>
 File: images/decrement_ndcg@10_LFM-1b_artist_20U50I_25strat.png Graphic file (t
 ype png)
@@ -2420,7 +2420,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [64<./images/decrement_averagepopularity@10_LFM-1b_artist_20U50I_25strat.png><./
 images/decrement_giniindex@10_LFM-1b_artist_20U50I_25strat.png>]
-<images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png, id=913, 722.7pt x
+<images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png, id=912, 722.7pt x
  361.35pt>
 File: images/decrement_recall@10_LFM-1b_artist_20U50I_25strat.png Graphic file 
 (type png)
@@ -2466,7 +2466,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [66<./images/emissions_amazon_books_60core_kg_earlyClassic.png><./images/emissio
 ns_amazon_books_60core_kg_earlyModified.png>]
-<images/recall@10_amazon_books_60core_kg_comparison.png, id=932, 722.7pt x 361.
+<images/recall@10_amazon_books_60core_kg_comparison.png, id=931, 722.7pt x 361.
 35pt>
 File: images/recall@10_amazon_books_60core_kg_comparison.png Graphic file (type
  png)
@@ -2474,7 +2474,7 @@ File: images/recall@10_amazon_books_60core_kg_comparison.png Graphic file (type
 Package luatex.def Info: images/recall@10_amazon_books_60core_kg_comparison.png
   used on input line 597.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/ndcg@10_amazon_books_60core_kg_comparison.png, id=933, 722.7pt x 361.35
+<images/ndcg@10_amazon_books_60core_kg_comparison.png, id=932, 722.7pt x 361.35
 pt>
 File: images/ndcg@10_amazon_books_60core_kg_comparison.png Graphic file (type p
 ng)
@@ -2492,7 +2492,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [67<./images/recall@10_amazon_books_60core_kg_comparison.png>]
-<images/giniindex@10_amazon_books_60core_kg_comparison.png, id=941, 722.7pt x 3
+<images/giniindex@10_amazon_books_60core_kg_comparison.png, id=940, 722.7pt x 3
 61.35pt>
 File: images/giniindex@10_amazon_books_60core_kg_comparison.png Graphic file (t
 ype png)
@@ -2500,7 +2500,7 @@ ype png)
 Package luatex.def Info: images/giniindex@10_amazon_books_60core_kg_comparison.
 png  used on input line 611.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/averagepopularity@10_amazon_books_60core_kg_comparison.png, id=942, 722
+<images/averagepopularity@10_amazon_books_60core_kg_comparison.png, id=941, 722
 .7pt x 361.35pt>
 File: images/averagepopularity@10_amazon_books_60core_kg_comparison.png Graphic
  file (type png)
@@ -2533,7 +2533,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [69<./images/averagepopularity@10_amazon_books_60core_kg_comparison.png>]
-<images/decrement_averagepopularity@10_amazon_books_60core_kg.png, id=957, 722.
+<images/decrement_averagepopularity@10_amazon_books_60core_kg.png, id=956, 722.
 7pt x 361.35pt>
 File: images/decrement_averagepopularity@10_amazon_books_60core_kg.png Graphic 
 file (type png)
@@ -2551,7 +2551,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [70]
-<images/decrement_giniindex@10_amazon_books_60core_kg.png, id=964, 722.7pt x 36
+<images/decrement_giniindex@10_amazon_books_60core_kg.png, id=963, 722.7pt x 36
 1.35pt>
 File: images/decrement_giniindex@10_amazon_books_60core_kg.png Graphic file (ty
 pe png)
@@ -2559,7 +2559,7 @@ pe png)
 Package luatex.def Info: images/decrement_giniindex@10_amazon_books_60core_kg.p
 ng  used on input line 686.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/decrement_ndcg@10_amazon_books_60core_kg.png, id=965, 722.7pt x 361.35p
+<images/decrement_ndcg@10_amazon_books_60core_kg.png, id=964, 722.7pt x 361.35p
 t>
 File: images/decrement_ndcg@10_amazon_books_60core_kg.png Graphic file (type pn
 g)
@@ -2578,7 +2578,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [71<./images/decrement_averagepopularity@10_amazon_books_60core_kg.png><./images
 /decrement_giniindex@10_amazon_books_60core_kg.png>]
-<images/decrement_recall@10_amazon_books_60core_kg.png, id=974, 722.7pt x 361.3
+<images/decrement_recall@10_amazon_books_60core_kg.png, id=973, 722.7pt x 361.3
 5pt>
 File: images/decrement_recall@10_amazon_books_60core_kg.png Graphic file (type 
 png)
@@ -2624,7 +2624,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [73<./images/emissions_movielens_1m_40_5_earlyClassic.png><./images/emissions_mo
 vielens_1m_40_5_earlyModified.png>]
-<images/recall@10_movielens_1m_40_5_comparison.png, id=994, 722.7pt x 361.35pt>
+<images/recall@10_movielens_1m_40_5_comparison.png, id=993, 722.7pt x 361.35pt>
 
 File: images/recall@10_movielens_1m_40_5_comparison.png Graphic file (type png)
 
@@ -2632,7 +2632,7 @@ File: images/recall@10_movielens_1m_40_5_comparison.png Graphic file (type png)
 Package luatex.def Info: images/recall@10_movielens_1m_40_5_comparison.png  use
 d on input line 770.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/ndcg@10_movielens_1m_40_5_comparison.png, id=995, 722.7pt x 361.35pt>
+<images/ndcg@10_movielens_1m_40_5_comparison.png, id=994, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_40_5_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_40_5_comparison.png>
 Package luatex.def Info: images/ndcg@10_movielens_1m_40_5_comparison.png  used 
@@ -2648,7 +2648,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [74<./images/recall@10_movielens_1m_40_5_comparison.png>]
-<images/giniindex@10_movielens_1m_40_5_comparison.png, id=1003, 722.7pt x 361.3
+<images/giniindex@10_movielens_1m_40_5_comparison.png, id=1002, 722.7pt x 361.3
 5pt>
 File: images/giniindex@10_movielens_1m_40_5_comparison.png Graphic file (type p
 ng)
@@ -2656,7 +2656,7 @@ ng)
 Package luatex.def Info: images/giniindex@10_movielens_1m_40_5_comparison.png  
 used on input line 784.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/averagepopularity@10_movielens_1m_40_5_comparison.png, id=1004, 722.7pt
+<images/averagepopularity@10_movielens_1m_40_5_comparison.png, id=1003, 722.7pt
  x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_40_5_comparison.png Graphic file
  (type png)
@@ -2684,7 +2684,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [76<./images/averagepopularity@10_movielens_1m_40_5_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m_40_5.png, id=1019, 722.7pt 
+<images/decrement_averagepopularity@10_movielens_1m_40_5.png, id=1018, 722.7pt 
 x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m_40_5.png Graphic file 
 (type png)
@@ -2702,7 +2702,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [77]
-<images/decrement_giniindex@10_movielens_1m_40_5.png, id=1025, 722.7pt x 361.35
+<images/decrement_giniindex@10_movielens_1m_40_5.png, id=1024, 722.7pt x 361.35
 pt>
 File: images/decrement_giniindex@10_movielens_1m_40_5.png Graphic file (type pn
 g)
@@ -2710,7 +2710,7 @@ g)
 Package luatex.def Info: images/decrement_giniindex@10_movielens_1m_40_5.png  u
 sed on input line 864.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/decrement_ndcg@10_movielens_1m_40_5.png, id=1026, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m_40_5.png, id=1025, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m_40_5.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m_40_5.png>
 Package luatex.def Info: images/decrement_ndcg@10_movielens_1m_40_5.png  used o
@@ -2727,7 +2727,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [78<./images/decrement_averagepopularity@10_movielens_1m_40_5.png><./images/decr
 ement_giniindex@10_movielens_1m_40_5.png>]
-<images/decrement_recall@10_movielens_1m_40_5.png, id=1035, 722.7pt x 361.35pt>
+<images/decrement_recall@10_movielens_1m_40_5.png, id=1034, 722.7pt x 361.35pt>
 
 File: images/decrement_recall@10_movielens_1m_40_5.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m_40_5.png>
@@ -2761,7 +2761,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [79<./images/decrement_ndcg@10_movielens_1m_40_5.png><./images/decrement_recall@
 10_movielens_1m_40_5.png>]
-<images/recall@10_movielens_1m_30_5_comparison.png, id=1046, 722.7pt x 361.35pt
+<images/recall@10_movielens_1m_30_5_comparison.png, id=1045, 722.7pt x 361.35pt
 >
 File: images/recall@10_movielens_1m_30_5_comparison.png Graphic file (type png)
 
@@ -2780,13 +2780,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [80<./images/emissions_movielens_1m_30_5_earlyClassic.png><./images/emissions_mo
 vielens_1m_30_5_earlyModified.png>]
-<images/ndcg@10_movielens_1m_30_5_comparison.png, id=1057, 722.7pt x 361.35pt>
+<images/ndcg@10_movielens_1m_30_5_comparison.png, id=1056, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_30_5_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_30_5_comparison.png>
 Package luatex.def Info: images/ndcg@10_movielens_1m_30_5_comparison.png  used 
 on input line 935.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/giniindex@10_movielens_1m_30_5_comparison.png, id=1058, 722.7pt x 361.3
+<images/giniindex@10_movielens_1m_30_5_comparison.png, id=1057, 722.7pt x 361.3
 5pt>
 File: images/giniindex@10_movielens_1m_30_5_comparison.png Graphic file (type p
 ng)
@@ -2805,7 +2805,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [81<./images/recall@10_movielens_1m_30_5_comparison.png><./images/ndcg@10_moviel
 ens_1m_30_5_comparison.png>]
-<images/averagepopularity@10_movielens_1m_30_5_comparison.png, id=1067, 722.7pt
+<images/averagepopularity@10_movielens_1m_30_5_comparison.png, id=1066, 722.7pt
  x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_30_5_comparison.png Graphic file
  (type png)
@@ -2824,7 +2824,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [82<./images/giniindex@10_movielens_1m_30_5_comparison.png><./images/averagepopu
 larity@10_movielens_1m_30_5_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m_30_5.png, id=1076, 722.7pt 
+<images/decrement_averagepopularity@10_movielens_1m_30_5.png, id=1075, 722.7pt 
 x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m_30_5.png Graphic file 
 (type png)
@@ -2842,7 +2842,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [83]
-<images/decrement_giniindex@10_movielens_1m_30_5.png, id=1082, 722.7pt x 361.35
+<images/decrement_giniindex@10_movielens_1m_30_5.png, id=1081, 722.7pt x 361.35
 pt>
 File: images/decrement_giniindex@10_movielens_1m_30_5.png Graphic file (type pn
 g)
@@ -2850,7 +2850,7 @@ g)
 Package luatex.def Info: images/decrement_giniindex@10_movielens_1m_30_5.png  u
 sed on input line 1024.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/decrement_ndcg@10_movielens_1m_30_5.png, id=1083, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m_30_5.png, id=1082, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m_30_5.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m_30_5.png>
 Package luatex.def Info: images/decrement_ndcg@10_movielens_1m_30_5.png  used o
@@ -2867,7 +2867,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [84<./images/decrement_averagepopularity@10_movielens_1m_30_5.png><./images/decr
 ement_giniindex@10_movielens_1m_30_5.png>]
-<images/decrement_recall@10_movielens_1m_30_5.png, id=1092, 722.7pt x 361.35pt>
+<images/decrement_recall@10_movielens_1m_30_5.png, id=1091, 722.7pt x 361.35pt>
 
 File: images/decrement_recall@10_movielens_1m_30_5.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m_30_5.png>
@@ -2901,7 +2901,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [85<./images/decrement_ndcg@10_movielens_1m_30_5.png><./images/decrement_recall@
 10_movielens_1m_30_5.png>]
-<images/recall@10_movielens_1m_40_6_comparison.png, id=1103, 722.7pt x 361.35pt
+<images/recall@10_movielens_1m_40_6_comparison.png, id=1102, 722.7pt x 361.35pt
 >
 File: images/recall@10_movielens_1m_40_6_comparison.png Graphic file (type png)
 
@@ -2920,13 +2920,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [86<./images/emissions_movielens_1m_40_6_earlyClassic.png><./images/emissions_mo
 vielens_1m_40_6_earlyModified.png>]
-<images/ndcg@10_movielens_1m_40_6_comparison.png, id=1113, 722.7pt x 361.35pt>
+<images/ndcg@10_movielens_1m_40_6_comparison.png, id=1112, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_40_6_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_40_6_comparison.png>
 Package luatex.def Info: images/ndcg@10_movielens_1m_40_6_comparison.png  used 
 on input line 1096.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/giniindex@10_movielens_1m_40_6_comparison.png, id=1114, 722.7pt x 361.3
+<images/giniindex@10_movielens_1m_40_6_comparison.png, id=1113, 722.7pt x 361.3
 5pt>
 File: images/giniindex@10_movielens_1m_40_6_comparison.png Graphic file (type p
 ng)
@@ -2945,7 +2945,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [87<./images/recall@10_movielens_1m_40_6_comparison.png><./images/ndcg@10_moviel
 ens_1m_40_6_comparison.png>]
-<images/averagepopularity@10_movielens_1m_40_6_comparison.png, id=1123, 722.7pt
+<images/averagepopularity@10_movielens_1m_40_6_comparison.png, id=1122, 722.7pt
  x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_40_6_comparison.png Graphic file
  (type png)
@@ -2964,7 +2964,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [88<./images/giniindex@10_movielens_1m_40_6_comparison.png><./images/averagepopu
 larity@10_movielens_1m_40_6_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m_40_6.png, id=1132, 722.7pt 
+<images/decrement_averagepopularity@10_movielens_1m_40_6.png, id=1131, 722.7pt 
 x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m_40_6.png Graphic file 
 (type png)
@@ -2982,7 +2982,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [89]
-<images/decrement_giniindex@10_movielens_1m_40_6.png, id=1138, 722.7pt x 361.35
+<images/decrement_giniindex@10_movielens_1m_40_6.png, id=1137, 722.7pt x 361.35
 pt>
 File: images/decrement_giniindex@10_movielens_1m_40_6.png Graphic file (type pn
 g)
@@ -2990,7 +2990,7 @@ g)
 Package luatex.def Info: images/decrement_giniindex@10_movielens_1m_40_6.png  u
 sed on input line 1186.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/decrement_ndcg@10_movielens_1m_40_6.png, id=1139, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m_40_6.png, id=1138, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m_40_6.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m_40_6.png>
 Package luatex.def Info: images/decrement_ndcg@10_movielens_1m_40_6.png  used o
@@ -3007,7 +3007,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [90<./images/decrement_averagepopularity@10_movielens_1m_40_6.png><./images/decr
 ement_giniindex@10_movielens_1m_40_6.png>]
-<images/decrement_recall@10_movielens_1m_40_6.png, id=1149, 722.7pt x 361.35pt>
+<images/decrement_recall@10_movielens_1m_40_6.png, id=1148, 722.7pt x 361.35pt>
 
 File: images/decrement_recall@10_movielens_1m_40_6.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m_40_6.png>
@@ -3041,7 +3041,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [91<./images/decrement_ndcg@10_movielens_1m_40_6.png><./images/decrement_recall@
 10_movielens_1m_40_6.png>]
-<images/recall@10_movielens_1m_30_6_comparison.png, id=1160, 722.7pt x 361.35pt
+<images/recall@10_movielens_1m_30_6_comparison.png, id=1159, 722.7pt x 361.35pt
 >
 File: images/recall@10_movielens_1m_30_6_comparison.png Graphic file (type png)
 
@@ -3060,13 +3060,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [92<./images/emissions_movielens_1m_30_6_earlyClassic.png><./images/emissions_mo
 vielens_1m_30_6_earlyModified.png>]
-<images/ndcg@10_movielens_1m_30_6_comparison.png, id=1170, 722.7pt x 361.35pt>
+<images/ndcg@10_movielens_1m_30_6_comparison.png, id=1169, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_30_6_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_30_6_comparison.png>
 Package luatex.def Info: images/ndcg@10_movielens_1m_30_6_comparison.png  used 
 on input line 1259.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/giniindex@10_movielens_1m_30_6_comparison.png, id=1171, 722.7pt x 361.3
+<images/giniindex@10_movielens_1m_30_6_comparison.png, id=1170, 722.7pt x 361.3
 5pt>
 File: images/giniindex@10_movielens_1m_30_6_comparison.png Graphic file (type p
 ng)
@@ -3085,7 +3085,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [93<./images/recall@10_movielens_1m_30_6_comparison.png><./images/ndcg@10_moviel
 ens_1m_30_6_comparison.png>]
-<images/averagepopularity@10_movielens_1m_30_6_comparison.png, id=1180, 722.7pt
+<images/averagepopularity@10_movielens_1m_30_6_comparison.png, id=1179, 722.7pt
  x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_30_6_comparison.png Graphic file
  (type png)
@@ -3104,7 +3104,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [94<./images/giniindex@10_movielens_1m_30_6_comparison.png><./images/averagepopu
 larity@10_movielens_1m_30_6_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m_30_6.png, id=1189, 722.7pt 
+<images/decrement_averagepopularity@10_movielens_1m_30_6.png, id=1188, 722.7pt 
 x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m_30_6.png Graphic file 
 (type png)
@@ -3122,7 +3122,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [95]
-<images/decrement_giniindex@10_movielens_1m_30_6.png, id=1195, 722.7pt x 361.35
+<images/decrement_giniindex@10_movielens_1m_30_6.png, id=1194, 722.7pt x 361.35
 pt>
 File: images/decrement_giniindex@10_movielens_1m_30_6.png Graphic file (type pn
 g)
@@ -3130,7 +3130,7 @@ g)
 Package luatex.def Info: images/decrement_giniindex@10_movielens_1m_30_6.png  u
 sed on input line 1349.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/decrement_ndcg@10_movielens_1m_30_6.png, id=1196, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m_30_6.png, id=1195, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m_30_6.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m_30_6.png>
 Package luatex.def Info: images/decrement_ndcg@10_movielens_1m_30_6.png  used o
@@ -3147,7 +3147,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [96<./images/decrement_averagepopularity@10_movielens_1m_30_6.png><./images/decr
 ement_giniindex@10_movielens_1m_30_6.png>]
-<images/decrement_recall@10_movielens_1m_30_6.png, id=1205, 722.7pt x 361.35pt>
+<images/decrement_recall@10_movielens_1m_30_6.png, id=1204, 722.7pt x 361.35pt>
 
 File: images/decrement_recall@10_movielens_1m_30_6.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m_30_6.png>
@@ -3181,7 +3181,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [97<./images/decrement_ndcg@10_movielens_1m_30_6.png><./images/decrement_recall@
 10_movielens_1m_30_6.png>]
-<images/recall@10_movielens_1m_40_7_comparison.png, id=1216, 722.7pt x 361.35pt
+<images/recall@10_movielens_1m_40_7_comparison.png, id=1215, 722.7pt x 361.35pt
 >
 File: images/recall@10_movielens_1m_40_7_comparison.png Graphic file (type png)
 
@@ -3200,13 +3200,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [98<./images/emissions_movielens_1m_40_7_earlyClassic.png><./images/emissions_mo
 vielens_1m_40_7_earlyModified.png>]
-<images/ndcg@10_movielens_1m_40_7_comparison.png, id=1226, 722.7pt x 361.35pt>
+<images/ndcg@10_movielens_1m_40_7_comparison.png, id=1225, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_40_7_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_40_7_comparison.png>
 Package luatex.def Info: images/ndcg@10_movielens_1m_40_7_comparison.png  used 
 on input line 1423.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/giniindex@10_movielens_1m_40_7_comparison.png, id=1227, 722.7pt x 361.3
+<images/giniindex@10_movielens_1m_40_7_comparison.png, id=1226, 722.7pt x 361.3
 5pt>
 File: images/giniindex@10_movielens_1m_40_7_comparison.png Graphic file (type p
 ng)
@@ -3225,7 +3225,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [99<./images/recall@10_movielens_1m_40_7_comparison.png><./images/ndcg@10_moviel
 ens_1m_40_7_comparison.png>]
-<images/averagepopularity@10_movielens_1m_40_7_comparison.png, id=1236, 722.7pt
+<images/averagepopularity@10_movielens_1m_40_7_comparison.png, id=1235, 722.7pt
  x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_40_7_comparison.png Graphic file
  (type png)
@@ -3244,7 +3244,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [100<./images/giniindex@10_movielens_1m_40_7_comparison.png><./images/averagepop
 ularity@10_movielens_1m_40_7_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m_40_7.png, id=1246, 722.7pt 
+<images/decrement_averagepopularity@10_movielens_1m_40_7.png, id=1245, 722.7pt 
 x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m_40_7.png Graphic file 
 (type png)
@@ -3262,7 +3262,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [101]
-<images/decrement_giniindex@10_movielens_1m_40_7.png, id=1252, 722.7pt x 361.35
+<images/decrement_giniindex@10_movielens_1m_40_7.png, id=1251, 722.7pt x 361.35
 pt>
 File: images/decrement_giniindex@10_movielens_1m_40_7.png Graphic file (type pn
 g)
@@ -3270,7 +3270,7 @@ g)
 Package luatex.def Info: images/decrement_giniindex@10_movielens_1m_40_7.png  u
 sed on input line 1506.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/decrement_ndcg@10_movielens_1m_40_7.png, id=1253, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m_40_7.png, id=1252, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m_40_7.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m_40_7.png>
 Package luatex.def Info: images/decrement_ndcg@10_movielens_1m_40_7.png  used o
@@ -3287,7 +3287,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [102<./images/decrement_averagepopularity@10_movielens_1m_40_7.png><./images/dec
 rement_giniindex@10_movielens_1m_40_7.png>]
-<images/decrement_recall@10_movielens_1m_40_7.png, id=1262, 722.7pt x 361.35pt>
+<images/decrement_recall@10_movielens_1m_40_7.png, id=1261, 722.7pt x 361.35pt>
 
 File: images/decrement_recall@10_movielens_1m_40_7.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m_40_7.png>
@@ -3321,7 +3321,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [103<./images/decrement_ndcg@10_movielens_1m_40_7.png><./images/decrement_recall
 @10_movielens_1m_40_7.png>]
-<images/recall@10_movielens_1m_30_7_comparison.png, id=1273, 722.7pt x 361.35pt
+<images/recall@10_movielens_1m_30_7_comparison.png, id=1272, 722.7pt x 361.35pt
 >
 File: images/recall@10_movielens_1m_30_7_comparison.png Graphic file (type png)
 
@@ -3340,13 +3340,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [104<./images/emissions_movielens_1m_30_7_earlyClassic.png><./images/emissions_m
 ovielens_1m_30_7_earlyModified.png>]
-<images/ndcg@10_movielens_1m_30_7_comparison.png, id=1283, 722.7pt x 361.35pt>
+<images/ndcg@10_movielens_1m_30_7_comparison.png, id=1282, 722.7pt x 361.35pt>
 File: images/ndcg@10_movielens_1m_30_7_comparison.png Graphic file (type png)
 <use images/ndcg@10_movielens_1m_30_7_comparison.png>
 Package luatex.def Info: images/ndcg@10_movielens_1m_30_7_comparison.png  used 
 on input line 1579.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/giniindex@10_movielens_1m_30_7_comparison.png, id=1284, 722.7pt x 361.3
+<images/giniindex@10_movielens_1m_30_7_comparison.png, id=1283, 722.7pt x 361.3
 5pt>
 File: images/giniindex@10_movielens_1m_30_7_comparison.png Graphic file (type p
 ng)
@@ -3365,7 +3365,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [105<./images/recall@10_movielens_1m_30_7_comparison.png><./images/ndcg@10_movie
 lens_1m_30_7_comparison.png>]
-<images/averagepopularity@10_movielens_1m_30_7_comparison.png, id=1293, 722.7pt
+<images/averagepopularity@10_movielens_1m_30_7_comparison.png, id=1292, 722.7pt
  x 361.35pt>
 File: images/averagepopularity@10_movielens_1m_30_7_comparison.png Graphic file
  (type png)
@@ -3384,7 +3384,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [106<./images/giniindex@10_movielens_1m_30_7_comparison.png><./images/averagepop
 ularity@10_movielens_1m_30_7_comparison.png>]
-<images/decrement_averagepopularity@10_movielens_1m_30_7.png, id=1302, 722.7pt 
+<images/decrement_averagepopularity@10_movielens_1m_30_7.png, id=1301, 722.7pt 
 x 361.35pt>
 File: images/decrement_averagepopularity@10_movielens_1m_30_7.png Graphic file 
 (type png)
@@ -3402,7 +3402,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [107]
-<images/decrement_giniindex@10_movielens_1m_30_7.png, id=1308, 722.7pt x 361.35
+<images/decrement_giniindex@10_movielens_1m_30_7.png, id=1307, 722.7pt x 361.35
 pt>
 File: images/decrement_giniindex@10_movielens_1m_30_7.png Graphic file (type pn
 g)
@@ -3410,7 +3410,7 @@ g)
 Package luatex.def Info: images/decrement_giniindex@10_movielens_1m_30_7.png  u
 sed on input line 1666.
 (luatex.def)             Requested size: 424.06033pt x 212.03125pt.
-<images/decrement_ndcg@10_movielens_1m_30_7.png, id=1309, 722.7pt x 361.35pt>
+<images/decrement_ndcg@10_movielens_1m_30_7.png, id=1308, 722.7pt x 361.35pt>
 File: images/decrement_ndcg@10_movielens_1m_30_7.png Graphic file (type png)
 <use images/decrement_ndcg@10_movielens_1m_30_7.png>
 Package luatex.def Info: images/decrement_ndcg@10_movielens_1m_30_7.png  used o
@@ -3427,7 +3427,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [108<./images/decrement_averagepopularity@10_movielens_1m_30_7.png><./images/dec
 rement_giniindex@10_movielens_1m_30_7.png>]
-<images/decrement_recall@10_movielens_1m_30_7.png, id=1318, 722.7pt x 361.35pt>
+<images/decrement_recall@10_movielens_1m_30_7.png, id=1317, 722.7pt x 361.35pt>
 
 File: images/decrement_recall@10_movielens_1m_30_7.png Graphic file (type png)
 <use images/decrement_recall@10_movielens_1m_30_7.png>
@@ -3449,13 +3449,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [109<./images/decrement_ndcg@10_movielens_1m_30_7.png><./images/decrement_recall
 @10_movielens_1m_30_7.png>]
-<images/sensibility_recall@10.png, id=1327, 1445.4pt x 722.7pt>
+<images/sensibility_recall@10.png, id=1326, 1445.4pt x 722.7pt>
 File: images/sensibility_recall@10.png Graphic file (type png)
 <use images/sensibility_recall@10.png>
 Package luatex.def Info: images/sensibility_recall@10.png  used on input line 1
 692.
 (luatex.def)             Requested size: 424.06033pt x 212.02573pt.
-<images/sensibility_ndcg@10.png, id=1328, 1445.4pt x 722.7pt>
+<images/sensibility_ndcg@10.png, id=1327, 1445.4pt x 722.7pt>
 File: images/sensibility_ndcg@10.png Graphic file (type png)
 <use images/sensibility_ndcg@10.png>
 Package luatex.def Info: images/sensibility_ndcg@10.png  used on input line 169
@@ -3471,13 +3471,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [110<./images/sensibility_recall@10.png>]
-<images/sensibility_averagepopularity@10.png, id=1337, 1445.4pt x 722.7pt>
+<images/sensibility_averagepopularity@10.png, id=1336, 1445.4pt x 722.7pt>
 File: images/sensibility_averagepopularity@10.png Graphic file (type png)
 <use images/sensibility_averagepopularity@10.png>
 Package luatex.def Info: images/sensibility_averagepopularity@10.png  used on i
 nput line 1702.
 (luatex.def)             Requested size: 424.06033pt x 212.02573pt.
-<images/sensibility_giniindex@10.png, id=1338, 1445.4pt x 722.7pt>
+<images/sensibility_giniindex@10.png, id=1337, 1445.4pt x 722.7pt>
 File: images/sensibility_giniindex@10.png Graphic file (type png)
 <use images/sensibility_giniindex@10.png>
 Package luatex.def Info: images/sensibility_giniindex@10.png  used on input lin
@@ -3718,9 +3718,9 @@ E:/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><E:/Programs/MiKTeX/fonts/type
 1/public/lm/lmr8.pfb><E:/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><E:/Pr
 ograms/MiKTeX/fonts/type1/public/lm/lmss12.pfb><E:/Programs/MiKTeX/fonts/type1/p
 ublic/lm/lmssbx10.pfb><E:/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb>
-Output written on main.pdf (127 pages, 6807311 bytes).
+Output written on main.pdf (127 pages, 6807897 bytes).
 
-PDF statistics: 1492 PDF objects out of 1728 (max. 8388607)
+PDF statistics: 1491 PDF objects out of 1728 (max. 8388607)
  435 named destinations out of 1000 (max. 131072)
  336 words of extra memory for PDF output out of 10000 (max. 100000000)
 
