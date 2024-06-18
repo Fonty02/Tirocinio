@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.6.1)  11 JUN 2024 17:23
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.6.1)  18 JUN 2024 09:51
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/fonta/Desktop/Tirocinio/Presentazione/main
@@ -1413,16 +1413,16 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
 (Font)              scaled to size 9.85492pt on input line 36.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
 (Font)              scaled to size 7.19995pt on input line 36.
-<images/uniba-logo.png, id=12, 1204.5pt x 1204.5pt>
+<images/uniba-logo.png, id=12, 869.2475pt x 289.08pt>
 File: images/uniba-logo.png Graphic file (type png)
 <use images/uniba-logo.png>
 Package luatex.def Info: images/uniba-logo.png  used on input line 36.
-(luatex.def)             Requested size: 56.9055pt x 56.90189pt.
+(luatex.def)             Requested size: 85.35826pt x 28.38478pt.
 <images/logo_swap_rg_white.png, id=13, 1278.7775pt x 707.64375pt>
 File: images/logo_swap_rg_white.png Graphic file (type png)
 <use images/logo_swap_rg_white.png>
 Package luatex.def Info: images/logo_swap_rg_white.png  used on input line 36.
-(luatex.def)             Requested size: 56.9055pt x 31.48627pt.
+(luatex.def)             Requested size: 85.35826pt x 47.2294pt.
 <AICStyleData/logos/Logo shape dark_rotated.png, id=14, 792.9625pt x 446.66875p
 t>
 File: AICStyleData/logos/Logo shape dark_rotated.png Graphic file (type png)
@@ -1437,28 +1437,28 @@ n input line 36.
 rg_white.png>]
 \openout2 = pages/sostenibilità.aux
  (./pages/sostenibilità.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 
 (E:/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
 
 (E:/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 9.85492pt on input line 8.
+(Font)              scaled to size 9.85492pt on input line 9.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 7.19995pt on input line 8.
+(Font)              scaled to size 7.19995pt on input line 9.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 5.39996pt on input line 8.
+(Font)              scaled to size 5.39996pt on input line 9.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 8.
+(Font)              scaled to size 15.55188pt on input line 9.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 8.
+(Font)              scaled to size 15.55188pt on input line 9.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 3.59998pt on input line 8.
+(Font)              scaled to size 3.59998pt on input line 9.
  [2
 
 
@@ -1613,25 +1613,24 @@ Overfull \vbox (24.40556pt too high) detected at line 57
 [15
 
 <./images/sensibility_recall@10.png>]
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 5.39996pt on input line 108.
-
-Overfull \vbox (42.43105pt too high) detected at line 108
+Overfull \vbox (1.0309pt too high) detected at line 93
  []
 
 [16
+
+] [17
 
 ])
 \openout2 = pages/conclusioni.aux
  (./pages/conclusioni.tex
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 8.
- [17
+ [18
 
 
 
 
-] [18
+] [19
 
 ])
 File: AICStyleData/logos/Logo shape dark_rotated.png Graphic file (type png)
@@ -1639,7 +1638,7 @@ File: AICStyleData/logos/Logo shape dark_rotated.png Graphic file (type png)
 Package luatex.def Info: AICStyleData/logos/Logo shape dark_rotated.png  used o
 n input line 47.
 (luatex.def)             Requested size: 455.24408pt x 256.43723pt.
- [19
+ [20
 
 
 
@@ -1667,15 +1666,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 32567 strings out of 476468
+ 32572 strings out of 476468
  100000,1977958 words of node,token memory allocated
  4031 words of node memory still in use:
    40 hlist, 9 vlist, 5 rule, 29 disc, 7 local_par, 108 glue, 41 kern, 17 penalt
 y, 163 glyph, 178 attribute, 62 glue_spec, 91 attribute_list, 5 write, 1 save_po
 s, 17 pdf_literal, 12 pdf_colorstack nodes
-   avail lists: 2:928,3:204,4:252,5:330,6:37,7:4273,8:23,9:782,10:18,11:448
- 53366 multiletter control sequences out of 65536+600000
- 74 fonts using 7591111 bytes
+   avail lists: 2:706,3:204,4:252,5:330,6:37,7:2773,8:23,9:560,10:18,11:295
+ 53369 multiletter control sequences out of 65536+600000
+ 73 fonts using 7407743 bytes
  128i,13n,143p,504b,824s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <./AICStyleData/epilogueFont/Epilogue-Italic.ttf><./AICStyleData/epilogueFont/Ep
 ilogue-Regular.ttf><./AICStyleData/epilogueFont/Epilogue-Bold.ttf><E:/Programs/M
@@ -1683,9 +1682,9 @@ iKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmr10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmr8.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (19 pages, 1130475 bytes).
+Output written on main.pdf (20 pages, 881578 bytes).
 
-PDF statistics: 186 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 131072)
+PDF statistics: 191 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
