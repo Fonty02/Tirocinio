@@ -1,4 +1,4 @@
-\section{Discussione dei risultati}
+\section{Discussione}
 
 \subsection{Benchmarking}
 
@@ -162,15 +162,6 @@ Infine, per quanto riguarda l'Average Popularity, in questo caso possiamo notare
 Emissioni cosi alte non sono però giustificate. Nelle metriche di recall e ndcg LightGCN è il secondo migliore, ma la differenza rispetto al primo è molto bassa e quindi non giustifica emissioni così alte.
 ItemKNN si conferma uno dei migliori algoritmi per queste due metriche in quanto emette meno ed è uno dei più performanti.
 Per quanto riguarda le metriche di Gini Index e Average Popularity possiamo notare che LightGCN è uno di migliori, ma anche in questo caso la differenza rispetto ad altri modelli non giustifica emissioni così alte. ItemKNN si conferma con il secondo peggior modello come punteggi. Line risulta essere il migliore in quanto è il secondo per basse emissioni ed ottiene i punteggi migliori. 
-
-\subsubsection{Conclusioni}
-
-Si può facilmente notare come il trade-off emissioni-performance sia decisamente a svantaggio dell'DGCF. Infatti, a fronte di emissioni molto elevate, le performance risultato spesso essere peggiori di modelli molto più semplici.
-Con i due dataset più grandi possiamo notare come in generale ItemKNN risulti essere uno degli algoritmi con il miglior trade-off emissioni-performance nelle metriche di ranking, mentre LINE risulta essere il migliore nelle metriche di popolarità e equità nelle distribuzioni.
-Al diminuire della dimensione del dataset DGCF comincia a comportarsi meglio nelle metriche di popolarità e equità, ma le sue emissioni rimangono sempre molto alte e non giustificano una possibile scelta di questo modello.
-ItemKNN comincia a non performare bene nelle metriche di ranking, mentre migliora nelle metriche di popolarità e equità, arrivando anche a risultare il migliore
-
-
 
 
 \subsection{Addestramento sostenibile}
@@ -701,8 +692,6 @@ Un anomalia si può notare per NGCF, che ha subito una riduzione delle performan
 \noindent Si può notare come le forti riduzioni di emissioni abbiano portato a una riduzione delle performance molto più alta rispetto ai due esperimenti precedenti.
 DMF è l'unico modello che ha mantenuto performance quasi invarianti a fronte di una riduzione delle emissioni del 61\%. (la più bassa ma comunque molto alta).
 
-\paragraph{Conclusioni} La parte esplorativa ha mostrato come alcuni modelli (DGCF per esempio) mostrino un'elevata riduzione delle performance in ogni contesto, mentre alti come DFM rimangono stabili.
-Tenendo conto dei parametri utilizzati e delle dimensioni dei dataset è evidente come all'aumentare della dimensione del dataset bisogna rendere il criterio meno stringente, dunque diminuire la soglia di tollereanza e aumentare il numero di epoche consecutive per ottenere emissioni ridotte senza perdere troppo in performance.
 
 
 
@@ -1681,10 +1670,6 @@ Ci sono poche eccezioni che potrebbero essere dovute alla presenza di processi i
 
 \noindent Rispetto all'ultimo esperimento in generale tutti i modelli hanno performato meglio, portando diversi a performare come con il criterio classico.
 
-\paragraph{Conclusioni}
-
-Appare subito evidente come il criterio più stringente (cioè che richiede condizioni più \textit{difficili} da verificare) \textbf{soglia 30, epoche 7} risulti essere quello che si avvicina di più al criterio classico, sia in emissioni che in performance. Il criterio meno stringente invece \textbf{soglia 40, epoche 5} è quello che più si discosta dal criterio classico, sia in emissioni che in performance.\\
-
 
 \subsubsection{Studio di sensibilità dei criteri}
 
@@ -1724,7 +1709,52 @@ Nello specifico, valutando i grafici e le tabelle di confronto, si possono fare 
     \item \textbf{DGCF}: Anche in questo le epoche consecutive sembrano essere il parametro predominante.Fissate queste ultime, la riduzione di performance e di emissioni è quasi la stessa al variare della soglia. Dunque la configurazione migliore sembra essere soglia 40 e 6 epoche.
 \end{itemize}
 
-\subsubsection{Conclusioni} 
+
+\subsection{Analisi dei risultati}
+
+Qui di seguito sono riportati le risposte alle domande di ricerca ottenute dall'analisi dei dati.
+\paragraph*{RQ1} \textcolor{white}{.}\\
+Si può facilmente notare come il trade-off emissioni-performance sia decisamente a svantaggio dell'DGCF. Infatti, a fronte di emissioni molto elevate, le performance risultato spesso essere peggiori di modelli molto più semplici.
+Con i due dataset più grandi possiamo notare come in generale ItemKNN risulti essere uno degli algoritmi con il miglior trade-off emissioni-performance nelle metriche di ranking, mentre LINE risulta essere il migliore nelle metriche di popolarità e equità nelle distribuzioni.
+Al diminuire della dimensione del dataset DGCF comincia a comportarsi meglio nelle metriche di popolarità e equità, ma le sue emissioni rimangono sempre molto alte e non giustificano una possibile scelta di questo modello.
+ItemKNN comincia a non performare bene nelle metriche di ranking, mentre migliora nelle metriche di popolarità e equità, arrivando anche a risultare il migliore
+
+\paragraph*{RQ2} \textcolor{white}{.}\\
+I risultati ottenuti mostrano come è possibile utilizzare un criterio di early stopping per ridurre le emissioni di CO2 senza compromettere le performance dei modelli in modo significativo. La parte esplorativa ha fatto emergere i seguenti punti:
+\begin{itemize}
+    \item La dimensione del dataset influenza il criterio di early-stopping. Infatti, a parità di parametri del criterio di early-stopping basato sulle emissioni, i dataset più grandi tendono ad avere un trade-off peggiore tra emissioni e performance rispetto ai dataset più piccoli.
+    \item Non tutti gli algoritmi rispondono allo stesso modo al criterio di erly-stopping. Infatti alcuni algoritmi (come DMF) in generale rispondono bene al criterio, mostrando un ottimo trade-off tra emissioni e performance, mentre altri (come DGCF) mostrano un trade-off molto peggiore in quanto abbiamo una notevole riduzione delle emissioni che però porta a un elevata e significativa riduzione delle performance.
+    \item In generale i modelli di Collaborative Filtering tendono a rispondere meglio al criterio di early-stopping rispetto ai modelli Knowledge Aware. In particolare questi modelli in generale riducono di molto tempi di esecuzione ed emissioni mantenendo performance simili mentre i modelli Knowledge Aware tendono a ridurre sia performance che emissioni in modo significativo. In particolare i modelli di Knowledge Aware tendono a richiedere uso di parametri "più stringenti" (soglia più piccola e numero di epoche consecutive maggiori) rispetto ai modelli di Collaborative Filtering perchè richiedono più epoche per convergere.
+\end{itemize}
+
+\noindent A seconda del dataset e del modello la riduzione delle emissioni varia dal 5\% al 90\% rispetto al criterio classico mentre la riduzione delle performance, varia dallo 0\% al 90\% (in alcuni casi si ha un decremento anche del 200\%). In generale a basse percentuali di riduzione di emissioni corrispondono basse percentuali di riduzione di performance e viceversa, dunque si può concludere che il criterio di early-stopping implementato offre un buon trade-off tra emissioni e performance.\\
+
+
+\paragraph*{RQ3} \textcolor{white}{.}\\
+Appare subito evidente come il criterio più stringente (cioè che richiede condizioni più \textit{difficili} da verificare) \textbf{soglia 30, epoche 7} risulti essere quello che si avvicina di più al criterio classico, sia in emissioni che in performance. Il criterio meno stringente invece \textbf{soglia 40, epoche 5} è quello che più si discosta dal criterio classico, sia in emissioni che in performance.\\
+La seguente tabella riassume i risultati ottenuti per i vari modelli con il dataset MovieLens 1M:
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \textbf{Modello} & \textbf{Parametro dominante} & \textbf{Miglior combinazione (soglia, epoche)} \\
+            \hline
+            BPR      & Soglia & 40, 6 \\ \hline
+            CFKG     & Soglia & 40, 6 \\ \hline
+            CKE      & Epoche & 40, 6 \\ \hline
+            DMF      & Soglia & 40, 7 \\ \hline
+            KGCN     & Epoche & 40, 5 \\ \hline
+            KGNNLS   & Soglia & 40, 5 \\ \hline
+            LINE     & Soglia & 40, 7 \\ \hline
+            MultiDAE & Soglia & 40, 7 \\ \hline
+            LightGCN & Soglia & 40, 6 \\ \hline
+            NGCF     & Epoche & 40, 5 \\ \hline
+            DGCF     & Epoche & 40, 6 \\ \hline
+        \end{tabular}
+    }
+    \caption{Riassunto dei risultati per il dataset MovieLens 1M}
+\end{table}
 
 \begin{table}[H]
     \centering
