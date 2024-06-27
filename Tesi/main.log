@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.6.1)  24 JUN 2024 16:45
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.6.1)  27 JUN 2024 09:25
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/fonta/Desktop/Tirocinio/Tesi/main
@@ -3702,7 +3702,7 @@ Here is how much of LuaTeX's memory you used:
  828 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 11 glue, 4 kern, 1 glyph, 78 attribute, 63 glue_spe
 c, 41 attribute_list, 2 write nodes
-   avail lists: 1:1,2:2548,3:310,4:214,5:337,6:100,7:7798,8:67,9:2268,10:35,11:1
+   avail lists: 1:1,2:2548,3:310,4:214,5:338,6:100,7:7664,8:67,9:2268,10:35,11:1
 037
  59538 multiletter control sequences out of 65536+600000
  96 fonts using 6265999 bytes
@@ -3721,7 +3721,7 @@ E:/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><E:/Programs/MiKTeX/fonts/type
 1/public/lm/lmr8.pfb><E:/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><E:/Pr
 ograms/MiKTeX/fonts/type1/public/lm/lmss12.pfb><E:/Programs/MiKTeX/fonts/type1/p
 ublic/lm/lmssbx10.pfb><E:/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb>
-Output written on main.pdf (127 pages, 6808292 bytes).
+Output written on main.pdf (127 pages, 6808833 bytes).
 
 PDF statistics: 1488 PDF objects out of 1728 (max. 8388607)
  436 named destinations out of 1000 (max. 131072)

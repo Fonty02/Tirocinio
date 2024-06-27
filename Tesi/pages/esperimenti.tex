@@ -63,7 +63,7 @@ LFM1b\_artist è un dataset contenente informazioni riguardanti le interazioni t
 \end{itemize}
 
 \noindent In questo modo è stato ottenuto un dataset più piccolo e più facilmente gestibile rispetto a quello originale.
-Per poter lavorare su più dataset si è deciso di effettuare un ulteriore processing del dataset, andando a creare dei sampling con una strategia di stratificazione: \footnote{{{Mantenendo il numero di utenti inalterato per ognuno di essi sono stati campionati casualmente un determinato numero di interazioni cercando di mantenere inalterati i "rapporti originali" tra i diversi utenti}}}{}
+Per poter lavorare su più dataset si è deciso di effettuare un ulteriore processing del dataset, andando a creare dei sampling con una strategia di stratification: \footnote{{{Mantenendo il numero di utenti inalterato per ognuno di essi sono stati campionati casualmente un determinato numero di interazioni cercando di mantenere inalterati i "rapporti originali" tra i diversi utenti}}}{}
 \begin{itemize}
     \item \textbf{75\%:} Per ogni utente sono state mantenute il 75\% delle interazioni originali
     \item \textbf{50\%:} Dal dataset al 75\% sono state mantenute circa il 66.67\% delle interazioni di ogni utente, in modo tale da avere il 50\% delle interazioni originali
@@ -641,7 +641,7 @@ In questo caso si è scelto di utilizzare gli iper parametri di default per tutt
 \begin{itemize}
     \item \textbf{Recall}: è una metrica che misura la capacità di un modello di raccomandare gli item rilevanti per un utente
     \item \textbf{NDCG}: è una metrica che misura la qualità delle raccomandazioni.
-    \item \textbf{Gini Index}: è una metrica che misura l'equità nella distribuzione delle raccomandazioni. Un valore più vicino a zero indica una distribuzione più equa
+    \item \textbf{Gini Index}: è una metrica che misura la fairness nella distribuzione delle raccomandazioni. Un valore più vicino a zero indica una distribuzione più equa
     \item \textbf{Average Popularity}: è una metrica che misura la popolarità media degli item raccomandati. Un valore alto indica che le raccomandazioni sono concentrate su item popolari.
 \end{itemize}
 
