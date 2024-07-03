@@ -1,9 +1,10 @@
 \begin{frame}{Addestramento sostenibile - Introduzione}
     \begin{wrapfigure}{r}{0.6\textwidth}
         \centering
-        \includegraphics[width=0.6\textwidth]{images/curve_emissions_score.png}
+        \includegraphics[width=0.6\textwidth, height=0.6\textheight]{images/curve_emissions_score.png}
         \caption{Andamento score e emissioni}
     \end{wrapfigure} 
+Sull'asse delle x troviamo le emissioni, sull'asse delle y lo score. Quando la derivata è al di sotto di una certa soglia \textbf{S} per un certo numero di epoche consecutive \textbf{E} l'addestramento termina (comportamento asintotico).
 Approssimazione della derivata della curva:
 \begin{equation*}
     \frac{f(x_{i+1}) - f(x_i)}{x_{i+1} - x_i}
@@ -11,9 +12,6 @@ Approssimazione della derivata della curva:
 \end{frame}
 
 \begin{frame}{Addestramento sostenibile - Esplorazione}
-    \begin{itemize}
-        \item \textbf{Scopo}: capire se è possibile addestrare un modello di raccomandazione in modo sostenibile
-    \end{itemize}
     \begin{table}[]
         \centering
         \begin{tabular}{|c|c|c|c|}
@@ -32,9 +30,7 @@ Approssimazione della derivata della curva:
 
 
 \begin{frame}{Addestramento sostenibile - Confronto criteri}
-    \begin{itemize}
-        \item \textbf{Scopo}: confrontare i criteri di addestramento sostenibile (dataset MovieLens1M)
-    \end{itemize}
+    Fissato il dataset MovieLens1M, sono stati eseguiti 6 esperimenti variando i parametri:
     \begin{table}[]
         \centering
         \begin{tabular}{|c|c|c|}
@@ -49,16 +45,6 @@ Approssimazione della derivata della curva:
         \end{tabular}
         \caption{Parametri degli Esperimenti}
     \end{table}
-\end{frame}
-
-
-
-\begin{frame}{Addestramento sostenibile - Esempio sensibilità}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.8\textwidth]{images/sensibility_recall@10.png}
-        \caption{Sensibilità dei parametri con metrica Recall@10}
-    \end{figure}
 \end{frame}
 
 
