@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.6.1)  3 JUL 2024 11:29
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.6.1)  6 JUL 2024 09:42
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/fonta/Desktop/Tirocinio/Presentazione/main
@@ -1504,6 +1504,8 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
 <./images/netflix.png><./images/amazon.png><./images/spotify.png><./images/tikto
 k.png>] [4
 
+] [5
+
 ])
 \openout2 = pages/designEsperimenti.aux
  (./pages/designEsperimenti.tex
@@ -1513,15 +1515,14 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
 (Font)              scaled to size 8.09995pt on input line 9.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
 (Font)              scaled to size 4.49997pt on input line 9.
- [5
+ [6
 
 
 
 
 ])
 \openout2 = pages/precedente.aux
- (./pages/precedente.tex
-[6
+ (./pages/precedente.tex [7
 
 
 
@@ -1529,61 +1530,69 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
 ])
 \openout2 = pages/benchmarking.aux
  (./pages/benchmarking.tex
+<images/EmissioniLFM.png, id=63, 575.90157pt x 442.65375pt>
 File: images/EmissioniLFM.png Graphic file (type png)
 <use images/EmissioniLFM.png>
-Package luatex.def Info: images/EmissioniLFM.png  used on input line 14.
-(luatex.def)             Requested size: 205.12206pt x 157.65988pt.
-File: images/TradeOff.png Graphic file (type png)
-<use images/TradeOff.png>
-Package luatex.def Info: images/TradeOff.png  used on input line 14.
-(luatex.def)             Requested size: 205.12206pt x 156.23471pt.
+Package luatex.def Info: images/EmissioniLFM.png  used on input line 7.
+(luatex.def)             Requested size: 214.81139pt x 165.10992pt.
 
-Overfull \vbox (21.59106pt too high) detected at line 14
+Overfull \vbox (24.94109pt too high) detected at line 7
  []
 
-[7
+[8
 
 
 
 
-<./images/EmissioniLFM.png><./images/TradeOff.png>])
+<./images/EmissioniLFM.png>]
+<images/TradeOff.png, id=70, 581.17125pt x 442.65375pt>
+File: images/TradeOff.png Graphic file (type png)
+<use images/TradeOff.png>
+Package luatex.def Info: images/TradeOff.png  used on input line 15.
+(luatex.def)             Requested size: 216.77698pt x 165.10992pt.
+
+Overfull \vbox (24.94109pt too high) detected at line 15
+ []
+
+[9
+
+<./images/TradeOff.png>])
 \openout2 = pages/addestramento.aux
-
-(./pages/addestramento.tex
-<images/curve_emissions_score.png, id=67, 462.528pt x 346.896pt>
+ (./pages/addestramento.tex
+<images/curve_emissions_score.png, id=77, 462.528pt x 346.896pt>
 File: images/curve_emissions_score.png Graphic file (type png)
 <use images/curve_emissions_score.png>
 Package luatex.def Info: images/curve_emissions_score.png  used on input line 1
 2.
 (luatex.def)             Requested size: 246.87483pt x 141.52428pt.
- [8
+ [10
 
 
 
 
-<./images/curve_emissions_score.png>] [9
+<./images/curve_emissions_score.png>] [11
 
-] [10
+] [12
 
 ]
 Overfull \vbox (1.0309pt too high) detected at line 84
  []
 
-[11
+[13
 
-] [12
+] [14
 
 ])
 \openout2 = pages/conclusioni.aux
  (./pages/conclusioni.tex
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 8.
- [13
+ [15
 
 
 
 
-] [14
+] [16
 
 ])
 File: AICStyleData/logos/Logo shape dark_rotated.png Graphic file (type png)
@@ -1591,7 +1600,7 @@ File: AICStyleData/logos/Logo shape dark_rotated.png Graphic file (type png)
 Package luatex.def Info: AICStyleData/logos/Logo shape dark_rotated.png  used o
 n input line 49.
 (luatex.def)             Requested size: 455.24408pt x 256.43723pt.
- [15
+ [17
 
 
 
@@ -1619,14 +1628,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 32476 strings out of 476468
+ 32474 strings out of 476468
  100000,1977958 words of node,token memory allocated
  4517 words of node memory still in use:
    42 hlist, 9 vlist, 5 rule, 36 disc, 8 local_par, 118 glue, 49 kern, 18 penalt
 y, 201 glyph, 180 attribute, 62 glue_spec, 92 attribute_list, 5 write, 1 save_po
 s, 17 pdf_literal, 12 pdf_colorstack nodes
-   avail lists: 2:706,3:194,4:252,5:322,6:33,7:2725,8:21,9:558,10:122,11:306
- 53325 multiletter control sequences out of 65536+600000
+   avail lists: 2:706,3:194,4:252,5:323,6:33,7:2725,8:21,9:558,10:122,11:306
+ 53331 multiletter control sequences out of 65536+600000
  73 fonts using 7407743 bytes
  128i,13n,143p,504b,824s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <./AICStyleData/epilogueFont/Epilogue-Italic.ttf><./AICStyleData/epilogueFont/Ep
@@ -1634,9 +1643,9 @@ ilogue-Regular.ttf><./AICStyleData/epilogueFont/Epilogue-Bold.ttf><E:/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmr8.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb>
-Output written on main.pdf (15 pages, 680217 bytes).
+Output written on main.pdf (17 pages, 683026 bytes).
 
-PDF statistics: 144 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 131072)
+PDF statistics: 156 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
