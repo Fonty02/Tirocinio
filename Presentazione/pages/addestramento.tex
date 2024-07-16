@@ -55,14 +55,14 @@ Approssimazione della derivata della curva:
 \end{frame}
 
 
-\begin{comment}
+
 \begin{frame}{RQ2 Addestramento sostenibile - Esplorazione}
  \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{images/recall@10_movielens_1m_comparison.png}
+    \caption{Esempi di decrementi riscontrati sulla recall@10}
  \end{figure}
 \end{frame}
-\end{comment}
 
 
 
@@ -85,6 +85,17 @@ Approssimazione della derivata della curva:
         \caption{Esempi di risultati ottenuti}
     \end{table}
 \end{frame}
+
+
+
+\begin{frame}{RQ3 Addestramento sostenibile - Confronto criteri}
+    \begin{figure}[H]
+       \centering
+       \includegraphics[scale=0.25]{images/sensibility_recall@10.png}
+       \caption{Esempi di sensibilità ai parametri}
+    \end{figure}
+\end{frame}
+
 
 
 \begin{frame}{RQ3 Addestramento sostenibile - Risultati confronto criteri}
@@ -132,8 +143,8 @@ Approssimazione della derivata della curva:
             \textbf{Tipo di Modello} & \textbf{Parametro predominante} & \textbf{Numero di Modelli} & \textbf{Modelli} \\ \hline
             Collaborative Filtering & Soglia & 5 & BPR, DMF, LightGCN, MultiDAE, LINE \\ \hline
             Collaborative Filtering & Epoche & 2 & NGCF, DGCF \\ \hline
-            Knowledge Aware & Soglia & 2 & CFKG, KGNNLS \\ \hline
-            Knowledge Aware & Epoche & 2 & CKE, KGCN \\ \hline
+            Knowledge-Aware & Soglia & 2 & CFKG, KGNNLS \\ \hline
+            Knowledge-Aware & Epoche & 2 & CKE, KGCN \\ \hline
         \end{tabular}
     \caption{Riassunto dei parametri dominanti per tipo di modello}
 \end{table}

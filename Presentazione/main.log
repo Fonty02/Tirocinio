@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.6.1)  16 JUL 2024 09:29
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.6.1)  16 JUL 2024 13:04
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/fonta/Desktop/Tirocinio/Presentazione/main
@@ -1528,56 +1528,66 @@ n input line 45.
 rg_white.png>]
 \openout2 = pages/sostenibilità.aux
  (./pages/sostenibilità.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+
 
 (E:/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+
 
 (E:/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 9.85492pt on input line 8.
+(Font)              scaled to size 9.85492pt on input line 12.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 7.19995pt on input line 8.
+(Font)              scaled to size 7.19995pt on input line 12.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 5.39996pt on input line 8.
+(Font)              scaled to size 5.39996pt on input line 12.
+<images/sdg.png, id=26, 804.00375pt x 477.785pt>
+File: images/sdg.png Graphic file (type png)
+<use images/sdg.png>
+Package luatex.def Info: images/sdg.png  used on input line 12.
+(luatex.def)             Requested size: 120.59535pt x 71.66466pt.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 8.
+(Font)              scaled to size 15.55188pt on input line 12.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 8.
+(Font)              scaled to size 15.55188pt on input line 12.
+
+Overfull \vbox (11.7251pt too high) detected at line 12
+ []
+
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
-(Font)              scaled to size 3.59998pt on input line 8.
- [2
+(Font)              scaled to size 3.59998pt on input line 12.
+[2
 
 
-])
+<./images/sdg.png>])
 \openout2 = pages/recommender.aux
  (./pages/recommender.tex
-<images/netflix.png, id=33, 109.8504pt x 109.8504pt>
+<images/netflix.png, id=35, 109.8504pt x 109.8504pt>
 File: images/netflix.png Graphic file (type png)
 <use images/netflix.png>
 Package luatex.def Info: images/netflix.png  used on input line 26.
 (luatex.def)             Requested size: 61.7141pt x 61.71526pt.
-<images/amazon.png, id=34, 325.215pt x 216.81pt>
+<images/amazon.png, id=36, 325.215pt x 216.81pt>
 File: images/amazon.png Graphic file (type png)
 <use images/amazon.png>
 Package luatex.def Info: images/amazon.png  used on input line 26.
 (luatex.def)             Requested size: 61.7141pt x 41.14139pt.
-<images/spotify.png, id=35, 1204.5pt x 632.3625pt>
+<images/spotify.png, id=37, 1204.5pt x 632.3625pt>
 File: images/spotify.png Graphic file (type png)
 <use images/spotify.png>
 Package luatex.def Info: images/spotify.png  used on input line 26.
 (luatex.def)             Requested size: 61.7141pt x 32.39189pt.
-<images/tiktok.png, id=36, 702.625pt x 533.995pt>
+<images/tiktok.png, id=38, 702.625pt x 533.995pt>
 File: images/tiktok.png Graphic file (type png)
 <use images/tiktok.png>
 Package luatex.def Info: images/tiktok.png  used on input line 26.
 (luatex.def)             Requested size: 61.7141pt x 46.90044pt.
-
-[3
+ [3
 
 
 
@@ -1589,7 +1599,8 @@ k.png>] [4
 
 ])
 \openout2 = pages/designEsperimenti.aux
- (./pages/designEsperimenti.tex
+
+(./pages/designEsperimenti.tex
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 7.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
@@ -1607,8 +1618,7 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
 
 ])
 \openout2 = pages/precedente.aux
-
-(./pages/precedente.tex
+ (./pages/precedente.tex
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
 (Font)              scaled to size 8.09995pt on input line 23.
  [8
@@ -1620,7 +1630,8 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
 
 ])
 \openout2 = pages/benchmarking.aux
- (./pages/benchmarking.tex
+
+(./pages/benchmarking.tex
 File: images/emissions_LFM-1b_artist_20U50I.png Graphic file (type png)
 <use images/emissions_LFM-1b_artist_20U50I.png>
 Package luatex.def Info: images/emissions_LFM-1b_artist_20U50I.png  used on inp
@@ -1638,7 +1649,7 @@ Package luatex.def Info: images/emissions_ml-10m_50U10I.png  used on input line
 
 <./images/emissions_LFM-1b_artist_20U50I.png><./images/emissions_ml-10m_50U10I.p
 ng>]
-<images/TradeOff.png, id=91, 671.50874pt x 516.42938pt>
+<images/TradeOff.png, id=93, 671.50874pt x 516.42938pt>
 File: images/TradeOff.png Graphic file (type png)
 <use images/TradeOff.png>
 Package luatex.def Info: images/TradeOff.png  used on input line 25.
@@ -1652,12 +1663,12 @@ Overfull \vbox (23.71642pt too high) detected at line 25
 <./images/TradeOff.png>])
 \openout2 = pages/addestramento.aux
  (./pages/addestramento.tex
-<images/curve_emissions_score.png, id=99, 462.528pt x 346.896pt>
+<images/curve_emissions_score.png, id=101, 481.8pt x 361.35pt>
 File: images/curve_emissions_score.png Graphic file (type png)
 <use images/curve_emissions_score.png>
 Package luatex.def Info: images/curve_emissions_score.png  used on input line 1
 2.
-(luatex.def)             Requested size: 246.87483pt x 141.52428pt.
+(luatex.def)             Requested size: 246.86896pt x 141.52693pt.
  [12
 
 
@@ -1670,30 +1681,56 @@ Overfull \vbox (25.4778pt too high) detected at line 55
 [13
 
 ]
-Overfull \vbox (14.06319pt too high) detected at line 87
+<images/recall@10_movielens_1m_comparison.png, id=114, 722.7pt x 361.35pt>
+File: images/recall@10_movielens_1m_comparison.png Graphic file (type png)
+<use images/recall@10_movielens_1m_comparison.png>
+Package luatex.def Info: images/recall@10_movielens_1m_comparison.png  used on 
+input line 65.
+(luatex.def)             Requested size: 361.3491pt x 180.67456pt.
+
+Overfull \vbox (29.50572pt too high) detected at line 65
  []
 
 [14
 
-]
-Overfull \vbox (1.0309pt too high) detected at line 123
+<./images/recall@10_movielens_1m_comparison.png>]
+Overfull \vbox (14.06319pt too high) detected at line 87
  []
 
 [15
 
-] [16
+]
+<images/sensibility_recall@10.png, id=126, 1445.4pt x 722.7pt>
+File: images/sensibility_recall@10.png Graphic file (type png)
+<use images/sensibility_recall@10.png>
+Package luatex.def Info: images/sensibility_recall@10.png  used on input line 9
+7.
+(luatex.def)             Requested size: 361.34912pt x 180.67455pt.
+
+Overfull \vbox (29.5057pt too high) detected at line 97
+ []
+
+[16
+
+<./images/sensibility_recall@10.png>]
+Overfull \vbox (1.0309pt too high) detected at line 134
+ []
+
+[17
+
+] [18
 
 ])
 \openout2 = pages/conclusioni.aux
  (./pages/conclusioni.tex
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 8.
- [17
+ [19
 
 
 
 
-] [18
+] [20
 
 ])
 
@@ -1709,7 +1746,7 @@ File: AICStyleData/logos/Logo shape dark_rotated.png Graphic file (type png)
 Package luatex.def Info: AICStyleData/logos/Logo shape dark_rotated.png  used o
 n input line 56.
 (luatex.def)             Requested size: 455.24408pt x 256.43723pt.
-[19
+[21
 
 
 
@@ -1740,14 +1777,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38193 strings out of 476468
+ 38234 strings out of 476468
  100000,1977958 words of node,token memory allocated
  4591 words of node memory still in use:
    42 hlist, 9 vlist, 5 rule, 36 disc, 8 local_par, 119 glue, 49 kern, 18 penalt
 y, 202 glyph, 198 attribute, 62 glue_spec, 101 attribute_list, 5 write, 1 save_p
 os, 19 pdf_literal, 12 pdf_colorstack nodes
-   avail lists: 2:1165,3:204,4:252,5:322,6:33,7:2879,8:24,9:831,10:113,11:297
- 58965 multiletter control sequences out of 65536+600000
+   avail lists: 2:883,3:204,4:252,5:322,6:33,7:2879,8:24,9:831,10:113,11:297
+ 58993 multiletter control sequences out of 65536+600000
  80 fonts using 69257303 bytes
  128i,13n,143p,504b,912s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <./AICStyleData/epilogueFont/Epilogue-Italic.ttf><C:/WINDOWS/Fonts/seguiemj.ttf>
@@ -1757,9 +1794,9 @@ E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.p
 fb><E:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (19 pages, 748922 bytes).
+Output written on main.pdf (21 pages, 967827 bytes).
 
-PDF statistics: 190 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 131072)
+PDF statistics: 207 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
