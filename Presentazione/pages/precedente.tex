@@ -1,13 +1,33 @@
 \begin{frame}{Dataset e modelli utilizzati}
+    \footnotesize
     \textbf{Dataset}
-    \begin{itemize}
-        \item \textbf{MovieLens}: dataset di recensioni di film
-        \item \textbf{Amazon-Books}: dataset di recensioni di libri
-        \item \textbf{LastFM}: dataset di ascolti musicali
-    \end{itemize}
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Nome} & \textbf{Utenti} & \textbf{Item} & \textbf{Preferenze} \\ \hline
+        \emoji{clapper} \textbf{MovieLens10M} & 69,878 & 10,677 film & 10,000,054 \\ \hline
+        \emoji{clapper} \textbf{MovieLens1M} & 6,040 & 3,706 film & 1,000,209 \\ \hline
+        \emoji{notes} \textbf{LastFM} & 120,322 & 3,123,496 canzoni & 65,133,026 \\ \hline
+        \end{tabular}
+        \caption{Descrizione dataset}
+        \label{tab
+        }
+        \end{table}
+    *I dataset sono stati ridotti selezionando un numero limitato di utenti e di item a causa delle limitazioni dell'infrastruttura utilizzata.\\
     \textbf{Modelli}
     \begin{itemize}
         \item \textbf{Modelli di raccomandazione Collaborative Filtering}: BPR, DMF, LINE, MultiDAE, LightGCN, ItemKNN,NFCF, DGCF
         \item \textbf{Modelli di raccomandazione Knowledge Aware}: CKE, KGCN, KGNNLS, CFKG
     \end{itemize}
 \end{frame}
+
+\begin{frame}{Come sono stati valutati i modelli?}
+    \begin{itemize}
+        \item \emoji{chart-with-upwards-trend} \textbf{Recall}: capacità di raccomandare item rilevanti
+        \item \emoji{chart-with-upwards-trend} \textbf{NDCG}: considera l'ordine degli item raccomandati
+        \item \emoji{chart-with-downwards-trend} \textbf{Average Popularity}: misura quanto sono popolari in media gli item raccomandati
+        \item \emoji{chart-with-downwards-trend} \textbf{Gini Index}: misura la distribuzione degli item raccomandati
+    \end{itemize}
+    \end{frame}
+    

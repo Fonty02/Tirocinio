@@ -1,4 +1,4 @@
-\begin{frame}{Addestramento sostenibile - Introduzione}
+\begin{frame}{RQ2 Addestramento sostenibile - Introduzione}
     \begin{wrapfigure}{r}{0.6\textwidth}
         \centering
         \includegraphics[width=0.6\textwidth, height=0.6\textheight]{images/curve_emissions_score.png}
@@ -11,44 +11,83 @@ Approssimazione della derivata della curva:
 \end{equation*}
 \end{frame}
 
-\begin{frame}{Addestramento sostenibile - Esplorazione}
-    \begin{table}[]
+
+
+\begin{frame}{RQ2 Addestramento sostenibile - Esplorazione}
+    \begin{table}[H]
+        \centering
+        \resizebox{\textwidth}{!}{
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            \textbf{Modello} & \textbf{Emissioni criterio classico (g)} & \textbf{Emissioni criterio nuovo (g)} & \textbf{Riduzione} & \textbf{\% riduzione emissioni} \\
+            \hline
+            DMF & 2.2927 & 1.97 & 0.32 & 14.21 \\
+            \hline
+            LINE & 1.91 & 1.38 & 0.53 & 27.69 \\
+            \hline
+            NGCF & 7.76 & 2.66 & 5.09 & 65.71 \\
+            \hline
+            DGCF & 94.90 & 10.46 & 84.44 & 88.97 \\
+            \hline
+        \end{tabular}
+        }
+        \caption{Esempi di confronto emissioni}
+    \end{table}
+
+    \begin{table}[H]
+        \centering
+        \resizebox{\textwidth}{!}{
+            \begin{tabular}{|c|c|c|c|c|c|}
+                \hline
+                \textbf{Metrica} & \textbf{Modello} & \textbf{Score criterio classico} & \textbf{Score criterio nuovo} & \textbf{Riduzione} & \textbf{\% riduzione score} \\
+                \hline
+                \multirow{4}{*}{recall@10}
+                                             & DMF & 0.14 & 0.14 & 0.0 & 0.0 \\ \cline{2-6}
+                                             & LINE & 0.15 & 0.15 & 0.0 & 0.0 \\ \cline{2-6}
+                                             & NGCF & 0.15 & 0.14 & 0.01 & 6.67 \\ \cline{2-6}
+                                             & DGCF & 0.17 & 0.10 & 0.07 & 41.18 \\ \cline{2-6}
+                \hline
+            \end{tabular}
+        }
+        \caption{Esempi di confronto score}
+        \label{tab:confronto-score}
+    \end{table}
+\end{frame}
+
+
+\begin{comment}
+\begin{frame}{RQ2 Addestramento sostenibile - Esplorazione}
+ \begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/recall@10_movielens_1m_comparison.png}
+ \end{figure}
+\end{frame}
+\end{comment}
+
+
+
+\begin{frame}{RQ3 Addestramento sostenibile - Confronto criteri}
+    Sono stati eseguiti diversi esperimenti sul dataset MovieLens1M per confrontare diverse configurazioni dei parametri di soglia e di epoche, di seguito alcuni esempi\\
+    \begin{table}[H]
         \centering
         \begin{tabular}{|c|c|c|c|}
             \hline
-            \textbf{Esperimento} & \textbf{Dataset} & \textbf{Soglia} & \textbf{Epoche} \\ \hline
-            Esperimento 1 & MovieLens1M & 50 & 5 \\ \hline
-            Esperimento 2 & LastFM & 30 & 7 \\ \hline
-            Esperimento 3 & Amazon\_Books & 40 & 6 \\ \hline
+            \textbf{Modello} & \textbf{(Soglia,Epoche)} & \textbf{Riduzione emissioni} & \textbf{Riduzione score recall@10} \\ \hline
+            \multirow{2}{*}{DMF} & (40,5) & 0.30 & 0 \\ \cline{2-4}
+                                 & (30,7) &  0.31 & 0 \\ \hline
+            \multirow{2}{*}{LINE} & (40,5) & 0.48 & 0 \\ \cline{2-4}
+                                  & (30,7) & 0.47 & 0 \\ \hline
+            \multirow{2}{*}{NGCF} & (40,5) & 5.0 & 0.02 \\ \cline{2-4}
+                                  & (30,7) &  4.63 & 0.01 \\ \hline
+            \multirow{2}{*}{DGCF} & (40,5) & 84.48 & 0.06 \\ \cline{2-4}
+                                  & (30,7) & 81.52 &  0.05 \\ \hline
         \end{tabular}
-        \caption{Parametri degli Esperimenti}
-    \end{table}
-    \begin{itemize}
-        \item \textbf{Conclusioni:} Alcuni modelli (es. DGCF) sono molto sensibili al nuovo criterio, altri (es. DMF) meno
-    \end{itemize}
-\end{frame}
-
-
-\begin{frame}{Addestramento sostenibile - Confronto criteri}
-    Fissato il dataset MovieLens1M, sono stati eseguiti 6 esperimenti variando i parametri:
-    \begin{table}[]
-        \centering
-        \begin{tabular}{|c|c|c|}
-            \hline
-            \textbf{Esperimento} & \textbf{Soglia} & \textbf{Epoche} \\ \hline
-            Esperimento 1 & 40 & 5 \\ \hline
-            Esperimento 2 & 30 & 5 \\ \hline
-            Esperimento 3 & 40 & 6 \\ \hline
-            Esperimento 4 & 30 & 6 \\ \hline
-            Esperimento 5 & 40 & 7 \\ \hline
-            Esperimento 6 & 30 & 7 \\ \hline
-        \end{tabular}
-        \caption{Parametri degli Esperimenti}
+        \caption{Esempi di risultati ottenuti}
     \end{table}
 \end{frame}
 
 
-\begin{frame}{Addestramento sostenibile - Risultati confronto criteri}
+\begin{frame}{RQ3 Addestramento sostenibile - Risultati confronto criteri}
 \begin{table}[H]
     \scriptsize
     \centering
@@ -84,7 +123,7 @@ Approssimazione della derivata della curva:
 \end{frame}
 
 
-\begin{frame}{Addestramento sostenibile - Risultati confronto criteri}
+\begin{frame}{RQ3 Addestramento sostenibile - Risultati confronto criteri}
 \begin{table}[H]
     \scriptsize
     \centering

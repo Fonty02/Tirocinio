@@ -1,18 +1,25 @@
-\begin{frame}{Benchmarking - Emissioni}
+\begin{frame}{RQ1 Benchmarking - Emissioni}
     \vspace{-0.9cm}
-    \begin{figure}[H]
+    \begin{table}[H]
         \centering
-        \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{images/EmissioniLFM.png}
-        \caption{Emissioni di CO2 per i vari dataset LFM-1b}
+        \footnotesize
+        \setlength\tabcolsep{0pt}
+        \begin{tabularx}{\textwidth}{|X|X|}
+            \hline
+            \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_LFM-1b_artist_20U50I.png} &
+            \includegraphics[width=\linewidth, trim=0 0 0 0]{images/emissions_ml-10m_50U10I.png} \\
+            \hline
+        \end{tabularx}
+        \caption{Emissioni di CO2}
         \label{tab:emissions_info}
-    \end{figure}
+    \end{table}
 \end{frame}
 
-\begin{frame}{Benchmarking - Trade-off}
+\begin{frame}{RQ1 Benchmarking - Trade-off}
     \vspace{-0.9cm}
     \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{images/TradeOff.png}
-    \caption{Trade-off tra emissioni e performance}
+    \caption{Trade-off tra emissioni e performance con LFM}
     \end{figure}
 \end{frame}
